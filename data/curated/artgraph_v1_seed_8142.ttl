@@ -1,0 +1,32 @@
+<https://www.gennarovessio.com/artgraph-resources#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Genre> .
+<https://www.gennarovessio.com/artgraph-resources#12> <https://www.gennarovessio.com/artgraph-schema#name> "religious painting" .
+<https://www.gennarovessio.com/artgraph-resources#2551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Media> .
+<https://www.gennarovessio.com/artgraph-resources#2551> <https://www.gennarovessio.com/artgraph-schema#name> "oil" .
+<https://www.gennarovessio.com/artgraph-resources#2552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Media> .
+<https://www.gennarovessio.com/artgraph-resources#2552> <https://www.gennarovessio.com/artgraph-schema#name> "canvas" .
+<https://www.gennarovessio.com/artgraph-resources#46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Style> .
+<https://www.gennarovessio.com/artgraph-resources#46> <https://www.gennarovessio.com/artgraph-schema#name> "mannerism (late renaissance)" .
+<https://www.gennarovessio.com/artgraph-resources#8142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#850> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#12> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#46> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2551> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#name> "giuseppe-arcimboldo_portrait-of-eve-1578.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#8142> <https://www.gennarovessio.com/artgraph-schema#title> "Portrait of Eve" .
+<https://www.gennarovessio.com/artgraph-resources#8143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#850> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#12> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#46> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2551> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#name> "giuseppe-arcimboldo_portrait-of-adam-1578.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#8143> <https://www.gennarovessio.com/artgraph-schema#title> "Portrait of Adam" .
+<https://www.gennarovessio.com/artgraph-resources#8144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#8144> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#850> .
+<https://www.gennarovessio.com/artgraph-resources#8144> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#46> .
+<https://www.gennarovessio.com/artgraph-resources#8144> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2551> .
+<https://www.gennarovessio.com/artgraph-resources#8144> <https://www.gennarovessio.com/artgraph-schema#name> "giuseppe-arcimboldo_the-vegetable-bowl.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#8144> <https://www.gennarovessio.com/artgraph-schema#title> "The Vegetable Gardener" .
+<https://www.gennarovessio.com/artgraph-resources#850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artist> .
+<https://www.gennarovessio.com/artgraph-resources#850> <https://www.gennarovessio.com/artgraph-schema#name> "giuseppe-arcimboldo" .

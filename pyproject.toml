@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "museum-logic-guide"
+version = "0.1.0"
+description = "ArtGraph-to-Prolog museum recommendation research prototype"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["rdflib>=7.1,<8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+include = ["museum_guide*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --basetemp=.pytest-tmp"
+

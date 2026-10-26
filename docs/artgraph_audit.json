@@ -1,0 +1,134 @@
+{
+  "sanitation": {
+    "source": "data\\raw\\artgraph-rdf.zip",
+    "output": "data\\raw\\artgraph-facts.sanitized.ttl",
+    "kept_lines": 3046816,
+    "removed_lines": 75,
+    "marker_line": 3046817,
+    "sanitized_sha256": "984b8aee44a223b48420703028f30d5f6a831f8f2b62f19002f513eecae28e29"
+  },
+  "audit": {
+    "triple_count": 1518149,
+    "resource_uri_count": 134970,
+    "predicate_counts": {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 134970,
+      "https://www.gennarovessio.com/artgraph-schema#about": 342982,
+      "https://www.gennarovessio.com/artgraph-schema#belongsToField": 987,
+      "https://www.gennarovessio.com/artgraph-schema#belongsToMovement": 1056,
+      "https://www.gennarovessio.com/artgraph-schema#biography": 1733,
+      "https://www.gennarovessio.com/artgraph-schema#birth_date": 2481,
+      "https://www.gennarovessio.com/artgraph-schema#birth_place": 1160,
+      "https://www.gennarovessio.com/artgraph-schema#createdBy": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#date": 89772,
+      "https://www.gennarovessio.com/artgraph-schema#dbpedia_url": 2248,
+      "https://www.gennarovessio.com/artgraph-schema#death_date": 2076,
+      "https://www.gennarovessio.com/artgraph-schema#death_place": 935,
+      "https://www.gennarovessio.com/artgraph-schema#dimensions": 29792,
+      "https://www.gennarovessio.com/artgraph-schema#gender": 2444,
+      "https://www.gennarovessio.com/artgraph-schema#hasGenre": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#hasPatron": 124,
+      "https://www.gennarovessio.com/artgraph-schema#hasPeriod": 5748,
+      "https://www.gennarovessio.com/artgraph-schema#hasStyle": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#hasSubject": 21054,
+      "https://www.gennarovessio.com/artgraph-schema#image_url": 118956,
+      "https://www.gennarovessio.com/artgraph-schema#inCity": 1109,
+      "https://www.gennarovessio.com/artgraph-schema#inCountry": 1713,
+      "https://www.gennarovessio.com/artgraph-schema#locatedIn": 58524,
+      "https://www.gennarovessio.com/artgraph-schema#madeOf": 83824,
+      "https://www.gennarovessio.com/artgraph-schema#name": 134970,
+      "https://www.gennarovessio.com/artgraph-schema#partOf": 8322,
+      "https://www.gennarovessio.com/artgraph-schema#printed_name": 2481,
+      "https://www.gennarovessio.com/artgraph-schema#relatedToSchool": 498,
+      "https://www.gennarovessio.com/artgraph-schema#title": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#trainedBy": 47,
+      "https://www.gennarovessio.com/artgraph-schema#wikipedia_url": 2243
+    },
+    "type_counts": {
+      "https://www.gennarovessio.com/artgraph-schema#Artist": 2501,
+      "https://www.gennarovessio.com/artgraph-schema#Artwork": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#City": 596,
+      "https://www.gennarovessio.com/artgraph-schema#Country": 58,
+      "https://www.gennarovessio.com/artgraph-schema#Field": 54,
+      "https://www.gennarovessio.com/artgraph-schema#Gallery": 1098,
+      "https://www.gennarovessio.com/artgraph-schema#Genre": 18,
+      "https://www.gennarovessio.com/artgraph-schema#Media": 167,
+      "https://www.gennarovessio.com/artgraph-schema#Movement": 243,
+      "https://www.gennarovessio.com/artgraph-schema#People": 109,
+      "https://www.gennarovessio.com/artgraph-schema#Period": 119,
+      "https://www.gennarovessio.com/artgraph-schema#Serie": 823,
+      "https://www.gennarovessio.com/artgraph-schema#Style": 32,
+      "https://www.gennarovessio.com/artgraph-schema#Subject": 6985,
+      "https://www.gennarovessio.com/artgraph-schema#Tag": 5424,
+      "https://www.gennarovessio.com/artgraph-schema#Training": 268
+    },
+    "validated_relation_predicates": [
+      "https://www.gennarovessio.com/artgraph-schema#createdBy",
+      "https://www.gennarovessio.com/artgraph-schema#hasStyle",
+      "https://www.gennarovessio.com/artgraph-schema#hasGenre",
+      "https://www.gennarovessio.com/artgraph-schema#madeOf",
+      "https://www.gennarovessio.com/artgraph-schema#belongsToMovement"
+    ]
+  },
+  "seed_candidates": [
+    {
+      "resource_id": "8142",
+      "topic_id": "ag_8142",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8142",
+      "label": "Portrait of Eve"
+    },
+    {
+      "resource_id": "8143",
+      "topic_id": "ag_8143",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8143",
+      "label": "Portrait of Adam"
+    },
+    {
+      "resource_id": "8144",
+      "topic_id": "ag_8144",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8144",
+      "label": "The Vegetable Gardener"
+    },
+    {
+      "resource_id": "8145",
+      "topic_id": "ag_8145",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8145",
+      "label": "Vertumnus (Emperor Rudolph II)"
+    },
+    {
+      "resource_id": "8146",
+      "topic_id": "ag_8146",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8146",
+      "label": "Self-Portrait"
+    },
+    {
+      "resource_id": "8147",
+      "topic_id": "ag_8147",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8147",
+      "label": "The Cook (down)"
+    },
+    {
+      "resource_id": "8148",
+      "topic_id": "ag_8148",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8148",
+      "label": "A Few Small Nips (Passionately in Love)"
+    },
+    {
+      "resource_id": "8151",
+      "topic_id": "ag_8151",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8151",
+      "label": "Diego and I"
+    },
+    {
+      "resource_id": "8152",
+      "topic_id": "ag_8152",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8152",
+      "label": "Frieda and Diego Rivera"
+    },
+    {
+      "resource_id": "8153",
+      "topic_id": "ag_8153",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8153",
+      "label": "Fruit of Life"
+    }
+  ]
+}

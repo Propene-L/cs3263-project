@@ -1,0 +1,15 @@
+@prefix ag: <https://www.gennarovessio.com/artgraph-schema#> .
+@prefix res: <https://www.gennarovessio.com/artgraph-resources#> .
+
+# SYNTHETIC TEST FIXTURE: these numeric resources are invented for unit tests.
+res:9000001 a ag:Artwork ;
+    ag:title "Synthetic Test Work" ;
+    ag:createdBy res:9000002 ;
+    ag:hasStyle res:9000003 ;
+    ag:hasGenre res:9000004 ;
+    ag:madeOf res:9000005 .
+res:9000002 a ag:Artist ; ag:name "Synthetic Test Artist" .
+res:9000003 a ag:Style ; ag:name "Synthetic Test Style" .
+res:9000004 a ag:Genre ; ag:name "Synthetic Test Genre" .
+res:9000005 a ag:Media ; ag:name "Synthetic Test Medium" .
+

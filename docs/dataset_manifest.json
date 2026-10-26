@@ -1,0 +1,94 @@
+{
+  "manifest_version": "1.0",
+  "artgraph_record": "https://zenodo.org/records/6337958",
+  "artgraph_doi": "10.5281/zenodo.6337958",
+  "artgraph_version": "1.0",
+  "artifact_name": "artgraph-rdf.zip",
+  "artifact_size_bytes": 12489123,
+  "download_date": "2026-10-26",
+  "archive_checksums": {
+    "md5": "20b5d4ed4539151b0e048758a4f9f9a1",
+    "sha256": "309151bf61dce62b4a5a1b27087def271418a7faaf0798dbb239eb79b2d2a3c8"
+  },
+  "rdf_member": "artgraph-rdf/artgraph-facts.ttl",
+  "rdf_predicates_used": [
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "https://www.gennarovessio.com/artgraph-schema#name",
+    "https://www.gennarovessio.com/artgraph-schema#title",
+    "https://www.gennarovessio.com/artgraph-schema#createdBy",
+    "https://www.gennarovessio.com/artgraph-schema#hasStyle",
+    "https://www.gennarovessio.com/artgraph-schema#hasGenre",
+    "https://www.gennarovessio.com/artgraph-schema#madeOf",
+    "https://www.gennarovessio.com/artgraph-schema#belongsToMovement"
+  ],
+  "seed_ids": [
+    {
+      "resource_id": "8142",
+      "topic_id": "ag_8142",
+      "label": "Portrait of Eve",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8142",
+      "selection": "First numeric artwork ID with createdBy, hasStyle, hasGenre, and madeOf facts."
+    }
+  ],
+  "filter_rules": {
+    "algorithm": "Deterministic breadth-first extraction over the validated object-property allowlist; RDF extraction is not recommendation inference.",
+    "max_depth": 2,
+    "max_neighbors_per_direction_predicate": 3,
+    "incoming_predicates": [
+      "https://www.gennarovessio.com/artgraph-schema#createdBy"
+    ],
+    "literal_properties_retained": [
+      "https://www.gennarovessio.com/artgraph-schema#name",
+      "https://www.gennarovessio.com/artgraph-schema#title"
+    ],
+    "stable_topic_id": "ag_ + the numeric ArtGraph resource fragment",
+    "stable_fact_id": "agf_ + first 20 hex characters of SHA-256(subject + unit-separator + predicate + unit-separator + object)"
+  },
+  "full_dataset_statistics": {
+    "sanitized_rdf_triple_count": 1518149,
+    "resource_uri_count": 134970,
+    "sanitized_kept_lines": 3046816,
+    "removed_appended_preview_lines": 75,
+    "malformed_append_marker_line": 3046817,
+    "sanitized_sha256": "984b8aee44a223b48420703028f30d5f6a831f8f2b62f19002f513eecae28e29",
+    "audit_file": "docs/artgraph_audit.json"
+  },
+  "entity_count": 8,
+  "edge_count": 13,
+  "sample_triple_count": 32,
+  "candidate_count": 5,
+  "candidate_types": ["artist", "movement", "style", "genre", "medium"],
+  "sample_hash": "57781fc2057eae03d5fb118908c7bf13136adacf7a2184335ae1fdee8a72f06e",
+  "prolog_facts_sha256": "f9a7e57901a50b8e9216caf5957354bded71aac4b558a156d7175d0d50cbd93d",
+  "source_uris": [
+    "https://www.gennarovessio.com/artgraph-resources#12",
+    "https://www.gennarovessio.com/artgraph-resources#46",
+    "https://www.gennarovessio.com/artgraph-resources#850",
+    "https://www.gennarovessio.com/artgraph-resources#2551",
+    "https://www.gennarovessio.com/artgraph-resources#2552",
+    "https://www.gennarovessio.com/artgraph-resources#8142",
+    "https://www.gennarovessio.com/artgraph-resources#8143",
+    "https://www.gennarovessio.com/artgraph-resources#8144"
+  ],
+  "license_status": "UNRESOLVED: the Zenodo v1.0 record displayed a blank Rights/License field when inspected on 2026-10-26. Do not redistribute bulk RDF or images until clarified. This repository retains only a 32-triple text sample needed to reproduce the pilot proof.",
+  "extraction_process": [
+    "Verify official archive MD5.",
+    "Stream the RDF member and stop at the appended ':POST http://localhost:7474/' marker; retain and hash every preceding line.",
+    "Parse sanitized Turtle with rdflib 7.6.0.",
+    "Select the first qualifying artwork by numeric resource ID.",
+    "Extract a bounded connected sample using scripts/extract_subgraph.py.",
+    "Write sorted RDF, a shared topic catalog, and provenance-bearing Prolog facts."
+  ],
+  "schema_observations": [
+    "The facts file appends a malformed Neo4j request and preview after the full graph.",
+    "The bundled ontology declares madeFrom and belongToMovement, but the populated facts use madeOf and belongsToMovement; import follows the populated facts.",
+    "The parsed counts differ slightly from the record-page summary for Gallery and Period resources; docs/artgraph_audit.json is the executed census."
+  ],
+  "processing_script_commit": null,
+  "processing_script_commit_note": "The repository had no commits during Phase 0; record a commit hash after review/acceptance.",
+  "software": {
+    "python": "3.12.10",
+    "rdflib": "7.6.0",
+    "swipl": "10.0.2 for x64-win64"
+  }
+}

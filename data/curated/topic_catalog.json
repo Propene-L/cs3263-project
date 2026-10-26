@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "candidate_policy": "Artwork may be a goal; eligible recommendation types are artist, movement, style, genre, and medium.",
+  "topics": [
+    {
+      "id": "ag_850",
+      "type": "artist",
+      "label": "giuseppe-arcimboldo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#850",
+      "properties": {}
+    },
+    {
+      "id": "ag_8142",
+      "type": "artwork",
+      "label": "Portrait of Eve",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8142",
+      "properties": {}
+    },
+    {
+      "id": "ag_8143",
+      "type": "artwork",
+      "label": "Portrait of Adam",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8143",
+      "properties": {}
+    },
+    {
+      "id": "ag_8144",
+      "type": "artwork",
+      "label": "The Vegetable Gardener",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8144",
+      "properties": {}
+    },
+    {
+      "id": "ag_12",
+      "type": "genre",
+      "label": "religious painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12",
+      "properties": {}
+    },
+    {
+      "id": "ag_2551",
+      "type": "medium",
+      "label": "oil",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2551",
+      "properties": {}
+    },
+    {
+      "id": "ag_2552",
+      "type": "medium",
+      "label": "canvas",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2552",
+      "properties": {}
+    },
+    {
+      "id": "ag_46",
+      "type": "style",
+      "label": "mannerism (late renaissance)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#46",
+      "properties": {}
+    }
+  ],
+  "allowed_candidate_ids": [
+    "ag_850",
+    "ag_12",
+    "ag_2551",
+    "ag_2552",
+    "ag_46"
+  ]
+}
