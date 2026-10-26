@@ -1,0 +1,31 @@
+@prefix ag: <https://www.gennarovessio.com/artgraph-schema#> .
+@prefix res: <https://www.gennarovessio.com/artgraph-resources#> .
+
+# SYNTHETIC TEST FIXTURE: every resource below is invented for unit tests.
+res:9100001 a ag:Artist ; ag:name "Synthetic Explorer Artist" ;
+    ag:belongsToMovement res:9100002 ;
+    ag:relatedToSchool res:9100003 ;
+    ag:hasSubject res:9100004 .
+res:9100002 a ag:Movement ; ag:name "Synthetic Movement" .
+res:9100003 a ag:Training ; ag:name "Synthetic School" .
+res:9100004 a ag:Subject ; ag:name "Synthetic Subject" .
+
+res:9100010 a ag:Artwork ; ag:title "Synthetic Work A" ;
+    ag:createdBy res:9100001 ; ag:hasStyle res:9100020 ;
+    ag:hasGenre res:9100021 ; ag:madeOf res:9100022 ;
+    ag:hasPeriod res:9100023 ; ag:partOf res:9100024 .
+res:9100011 a ag:Artwork ; ag:title "Synthetic Work B" ;
+    ag:createdBy res:9100001 ; ag:hasStyle res:9100020 ;
+    ag:hasGenre res:9100021 ; ag:madeOf res:9100022 ;
+    ag:hasPeriod res:9100023 ; ag:partOf res:9100024 .
+res:9100012 a ag:Artwork ; ag:title "Synthetic Work C" ;
+    ag:createdBy res:9100001 ; ag:hasStyle res:9100020 ;
+    ag:hasGenre res:9100021 ; ag:madeOf res:9100022 ;
+    ag:hasPeriod res:9100023 ; ag:partOf res:9100024 .
+
+res:9100020 a ag:Style ; ag:name "Synthetic Style" .
+res:9100021 a ag:Genre ; ag:name "Synthetic Genre" .
+res:9100022 a ag:Media ; ag:name "Synthetic Medium" .
+res:9100023 a ag:Period ; ag:name "Synthetic Period" .
+res:9100024 a ag:Serie ; ag:name "Synthetic Series" .
+

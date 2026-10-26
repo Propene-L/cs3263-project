@@ -73,3 +73,30 @@ imported artist, style, genre, and media facts. These are contextual factual
 relations, not educational prerequisites. See `docs/dataset_manifest.json` and
 `docs/rulebook.md`.
 
+## Phase 0.5 structural exploration
+
+```powershell
+.\.venv\Scripts\python.exe scripts\explore_artgraph.py `
+  --input data\raw\artgraph-facts.sanitized.ttl `
+  --output-json docs\phase_0_5_candidates.json `
+  --output-html docs\phase_0_5_graph_explorer.html `
+  --recommended-rdf data\curated\artgraph_v1_phase_0_5_recommended.ttl `
+  --recommended-catalog data\curated\phase_0_5_topic_catalog.json `
+  --limit 5 --max-artworks 6
+
+.\.venv\Scripts\python.exe scripts\export_prolog_facts.py `
+  --input data\curated\artgraph_v1_phase_0_5_recommended.ttl `
+  --catalog data\curated\phase_0_5_topic_catalog.json `
+  --output logic\phase_0_5_generated_facts.pl `
+  --snapshot-id artgraph_v1_phase_0_5_morris_louis
+
+.\.tools\swipl\bin\swipl.exe -q `
+  -s logic\tests\test_phase_0_5_pilot.pl -g run_tests -t halt
+```
+
+The interactive, self-contained graph viewer is
+`docs/phase_0_5_graph_explorer.html`. It shows all five candidates, typed node
+colors, predicate edges, structural statistics, stable IDs, and original RDF
+triples on hover/click. The Morris Louis sample is recommended for review, not
+yet adopted as the Phase 1 production knowledge base.
+

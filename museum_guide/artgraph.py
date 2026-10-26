@@ -31,6 +31,10 @@ TYPE_MAP: dict[URIRef, TopicType] = {
     AG.Style: TopicType.STYLE,
     AG.Genre: TopicType.GENRE,
     AG.Media: TopicType.MEDIUM,
+    AG.Subject: TopicType.SUBJECT,
+    AG.Period: TopicType.PERIOD,
+    AG.Serie: TopicType.SERIES,
+    AG.Training: TopicType.TRAINING,
 }
 
 RELATION_PREDICATES: dict[URIRef, str] = {
@@ -41,11 +45,24 @@ RELATION_PREDICATES: dict[URIRef, str] = {
     # ontology declares madeFrom and belongToMovement.
     AG.madeOf: "made_of",
     AG.belongsToMovement: "belongs_to_movement",
+    AG.hasSubject: "has_subject",
+    AG.hasPeriod: "has_period",
+    AG.partOf: "part_of_series",
+    AG.relatedToSchool: "related_to_school",
 }
 
 LABEL_PREDICATES: tuple[URIRef, ...] = (AG.title, AG.name)
 INCOMING_EXPANSION_PREDICATES: frozenset[URIRef] = frozenset({AG.createdBy})
 SAFE_ID = re.compile(r"^[a-z][a-z0-9_]*$")
+ELIGIBLE_CANDIDATE_TYPES = frozenset(
+    {
+        TopicType.ARTIST,
+        TopicType.MOVEMENT,
+        TopicType.STYLE,
+        TopicType.GENRE,
+        TopicType.MEDIUM,
+    }
+)
 
 
 class ArtGraphError(ValueError):
@@ -295,7 +312,7 @@ def write_topic_catalog(topics: list[Topic], path: str | Path) -> None:
         ),
         "topics": [{**asdict(topic), "type": topic.type.value} for topic in topics],
         "allowed_candidate_ids": [
-            topic.id for topic in topics if topic.type is not TopicType.ARTWORK
+            topic.id for topic in topics if topic.type in ELIGIBLE_CANDIDATE_TYPES
         ],
     }
     destination.write_text(
@@ -332,6 +349,10 @@ def export_prolog_facts(
         ":- dynamic has_genre/3.\n",
         ":- dynamic made_of/3.\n",
         ":- dynamic belongs_to_movement/3.\n",
+        ":- dynamic has_subject/3.\n",
+        ":- dynamic has_period/3.\n",
+        ":- dynamic part_of_series/3.\n",
+        ":- dynamic related_to_school/3.\n",
         ":- discontiguous source_fact/5.\n",
         ":- discontiguous fact_snapshot/2.\n",
         ":- discontiguous rdf_type/3.\n",
@@ -341,6 +362,10 @@ def export_prolog_facts(
         ":- discontiguous has_genre/3.\n",
         ":- discontiguous made_of/3.\n",
         ":- discontiguous belongs_to_movement/3.\n",
+        ":- discontiguous has_subject/3.\n",
+        ":- discontiguous has_period/3.\n",
+        ":- discontiguous part_of_series/3.\n",
+        ":- discontiguous related_to_school/3.\n",
         f"snapshot({_prolog_atom(snapshot_id)}).\n",
     ]
     if source_dataset_uri is not None:

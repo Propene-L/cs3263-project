@@ -82,3 +82,17 @@ annotation before Phase 1 implementation:
 - A Prolog proof establishes consequence under the imported facts and clauses;
   it does not establish recommendation utility or learning gain.
 
+## Phase 0.5 readiness additions
+
+Phase 0.5 adds imported `has_subject/3`, `has_period/3`,
+`part_of_series/3`, and `related_to_school/3` facts. Subject, Period, Series,
+and Training are typed context entities but remain outside the default shared
+recommendation candidate set.
+
+`logic/phase_0_5_pilot_rules.pl` feasibility-tests derived
+`artwork_movement/4`, shared-style/series peers, artwork training context, and
+tabled contextual reachability over the real Morris Louis sample. These are
+Layer A factual/context rules only. The separately proposed Layer B visitor
+eligibility rule and all rule justifications are documented in
+`PHASE_0_5_REVIEW.md`. They are not the production Phase 1 engine.
+

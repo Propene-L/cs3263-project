@@ -84,8 +84,38 @@
     "The bundled ontology declares madeFrom and belongToMovement, but the populated facts use madeOf and belongsToMovement; import follows the populated facts.",
     "The parsed counts differ slightly from the record-page summary for Gallery and Period resources; docs/artgraph_audit.json is the executed census."
   ],
-  "processing_script_commit": null,
-  "processing_script_commit_note": "The repository had no commits during Phase 0; record a commit hash after review/acceptance.",
+  "phase_0_5": {
+    "selection_artifact": "docs/phase_0_5_candidates.json",
+    "selection_artifact_sha256": "d7c1ade1307ca60ecee54f29bfc059d8990484938bfb54053df0f4982079a72c",
+    "candidate_count": 5,
+    "recommended_candidate_id": "artist_ag_1210",
+    "recommended_artist": {
+      "topic_id": "ag_1210",
+      "label": "morris-louis"
+    },
+    "recommended_entity_count": 23,
+    "recommended_relationship_count": 47,
+    "recommended_entity_type_count": 10,
+    "recommended_distinct_predicate_count": 9,
+    "recommended_sample": "data/curated/artgraph_v1_phase_0_5_recommended.ttl",
+    "recommended_sample_sha256": "45db1084d0a5c9868d792ca3936e680f86979aadcd9288b7d9a88f825570807f",
+    "topic_catalog": "data/curated/phase_0_5_topic_catalog.json",
+    "topic_catalog_sha256": "1849c23fc57545af2285111d428d98ab5820155661c003d6e5c863585f1b25dd",
+    "prolog_facts": "logic/phase_0_5_generated_facts.pl",
+    "prolog_facts_sha256": "6b1be476c9b8975244a598976605d3aa5101bdd0b0d604b02a9eda745a1fc655",
+    "viewer": "docs/phase_0_5_graph_explorer.html",
+    "viewer_sha256": "e9995bba2eb4e6634ba7c4ef446e33391a89d6e6ce76774e3943a28dce48e462",
+    "processing_base_commit": "34da12917002869c7d6f16e6ddb71a19cffae73a",
+    "processing_state": "Phase 0.5 artifacts were generated from the uncommitted working tree above this base commit; record the accepted commit after review.",
+    "additional_predicates": [
+      "https://www.gennarovessio.com/artgraph-schema#hasSubject",
+      "https://www.gennarovessio.com/artgraph-schema#hasPeriod",
+      "https://www.gennarovessio.com/artgraph-schema#partOf",
+      "https://www.gennarovessio.com/artgraph-schema#relatedToSchool"
+    ]
+  },
+  "processing_script_commit": "34da12917002869c7d6f16e6ddb71a19cffae73a",
+  "processing_script_commit_note": "This is the accepted Phase 0 base commit. Phase 0.5 changes are uncommitted pending review and carry independent artifact hashes above.",
   "software": {
     "python": "3.12.10",
     "rdflib": "7.6.0",

@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "candidate_policy": "Artwork may be a goal; eligible recommendation types are artist, movement, style, genre, and medium.",
+  "topics": [
+    {
+      "id": "ag_1210",
+      "type": "artist",
+      "label": "morris-louis",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1210",
+      "properties": {}
+    },
+    {
+      "id": "ag_72463",
+      "type": "artwork",
+      "label": "Where",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72463",
+      "properties": {}
+    },
+    {
+      "id": "ag_72464",
+      "type": "artwork",
+      "label": "Alpha-Pi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72464",
+      "properties": {}
+    },
+    {
+      "id": "ag_72465",
+      "type": "artwork",
+      "label": "Beta Lambda",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72465",
+      "properties": {}
+    },
+    {
+      "id": "ag_72466",
+      "type": "artwork",
+      "label": "Partition",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72466",
+      "properties": {}
+    },
+    {
+      "id": "ag_72467",
+      "type": "artwork",
+      "label": "Phi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72467",
+      "properties": {}
+    },
+    {
+      "id": "ag_72468",
+      "type": "artwork",
+      "label": "VAV",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72468",
+      "properties": {}
+    },
+    {
+      "id": "ag_6",
+      "type": "genre",
+      "label": "abstract",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#6",
+      "properties": {}
+    },
+    {
+      "id": "ag_2552",
+      "type": "medium",
+      "label": "canvas",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2552",
+      "properties": {}
+    },
+    {
+      "id": "ag_2602",
+      "type": "medium",
+      "label": "magna",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2602",
+      "properties": {}
+    },
+    {
+      "id": "ag_2630",
+      "type": "medium",
+      "label": "acrylic",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2630",
+      "properties": {}
+    },
+    {
+      "id": "ag_124645",
+      "type": "movement",
+      "label": "Washington Color School",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124645",
+      "properties": {}
+    },
+    {
+      "id": "ag_124741",
+      "type": "movement",
+      "label": "Color field",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124741",
+      "properties": {}
+    },
+    {
+      "id": "ag_124790",
+      "type": "movement",
+      "label": "Post-painterly abstraction",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124790",
+      "properties": {}
+    },
+    {
+      "id": "ag_133221",
+      "type": "period",
+      "label": "Mature Works",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133221",
+      "properties": {}
+    },
+    {
+      "id": "ag_132587",
+      "type": "series",
+      "label": "Stripe",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#132587",
+      "properties": {}
+    },
+    {
+      "id": "ag_132804",
+      "type": "series",
+      "label": "Veil",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#132804",
+      "properties": {}
+    },
+    {
+      "id": "ag_132972",
+      "type": "series",
+      "label": "Unfurled",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#132972",
+      "properties": {}
+    },
+    {
+      "id": "ag_41",
+      "type": "style",
+      "label": "color field painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#41",
+      "properties": {}
+    },
+    {
+      "id": "ag_125194",
+      "type": "subject",
+      "label": "Jewish American artists",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125194",
+      "properties": {}
+    },
+    {
+      "id": "ag_126039",
+      "type": "subject",
+      "label": "Artists from Washington, D.C.",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#126039",
+      "properties": {}
+    },
+    {
+      "id": "ag_126052",
+      "type": "subject",
+      "label": "Abstract expressionist artists",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#126052",
+      "properties": {}
+    },
+    {
+      "id": "ag_124822",
+      "type": "training",
+      "label": "Maryland Institute College of Art",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124822",
+      "properties": {}
+    }
+  ],
+  "allowed_candidate_ids": [
+    "ag_1210",
+    "ag_6",
+    "ag_2552",
+    "ag_2602",
+    "ag_2630",
+    "ag_124645",
+    "ag_124741",
+    "ag_124790",
+    "ag_41"
+  ]
+}
