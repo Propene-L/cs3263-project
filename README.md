@@ -1,4 +1,4 @@
-# CS3263 Logic-Driven Museum Guide — V2 Phase 0.75
+# CS3263 Logic-Driven Museum Guide — Phase 1 Active Clarification
 
 This repository implements the Phase 0 ArtGraph-to-Prolog pilot. The current
 pipeline audits the official ArtGraph v1.0 RDF archive, removes a documented
@@ -129,6 +129,52 @@ probabilities, or an accepted Phase 1 policy.
 
 See `docs/INTEREST_INFERENCE_DATA_AUDIT.md`,
 `docs/INTEREST_INFERENCE_DESIGN.md`, and
-`docs/INTEREST_INFERENCE_REVIEW.md`. Phase 1 is blocked on the review gate in
-the final document.
+`docs/INTEREST_INFERENCE_REVIEW.md`. That reviewed milestone is preserved as
+the reproducible base for Phase 1.
+
+## Phase 1 active preference clarification
+
+Phase 1 changes the primary task from similarity-style recommendation to
+selecting a pairwise artwork question that distinguishes provisional visitor-
+interest hypotheses. SWI-Prolog derives hypotheses, predictions, eligibility,
+discrimination, selection, state effects, and the proof tree. Python validates
+IDs, invokes a fresh solver, manages sessions, and runs evaluation.
+
+Build the bounded 112-artwork real-ArtGraph snapshot and 20 controlled cases:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\build_clarification_dataset.py `
+  --input data\raw\artgraph-facts.sanitized.ttl `
+  --rdf-output data\curated\artgraph_clarification.ttl `
+  --catalog-output data\curated\clarification_topic_catalog.json `
+  --evidence-output data\curated\clarification_evidence.json `
+  --report-output docs\clarification_dataset_report.json `
+  --prolog-output logic\clarification_generated_facts.pl `
+  --per-hypothesis 12
+
+.\.venv\Scripts\python.exe scripts\build_clarification_benchmark.py
+```
+
+Run the offline demonstration, logic tests, and evaluation:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\run_clarification.py `
+  --max-rounds 3 --responses prefer_a,prefer_b,unsure
+
+.\.tools\swipl\bin\swipl.exe -q `
+  -s logic\tests\test_clarification.pl -g run_tests -t halt
+
+.\.venv\Scripts\python.exe evaluation\evaluate_clarification.py --max-rounds 3
+.\.venv\Scripts\python.exe -m pytest -q
+```
+
+Direct-LLM results are not mocked into the evaluation. To execute a configured
+JSON endpoint, set `CLARIFICATION_LLM_ENDPOINT`,
+`CLARIFICATION_LLM_API_KEY`, and `CLARIFICATION_LLM_MODEL`, then add
+`--run-direct-llm`. Returned artwork IDs are checked against the same
+allowlist.
+
+See `docs/CLARIFICATION_FORMULATION.md`, `docs/CLARIFICATION_DATASET.md`, and
+`docs/CLARIFICATION_EVALUATION.md`. No frontend or Phase 2 conversational UI
+is implemented.
 

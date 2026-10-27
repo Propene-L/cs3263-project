@@ -1,0 +1,1721 @@
+{
+  "schema_version": "1.0",
+  "source": "data\\raw\\artgraph-facts.sanitized.ttl",
+  "source_sha256": "984b8aee44a223b48420703028f30d5f6a831f8f2b62f19002f513eecae28e29",
+  "selection": {
+    "method": "Artist-diverse deterministic cohorts for ten typed hypotheses.",
+    "per_hypothesis_target": 12,
+    "artwork_count": 112,
+    "topic_count": 493,
+    "triple_count": 2232,
+    "cohorts": {
+      "h_musical_subject": [
+        "ag_10472",
+        "ag_8966",
+        "ag_10766",
+        "ag_11252",
+        "ag_12372",
+        "ag_13351",
+        "ag_14193",
+        "ag_14531",
+        "ag_16079",
+        "ag_16386",
+        "ag_17029",
+        "ag_17402"
+      ],
+      "h_nature_subject": [
+        "ag_11014",
+        "ag_11912",
+        "ag_14166",
+        "ag_15247",
+        "ag_16916",
+        "ag_20164",
+        "ag_21981",
+        "ag_23352",
+        "ag_24685",
+        "ag_25845",
+        "ag_28565",
+        "ag_34561"
+      ],
+      "h_water_subject": [
+        "ag_10149",
+        "ag_12343",
+        "ag_14588",
+        "ag_17083",
+        "ag_21526",
+        "ag_24720",
+        "ag_25837",
+        "ag_28656",
+        "ag_31153",
+        "ag_33200",
+        "ag_34659",
+        "ag_38633"
+      ],
+      "h_feline_subject": [
+        "ag_9329",
+        "ag_11706",
+        "ag_12564",
+        "ag_17716",
+        "ag_21066",
+        "ag_21076",
+        "ag_23692",
+        "ag_25521",
+        "ag_29656",
+        "ag_29807",
+        "ag_30919",
+        "ag_31775"
+      ],
+      "h_expressionist_style": [
+        "ag_10472",
+        "ag_8388",
+        "ag_8415",
+        "ag_9180",
+        "ag_10026",
+        "ag_13231",
+        "ag_15430",
+        "ag_18987",
+        "ag_19167",
+        "ag_20804",
+        "ag_27748",
+        "ag_31456"
+      ],
+      "h_impressionist_style": [
+        "ag_8421",
+        "ag_8796",
+        "ag_10632",
+        "ag_10693",
+        "ag_10980",
+        "ag_11873",
+        "ag_12189",
+        "ag_13256",
+        "ag_14060",
+        "ag_15881",
+        "ag_17149",
+        "ag_23259"
+      ],
+      "h_cubist_style": [
+        "ag_8793",
+        "ag_9128",
+        "ag_11846",
+        "ag_13233",
+        "ag_14292",
+        "ag_19013",
+        "ag_19176",
+        "ag_20923",
+        "ag_23111",
+        "ag_25432",
+        "ag_25471",
+        "ag_27122"
+      ],
+      "h_portrait_genre": [
+        "ag_10472",
+        "ag_8145",
+        "ag_8152",
+        "ag_8232",
+        "ag_8296",
+        "ag_8320",
+        "ag_8416",
+        "ag_8661",
+        "ag_8812",
+        "ag_8864",
+        "ag_8913",
+        "ag_8966"
+      ],
+      "h_oil_medium": [
+        "ag_10472",
+        "ag_8142",
+        "ag_8148",
+        "ag_8232",
+        "ag_8278",
+        "ag_8315",
+        "ag_8382",
+        "ag_8415",
+        "ag_8609",
+        "ag_8660",
+        "ag_8791",
+        "ag_8855"
+      ],
+      "h_expressionist_movement": [
+        "ag_8415",
+        "ag_10025",
+        "ag_18987",
+        "ag_19159",
+        "ag_40460",
+        "ag_42361",
+        "ag_50541",
+        "ag_52338",
+        "ag_54245",
+        "ag_67931",
+        "ag_69371",
+        "ag_72995"
+      ]
+    }
+  },
+  "hypotheses": [
+    {
+      "id": "h_musical_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3236",
+      "label": "musical subjects"
+    },
+    {
+      "id": "h_nature_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3679",
+      "label": "nature-reserve subjects"
+    },
+    {
+      "id": "h_water_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3579",
+      "label": "water-transport subjects"
+    },
+    {
+      "id": "h_feline_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3392",
+      "label": "feline subjects"
+    },
+    {
+      "id": "h_expressionist_style",
+      "attribute_type": "style",
+      "value_id": "ag_21",
+      "label": "expressionist style"
+    },
+    {
+      "id": "h_impressionist_style",
+      "attribute_type": "style",
+      "value_id": "ag_42",
+      "label": "impressionist style"
+    },
+    {
+      "id": "h_cubist_style",
+      "attribute_type": "style",
+      "value_id": "ag_25",
+      "label": "cubist style"
+    },
+    {
+      "id": "h_portrait_genre",
+      "attribute_type": "genre",
+      "value_id": "ag_9",
+      "label": "portrait genre"
+    },
+    {
+      "id": "h_oil_medium",
+      "attribute_type": "medium",
+      "value_id": "ag_2551",
+      "label": "oil medium"
+    },
+    {
+      "id": "h_expressionist_movement",
+      "attribute_type": "movement",
+      "value_id": "ag_124670",
+      "label": "Expressionism movement"
+    }
+  ],
+  "contrast_analysis": [
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_nature_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_11014",
+          "option_a_label": "The lute player",
+          "option_b_label": "Boy by the Water",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_11912",
+          "option_a_label": "The lute player",
+          "option_b_label": "A Family of Deer in a Landscape with a Waterfall",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_900ace04d79c09bf4201"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_water_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_10149",
+          "option_a_label": "The lute player",
+          "option_b_label": "Rapallo boats",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_12343",
+          "option_a_label": "The lute player",
+          "option_b_label": "The Grand Canal of Venice (Blue Venice)",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_387a21acb91a78fb82b1"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_feline_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_9329",
+          "option_a_label": "The lute player",
+          "option_b_label": "Cat head",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_11706",
+          "option_a_label": "The lute player",
+          "option_b_label": "The Tabby",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_333ab2ca6799ade33196"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_expressionist_style",
+      "option_a_only_count": 11,
+      "option_b_only_count": 20,
+      "potential_ordered_pair_count": 220,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8388",
+          "option_a_label": "The lute player",
+          "option_b_label": "Untitled (Naked Man with Knife)",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8415",
+          "option_a_label": "The lute player",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_6a8a3bc2b9aeff327bcf"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_impressionist_style",
+      "option_a_only_count": 9,
+      "option_b_only_count": 22,
+      "potential_ordered_pair_count": 198,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8421",
+          "option_a_label": "The lute player",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8796",
+          "option_a_label": "The lute player",
+          "option_b_label": "Anemones in a Vase",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8793",
+          "option_a_label": "The lute player",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_9128",
+          "option_a_label": "The lute player",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 7,
+      "option_b_only_count": 15,
+      "potential_ordered_pair_count": 105,
+      "examples": [
+        {
+          "option_a": "ag_11252",
+          "option_b": "ag_8145",
+          "option_a_label": "Suzanne Sewing - Study of a Nude",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_0eed7debd8a0ce06a5d1"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_11252",
+          "option_b": "ag_8152",
+          "option_a_label": "Suzanne Sewing - Study of a Nude",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_0eed7debd8a0ce06a5d1"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 3,
+      "option_b_only_count": 63,
+      "potential_ordered_pair_count": 189,
+      "examples": [
+        {
+          "option_a": "ag_13351",
+          "option_b": "ag_8142",
+          "option_a_label": "Blind singer",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_79453b763c933cd7f402"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_13351",
+          "option_b": "ag_8145",
+          "option_a_label": "Blind singer",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_79453b763c933cd7f402"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_musical_subject",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 12,
+      "option_b_only_count": 19,
+      "potential_ordered_pair_count": 228,
+      "examples": [
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8415",
+          "option_a_label": "The lute player",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_8966",
+          "option_b": "ag_8416",
+          "option_a_label": "The lute player",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_water_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_10149",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Rapallo boats",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_12343",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "The Grand Canal of Venice (Blue Venice)",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_387a21acb91a78fb82b1"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_feline_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_9329",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Cat head",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_11706",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "The Tabby",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_333ab2ca6799ade33196"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_expressionist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 21,
+      "potential_ordered_pair_count": 252,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8388",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Untitled (Naked Man with Knife)",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8415",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_6a8a3bc2b9aeff327bcf"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_impressionist_style",
+      "option_a_only_count": 9,
+      "option_b_only_count": 22,
+      "potential_ordered_pair_count": 198,
+      "examples": [
+        {
+          "option_a": "ag_11912",
+          "option_b": "ag_8421",
+          "option_a_label": "A Family of Deer in a Landscape with a Waterfall",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_900ace04d79c09bf4201"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "option_a": "ag_11912",
+          "option_b": "ag_8796",
+          "option_a_label": "A Family of Deer in a Landscape with a Waterfall",
+          "option_b_label": "Anemones in a Vase",
+          "hypothesis_a_fact_ids": [
+            "agf_900ace04d79c09bf4201"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8793",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_9128",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 12,
+      "option_b_only_count": 20,
+      "potential_ordered_pair_count": 240,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8145",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8152",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 6,
+      "option_b_only_count": 66,
+      "potential_ordered_pair_count": 396,
+      "examples": [
+        {
+          "option_a": "ag_15247",
+          "option_b": "ag_8142",
+          "option_a_label": "Landscape with a road",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_0bcf12aee412448bec51"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_15247",
+          "option_b": "ag_8145",
+          "option_a_label": "Landscape with a road",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_0bcf12aee412448bec51"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_nature_subject",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 12,
+      "option_b_only_count": 19,
+      "potential_ordered_pair_count": 228,
+      "examples": [
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8415",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_11014",
+          "option_b": "ag_8416",
+          "option_a_label": "Boy by the Water",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_feline_subject",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_9329",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Cat head",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ]
+        },
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_11706",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "The Tabby",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_333ab2ca6799ade33196"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_expressionist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 21,
+      "potential_ordered_pair_count": 252,
+      "examples": [
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8388",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Untitled (Naked Man with Knife)",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ]
+        },
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8415",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_6a8a3bc2b9aeff327bcf"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_impressionist_style",
+      "option_a_only_count": 8,
+      "option_b_only_count": 21,
+      "potential_ordered_pair_count": 168,
+      "examples": [
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8421",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8796",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Anemones in a Vase",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8793",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_9128",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 12,
+      "option_b_only_count": 20,
+      "potential_ordered_pair_count": 240,
+      "examples": [
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8145",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_10149",
+          "option_b": "ag_8152",
+          "option_a_label": "Rapallo boats",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 5,
+      "option_b_only_count": 65,
+      "potential_ordered_pair_count": 325,
+      "examples": [
+        {
+          "option_a": "ag_14588",
+          "option_b": "ag_8142",
+          "option_a_label": "Calm Sea. Landscape with fishermen",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_eda383a8b274abd3f86c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_14588",
+          "option_b": "ag_8145",
+          "option_a_label": "Calm Sea. Landscape with fishermen",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_eda383a8b274abd3f86c"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_water_subject",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 11,
+      "option_b_only_count": 18,
+      "potential_ordered_pair_count": 198,
+      "examples": [
+        {
+          "option_a": "ag_12343",
+          "option_b": "ag_8415",
+          "option_a_label": "The Grand Canal of Venice (Blue Venice)",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_387a21acb91a78fb82b1"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_12343",
+          "option_b": "ag_8416",
+          "option_a_label": "The Grand Canal of Venice (Blue Venice)",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_387a21acb91a78fb82b1"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_expressionist_style",
+      "option_a_only_count": 11,
+      "option_b_only_count": 20,
+      "potential_ordered_pair_count": 220,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8388",
+          "option_a_label": "Cat head",
+          "option_b_label": "Untitled (Naked Man with Knife)",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8415",
+          "option_a_label": "Cat head",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_6a8a3bc2b9aeff327bcf"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_impressionist_style",
+      "option_a_only_count": 10,
+      "option_b_only_count": 23,
+      "potential_ordered_pair_count": 230,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8421",
+          "option_a_label": "Cat head",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8796",
+          "option_a_label": "Cat head",
+          "option_b_label": "Anemones in a Vase",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 12,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 144,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8793",
+          "option_a_label": "Cat head",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_9128",
+          "option_a_label": "Cat head",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 11,
+      "option_b_only_count": 19,
+      "potential_ordered_pair_count": 209,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8145",
+          "option_a_label": "Cat head",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8152",
+          "option_a_label": "Cat head",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 7,
+      "option_b_only_count": 67,
+      "potential_ordered_pair_count": 469,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8142",
+          "option_a_label": "Cat head",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8145",
+          "option_a_label": "Cat head",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_feline_subject",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 12,
+      "option_b_only_count": 19,
+      "potential_ordered_pair_count": 228,
+      "examples": [
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8415",
+          "option_a_label": "Cat head",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_9329",
+          "option_b": "ag_8416",
+          "option_a_label": "Cat head",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_expressionist_style",
+      "hypothesis_b": "h_impressionist_style",
+      "option_a_only_count": 21,
+      "option_b_only_count": 25,
+      "potential_ordered_pair_count": 525,
+      "examples": [
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8421",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8796",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "Anemones in a Vase",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_expressionist_style",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 21,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 252,
+      "examples": [
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8793",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_9128",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_expressionist_style",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 17,
+      "option_b_only_count": 16,
+      "potential_ordered_pair_count": 272,
+      "examples": [
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8145",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8152",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_expressionist_style",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 9,
+      "option_b_only_count": 60,
+      "potential_ordered_pair_count": 540,
+      "examples": [
+        {
+          "option_a": "ag_13231",
+          "option_b": "ag_8142",
+          "option_a_label": "A Bird Passing through a Cloud",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_bc28f5fe332dea18b2b7"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_13231",
+          "option_b": "ag_8145",
+          "option_a_label": "A Bird Passing through a Cloud",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_bc28f5fe332dea18b2b7"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_expressionist_style",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 9,
+      "option_b_only_count": 7,
+      "potential_ordered_pair_count": 63,
+      "examples": [
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_8421",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_0815480a029407a89e9f",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_8388",
+          "option_b": "ag_10025",
+          "option_a_label": "Untitled (Naked Man with Knife)",
+          "option_b_label": "A floating figure",
+          "hypothesis_a_fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_9892bf5a80a26140871f",
+            "agf_0af6af9fe2b4f3e4ed81"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_impressionist_style",
+      "hypothesis_b": "h_cubist_style",
+      "option_a_only_count": 25,
+      "option_b_only_count": 12,
+      "potential_ordered_pair_count": 300,
+      "examples": [
+        {
+          "option_a": "ag_8421",
+          "option_b": "ag_8793",
+          "option_a_label": "At the Coffee Table",
+          "option_b_label": "The Gray Tree",
+          "hypothesis_a_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "option_a": "ag_8421",
+          "option_b": "ag_9128",
+          "option_a_label": "At the Coffee Table",
+          "option_b_label": "Bull III",
+          "hypothesis_a_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_impressionist_style",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 21,
+      "option_b_only_count": 16,
+      "potential_ordered_pair_count": 336,
+      "examples": [
+        {
+          "option_a": "ag_8421",
+          "option_b": "ag_8145",
+          "option_a_label": "At the Coffee Table",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_8421",
+          "option_b": "ag_8152",
+          "option_a_label": "At the Coffee Table",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_impressionist_style",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 3,
+      "option_b_only_count": 50,
+      "potential_ordered_pair_count": 150,
+      "examples": [
+        {
+          "option_a": "ag_8812",
+          "option_b": "ag_8142",
+          "option_a_label": "Girl Writing",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_d3e17197c6536be56465"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_8812",
+          "option_b": "ag_8145",
+          "option_a_label": "Girl Writing",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_d3e17197c6536be56465"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_impressionist_style",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 24,
+      "option_b_only_count": 18,
+      "potential_ordered_pair_count": 432,
+      "examples": [
+        {
+          "option_a": "ag_8796",
+          "option_b": "ag_8415",
+          "option_a_label": "Anemones in a Vase",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_8796",
+          "option_b": "ag_8416",
+          "option_a_label": "Anemones in a Vase",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_cubist_style",
+      "hypothesis_b": "h_portrait_genre",
+      "option_a_only_count": 11,
+      "option_b_only_count": 19,
+      "potential_ordered_pair_count": 209,
+      "examples": [
+        {
+          "option_a": "ag_8793",
+          "option_b": "ag_8145",
+          "option_a_label": "The Gray Tree",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "option_a": "ag_8793",
+          "option_b": "ag_8152",
+          "option_a_label": "The Gray Tree",
+          "option_b_label": "Frieda and Diego Rivera",
+          "hypothesis_a_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_cubist_style",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 7,
+      "option_b_only_count": 67,
+      "potential_ordered_pair_count": 469,
+      "examples": [
+        {
+          "option_a": "ag_9128",
+          "option_b": "ag_8142",
+          "option_a_label": "Bull III",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_9128",
+          "option_b": "ag_8145",
+          "option_a_label": "Bull III",
+          "option_b_label": "Vertumnus (Emperor Rudolph II)",
+          "hypothesis_a_fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_cubist_style",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 10,
+      "option_b_only_count": 17,
+      "potential_ordered_pair_count": 170,
+      "examples": [
+        {
+          "option_a": "ag_8793",
+          "option_b": "ag_8415",
+          "option_a_label": "The Gray Tree",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_8793",
+          "option_b": "ag_8416",
+          "option_a_label": "The Gray Tree",
+          "option_b_label": "Albert Kollmann",
+          "hypothesis_a_fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_portrait_genre",
+      "hypothesis_b": "h_oil_medium",
+      "option_a_only_count": 5,
+      "option_b_only_count": 57,
+      "potential_ordered_pair_count": 285,
+      "examples": [
+        {
+          "option_a": "ag_8296",
+          "option_b": "ag_8142",
+          "option_a_label": "Profile Portrait of a Boy",
+          "option_b_label": "Portrait of Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_b9a2ae950dd18cec4bac"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "option_a": "ag_8296",
+          "option_b": "ag_8148",
+          "option_a_label": "Profile Portrait of a Boy",
+          "option_b_label": "A Few Small Nips (Passionately in Love)",
+          "hypothesis_a_fact_ids": [
+            "agf_b9a2ae950dd18cec4bac"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_349ac81c40972f881bc6"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_portrait_genre",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 17,
+      "option_b_only_count": 16,
+      "potential_ordered_pair_count": 272,
+      "examples": [
+        {
+          "option_a": "ag_8145",
+          "option_b": "ag_8415",
+          "option_a_label": "Vertumnus (Emperor Rudolph II)",
+          "option_b_label": "Adam and Eve",
+          "hypothesis_a_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "option_a": "ag_8145",
+          "option_b": "ag_8421",
+          "option_a_label": "Vertumnus (Emperor Rudolph II)",
+          "option_b_label": "At the Coffee Table",
+          "hypothesis_a_fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_0815480a029407a89e9f",
+            "agf_c642b6942e0c256567ca"
+          ]
+        }
+      ]
+    },
+    {
+      "hypothesis_a": "h_oil_medium",
+      "hypothesis_b": "h_expressionist_movement",
+      "option_a_only_count": 62,
+      "option_b_only_count": 9,
+      "potential_ordered_pair_count": 558,
+      "examples": [
+        {
+          "option_a": "ag_8142",
+          "option_b": "ag_18987",
+          "option_a_label": "Portrait of Eve",
+          "option_b_label": "A gate",
+          "hypothesis_a_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_5e2b893186938d0d0282",
+            "agf_d5ee4ac8e5c22c24cb08"
+          ]
+        },
+        {
+          "option_a": "ag_8142",
+          "option_b": "ag_19013",
+          "option_a_label": "Portrait of Eve",
+          "option_b_label": "Castle Garden",
+          "hypothesis_a_fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ],
+          "hypothesis_b_fact_ids": [
+            "agf_064379b57323c80a4baa",
+            "agf_d5ee4ac8e5c22c24cb08"
+          ]
+        }
+      ]
+    }
+  ]
+}

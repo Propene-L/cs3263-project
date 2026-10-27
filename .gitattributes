@@ -1,0 +1,7 @@
+*.ttl text eol=lf
+*.pl text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.html text eol=lf

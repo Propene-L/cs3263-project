@@ -119,3 +119,27 @@ source fact IDs. Python only performs RDF analysis/export and does not select
 recommendations. Full semantics and review questions are in
 `INTEREST_INFERENCE_DESIGN.md` and `INTEREST_INFERENCE_REVIEW.md`.
 
+## Phase 1 active-clarification rules
+
+Phase 1 uses `logic/clarification_rules.pl`. Response-model assumptions are
+declared separately in `logic/clarification_hypotheses.pl` and appear in each
+relevant proof.
+
+| Rule ID | Layer | Meaning |
+|---|---|---|
+| `r_explicit_interest_hypothesis` | Visitor evidence | Preserve an allowlisted explicitly expressed interest as provisional. |
+| `r_like_suggests_attribute_hypothesis` | Assumption | Liking may suggest reviewed hypotheses supported by that artwork's facts. |
+| `r_familiarity_suggests_attribute_hypothesis` | Assumption | Familiarity may weakly suggest such hypotheses. |
+| `r_greater_recorded_support_predicts_preference` | Response assumption | Predict the option with recorded positive support when the other has none. |
+| `r_equal_recorded_support_is_undecidable` | Deduction | Equal support gives `unknown`, not a forced choice. |
+| `r_opposing_predictions_discriminate` | Deduction | Two determinate opposing predictions distinguish two hypotheses. |
+| `r_finite_state_filtered_pair` | Guidance | Exclude known, viewed, rejected, and previously asked artworks. |
+| `r_select_max_discrimination_then_balance` | Guidance | Prefer more distinctions, then a balanced split, then stable IDs. |
+| `r_response_contradicts_prediction` | State update | A determinate opposite response removes a provisional hypothesis. |
+| `r_recommend_from_remaining_hypotheses` | Secondary demo | Rank unseen artworks by remaining positive hypothesis support. |
+
+No-support-in-snapshot is used only as one side of the explicitly bounded
+response comparison. It must never be rendered as proof that an artwork lacks
+an attribute. `neither` and `unsure` do not eliminate hypotheses, and replacing
+a response recomputes all deductions in a fresh process.
+

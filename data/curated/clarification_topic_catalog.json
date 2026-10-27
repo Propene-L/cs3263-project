@@ -1,0 +1,3571 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "artgraph_v1_phase_1_clarification",
+  "allowed_candidate_ids": [
+    "ag_8142",
+    "ag_8145",
+    "ag_8148",
+    "ag_8152",
+    "ag_8232",
+    "ag_8278",
+    "ag_8296",
+    "ag_8315",
+    "ag_8320",
+    "ag_8382",
+    "ag_8388",
+    "ag_8415",
+    "ag_8416",
+    "ag_8421",
+    "ag_8609",
+    "ag_8660",
+    "ag_8661",
+    "ag_8791",
+    "ag_8793",
+    "ag_8796",
+    "ag_8812",
+    "ag_8855",
+    "ag_8864",
+    "ag_8913",
+    "ag_8966",
+    "ag_9128",
+    "ag_9180",
+    "ag_9329",
+    "ag_10025",
+    "ag_10026",
+    "ag_10149",
+    "ag_10472",
+    "ag_10632",
+    "ag_10693",
+    "ag_10766",
+    "ag_10980",
+    "ag_11014",
+    "ag_11252",
+    "ag_11706",
+    "ag_11846",
+    "ag_11873",
+    "ag_11912",
+    "ag_12189",
+    "ag_12343",
+    "ag_12372",
+    "ag_12564",
+    "ag_13231",
+    "ag_13233",
+    "ag_13256",
+    "ag_13351",
+    "ag_14060",
+    "ag_14166",
+    "ag_14193",
+    "ag_14292",
+    "ag_14531",
+    "ag_14588",
+    "ag_15247",
+    "ag_15430",
+    "ag_15881",
+    "ag_16079",
+    "ag_16386",
+    "ag_16916",
+    "ag_17029",
+    "ag_17083",
+    "ag_17149",
+    "ag_17402",
+    "ag_17716",
+    "ag_18987",
+    "ag_19013",
+    "ag_19159",
+    "ag_19167",
+    "ag_19176",
+    "ag_20164",
+    "ag_20804",
+    "ag_20923",
+    "ag_21066",
+    "ag_21076",
+    "ag_21526",
+    "ag_21981",
+    "ag_23111",
+    "ag_23259",
+    "ag_23352",
+    "ag_23692",
+    "ag_24685",
+    "ag_24720",
+    "ag_25432",
+    "ag_25471",
+    "ag_25521",
+    "ag_25837",
+    "ag_25845",
+    "ag_27122",
+    "ag_27748",
+    "ag_28565",
+    "ag_28656",
+    "ag_29656",
+    "ag_29807",
+    "ag_30919",
+    "ag_31153",
+    "ag_31456",
+    "ag_31775",
+    "ag_33200",
+    "ag_34561",
+    "ag_34659",
+    "ag_38633",
+    "ag_40460",
+    "ag_42361",
+    "ag_50541",
+    "ag_52338",
+    "ag_54245",
+    "ag_67931",
+    "ag_69371",
+    "ag_72995"
+  ],
+  "topics": [
+    {
+      "id": "ag_1057",
+      "type": "artist",
+      "label": "edvard-munch",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1057",
+      "properties": {}
+    },
+    {
+      "id": "ag_1090",
+      "type": "artist",
+      "label": "nicholas-roerich",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1090",
+      "properties": {}
+    },
+    {
+      "id": "ag_1099",
+      "type": "artist",
+      "label": "vincent-van-gogh",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1099",
+      "properties": {}
+    },
+    {
+      "id": "ag_1109",
+      "type": "artist",
+      "label": "ivan-bilibin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1109",
+      "properties": {}
+    },
+    {
+      "id": "ag_1152",
+      "type": "artist",
+      "label": "antonello-da-messina",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1152",
+      "properties": {}
+    },
+    {
+      "id": "ag_1174",
+      "type": "artist",
+      "label": "boris-kustodiev",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1174",
+      "properties": {}
+    },
+    {
+      "id": "ag_1193",
+      "type": "artist",
+      "label": "marc-chagall",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1193",
+      "properties": {}
+    },
+    {
+      "id": "ag_123",
+      "type": "artist",
+      "label": "konstantin-korovin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#123",
+      "properties": {}
+    },
+    {
+      "id": "ag_1269",
+      "type": "artist",
+      "label": "pietro-longhi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1269",
+      "properties": {}
+    },
+    {
+      "id": "ag_1277",
+      "type": "artist",
+      "label": "jan-van-eyck",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1277",
+      "properties": {}
+    },
+    {
+      "id": "ag_1286",
+      "type": "artist",
+      "label": "otto-dix",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1286",
+      "properties": {}
+    },
+    {
+      "id": "ag_1300",
+      "type": "artist",
+      "label": "ernst-ludwig-kirchner",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1300",
+      "properties": {}
+    },
+    {
+      "id": "ag_1305",
+      "type": "artist",
+      "label": "camille-corot",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1305",
+      "properties": {}
+    },
+    {
+      "id": "ag_1323",
+      "type": "artist",
+      "label": "egon-schiele",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1323",
+      "properties": {}
+    },
+    {
+      "id": "ag_1354",
+      "type": "artist",
+      "label": "camille-pissarro",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1354",
+      "properties": {}
+    },
+    {
+      "id": "ag_142",
+      "type": "artist",
+      "label": "giorgione",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#142",
+      "properties": {}
+    },
+    {
+      "id": "ag_1436",
+      "type": "artist",
+      "label": "fernand-leger",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1436",
+      "properties": {}
+    },
+    {
+      "id": "ag_1455",
+      "type": "artist",
+      "label": "theodore-gericault",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1455",
+      "properties": {}
+    },
+    {
+      "id": "ag_1487",
+      "type": "artist",
+      "label": "ilya-repin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1487",
+      "properties": {}
+    },
+    {
+      "id": "ag_1521",
+      "type": "artist",
+      "label": "m-c-escher",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1521",
+      "properties": {}
+    },
+    {
+      "id": "ag_1525",
+      "type": "artist",
+      "label": "isaac-levitan",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1525",
+      "properties": {}
+    },
+    {
+      "id": "ag_1568",
+      "type": "artist",
+      "label": "caravaggio",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1568",
+      "properties": {}
+    },
+    {
+      "id": "ag_1597",
+      "type": "artist",
+      "label": "david-burliuk",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1597",
+      "properties": {}
+    },
+    {
+      "id": "ag_1601",
+      "type": "artist",
+      "label": "amedeo-modigliani",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1601",
+      "properties": {}
+    },
+    {
+      "id": "ag_1625",
+      "type": "artist",
+      "label": "georges-seurat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1625",
+      "properties": {}
+    },
+    {
+      "id": "ag_1644",
+      "type": "artist",
+      "label": "piet-mondrian",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1644",
+      "properties": {}
+    },
+    {
+      "id": "ag_1716",
+      "type": "artist",
+      "label": "victor-borisov-musatov",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1716",
+      "properties": {}
+    },
+    {
+      "id": "ag_1740",
+      "type": "artist",
+      "label": "edward-burne-jones",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1740",
+      "properties": {}
+    },
+    {
+      "id": "ag_1745",
+      "type": "artist",
+      "label": "ivan-aivazovsky",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1745",
+      "properties": {}
+    },
+    {
+      "id": "ag_176",
+      "type": "artist",
+      "label": "edouard-manet",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#176",
+      "properties": {}
+    },
+    {
+      "id": "ag_1853",
+      "type": "artist",
+      "label": "frida-kahlo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1853",
+      "properties": {}
+    },
+    {
+      "id": "ag_1976",
+      "type": "artist",
+      "label": "katsushika-hokusai",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1976",
+      "properties": {}
+    },
+    {
+      "id": "ag_1987",
+      "type": "artist",
+      "label": "alexandre-benois",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1987",
+      "properties": {}
+    },
+    {
+      "id": "ag_2010",
+      "type": "artist",
+      "label": "jacopo-bellini",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2010",
+      "properties": {}
+    },
+    {
+      "id": "ag_2016",
+      "type": "artist",
+      "label": "claude-monet",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2016",
+      "properties": {}
+    },
+    {
+      "id": "ag_2024",
+      "type": "artist",
+      "label": "paul-gauguin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2024",
+      "properties": {}
+    },
+    {
+      "id": "ag_2028",
+      "type": "artist",
+      "label": "wassily-kandinsky",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2028",
+      "properties": {}
+    },
+    {
+      "id": "ag_2067",
+      "type": "artist",
+      "label": "honore-daumier",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2067",
+      "properties": {}
+    },
+    {
+      "id": "ag_2101",
+      "type": "artist",
+      "label": "rembrandt",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2101",
+      "properties": {}
+    },
+    {
+      "id": "ag_2151",
+      "type": "artist",
+      "label": "gustave-courbet",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2151",
+      "properties": {}
+    },
+    {
+      "id": "ag_2171",
+      "type": "artist",
+      "label": "jackson-pollock",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2171",
+      "properties": {}
+    },
+    {
+      "id": "ag_2237",
+      "type": "artist",
+      "label": "francisco-goya",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2237",
+      "properties": {}
+    },
+    {
+      "id": "ag_2321",
+      "type": "artist",
+      "label": "oskar-kokoschka",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2321",
+      "properties": {}
+    },
+    {
+      "id": "ag_2366",
+      "type": "artist",
+      "label": "albrecht-durer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2366",
+      "properties": {}
+    },
+    {
+      "id": "ag_2382",
+      "type": "artist",
+      "label": "eugene-delacroix",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2382",
+      "properties": {}
+    },
+    {
+      "id": "ag_2396",
+      "type": "artist",
+      "label": "man-ray",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2396",
+      "properties": {}
+    },
+    {
+      "id": "ag_2462",
+      "type": "artist",
+      "label": "arshile-gorky",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2462",
+      "properties": {}
+    },
+    {
+      "id": "ag_2531",
+      "type": "artist",
+      "label": "rene-magritte",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2531",
+      "properties": {}
+    },
+    {
+      "id": "ag_312",
+      "type": "artist",
+      "label": "niko-pirosmani",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#312",
+      "properties": {}
+    },
+    {
+      "id": "ag_313",
+      "type": "artist",
+      "label": "peter-paul-rubens",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#313",
+      "properties": {}
+    },
+    {
+      "id": "ag_330",
+      "type": "artist",
+      "label": "emil-nolde",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#330",
+      "properties": {}
+    },
+    {
+      "id": "ag_353",
+      "type": "artist",
+      "label": "roy-lichtenstein",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#353",
+      "properties": {}
+    },
+    {
+      "id": "ag_358",
+      "type": "artist",
+      "label": "pietro-perugino",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#358",
+      "properties": {}
+    },
+    {
+      "id": "ag_391",
+      "type": "artist",
+      "label": "mary-cassatt",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#391",
+      "properties": {}
+    },
+    {
+      "id": "ag_414",
+      "type": "artist",
+      "label": "august-macke",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#414",
+      "properties": {}
+    },
+    {
+      "id": "ag_456",
+      "type": "artist",
+      "label": "paul-klee",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#456",
+      "properties": {}
+    },
+    {
+      "id": "ag_457",
+      "type": "artist",
+      "label": "kazimir-malevich",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#457",
+      "properties": {}
+    },
+    {
+      "id": "ag_475",
+      "type": "artist",
+      "label": "henri-rousseau",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#475",
+      "properties": {}
+    },
+    {
+      "id": "ag_528",
+      "type": "artist",
+      "label": "johannes-itten",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#528",
+      "properties": {}
+    },
+    {
+      "id": "ag_60",
+      "type": "artist",
+      "label": "pierre-auguste-renoir",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#60",
+      "properties": {}
+    },
+    {
+      "id": "ag_615",
+      "type": "artist",
+      "label": "juan-gris",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#615",
+      "properties": {}
+    },
+    {
+      "id": "ag_64",
+      "type": "artist",
+      "label": "moise-kisling",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#64",
+      "properties": {}
+    },
+    {
+      "id": "ag_651",
+      "type": "artist",
+      "label": "correggio",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#651",
+      "properties": {}
+    },
+    {
+      "id": "ag_661",
+      "type": "artist",
+      "label": "ivan-kramskoy",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#661",
+      "properties": {}
+    },
+    {
+      "id": "ag_744",
+      "type": "artist",
+      "label": "henri-matisse",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#744",
+      "properties": {}
+    },
+    {
+      "id": "ag_850",
+      "type": "artist",
+      "label": "giuseppe-arcimboldo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#850",
+      "properties": {}
+    },
+    {
+      "id": "ag_876",
+      "type": "artist",
+      "label": "franz-marc",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#876",
+      "properties": {}
+    },
+    {
+      "id": "ag_901",
+      "type": "artist",
+      "label": "diego-rivera",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#901",
+      "properties": {}
+    },
+    {
+      "id": "ag_902",
+      "type": "artist",
+      "label": "georges-braque",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#902",
+      "properties": {}
+    },
+    {
+      "id": "ag_979",
+      "type": "artist",
+      "label": "francis-bacon",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#979",
+      "properties": {}
+    },
+    {
+      "id": "ag_10025",
+      "type": "artwork",
+      "label": "A floating figure",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10025",
+      "properties": {}
+    },
+    {
+      "id": "ag_10026",
+      "type": "artwork",
+      "label": "A mountain",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10026",
+      "properties": {}
+    },
+    {
+      "id": "ag_10149",
+      "type": "artwork",
+      "label": "Rapallo boats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10149",
+      "properties": {}
+    },
+    {
+      "id": "ag_10472",
+      "type": "artwork",
+      "label": "Study for The Cellist",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10472",
+      "properties": {}
+    },
+    {
+      "id": "ag_10632",
+      "type": "artwork",
+      "label": "A Caucasian Study",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10632",
+      "properties": {}
+    },
+    {
+      "id": "ag_10693",
+      "type": "artwork",
+      "label": "A Baby Smiling at Two Young Women",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10693",
+      "properties": {}
+    },
+    {
+      "id": "ag_10766",
+      "type": "artwork",
+      "label": "Lydia at the Tapestry Loom",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10766",
+      "properties": {}
+    },
+    {
+      "id": "ag_10980",
+      "type": "artwork",
+      "label": "A Henhouse",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#10980",
+      "properties": {}
+    },
+    {
+      "id": "ag_11014",
+      "type": "artwork",
+      "label": "Boy by the Water",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11014",
+      "properties": {}
+    },
+    {
+      "id": "ag_11252",
+      "type": "artwork",
+      "label": "Suzanne Sewing - Study of a Nude",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11252",
+      "properties": {}
+    },
+    {
+      "id": "ag_11706",
+      "type": "artwork",
+      "label": "The Tabby",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11706",
+      "properties": {}
+    },
+    {
+      "id": "ag_11846",
+      "type": "artwork",
+      "label": "Blue Figure in a Chair",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11846",
+      "properties": {}
+    },
+    {
+      "id": "ag_11873",
+      "type": "artwork",
+      "label": "Park Street Church",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11873",
+      "properties": {}
+    },
+    {
+      "id": "ag_11912",
+      "type": "artwork",
+      "label": "A Family of Deer in a Landscape with a Waterfall",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#11912",
+      "properties": {}
+    },
+    {
+      "id": "ag_12189",
+      "type": "artwork",
+      "label": "A woman pouring water (Study of Suzanne Leenhoff)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12189",
+      "properties": {}
+    },
+    {
+      "id": "ag_12343",
+      "type": "artwork",
+      "label": "The Grand Canal of Venice (Blue Venice)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12343",
+      "properties": {}
+    },
+    {
+      "id": "ag_12372",
+      "type": "artwork",
+      "label": "The Spanish Singer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12372",
+      "properties": {}
+    },
+    {
+      "id": "ag_12564",
+      "type": "artwork",
+      "label": "Dead Cat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12564",
+      "properties": {}
+    },
+    {
+      "id": "ag_13231",
+      "type": "artwork",
+      "label": "A Bird Passing through a Cloud",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#13231",
+      "properties": {}
+    },
+    {
+      "id": "ag_13233",
+      "type": "artwork",
+      "label": "A Black Pedestal",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#13233",
+      "properties": {}
+    },
+    {
+      "id": "ag_13256",
+      "type": "artwork",
+      "label": "Grandmother&#39;s Friend",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#13256",
+      "properties": {}
+    },
+    {
+      "id": "ag_13351",
+      "type": "artwork",
+      "label": "Blind singer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#13351",
+      "properties": {}
+    },
+    {
+      "id": "ag_14060",
+      "type": "artwork",
+      "label": "Mother with Child",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14060",
+      "properties": {}
+    },
+    {
+      "id": "ag_14166",
+      "type": "artwork",
+      "label": "Mermaids",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14166",
+      "properties": {}
+    },
+    {
+      "id": "ag_14193",
+      "type": "artwork",
+      "label": "Portrait of Alexander III",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14193",
+      "properties": {}
+    },
+    {
+      "id": "ag_14292",
+      "type": "artwork",
+      "label": "A&#160;Disc in&#160;the City",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14292",
+      "properties": {}
+    },
+    {
+      "id": "ag_14531",
+      "type": "artwork",
+      "label": "Three musicians",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14531",
+      "properties": {}
+    },
+    {
+      "id": "ag_14588",
+      "type": "artwork",
+      "label": "Calm Sea. Landscape with fishermen",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#14588",
+      "properties": {}
+    },
+    {
+      "id": "ag_15247",
+      "type": "artwork",
+      "label": "Landscape with a road",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#15247",
+      "properties": {}
+    },
+    {
+      "id": "ag_15430",
+      "type": "artwork",
+      "label": "Female Nude Standing in Doorway",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#15430",
+      "properties": {}
+    },
+    {
+      "id": "ag_15881",
+      "type": "artwork",
+      "label": "A canoes",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#15881",
+      "properties": {}
+    },
+    {
+      "id": "ag_16079",
+      "type": "artwork",
+      "label": "The Ghent Altar (detail)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#16079",
+      "properties": {}
+    },
+    {
+      "id": "ag_16386",
+      "type": "artwork",
+      "label": "Polyptych of&#160;St. Peter (San Costanzo)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#16386",
+      "properties": {}
+    },
+    {
+      "id": "ag_16916",
+      "type": "artwork",
+      "label": "Ravine in the Morvan, Near Lormes",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#16916",
+      "properties": {}
+    },
+    {
+      "id": "ag_17029",
+      "type": "artwork",
+      "label": "The Monk",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17029",
+      "properties": {}
+    },
+    {
+      "id": "ag_17083",
+      "type": "artwork",
+      "label": "Venice Gondola on Grand Canal",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17083",
+      "properties": {}
+    },
+    {
+      "id": "ag_17149",
+      "type": "artwork",
+      "label": "On the road",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17149",
+      "properties": {}
+    },
+    {
+      "id": "ag_17402",
+      "type": "artwork",
+      "label": "Lady with a Guitar",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17402",
+      "properties": {}
+    },
+    {
+      "id": "ag_17716",
+      "type": "artwork",
+      "label": "Lion",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17716",
+      "properties": {}
+    },
+    {
+      "id": "ag_18987",
+      "type": "artwork",
+      "label": "A gate",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#18987",
+      "properties": {}
+    },
+    {
+      "id": "ag_19013",
+      "type": "artwork",
+      "label": "Castle Garden",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#19013",
+      "properties": {}
+    },
+    {
+      "id": "ag_19159",
+      "type": "artwork",
+      "label": "A Big Peasant",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#19159",
+      "properties": {}
+    },
+    {
+      "id": "ag_19167",
+      "type": "artwork",
+      "label": "A Group of People",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#19167",
+      "properties": {}
+    },
+    {
+      "id": "ag_19176",
+      "type": "artwork",
+      "label": "A poet",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#19176",
+      "properties": {}
+    },
+    {
+      "id": "ag_20164",
+      "type": "artwork",
+      "label": "Crane",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#20164",
+      "properties": {}
+    },
+    {
+      "id": "ag_20804",
+      "type": "artwork",
+      "label": "Baby",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#20804",
+      "properties": {}
+    },
+    {
+      "id": "ag_20923",
+      "type": "artwork",
+      "label": "Female Nude in Chair",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#20923",
+      "properties": {}
+    },
+    {
+      "id": "ag_21066",
+      "type": "artwork",
+      "label": "White Cat I",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#21066",
+      "properties": {}
+    },
+    {
+      "id": "ag_21076",
+      "type": "artwork",
+      "label": "Cat and Kitten",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#21076",
+      "properties": {}
+    },
+    {
+      "id": "ag_21526",
+      "type": "artwork",
+      "label": "Fishing in the Spring",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#21526",
+      "properties": {}
+    },
+    {
+      "id": "ag_21981",
+      "type": "artwork",
+      "label": "Park at Asnieres in Spring",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#21981",
+      "properties": {}
+    },
+    {
+      "id": "ag_23111",
+      "type": "artwork",
+      "label": "Bananas",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#23111",
+      "properties": {}
+    },
+    {
+      "id": "ag_23259",
+      "type": "artwork",
+      "label": "A Cottage in the Snow",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#23259",
+      "properties": {}
+    },
+    {
+      "id": "ag_23352",
+      "type": "artwork",
+      "label": "Children in a Garden at Eragny",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#23352",
+      "properties": {}
+    },
+    {
+      "id": "ag_23692",
+      "type": "artwork",
+      "label": "Resting, Peasant Girl Lying on the Grass, Pontoise",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#23692",
+      "properties": {}
+    },
+    {
+      "id": "ag_24685",
+      "type": "artwork",
+      "label": "A gray day. Mountains. Crimea.",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#24685",
+      "properties": {}
+    },
+    {
+      "id": "ag_24720",
+      "type": "artwork",
+      "label": "At the lake. Fishermen.",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#24720",
+      "properties": {}
+    },
+    {
+      "id": "ag_25432",
+      "type": "artwork",
+      "label": "Departure of Summer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25432",
+      "properties": {}
+    },
+    {
+      "id": "ag_25471",
+      "type": "artwork",
+      "label": "Bathers",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25471",
+      "properties": {}
+    },
+    {
+      "id": "ag_25521",
+      "type": "artwork",
+      "label": "Homesickness",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25521",
+      "properties": {}
+    },
+    {
+      "id": "ag_25837",
+      "type": "artwork",
+      "label": "Bathers at La Grenouillere",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25837",
+      "properties": {}
+    },
+    {
+      "id": "ag_25845",
+      "type": "artwork",
+      "label": "Bennecourt",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25845",
+      "properties": {}
+    },
+    {
+      "id": "ag_27122",
+      "type": "artwork",
+      "label": "La Tour Eiffel",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#27122",
+      "properties": {}
+    },
+    {
+      "id": "ag_27748",
+      "type": "artwork",
+      "label": "A Nude with her Heel on her Knee",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#27748",
+      "properties": {}
+    },
+    {
+      "id": "ag_28565",
+      "type": "artwork",
+      "label": "Alley in the park Kachanovka",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#28565",
+      "properties": {}
+    },
+    {
+      "id": "ag_28656",
+      "type": "artwork",
+      "label": "Landscape of the Volga with boats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#28656",
+      "properties": {}
+    },
+    {
+      "id": "ag_29656",
+      "type": "artwork",
+      "label": "Lion and the sun",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#29656",
+      "properties": {}
+    },
+    {
+      "id": "ag_29807",
+      "type": "artwork",
+      "label": "Etude of lion",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#29807",
+      "properties": {}
+    },
+    {
+      "id": "ag_30919",
+      "type": "artwork",
+      "label": "Sleeping Cat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#30919",
+      "properties": {}
+    },
+    {
+      "id": "ag_31153",
+      "type": "artwork",
+      "label": "The Seine at Asnieres (The Skiff)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#31153",
+      "properties": {}
+    },
+    {
+      "id": "ag_31456",
+      "type": "artwork",
+      "label": "Bathers",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#31456",
+      "properties": {}
+    },
+    {
+      "id": "ag_31775",
+      "type": "artwork",
+      "label": "Lion resting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#31775",
+      "properties": {}
+    },
+    {
+      "id": "ag_33200",
+      "type": "artwork",
+      "label": "Sunset across the Ryogoku bridge from the bank of the Sumida river at Onmagayashi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#33200",
+      "properties": {}
+    },
+    {
+      "id": "ag_34561",
+      "type": "artwork",
+      "label": "A path",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#34561",
+      "properties": {}
+    },
+    {
+      "id": "ag_34659",
+      "type": "artwork",
+      "label": "Brahmaputra",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#34659",
+      "properties": {}
+    },
+    {
+      "id": "ag_38633",
+      "type": "artwork",
+      "label": "Summer Evening",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#38633",
+      "properties": {}
+    },
+    {
+      "id": "ag_40460",
+      "type": "artwork",
+      "label": "A Tree in Late Autumn",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#40460",
+      "properties": {}
+    },
+    {
+      "id": "ag_42361",
+      "type": "artwork",
+      "label": "Adolf Loos",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#42361",
+      "properties": {}
+    },
+    {
+      "id": "ag_50541",
+      "type": "artwork",
+      "label": "Afternoon in the Garden",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#50541",
+      "properties": {}
+    },
+    {
+      "id": "ag_52338",
+      "type": "artwork",
+      "label": "After the Bath",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#52338",
+      "properties": {}
+    },
+    {
+      "id": "ag_54245",
+      "type": "artwork",
+      "label": "A Dog",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#54245",
+      "properties": {}
+    },
+    {
+      "id": "ag_67931",
+      "type": "artwork",
+      "label": "Cats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#67931",
+      "properties": {}
+    },
+    {
+      "id": "ag_69371",
+      "type": "artwork",
+      "label": "At the Caf&#233;",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#69371",
+      "properties": {}
+    },
+    {
+      "id": "ag_72995",
+      "type": "artwork",
+      "label": "Horizontal Vertical",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#72995",
+      "properties": {}
+    },
+    {
+      "id": "ag_8142",
+      "type": "artwork",
+      "label": "Portrait of Eve",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8142",
+      "properties": {}
+    },
+    {
+      "id": "ag_8145",
+      "type": "artwork",
+      "label": "Vertumnus (Emperor Rudolph II)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8145",
+      "properties": {}
+    },
+    {
+      "id": "ag_8148",
+      "type": "artwork",
+      "label": "A Few Small Nips (Passionately in Love)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8148",
+      "properties": {}
+    },
+    {
+      "id": "ag_8152",
+      "type": "artwork",
+      "label": "Frieda and Diego Rivera",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8152",
+      "properties": {}
+    },
+    {
+      "id": "ag_8232",
+      "type": "artwork",
+      "label": "The Old Woman",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8232",
+      "properties": {}
+    },
+    {
+      "id": "ag_8278",
+      "type": "artwork",
+      "label": "Christ&#39;s Descent into Limbo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8278",
+      "properties": {}
+    },
+    {
+      "id": "ag_8296",
+      "type": "artwork",
+      "label": "Profile Portrait of a Boy",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8296",
+      "properties": {}
+    },
+    {
+      "id": "ag_8315",
+      "type": "artwork",
+      "label": "The Concert",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8315",
+      "properties": {}
+    },
+    {
+      "id": "ag_8320",
+      "type": "artwork",
+      "label": "Portrait of Francesco Guardi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8320",
+      "properties": {}
+    },
+    {
+      "id": "ag_8382",
+      "type": "artwork",
+      "label": "Moon Woman",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8382",
+      "properties": {}
+    },
+    {
+      "id": "ag_8388",
+      "type": "artwork",
+      "label": "Untitled (Naked Man with Knife)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8388",
+      "properties": {}
+    },
+    {
+      "id": "ag_8415",
+      "type": "artwork",
+      "label": "Adam and Eve",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8415",
+      "properties": {}
+    },
+    {
+      "id": "ag_8416",
+      "type": "artwork",
+      "label": "Albert Kollmann",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8416",
+      "properties": {}
+    },
+    {
+      "id": "ag_8421",
+      "type": "artwork",
+      "label": "At the Coffee Table",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8421",
+      "properties": {}
+    },
+    {
+      "id": "ag_8609",
+      "type": "artwork",
+      "label": "Breton dancing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8609",
+      "properties": {}
+    },
+    {
+      "id": "ag_8660",
+      "type": "artwork",
+      "label": "Self portrait with a pipe",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8660",
+      "properties": {}
+    },
+    {
+      "id": "ag_8661",
+      "type": "artwork",
+      "label": "Portrait of Jean Cocteau",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8661",
+      "properties": {}
+    },
+    {
+      "id": "ag_8791",
+      "type": "artwork",
+      "label": "Woods near Oele",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8791",
+      "properties": {}
+    },
+    {
+      "id": "ag_8793",
+      "type": "artwork",
+      "label": "The Gray Tree",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8793",
+      "properties": {}
+    },
+    {
+      "id": "ag_8796",
+      "type": "artwork",
+      "label": "Anemones in a Vase",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8796",
+      "properties": {}
+    },
+    {
+      "id": "ag_8812",
+      "type": "artwork",
+      "label": "Girl Writing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8812",
+      "properties": {}
+    },
+    {
+      "id": "ag_8855",
+      "type": "artwork",
+      "label": "Adoration&#160;of the Magi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8855",
+      "properties": {}
+    },
+    {
+      "id": "ag_8864",
+      "type": "artwork",
+      "label": "Portrait of a Gentlewoman",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8864",
+      "properties": {}
+    },
+    {
+      "id": "ag_8913",
+      "type": "artwork",
+      "label": "Portrait of a Man",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8913",
+      "properties": {}
+    },
+    {
+      "id": "ag_8966",
+      "type": "artwork",
+      "label": "The lute player",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8966",
+      "properties": {}
+    },
+    {
+      "id": "ag_9128",
+      "type": "artwork",
+      "label": "Bull III",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#9128",
+      "properties": {}
+    },
+    {
+      "id": "ag_9180",
+      "type": "artwork",
+      "label": "Sailboats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#9180",
+      "properties": {}
+    },
+    {
+      "id": "ag_9329",
+      "type": "artwork",
+      "label": "Cat head",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#9329",
+      "properties": {}
+    },
+    {
+      "id": "ag_0",
+      "type": "genre",
+      "label": "nude painting (nu)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#0",
+      "properties": {}
+    },
+    {
+      "id": "ag_1",
+      "type": "genre",
+      "label": "marina",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#1",
+      "properties": {}
+    },
+    {
+      "id": "ag_12",
+      "type": "genre",
+      "label": "religious painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#12",
+      "properties": {}
+    },
+    {
+      "id": "ag_13",
+      "type": "genre",
+      "label": "mythological painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#13",
+      "properties": {}
+    },
+    {
+      "id": "ag_15",
+      "type": "genre",
+      "label": "still life",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#15",
+      "properties": {}
+    },
+    {
+      "id": "ag_16",
+      "type": "genre",
+      "label": "illustration",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#16",
+      "properties": {}
+    },
+    {
+      "id": "ag_17",
+      "type": "genre",
+      "label": "cityscape",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#17",
+      "properties": {}
+    },
+    {
+      "id": "ag_2",
+      "type": "genre",
+      "label": "animal painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2",
+      "properties": {}
+    },
+    {
+      "id": "ag_3",
+      "type": "genre",
+      "label": "self-portrait",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3",
+      "properties": {}
+    },
+    {
+      "id": "ag_4",
+      "type": "genre",
+      "label": "genre painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4",
+      "properties": {}
+    },
+    {
+      "id": "ag_5",
+      "type": "genre",
+      "label": "symbolic painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5",
+      "properties": {}
+    },
+    {
+      "id": "ag_6",
+      "type": "genre",
+      "label": "abstract",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#6",
+      "properties": {}
+    },
+    {
+      "id": "ag_7",
+      "type": "genre",
+      "label": "figurative",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#7",
+      "properties": {}
+    },
+    {
+      "id": "ag_8",
+      "type": "genre",
+      "label": "landscape",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#8",
+      "properties": {}
+    },
+    {
+      "id": "ag_9",
+      "type": "genre",
+      "label": "portrait",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#9",
+      "properties": {}
+    },
+    {
+      "id": "ag_2551",
+      "type": "medium",
+      "label": "oil",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2551",
+      "properties": {}
+    },
+    {
+      "id": "ag_2552",
+      "type": "medium",
+      "label": "canvas",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2552",
+      "properties": {}
+    },
+    {
+      "id": "ag_2553",
+      "type": "medium",
+      "label": "wood",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2553",
+      "properties": {}
+    },
+    {
+      "id": "ag_2555",
+      "type": "medium",
+      "label": "metal",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2555",
+      "properties": {}
+    },
+    {
+      "id": "ag_2557",
+      "type": "medium",
+      "label": "tempera",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2557",
+      "properties": {}
+    },
+    {
+      "id": "ag_2562",
+      "type": "medium",
+      "label": "panel",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2562",
+      "properties": {}
+    },
+    {
+      "id": "ag_2563",
+      "type": "medium",
+      "label": "paper",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2563",
+      "properties": {}
+    },
+    {
+      "id": "ag_2567",
+      "type": "medium",
+      "label": "pencil",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2567",
+      "properties": {}
+    },
+    {
+      "id": "ag_2569",
+      "type": "medium",
+      "label": "ink",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2569",
+      "properties": {}
+    },
+    {
+      "id": "ag_2572",
+      "type": "medium",
+      "label": "watercolor",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2572",
+      "properties": {}
+    },
+    {
+      "id": "ag_2573",
+      "type": "medium",
+      "label": "board",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2573",
+      "properties": {}
+    },
+    {
+      "id": "ag_2574",
+      "type": "medium",
+      "label": "lithography",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2574",
+      "properties": {}
+    },
+    {
+      "id": "ag_2580",
+      "type": "medium",
+      "label": "collage",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2580",
+      "properties": {}
+    },
+    {
+      "id": "ag_2586",
+      "type": "medium",
+      "label": "wash",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2586",
+      "properties": {}
+    },
+    {
+      "id": "ag_2587",
+      "type": "medium",
+      "label": "cardboard",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2587",
+      "properties": {}
+    },
+    {
+      "id": "ag_2592",
+      "type": "medium",
+      "label": "chalk",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2592",
+      "properties": {}
+    },
+    {
+      "id": "ag_2601",
+      "type": "medium",
+      "label": "etching",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2601",
+      "properties": {}
+    },
+    {
+      "id": "ag_2602",
+      "type": "medium",
+      "label": "magna",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2602",
+      "properties": {}
+    },
+    {
+      "id": "ag_2606",
+      "type": "medium",
+      "label": "plaster",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2606",
+      "properties": {}
+    },
+    {
+      "id": "ag_2611",
+      "type": "medium",
+      "label": "linocut",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2611",
+      "properties": {}
+    },
+    {
+      "id": "ag_124619",
+      "type": "movement",
+      "label": "New Objectivity",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124619",
+      "properties": {}
+    },
+    {
+      "id": "ag_124623",
+      "type": "movement",
+      "label": "Pre-Raphaelite Brotherhood",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124623",
+      "properties": {}
+    },
+    {
+      "id": "ag_124633",
+      "type": "movement",
+      "label": "Flemish Baroque painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124633",
+      "properties": {}
+    },
+    {
+      "id": "ag_124637",
+      "type": "movement",
+      "label": "Modernism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124637",
+      "properties": {}
+    },
+    {
+      "id": "ag_124642",
+      "type": "movement",
+      "label": "Dutch Golden Age painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124642",
+      "properties": {}
+    },
+    {
+      "id": "ag_124646",
+      "type": "movement",
+      "label": "Post-Impressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124646",
+      "properties": {}
+    },
+    {
+      "id": "ag_124653",
+      "type": "movement",
+      "label": "Dada",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124653",
+      "properties": {}
+    },
+    {
+      "id": "ag_124665",
+      "type": "movement",
+      "label": "Baroque",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124665",
+      "properties": {}
+    },
+    {
+      "id": "ag_124668",
+      "type": "movement",
+      "label": "Cubism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124668",
+      "properties": {}
+    },
+    {
+      "id": "ag_124670",
+      "type": "movement",
+      "label": "Expressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124670",
+      "properties": {}
+    },
+    {
+      "id": "ag_124680",
+      "type": "movement",
+      "label": "Abstract art",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124680",
+      "properties": {}
+    },
+    {
+      "id": "ag_124683",
+      "type": "movement",
+      "label": "De Stijl",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124683",
+      "properties": {}
+    },
+    {
+      "id": "ag_124695",
+      "type": "movement",
+      "label": "Arts and Crafts movement",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124695",
+      "properties": {}
+    },
+    {
+      "id": "ag_124703",
+      "type": "movement",
+      "label": "Surrealism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124703",
+      "properties": {}
+    },
+    {
+      "id": "ag_124721",
+      "type": "movement",
+      "label": "Pop art",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124721",
+      "properties": {}
+    },
+    {
+      "id": "ag_124724",
+      "type": "movement",
+      "label": "Realism (arts)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124724",
+      "properties": {}
+    },
+    {
+      "id": "ag_124728",
+      "type": "movement",
+      "label": "Symbolism (arts)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124728",
+      "properties": {}
+    },
+    {
+      "id": "ag_124729",
+      "type": "movement",
+      "label": "Pointillism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124729",
+      "properties": {}
+    },
+    {
+      "id": "ag_124730",
+      "type": "movement",
+      "label": "Suprematism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124730",
+      "properties": {}
+    },
+    {
+      "id": "ag_124733",
+      "type": "movement",
+      "label": "Russian Futurism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124733",
+      "properties": {}
+    },
+    {
+      "id": "ag_124734",
+      "type": "movement",
+      "label": "Synthetism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124734",
+      "properties": {}
+    },
+    {
+      "id": "ag_124744",
+      "type": "movement",
+      "label": "Impressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124744",
+      "properties": {}
+    },
+    {
+      "id": "ag_124751",
+      "type": "movement",
+      "label": "High Renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124751",
+      "properties": {}
+    },
+    {
+      "id": "ag_124752",
+      "type": "movement",
+      "label": "Bauhaus",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124752",
+      "properties": {}
+    },
+    {
+      "id": "ag_124761",
+      "type": "movement",
+      "label": "Mannerism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124761",
+      "properties": {}
+    },
+    {
+      "id": "ag_124774",
+      "type": "movement",
+      "label": "Primitivism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124774",
+      "properties": {}
+    },
+    {
+      "id": "ag_124777",
+      "type": "movement",
+      "label": "Northern Renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#124777",
+      "properties": {}
+    },
+    {
+      "id": "ag_125114",
+      "type": "movement",
+      "label": "Abstract expressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125114",
+      "properties": {}
+    },
+    {
+      "id": "ag_125123",
+      "type": "movement",
+      "label": "Aestheticism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125123",
+      "properties": {}
+    },
+    {
+      "id": "ag_125134",
+      "type": "movement",
+      "label": "Italian Renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125134",
+      "properties": {}
+    },
+    {
+      "id": "ag_125137",
+      "type": "movement",
+      "label": "Early Netherlandish painting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125137",
+      "properties": {}
+    },
+    {
+      "id": "ag_125140",
+      "type": "movement",
+      "label": "Naïve art",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125140",
+      "properties": {}
+    },
+    {
+      "id": "ag_125150",
+      "type": "movement",
+      "label": "Neo-Impressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125150",
+      "properties": {}
+    },
+    {
+      "id": "ag_125157",
+      "type": "movement",
+      "label": "Peredvizhniki",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125157",
+      "properties": {}
+    },
+    {
+      "id": "ag_125163",
+      "type": "movement",
+      "label": "Fauvism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125163",
+      "properties": {}
+    },
+    {
+      "id": "ag_125164",
+      "type": "movement",
+      "label": "Romanticism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#125164",
+      "properties": {}
+    },
+    {
+      "id": "ag_133099",
+      "type": "period",
+      "label": "Early works",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133099",
+      "properties": {}
+    },
+    {
+      "id": "ag_133122",
+      "type": "period",
+      "label": "Early years",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133122",
+      "properties": {}
+    },
+    {
+      "id": "ag_133131",
+      "type": "period",
+      "label": "European period",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133131",
+      "properties": {}
+    },
+    {
+      "id": "ag_133201",
+      "type": "period",
+      "label": "Association with Impressionists",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133201",
+      "properties": {}
+    },
+    {
+      "id": "ag_133235",
+      "type": "period",
+      "label": "Late Works",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133235",
+      "properties": {}
+    },
+    {
+      "id": "ag_133238",
+      "type": "period",
+      "label": "Brussels pre-war and war years",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133238",
+      "properties": {}
+    },
+    {
+      "id": "ag_133239",
+      "type": "period",
+      "label": "Early Years",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133239",
+      "properties": {}
+    },
+    {
+      "id": "ag_133256",
+      "type": "period",
+      "label": "Bauhaus",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133256",
+      "properties": {}
+    },
+    {
+      "id": "ag_133265",
+      "type": "period",
+      "label": "Late works",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133265",
+      "properties": {}
+    },
+    {
+      "id": "ag_132331",
+      "type": "series",
+      "label": "The Ghent Altarpiece",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#132331",
+      "properties": {}
+    },
+    {
+      "id": "ag_132361",
+      "type": "series",
+      "label": "Thirty-six views of Mount Fuji",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#132361",
+      "properties": {}
+    },
+    {
+      "id": "ag_133041",
+      "type": "series",
+      "label": "Eve and the Apple, with Counterpart",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#133041",
+      "properties": {}
+    },
+    {
+      "id": "ag_19",
+      "type": "style",
+      "label": "art nouveau (modern)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#19",
+      "properties": {}
+    },
+    {
+      "id": "ag_20",
+      "type": "style",
+      "label": "baroque",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#20",
+      "properties": {}
+    },
+    {
+      "id": "ag_21",
+      "type": "style",
+      "label": "expressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#21",
+      "properties": {}
+    },
+    {
+      "id": "ag_25",
+      "type": "style",
+      "label": "cubism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#25",
+      "properties": {}
+    },
+    {
+      "id": "ag_26",
+      "type": "style",
+      "label": "northern renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#26",
+      "properties": {}
+    },
+    {
+      "id": "ag_27",
+      "type": "style",
+      "label": "early renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#27",
+      "properties": {}
+    },
+    {
+      "id": "ag_29",
+      "type": "style",
+      "label": "symbolism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#29",
+      "properties": {}
+    },
+    {
+      "id": "ag_31",
+      "type": "style",
+      "label": "high renaissance",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#31",
+      "properties": {}
+    },
+    {
+      "id": "ag_32",
+      "type": "style",
+      "label": "rococo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#32",
+      "properties": {}
+    },
+    {
+      "id": "ag_35",
+      "type": "style",
+      "label": "abstract expressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#35",
+      "properties": {}
+    },
+    {
+      "id": "ag_38",
+      "type": "style",
+      "label": "abstract art",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#38",
+      "properties": {}
+    },
+    {
+      "id": "ag_39",
+      "type": "style",
+      "label": "post-impressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#39",
+      "properties": {}
+    },
+    {
+      "id": "ag_40",
+      "type": "style",
+      "label": "romanticism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#40",
+      "properties": {}
+    },
+    {
+      "id": "ag_42",
+      "type": "style",
+      "label": "impressionism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#42",
+      "properties": {}
+    },
+    {
+      "id": "ag_43",
+      "type": "style",
+      "label": "realism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#43",
+      "properties": {}
+    },
+    {
+      "id": "ag_45",
+      "type": "style",
+      "label": "ukiyo-e",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#45",
+      "properties": {}
+    },
+    {
+      "id": "ag_46",
+      "type": "style",
+      "label": "mannerism (late renaissance)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#46",
+      "properties": {}
+    },
+    {
+      "id": "ag_47",
+      "type": "style",
+      "label": "naïve art (primitivism)",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#47",
+      "properties": {}
+    },
+    {
+      "id": "ag_48",
+      "type": "style",
+      "label": "surrealism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#48",
+      "properties": {}
+    },
+    {
+      "id": "ag_2718",
+      "type": "tag",
+      "label": "fruits-and-vegetables",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2718",
+      "properties": {}
+    },
+    {
+      "id": "ag_2719",
+      "type": "tag",
+      "label": "Christianity",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2719",
+      "properties": {}
+    },
+    {
+      "id": "ag_2720",
+      "type": "tag",
+      "label": "Adam",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2720",
+      "properties": {}
+    },
+    {
+      "id": "ag_2724",
+      "type": "tag",
+      "label": "Rudolph-II",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2724",
+      "properties": {}
+    },
+    {
+      "id": "ag_2725",
+      "type": "tag",
+      "label": "male-portraits",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2725",
+      "properties": {}
+    },
+    {
+      "id": "ag_2726",
+      "type": "tag",
+      "label": "famous-people",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2726",
+      "properties": {}
+    },
+    {
+      "id": "ag_2729",
+      "type": "tag",
+      "label": "Forehead",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2729",
+      "properties": {}
+    },
+    {
+      "id": "ag_2730",
+      "type": "tag",
+      "label": "Head",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2730",
+      "properties": {}
+    },
+    {
+      "id": "ag_2731",
+      "type": "tag",
+      "label": "Chin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2731",
+      "properties": {}
+    },
+    {
+      "id": "ag_2734",
+      "type": "tag",
+      "label": "Human",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2734",
+      "properties": {}
+    },
+    {
+      "id": "ag_2739",
+      "type": "tag",
+      "label": "families",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2739",
+      "properties": {}
+    },
+    {
+      "id": "ag_2740",
+      "type": "tag",
+      "label": "birth-and-death",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2740",
+      "properties": {}
+    },
+    {
+      "id": "ag_2744",
+      "type": "tag",
+      "label": "Plant",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2744",
+      "properties": {}
+    },
+    {
+      "id": "ag_2745",
+      "type": "tag",
+      "label": "Frida-Kahlo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2745",
+      "properties": {}
+    },
+    {
+      "id": "ag_2746",
+      "type": "tag",
+      "label": "female-portraits",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2746",
+      "properties": {}
+    },
+    {
+      "id": "ag_2748",
+      "type": "tag",
+      "label": "Cheek",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2748",
+      "properties": {}
+    },
+    {
+      "id": "ag_2749",
+      "type": "tag",
+      "label": "family-portraits",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2749",
+      "properties": {}
+    },
+    {
+      "id": "ag_2750",
+      "type": "tag",
+      "label": "Diego-Rivera",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2750",
+      "properties": {}
+    },
+    {
+      "id": "ag_2752",
+      "type": "tag",
+      "label": "Orange",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2752",
+      "properties": {}
+    },
+    {
+      "id": "ag_2753",
+      "type": "tag",
+      "label": "animals",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2753",
+      "properties": {}
+    },
+    {
+      "id": "ag_2758",
+      "type": "tag",
+      "label": "allegories-and-symbols",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2758",
+      "properties": {}
+    },
+    {
+      "id": "ag_2759",
+      "type": "tag",
+      "label": "children",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2759",
+      "properties": {}
+    },
+    {
+      "id": "ag_2761",
+      "type": "tag",
+      "label": "Sky",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2761",
+      "properties": {}
+    },
+    {
+      "id": "ag_2762",
+      "type": "tag",
+      "label": "dogs",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2762",
+      "properties": {}
+    },
+    {
+      "id": "ag_2763",
+      "type": "tag",
+      "label": "Lady",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2763",
+      "properties": {}
+    },
+    {
+      "id": "ag_2769",
+      "type": "tag",
+      "label": "flowers-and-plants",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2769",
+      "properties": {}
+    },
+    {
+      "id": "ag_2770",
+      "type": "tag",
+      "label": "Flower",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2770",
+      "properties": {}
+    },
+    {
+      "id": "ag_2775",
+      "type": "tag",
+      "label": "Botany",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2775",
+      "properties": {}
+    },
+    {
+      "id": "ag_2778",
+      "type": "tag",
+      "label": "Sitting",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2778",
+      "properties": {}
+    },
+    {
+      "id": "ag_2779",
+      "type": "tag",
+      "label": "birds",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2779",
+      "properties": {}
+    },
+    {
+      "id": "ag_2781",
+      "type": "tag",
+      "label": "Bird",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2781",
+      "properties": {}
+    },
+    {
+      "id": "ag_2788",
+      "type": "tag",
+      "label": "Mythology",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2788",
+      "properties": {}
+    },
+    {
+      "id": "ag_2790",
+      "type": "tag",
+      "label": "Gentleman",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2790",
+      "properties": {}
+    },
+    {
+      "id": "ag_2792",
+      "type": "tag",
+      "label": "children portraits",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2792",
+      "properties": {}
+    },
+    {
+      "id": "ag_2804",
+      "type": "tag",
+      "label": "cats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2804",
+      "properties": {}
+    },
+    {
+      "id": "ag_2818",
+      "type": "tag",
+      "label": "deer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2818",
+      "properties": {}
+    },
+    {
+      "id": "ag_2820",
+      "type": "tag",
+      "label": "Wildlife",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2820",
+      "properties": {}
+    },
+    {
+      "id": "ag_2824",
+      "type": "tag",
+      "label": "female-nude",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2824",
+      "properties": {}
+    },
+    {
+      "id": "ag_2837",
+      "type": "tag",
+      "label": "Jesus-Christ",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2837",
+      "properties": {}
+    },
+    {
+      "id": "ag_2839",
+      "type": "tag",
+      "label": "Virgin-Mary",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2839",
+      "properties": {}
+    },
+    {
+      "id": "ag_2843",
+      "type": "tag",
+      "label": "Venice",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2843",
+      "properties": {}
+    },
+    {
+      "id": "ag_2845",
+      "type": "tag",
+      "label": "cliffs-and-rocks",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2845",
+      "properties": {}
+    },
+    {
+      "id": "ag_2847",
+      "type": "tag",
+      "label": "arts-and-crafts",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2847",
+      "properties": {}
+    },
+    {
+      "id": "ag_2850",
+      "type": "tag",
+      "label": "mother-and-child",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2850",
+      "properties": {}
+    },
+    {
+      "id": "ag_2854",
+      "type": "tag",
+      "label": "Beauty",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2854",
+      "properties": {}
+    },
+    {
+      "id": "ag_2855",
+      "type": "tag",
+      "label": "saints-and-apostles",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2855",
+      "properties": {}
+    },
+    {
+      "id": "ag_2865",
+      "type": "tag",
+      "label": "Pattern",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2865",
+      "properties": {}
+    },
+    {
+      "id": "ag_2867",
+      "type": "tag",
+      "label": "Human body",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2867",
+      "properties": {}
+    },
+    {
+      "id": "ag_2872",
+      "type": "tag",
+      "label": "Pink",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2872",
+      "properties": {}
+    },
+    {
+      "id": "ag_2873",
+      "type": "tag",
+      "label": "Brown",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2873",
+      "properties": {}
+    },
+    {
+      "id": "ag_2879",
+      "type": "tag",
+      "label": "gates-and-towers",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2879",
+      "properties": {}
+    },
+    {
+      "id": "ag_2880",
+      "type": "tag",
+      "label": "Limbo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2880",
+      "properties": {}
+    },
+    {
+      "id": "ag_2881",
+      "type": "tag",
+      "label": "devils-and-demons",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2881",
+      "properties": {}
+    },
+    {
+      "id": "ag_2882",
+      "type": "tag",
+      "label": "sins-and-sinners",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2882",
+      "properties": {}
+    },
+    {
+      "id": "ag_2893",
+      "type": "tag",
+      "label": "Sketch",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2893",
+      "properties": {}
+    },
+    {
+      "id": "ag_2901",
+      "type": "tag",
+      "label": "St.-Peter",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2901",
+      "properties": {}
+    },
+    {
+      "id": "ag_2904",
+      "type": "tag",
+      "label": "Standing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2904",
+      "properties": {}
+    },
+    {
+      "id": "ag_2907",
+      "type": "tag",
+      "label": "Museum",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2907",
+      "properties": {}
+    },
+    {
+      "id": "ag_2914",
+      "type": "tag",
+      "label": "Text",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2914",
+      "properties": {}
+    },
+    {
+      "id": "ag_2923",
+      "type": "tag",
+      "label": "Christmas",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2923",
+      "properties": {}
+    },
+    {
+      "id": "ag_2933",
+      "type": "tag",
+      "label": "games-and-sport",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2933",
+      "properties": {}
+    },
+    {
+      "id": "ag_2937",
+      "type": "tag",
+      "label": "domestic-settings",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2937",
+      "properties": {}
+    },
+    {
+      "id": "ag_2938",
+      "type": "tag",
+      "label": "mealtimes",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2938",
+      "properties": {}
+    },
+    {
+      "id": "ag_2939",
+      "type": "tag",
+      "label": "Francesco-Guardi",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2939",
+      "properties": {}
+    },
+    {
+      "id": "ag_2947",
+      "type": "tag",
+      "label": "couples",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2947",
+      "properties": {}
+    },
+    {
+      "id": "ag_2950",
+      "type": "tag",
+      "label": "rivers-and-waterfalls",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2950",
+      "properties": {}
+    },
+    {
+      "id": "ag_2951",
+      "type": "tag",
+      "label": "boats-and-ships",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2951",
+      "properties": {}
+    },
+    {
+      "id": "ag_2952",
+      "type": "tag",
+      "label": "Boat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2952",
+      "properties": {}
+    },
+    {
+      "id": "ag_2953",
+      "type": "tag",
+      "label": "Gondola",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2953",
+      "properties": {}
+    },
+    {
+      "id": "ag_2954",
+      "type": "tag",
+      "label": "Watercraft rowing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2954",
+      "properties": {}
+    },
+    {
+      "id": "ag_2955",
+      "type": "tag",
+      "label": "Vehicle",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2955",
+      "properties": {}
+    },
+    {
+      "id": "ag_2956",
+      "type": "tag",
+      "label": "Boating",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2956",
+      "properties": {}
+    },
+    {
+      "id": "ag_2958",
+      "type": "tag",
+      "label": "Watercraft",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2958",
+      "properties": {}
+    },
+    {
+      "id": "ag_2965",
+      "type": "tag",
+      "label": "lions",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2965",
+      "properties": {}
+    },
+    {
+      "id": "ag_2967",
+      "type": "tag",
+      "label": "Font",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2967",
+      "properties": {}
+    },
+    {
+      "id": "ag_2969",
+      "type": "tag",
+      "label": "Line",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2969",
+      "properties": {}
+    },
+    {
+      "id": "ag_2970",
+      "type": "tag",
+      "label": "Leaf",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2970",
+      "properties": {}
+    },
+    {
+      "id": "ag_2971",
+      "type": "tag",
+      "label": "Organism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2971",
+      "properties": {}
+    },
+    {
+      "id": "ag_2972",
+      "type": "tag",
+      "label": "forests-and-trees",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2972",
+      "properties": {}
+    },
+    {
+      "id": "ag_2974",
+      "type": "tag",
+      "label": "Textile",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2974",
+      "properties": {}
+    },
+    {
+      "id": "ag_2975",
+      "type": "tag",
+      "label": "Tree",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2975",
+      "properties": {}
+    },
+    {
+      "id": "ag_2976",
+      "type": "tag",
+      "label": "Eden",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2976",
+      "properties": {}
+    },
+    {
+      "id": "ag_2977",
+      "type": "tag",
+      "label": "Albert-Kollmann",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2977",
+      "properties": {}
+    },
+    {
+      "id": "ag_2978",
+      "type": "tag",
+      "label": "Elder",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2978",
+      "properties": {}
+    },
+    {
+      "id": "ag_2980",
+      "type": "tag",
+      "label": "taverns-and-inns",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2980",
+      "properties": {}
+    },
+    {
+      "id": "ag_2982",
+      "type": "tag",
+      "label": "furniture-and-decoration",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2982",
+      "properties": {}
+    },
+    {
+      "id": "ag_2984",
+      "type": "tag",
+      "label": "Water",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2984",
+      "properties": {}
+    },
+    {
+      "id": "ag_2986",
+      "type": "tag",
+      "label": "Male",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2986",
+      "properties": {}
+    },
+    {
+      "id": "ag_2988",
+      "type": "tag",
+      "label": "Fashion illustration",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2988",
+      "properties": {}
+    },
+    {
+      "id": "ag_2992",
+      "type": "tag",
+      "label": "houses-and-buildings",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2992",
+      "properties": {}
+    },
+    {
+      "id": "ag_2995",
+      "type": "tag",
+      "label": "Mountain",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2995",
+      "properties": {}
+    },
+    {
+      "id": "ag_2996",
+      "type": "tag",
+      "label": "Figure drawing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#2996",
+      "properties": {}
+    },
+    {
+      "id": "ag_3000",
+      "type": "tag",
+      "label": "countryside",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3000",
+      "properties": {}
+    },
+    {
+      "id": "ag_3007",
+      "type": "tag",
+      "label": "Waterway",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3007",
+      "properties": {}
+    },
+    {
+      "id": "ag_3010",
+      "type": "tag",
+      "label": "seas-and-oceans",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3010",
+      "properties": {}
+    },
+    {
+      "id": "ag_3013",
+      "type": "tag",
+      "label": "walls-and-staircases",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3013",
+      "properties": {}
+    },
+    {
+      "id": "ag_3015",
+      "type": "tag",
+      "label": "twilight-and-night",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3015",
+      "properties": {}
+    },
+    {
+      "id": "ag_3016",
+      "type": "tag",
+      "label": "Reflection",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3016",
+      "properties": {}
+    },
+    {
+      "id": "ag_3020",
+      "type": "tag",
+      "label": "autumn",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3020",
+      "properties": {}
+    },
+    {
+      "id": "ag_3021",
+      "type": "tag",
+      "label": "gardens-and-parks",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3021",
+      "properties": {}
+    },
+    {
+      "id": "ag_3027",
+      "type": "tag",
+      "label": "cafes-and-restaurants",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3027",
+      "properties": {}
+    },
+    {
+      "id": "ag_3028",
+      "type": "tag",
+      "label": "winter",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3028",
+      "properties": {}
+    },
+    {
+      "id": "ag_3030",
+      "type": "tag",
+      "label": "spring",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3030",
+      "properties": {}
+    },
+    {
+      "id": "ag_3034",
+      "type": "tag",
+      "label": "Rock",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3034",
+      "properties": {}
+    },
+    {
+      "id": "ag_3035",
+      "type": "tag",
+      "label": "summer",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3035",
+      "properties": {}
+    },
+    {
+      "id": "ag_3037",
+      "type": "tag",
+      "label": "Grass family",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3037",
+      "properties": {}
+    },
+    {
+      "id": "ag_3038",
+      "type": "tag",
+      "label": "Woody plant",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3038",
+      "properties": {}
+    },
+    {
+      "id": "ag_3055",
+      "type": "tag",
+      "label": "Natural environment",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3055",
+      "properties": {}
+    },
+    {
+      "id": "ag_3056",
+      "type": "tag",
+      "label": "Forest",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3056",
+      "properties": {}
+    },
+    {
+      "id": "ag_3061",
+      "type": "tag",
+      "label": "France",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3061",
+      "properties": {}
+    },
+    {
+      "id": "ag_3063",
+      "type": "tag",
+      "label": "Tints and shades",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3063",
+      "properties": {}
+    },
+    {
+      "id": "ag_3089",
+      "type": "tag",
+      "label": "mountains",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3089",
+      "properties": {}
+    },
+    {
+      "id": "ag_3092",
+      "type": "tag",
+      "label": "Nature",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3092",
+      "properties": {}
+    },
+    {
+      "id": "ag_3093",
+      "type": "tag",
+      "label": "Natural landscape",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3093",
+      "properties": {}
+    },
+    {
+      "id": "ag_3094",
+      "type": "tag",
+      "label": "Swamp",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3094",
+      "properties": {}
+    },
+    {
+      "id": "ag_3095",
+      "type": "tag",
+      "label": "Bank",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3095",
+      "properties": {}
+    },
+    {
+      "id": "ag_3096",
+      "type": "tag",
+      "label": "Wetland",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3096",
+      "properties": {}
+    },
+    {
+      "id": "ag_3112",
+      "type": "tag",
+      "label": "Kisling",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3112",
+      "properties": {}
+    },
+    {
+      "id": "ag_3113",
+      "type": "tag",
+      "label": "Jean-Cocteau",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3113",
+      "properties": {}
+    },
+    {
+      "id": "ag_3130",
+      "type": "tag",
+      "label": "Grass",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3130",
+      "properties": {}
+    },
+    {
+      "id": "ag_3137",
+      "type": "tag",
+      "label": "Meadow",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3137",
+      "properties": {}
+    },
+    {
+      "id": "ag_3142",
+      "type": "tag",
+      "label": "Garden roses",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3142",
+      "properties": {}
+    },
+    {
+      "id": "ag_3147",
+      "type": "tag",
+      "label": "River",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3147",
+      "properties": {}
+    },
+    {
+      "id": "ag_3166",
+      "type": "tag",
+      "label": "Branch",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3166",
+      "properties": {}
+    },
+    {
+      "id": "ag_3169",
+      "type": "tag",
+      "label": "Northern hardwood forest",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3169",
+      "properties": {}
+    },
+    {
+      "id": "ag_3170",
+      "type": "tag",
+      "label": "Woodland",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3170",
+      "properties": {}
+    },
+    {
+      "id": "ag_3172",
+      "type": "tag",
+      "label": "Biome",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3172",
+      "properties": {}
+    },
+    {
+      "id": "ag_3176",
+      "type": "tag",
+      "label": "Atmospheric phenomenon",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3176",
+      "properties": {}
+    },
+    {
+      "id": "ag_3180",
+      "type": "tag",
+      "label": "Bayou",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3180",
+      "properties": {}
+    },
+    {
+      "id": "ag_3184",
+      "type": "tag",
+      "label": "Calm",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3184",
+      "properties": {}
+    },
+    {
+      "id": "ag_3185",
+      "type": "tag",
+      "label": "Sea",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3185",
+      "properties": {}
+    },
+    {
+      "id": "ag_3193",
+      "type": "tag",
+      "label": "The-Holy-Night",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3193",
+      "properties": {}
+    },
+    {
+      "id": "ag_3224",
+      "type": "tag",
+      "label": "Headgear",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3224",
+      "properties": {}
+    },
+    {
+      "id": "ag_3236",
+      "type": "tag",
+      "label": "Musical instrument",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3236",
+      "properties": {}
+    },
+    {
+      "id": "ag_3237",
+      "type": "tag",
+      "label": "String instrument",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3237",
+      "properties": {}
+    },
+    {
+      "id": "ag_3238",
+      "type": "tag",
+      "label": "Plucked string instruments",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3238",
+      "properties": {}
+    },
+    {
+      "id": "ag_3239",
+      "type": "tag",
+      "label": "Kobza",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3239",
+      "properties": {}
+    },
+    {
+      "id": "ag_3240",
+      "type": "tag",
+      "label": "Musician",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3240",
+      "properties": {}
+    },
+    {
+      "id": "ag_3241",
+      "type": "tag",
+      "label": "Bandurria",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3241",
+      "properties": {}
+    },
+    {
+      "id": "ag_3242",
+      "type": "tag",
+      "label": "Mandolin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3242",
+      "properties": {}
+    },
+    {
+      "id": "ag_3283",
+      "type": "tag",
+      "label": "Plant community",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3283",
+      "properties": {}
+    },
+    {
+      "id": "ag_3288",
+      "type": "tag",
+      "label": "Prairie",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3288",
+      "properties": {}
+    },
+    {
+      "id": "ag_3289",
+      "type": "tag",
+      "label": "Old-growth forest",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3289",
+      "properties": {}
+    },
+    {
+      "id": "ag_3291",
+      "type": "tag",
+      "label": "Canal",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3291",
+      "properties": {}
+    },
+    {
+      "id": "ag_3294",
+      "type": "tag",
+      "label": "Loch",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3294",
+      "properties": {}
+    },
+    {
+      "id": "ag_3309",
+      "type": "tag",
+      "label": "Seine",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3309",
+      "properties": {}
+    },
+    {
+      "id": "ag_3367",
+      "type": "tag",
+      "label": "Tourist attraction",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3367",
+      "properties": {}
+    },
+    {
+      "id": "ag_3392",
+      "type": "tag",
+      "label": "Felidae",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3392",
+      "properties": {}
+    },
+    {
+      "id": "ag_3402",
+      "type": "tag",
+      "label": "Vegetation",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3402",
+      "properties": {}
+    },
+    {
+      "id": "ag_3403",
+      "type": "tag",
+      "label": "Adaptation",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3403",
+      "properties": {}
+    },
+    {
+      "id": "ag_3441",
+      "type": "tag",
+      "label": "Geological phenomenon",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3441",
+      "properties": {}
+    },
+    {
+      "id": "ag_3457",
+      "type": "tag",
+      "label": "spirits-and-ghosts",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3457",
+      "properties": {}
+    },
+    {
+      "id": "ag_3500",
+      "type": "tag",
+      "label": "musical-instruments",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3500",
+      "properties": {}
+    },
+    {
+      "id": "ag_3579",
+      "type": "tag",
+      "label": "Water transportation",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3579",
+      "properties": {}
+    },
+    {
+      "id": "ag_3581",
+      "type": "tag",
+      "label": "Volga",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3581",
+      "properties": {}
+    },
+    {
+      "id": "ag_3595",
+      "type": "tag",
+      "label": "Cellist",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3595",
+      "properties": {}
+    },
+    {
+      "id": "ag_3596",
+      "type": "tag",
+      "label": "Violone",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3596",
+      "properties": {}
+    },
+    {
+      "id": "ag_3597",
+      "type": "tag",
+      "label": "Violin family",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3597",
+      "properties": {}
+    },
+    {
+      "id": "ag_3598",
+      "type": "tag",
+      "label": "Cello",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3598",
+      "properties": {}
+    },
+    {
+      "id": "ag_3599",
+      "type": "tag",
+      "label": "Viol",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3599",
+      "properties": {}
+    },
+    {
+      "id": "ag_3600",
+      "type": "tag",
+      "label": "Bass violin",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3600",
+      "properties": {}
+    },
+    {
+      "id": "ag_3601",
+      "type": "tag",
+      "label": "Bowed string instrument",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3601",
+      "properties": {}
+    },
+    {
+      "id": "ag_3608",
+      "type": "tag",
+      "label": "fishing",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3608",
+      "properties": {}
+    },
+    {
+      "id": "ag_3611",
+      "type": "tag",
+      "label": "Watercourse",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3611",
+      "properties": {}
+    },
+    {
+      "id": "ag_3617",
+      "type": "tag",
+      "label": "Jungle",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3617",
+      "properties": {}
+    },
+    {
+      "id": "ag_3621",
+      "type": "tag",
+      "label": "Highland",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3621",
+      "properties": {}
+    },
+    {
+      "id": "ag_3637",
+      "type": "tag",
+      "label": "Canoe birch",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3637",
+      "properties": {}
+    },
+    {
+      "id": "ag_3638",
+      "type": "tag",
+      "label": "walking",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3638",
+      "properties": {}
+    },
+    {
+      "id": "ag_3665",
+      "type": "tag",
+      "label": "Carnivore",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3665",
+      "properties": {}
+    },
+    {
+      "id": "ag_3669",
+      "type": "tag",
+      "label": "hens",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3669",
+      "properties": {}
+    },
+    {
+      "id": "ag_3679",
+      "type": "tag",
+      "label": "Nature reserve",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3679",
+      "properties": {}
+    },
+    {
+      "id": "ag_3683",
+      "type": "tag",
+      "label": "Wilderness",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3683",
+      "properties": {}
+    },
+    {
+      "id": "ag_3686",
+      "type": "tag",
+      "label": "Stream",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3686",
+      "properties": {}
+    },
+    {
+      "id": "ag_3703",
+      "type": "tag",
+      "label": "Outcrop",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3703",
+      "properties": {}
+    },
+    {
+      "id": "ag_3815",
+      "type": "tag",
+      "label": "Cat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3815",
+      "properties": {}
+    },
+    {
+      "id": "ag_3816",
+      "type": "tag",
+      "label": "Whiskers",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3816",
+      "properties": {}
+    },
+    {
+      "id": "ag_3849",
+      "type": "tag",
+      "label": "Mountainous landforms",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3849",
+      "properties": {}
+    },
+    {
+      "id": "ag_3965",
+      "type": "tag",
+      "label": "Guitarist",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3965",
+      "properties": {}
+    },
+    {
+      "id": "ag_3966",
+      "type": "tag",
+      "label": "Music",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3966",
+      "properties": {}
+    },
+    {
+      "id": "ag_3967",
+      "type": "tag",
+      "label": "Guitar",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3967",
+      "properties": {}
+    },
+    {
+      "id": "ag_3968",
+      "type": "tag",
+      "label": "String instrument accessory",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3968",
+      "properties": {}
+    },
+    {
+      "id": "ag_3969",
+      "type": "tag",
+      "label": "Jazz guitarist",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#3969",
+      "properties": {}
+    },
+    {
+      "id": "ag_4010",
+      "type": "tag",
+      "label": "Small to medium-sized cats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4010",
+      "properties": {}
+    },
+    {
+      "id": "ag_4023",
+      "type": "tag",
+      "label": "Lion",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4023",
+      "properties": {}
+    },
+    {
+      "id": "ag_4025",
+      "type": "tag",
+      "label": "Big cats",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4025",
+      "properties": {}
+    },
+    {
+      "id": "ag_4034",
+      "type": "tag",
+      "label": "Recreation",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4034",
+      "properties": {}
+    },
+    {
+      "id": "ag_4082",
+      "type": "tag",
+      "label": "cranes",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4082",
+      "properties": {}
+    },
+    {
+      "id": "ag_4083",
+      "type": "tag",
+      "label": "Whooping crane",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4083",
+      "properties": {}
+    },
+    {
+      "id": "ag_4085",
+      "type": "tag",
+      "label": "Crane-like bird",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4085",
+      "properties": {}
+    },
+    {
+      "id": "ag_4401",
+      "type": "tag",
+      "label": "Slavic-mythology",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4401",
+      "properties": {}
+    },
+    {
+      "id": "ag_4402",
+      "type": "tag",
+      "label": "Rainforest",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4402",
+      "properties": {}
+    },
+    {
+      "id": "ag_4406",
+      "type": "tag",
+      "label": "Alexander-III-of-Russia",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4406",
+      "properties": {}
+    },
+    {
+      "id": "ag_4407",
+      "type": "tag",
+      "label": "Brass instrument",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4407",
+      "properties": {}
+    },
+    {
+      "id": "ag_4425",
+      "type": "tag",
+      "label": "Accordionist",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4425",
+      "properties": {}
+    },
+    {
+      "id": "ag_4431",
+      "type": "tag",
+      "label": "Accordion",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4431",
+      "properties": {}
+    },
+    {
+      "id": "ag_4432",
+      "type": "tag",
+      "label": "Folk instrument",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4432",
+      "properties": {}
+    },
+    {
+      "id": "ag_4433",
+      "type": "tag",
+      "label": "Squeezebox",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4433",
+      "properties": {}
+    },
+    {
+      "id": "ag_4440",
+      "type": "tag",
+      "label": "Crimea",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4440",
+      "properties": {}
+    },
+    {
+      "id": "ag_4442",
+      "type": "tag",
+      "label": "Crimean-Mountains",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4442",
+      "properties": {}
+    },
+    {
+      "id": "ag_4508",
+      "type": "tag",
+      "label": "Tourism",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4508",
+      "properties": {}
+    },
+    {
+      "id": "ag_4739",
+      "type": "tag",
+      "label": "Cl&#224;rsach",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4739",
+      "properties": {}
+    },
+    {
+      "id": "ag_4781",
+      "type": "tag",
+      "label": "San-Costanzo",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#4781",
+      "properties": {}
+    },
+    {
+      "id": "ag_5620",
+      "type": "tag",
+      "label": "Hill station",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5620",
+      "properties": {}
+    },
+    {
+      "id": "ag_5625",
+      "type": "tag",
+      "label": "Boats and boating--Equipment and supplies",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5625",
+      "properties": {}
+    },
+    {
+      "id": "ag_5742",
+      "type": "tag",
+      "label": "Trail",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5742",
+      "properties": {}
+    },
+    {
+      "id": "ag_5845",
+      "type": "tag",
+      "label": "Tabby cat",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5845",
+      "properties": {}
+    },
+    {
+      "id": "ag_5911",
+      "type": "tag",
+      "label": "Viking ships",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#5911",
+      "properties": {}
+    },
+    {
+      "id": "ag_6014",
+      "type": "tag",
+      "label": "State park",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#6014",
+      "properties": {}
+    },
+    {
+      "id": "ag_6049",
+      "type": "tag",
+      "label": "Brahmaputra",
+      "source_uri": "https://www.gennarovessio.com/artgraph-resources#6049",
+      "properties": {}
+    }
+  ]
+}

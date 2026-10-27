@@ -1,11 +1,13 @@
 # Revised Architecture and Semantics
 
-## Research problem
+## Phase 1 research problem
 
-Given a finite ArtGraph-derived fact set `F`, a fixed documented Horn-clause
-rule set `R`, a visitor goal `g`, and a known-topic set `K`, derive supported
-and relevant next topics and apply a deterministic documented ranking policy.
-This is a reference guide, not a psychometric diagnosis.
+Phase 1 supersedes the earlier prerequisite/next-topic objective. Given a
+finite ArtGraph-derived fact set `F`, documented Horn clauses `R`, provisional
+visitor-interest hypotheses `H`, and session state `S`, select two allowlisted
+artworks whose predicted pairwise responses distinguish as many hypotheses as
+possible under a declared response model. Hypotheses remain provisional and
+revisable; this is not a psychometric diagnosis.
 
 ## Operational architecture
 
@@ -13,13 +15,14 @@ This is a reference guide, not a psychometric diagnosis.
    bounded provenance-bearing fact snapshot.
 2. Stable topic IDs and an identical candidate universe are shared by the
    symbolic, KG-similarity, and direct-LLM systems.
-3. Validated visitor state is passed to a fresh SWI-Prolog subprocess.
-4. Prolog performs unification, clause resolution, recursive/multi-rule
-   deduction, and candidate derivation.
-5. Python validates and ranks only entailed candidates. It does not recreate
-   logical predicates with conditionals or graph traversal.
-6. An optional LLM may propose allowlisted state updates or phrase grounded
-   output, but never chooses the symbolic recommendation.
+3. Validated visitor observations, finite hypotheses, allowed artwork IDs,
+   prior questions, and corrections are passed to a fresh SWI-Prolog process.
+4. Prolog derives hypothesis evidence, response predictions, discrimination,
+   pair eligibility, deterministic selection, and structured proof trees.
+5. Python validates IDs/output, manages isolated sessions, and evaluates
+   results. It does not recreate symbolic eligibility or discrimination.
+6. An optional LLM may propose allowlisted observations or phrase the selected
+   question, but never overrides the symbolic artwork pair.
 
 RDF extraction may use deterministic breadth-first traversal to create the
 finite sample. This preprocessing operation is not the deduction engine.
@@ -39,6 +42,21 @@ finite sample. This preprocessing operation is not the deduction engine.
 - `RecommendOutput`: method, ranked IDs, details, runtime, metadata, errors.
 - `StateDelta`: allowlisted additions/removals, goal change, skips, confidence,
   and uncertainty. It cannot create rules or RDF facts.
+
+These remain regression contracts. Phase 1 introduces separate
+`ClarificationObservation`, `AskedQuestion`, and `ClarificationState` types;
+it does not silently repurpose `RecommendInput` or `Candidate`.
+
+## Phase 1 clarification contract
+
+- Input: session ID, validated observations, allowlisted artwork IDs,
+  previously asked pairs/responses, rejected hypotheses, and solver mode.
+- Output: selected pair or `no_discriminative_question`, active hypotheses,
+  predicted responses, rule/assumption IDs, a nested proof tree, exact ArtGraph
+  fact IDs, and secondary recommendations from remaining hypotheses.
+- Responses: `prefer_a`, `prefer_b`, `neither`, or `unsure`; only a determinate
+  opposite prediction contradicts a hypothesis.
+- Corrections replace the earlier response before a fresh stateless solve.
 
 ## Semantics
 

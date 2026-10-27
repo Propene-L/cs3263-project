@@ -1,19 +1,24 @@
 # Evaluation Protocol — V2
 
-## Comparable task
+## Phase 1 comparable task
 
-All three systems receive the same goal, covered-topic set, allowed candidate
-IDs, and controlled ArtGraph context. They return ranked next explanatory
-topics from that common closed universe.
+Phase 1 supersedes the earlier next-topic comparison. Every method receives
+the same validated visitor evidence, provisional hypotheses, allowed artwork
+IDs, state filters, and authorized ArtGraph evidence. It returns two artwork
+IDs for the next pairwise preference clarification question, or reports that
+no useful pair was found.
 
-1. **Symbolic:** ArtGraph facts plus documented SWI-Prolog Horn clauses, with
-   deterministic ordering and proof IDs.
-2. **KG similarity:** a reproducible embedding/similarity method inspired by
-   Liu et al. (2022), explicitly not claimed as an exact reproduction.
-3. **Direct LLM:** the same authorized context and IDs, with no access to Prolog
-   proofs, symbolic scores, or gold labels.
+1. **Compositional symbolic:** all active hypotheses, Prolog discrimination,
+   response balancing, deterministic ordering, and proof trees.
+2. **Single-rule symbolic ablation:** only the first competing hypothesis pair.
+3. **Raw attribute contrast:** independent one-step positive-evidence counts.
+4. **Random eligible:** deterministic-seed pair selection.
+5. **Direct LLM:** the same evidence and IDs, with no access to Prolog proofs,
+   symbolic scores, or expected results. Only actual configured calls count as
+   experimental results.
 
-Phase 0 implements none of the comparison runs.
+The paper-inspired KG embedding baseline remains a later extension; it is not
+the Phase 1 priority.
 
 ## Tracks
 
@@ -29,14 +34,16 @@ pedagogical criteria. They must not be copied from any system output. Labels
 must distinguish factual support, reasonable contextual guidance, and genuine
 learning prerequisites. Use fixed development/test splits if tuning occurs.
 
-## Planned metrics
+## Phase 1 metrics
 
-- Logic correctness: substitutions, multi-hop entailments, invalid inference,
-  and exact proof IDs.
-- Recommendation quality: Hit/Recall/Precision@k, MRR where meaningful,
-  redundant-topic rate, unsupported-topic rate, and evidence-backed rate.
-- End-to-end: state extraction accuracy and unsupported ID rate.
-- Operations: runtime by graph size, model cost, and seed reproducibility.
+- Independent positive-evidence validity of the selected pair.
+- Number of hypothesis pairs distinguished and predicted split balance.
+- Hypothesis reduction and questions needed over controlled rounds.
+- Repeated/unnecessary questions and correct no-question behavior.
+- Proof completeness: observation, hypothesis, rule, assumption, and fact IDs.
+- Runtime, configured model cost, and deterministic seed reproducibility.
+- Human question realism and relevance must be reported separately from the
+  controlled response-model simulation.
 
 Report failures by missing fact, bad import, overly broad guidance rule,
 unsupported premise, extraction error, similarity mismatch, LLM hallucination,

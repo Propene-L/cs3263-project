@@ -1,0 +1,8387 @@
+{
+  "schema_version": "1.0",
+  "hypotheses": [
+    {
+      "id": "h_musical_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3236",
+      "label": "musical subjects"
+    },
+    {
+      "id": "h_nature_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3679",
+      "label": "nature-reserve subjects"
+    },
+    {
+      "id": "h_water_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3579",
+      "label": "water-transport subjects"
+    },
+    {
+      "id": "h_feline_subject",
+      "attribute_type": "tag",
+      "value_id": "ag_3392",
+      "label": "feline subjects"
+    },
+    {
+      "id": "h_expressionist_style",
+      "attribute_type": "style",
+      "value_id": "ag_21",
+      "label": "expressionist style"
+    },
+    {
+      "id": "h_impressionist_style",
+      "attribute_type": "style",
+      "value_id": "ag_42",
+      "label": "impressionist style"
+    },
+    {
+      "id": "h_cubist_style",
+      "attribute_type": "style",
+      "value_id": "ag_25",
+      "label": "cubist style"
+    },
+    {
+      "id": "h_portrait_genre",
+      "attribute_type": "genre",
+      "value_id": "ag_9",
+      "label": "portrait genre"
+    },
+    {
+      "id": "h_oil_medium",
+      "attribute_type": "medium",
+      "value_id": "ag_2551",
+      "label": "oil medium"
+    },
+    {
+      "id": "h_expressionist_movement",
+      "attribute_type": "movement",
+      "value_id": "ag_124670",
+      "label": "Expressionism movement"
+    }
+  ],
+  "artworks": {
+    "ag_8142": {
+      "label": "Portrait of Eve",
+      "artist_id": "ag_850",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_96da2e7e58c5299da472"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_5158a37d998121d1de34"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_205d36c4ffd9fd22c396"
+          ]
+        },
+        {
+          "type": "series",
+          "value_id": "ag_133041",
+          "fact_ids": [
+            "agf_a6137f0a105c209d941f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_46",
+          "fact_ids": [
+            "agf_e6d7228f5b9de1451761"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2718",
+          "fact_ids": [
+            "agf_e47df543d9d790585d5d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_adf79b1e49b2d7f04351"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2720",
+          "fact_ids": [
+            "agf_4ce9b2625d7ceb01e779"
+          ]
+        }
+      ]
+    },
+    "ag_8145": {
+      "label": "Vertumnus (Emperor Rudolph II)",
+      "artist_id": "ag_850",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_1ea9a353d621ddcf3a0b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_24062102d53f6bcf97b9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2553",
+          "fact_ids": [
+            "agf_41e44bc8c05f2496feb8"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_46",
+          "fact_ids": [
+            "agf_5de52722743d7ba170f7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2724",
+          "fact_ids": [
+            "agf_e162e54d04d5f4d4308e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_c729f430b8825d9c343f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_f377b82185eef6fa662c"
+          ]
+        }
+      ]
+    },
+    "ag_8148": {
+      "label": "A Few Small Nips (Passionately in Love)",
+      "artist_id": "ag_1853",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_8520f7a4f6ac8d410403"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_349ac81c40972f881bc6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2555",
+          "fact_ids": [
+            "agf_35dc83f35fd7e2a2e88e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_7253132a0c210d16c0b3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2739",
+          "fact_ids": [
+            "agf_13a7977db3b496c5a9e4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2740",
+          "fact_ids": [
+            "agf_c85e924c78a204e5f5aa"
+          ]
+        }
+      ]
+    },
+    "ag_8152": {
+      "label": "Frieda and Diego Rivera",
+      "artist_id": "ag_1853",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_4bf0cb39968540043b28"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_c42bd67c18c1359a9425"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_ea2aa2e56298d2649ca1"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_bc5b1226981c63450276"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_cccaba033666c2222415"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2745",
+          "fact_ids": [
+            "agf_9f02a8a143cf9b82e72d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2749",
+          "fact_ids": [
+            "agf_5f2768b5b3604830cd88"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2750",
+          "fact_ids": [
+            "agf_03addef07bf0ff067936"
+          ]
+        }
+      ]
+    },
+    "ag_8232": {
+      "label": "The Old Woman",
+      "artist_id": "ag_142",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_115d15544c053d0363ab"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_54f8d09d6c2be26c90b4"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_e38d1305422fb692993c"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124751",
+          "fact_ids": [
+            "agf_cd5ff964913c267378d6",
+            "agf_904260bf0182295b37c6"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_31",
+          "fact_ids": [
+            "agf_7377c4a63feb84740727"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_0cc8c551e86dcd5b6b2e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2763",
+          "fact_ids": [
+            "agf_2fe001f1550ca735d591"
+          ]
+        }
+      ]
+    },
+    "ag_8278": {
+      "label": "Christ&#39;s Descent into Limbo",
+      "artist_id": "ag_2010",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_a285e8872e4ba0f5d9a1"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_3adb96a8d09c5ffad61f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2562",
+          "fact_ids": [
+            "agf_8bff94895ce7f2ef0fc2"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_27",
+          "fact_ids": [
+            "agf_8254486d9fc0c76f6147"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_525456dc18ca94a6eb71"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2788",
+          "fact_ids": [
+            "agf_4c1ae711db90c20d18fb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2837",
+          "fact_ids": [
+            "agf_d52c78deb52a54378f37"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2855",
+          "fact_ids": [
+            "agf_28cec543827f0d2fbb66"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2880",
+          "fact_ids": [
+            "agf_ee982d724bfd61b3270c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2881",
+          "fact_ids": [
+            "agf_dadd52d89be748e17651"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2882",
+          "fact_ids": [
+            "agf_af7ff971d7e05bf18547"
+          ]
+        }
+      ]
+    },
+    "ag_8296": {
+      "label": "Profile Portrait of a Boy",
+      "artist_id": "ag_2010",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_b9a2ae950dd18cec4bac"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_27",
+          "fact_ids": [
+            "agf_af2aeb9008cd30a20ac2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2729",
+          "fact_ids": [
+            "agf_f6221265ba34ff6d67ab"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2730",
+          "fact_ids": [
+            "agf_23aa9886ebb3721f8b41"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2731",
+          "fact_ids": [
+            "agf_c36178e10bc96b5aa0f4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2748",
+          "fact_ids": [
+            "agf_34d9996a9c86be835209"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2792",
+          "fact_ids": [
+            "agf_376b2b3caa5eddf7c8ee"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2907",
+          "fact_ids": [
+            "agf_3e5689fedd023ad1ff55"
+          ]
+        }
+      ]
+    },
+    "ag_8315": {
+      "label": "The Concert",
+      "artist_id": "ag_1269",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_15bc70050f0d9d94db48"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_926cc49808142375d0b1"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_76e091c80d310321b9ef"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_32",
+          "fact_ids": [
+            "agf_0013029fef3f723b3ef0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2933",
+          "fact_ids": [
+            "agf_10a220c41aa788c1a29f"
+          ]
+        }
+      ]
+    },
+    "ag_8320": {
+      "label": "Portrait of Francesco Guardi",
+      "artist_id": "ag_1269",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_c01dafc460162aa8fb46"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_b1929fb6676a7deeaa91"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_9466e8694c8ec85331a6"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_32",
+          "fact_ids": [
+            "agf_74d1f0682800eccbcfe4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_154a00bea0d2093e5c7e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_316aa466fb94a02c54df"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2763",
+          "fact_ids": [
+            "agf_4603ce40a07cb3735380"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2847",
+          "fact_ids": [
+            "agf_944969a5385d640e6b42"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2939",
+          "fact_ids": [
+            "agf_8a26ba6ac6f293fac37f"
+          ]
+        }
+      ]
+    },
+    "ag_8382": {
+      "label": "Moon Woman",
+      "artist_id": "ag_2171",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_7",
+          "fact_ids": [
+            "agf_22b35b506695c7c5b6cd"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_9a030709b1394896cf5d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_f59080f6f5676c818714"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125114",
+          "fact_ids": [
+            "agf_c4eaf83630b10ea3b266",
+            "agf_9f29e9f0a7109f3de44a"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_45a47bc6f3ec11f6679f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_35",
+          "fact_ids": [
+            "agf_8bc0c6c8c5ef8ded79db"
+          ]
+        }
+      ]
+    },
+    "ag_8388": {
+      "label": "Untitled (Naked Man with Knife)",
+      "artist_id": "ag_2171",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_7",
+          "fact_ids": [
+            "agf_88dfb4e2cbc5a89228a1"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_92bf9e073423197a7708"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_9acec61ac1600cf95872"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125114",
+          "fact_ids": [
+            "agf_1b348a19689219a1613f",
+            "agf_9f29e9f0a7109f3de44a"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_9e9dbbe2f1707fe5049e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_1736790c2cb4048d6d8a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2788",
+          "fact_ids": [
+            "agf_4868f8b3fb8db6a15435"
+          ]
+        }
+      ]
+    },
+    "ag_8415": {
+      "label": "Adam and Eve",
+      "artist_id": "ag_1057",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_c8aa5dffba9aea02abb7"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_7726bd42ae4c70db35e9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_aa7c2a54b3b8e7bff7d6"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124728",
+          "fact_ids": [
+            "agf_4ecb88cf33e2bc7e66e0",
+            "agf_e34662c5ed0b3e777c33"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133265",
+          "fact_ids": [
+            "agf_18ed507b6c3175e44aaf"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_6a8a3bc2b9aeff327bcf"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_b1a0de17f91b619ebb26"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2720",
+          "fact_ids": [
+            "agf_a0a5676a8bcd29cf2b93"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2734",
+          "fact_ids": [
+            "agf_9b506902a1c3ec7caee0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2867",
+          "fact_ids": [
+            "agf_9a01b33653e18f089d2b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2976",
+          "fact_ids": [
+            "agf_f2fb8ba303650ce1d158"
+          ]
+        }
+      ]
+    },
+    "ag_8416": {
+      "label": "Albert Kollmann",
+      "artist_id": "ag_1057",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_622844512b2c37462fa9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_e3001683bd7d0266a162"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_bc8929c4a6f55becfd57"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124728",
+          "fact_ids": [
+            "agf_7888e12232ccab014115",
+            "agf_e34662c5ed0b3e777c33"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133131",
+          "fact_ids": [
+            "agf_68c2c610db5f79a80839"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_8a4cce07ba2a1ca7c617"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_70a95f3c27e61a95677c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_759a63a4a8c38d269b18"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2790",
+          "fact_ids": [
+            "agf_a2cd0cd05828c67e9233"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2977",
+          "fact_ids": [
+            "agf_a4de29f2e2065e9ea90a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2978",
+          "fact_ids": [
+            "agf_ba715d28dad1cc387bd7"
+          ]
+        }
+      ]
+    },
+    "ag_8421": {
+      "label": "At the Coffee Table",
+      "artist_id": "ag_1057",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_05847e338e5d648b6ba0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_ac0b194858bd5fda8317"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_0464d161a968788ca4ad"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_0815480a029407a89e9f",
+            "agf_c642b6942e0c256567ca"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124728",
+          "fact_ids": [
+            "agf_0815480a029407a89e9f",
+            "agf_e34662c5ed0b3e777c33"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_0bdbd3f5742b099bd4d4"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_ee8c1257dcb9ba180605"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2938",
+          "fact_ids": [
+            "agf_edb953ddb1e4c7c47fc8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2980",
+          "fact_ids": [
+            "agf_44f625ea6b69c6af8f13"
+          ]
+        }
+      ]
+    },
+    "ag_8609": {
+      "label": "Breton dancing",
+      "artist_id": "ag_1987",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_624eb1d2f09fe5cd00e4"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_3ac09d7852b1466f29a2"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_cd7ae2210ceaa782f88e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_1511e469ad2f3cfc68f8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3000",
+          "fact_ids": [
+            "agf_2fe333bb50df23a3c9a2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3061",
+          "fact_ids": [
+            "agf_ed21c2f367609ff889eb"
+          ]
+        }
+      ]
+    },
+    "ag_8660": {
+      "label": "Self portrait with a pipe",
+      "artist_id": "ag_64",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_3",
+          "fact_ids": [
+            "agf_bdcf00110d28b85c84a1"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_693b4c7d25949fac8912"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_33eb7dbb411a13962ccd"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_c32d684aa1e1c7ff717d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_82dd751ce6bbb1d4a27a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_2fb363e0ce1c75cec224"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2790",
+          "fact_ids": [
+            "agf_50403c9ed0ca70b6bbd6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3112",
+          "fact_ids": [
+            "agf_c0731dbe14834095359c"
+          ]
+        }
+      ]
+    },
+    "ag_8661": {
+      "label": "Portrait of Jean Cocteau",
+      "artist_id": "ag_64",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_84efc9c5f1bf2f09d7bc"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_f999a6e48e57d6d34e23"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_a0ed95a77332ebaf21a5"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_9f02869de501441cfa6f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_ad73cc8771d35fa59636"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_93c4f58ab5e333297178"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3113",
+          "fact_ids": [
+            "agf_17ef7be93256b01cc5ff"
+          ]
+        }
+      ]
+    },
+    "ag_8791": {
+      "label": "Woods near Oele",
+      "artist_id": "ag_1644",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_96d551e70b339f212bce"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_cea3aeeac97a2d12b3bc"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_717fa126158fe2568c87"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_44d87180f6751f80148d",
+            "agf_2c8be7e4c6eb2589d030"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124683",
+          "fact_ids": [
+            "agf_44d87180f6751f80148d",
+            "agf_6be0598c1ac869cbb91a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_6edc0059ee5d6b84c903"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_add27fd0f97c8e4d277d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_3bb9c4dd1534d19d53da"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3028",
+          "fact_ids": [
+            "agf_e140585fabb2a1b4a6d4"
+          ]
+        }
+      ]
+    },
+    "ag_8793": {
+      "label": "The Gray Tree",
+      "artist_id": "ag_1644",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_26f6f927953f35a70476"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_f233e8626c243e418505"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_1773dd11cf42b1d70cff"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_c9a72e1567cc7c1862ad",
+            "agf_2c8be7e4c6eb2589d030"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124683",
+          "fact_ids": [
+            "agf_c9a72e1567cc7c1862ad",
+            "agf_6be0598c1ac869cbb91a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_55fe108b34247a0ff6fd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_833a16d4bc6d4a2ccd50"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_c61f0602f128c387beb3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_39dac694d342aee91cf8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_fcf9dc40c1ba20810405"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3166",
+          "fact_ids": [
+            "agf_a02b56fa2a460c68c0e3"
+          ]
+        }
+      ]
+    },
+    "ag_8796": {
+      "label": "Anemones in a Vase",
+      "artist_id": "ag_1644",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_15",
+          "fact_ids": [
+            "agf_8ccdfe1fb40bbd0b796b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_c911bec7f096908fda9f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_43d7f5e1490f0d744565"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_e1742a78c2796cf4d983",
+            "agf_2c8be7e4c6eb2589d030"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124683",
+          "fact_ids": [
+            "agf_e1742a78c2796cf4d983",
+            "agf_6be0598c1ac869cbb91a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_3a64c73655c9bf752c71"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_450e0f3c927867747a35"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2769",
+          "fact_ids": [
+            "agf_131477fd7f6b59dc6026"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2770",
+          "fact_ids": [
+            "agf_c0cd0f0e750f860e6ef2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3142",
+          "fact_ids": [
+            "agf_225ec821bb39bcd94086"
+          ]
+        }
+      ]
+    },
+    "ag_8812": {
+      "label": "Girl Writing",
+      "artist_id": "ag_1644",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_95a32797756683b2ee5a"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_bb2f31c7bbcef713323f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2592",
+          "fact_ids": [
+            "agf_353a6ae52649dac5e494"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_d8a0b721d5592c9a0679",
+            "agf_2c8be7e4c6eb2589d030"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124683",
+          "fact_ids": [
+            "agf_d8a0b721d5592c9a0679",
+            "agf_6be0598c1ac869cbb91a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_d3e17197c6536be56465"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_995ab17ca16faaaea72c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_cbd64a13f48cd834a9f6"
+          ]
+        }
+      ]
+    },
+    "ag_8855": {
+      "label": "Adoration&#160;of the Magi",
+      "artist_id": "ag_651",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_e4f5b40a315705ec35b8"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_0670764609fe5eec44c5"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_20cf986c92e338667d5c"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124751",
+          "fact_ids": [
+            "agf_8849e20dc6e58152b0db",
+            "agf_970258c16e69e275e127"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124761",
+          "fact_ids": [
+            "agf_8849e20dc6e58152b0db",
+            "agf_12a0813c211675c50f2d"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_31",
+          "fact_ids": [
+            "agf_12405777ce3e10836a89"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_149bd885749f820d635e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2788",
+          "fact_ids": [
+            "agf_9b5700d1e36cda3efe22"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2837",
+          "fact_ids": [
+            "agf_3cc7e36430ee49db682f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2839",
+          "fact_ids": [
+            "agf_e7515c7f9e7a79bc942f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2855",
+          "fact_ids": [
+            "agf_fd9bb95fb3aa22b0b8fc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2923",
+          "fact_ids": [
+            "agf_87aa417ceafec4e14ddc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3193",
+          "fact_ids": [
+            "agf_ea55e0c3f5011aac5de2"
+          ]
+        }
+      ]
+    },
+    "ag_8864": {
+      "label": "Portrait of a Gentlewoman",
+      "artist_id": "ag_651",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_fcc84a4721f2c444e323"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_6b208a4eb668c44cd248"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_11712361fcfe806d2331"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124751",
+          "fact_ids": [
+            "agf_d7df23ca014aa3332290",
+            "agf_970258c16e69e275e127"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124761",
+          "fact_ids": [
+            "agf_d7df23ca014aa3332290",
+            "agf_12a0813c211675c50f2d"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_31",
+          "fact_ids": [
+            "agf_f3a3f9a3f96f4773df26"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_f979f9f3f2cbe769718a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2763",
+          "fact_ids": [
+            "agf_df5d321e76fe4278881f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2854",
+          "fact_ids": [
+            "agf_af15f6d6029806d19efa"
+          ]
+        }
+      ]
+    },
+    "ag_8913": {
+      "label": "Portrait of a Man",
+      "artist_id": "ag_1152",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_4406d796ad893846fa03"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_8116087a764fb31a022f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2562",
+          "fact_ids": [
+            "agf_7fbf02b224c14cb7274f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125134",
+          "fact_ids": [
+            "agf_2265489ce9335741082e",
+            "agf_45e6d16c14b42e701fd6"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_27",
+          "fact_ids": [
+            "agf_9c4c1612e93fb197fcc4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_29de4c6cc6d6a86b06c8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2731",
+          "fact_ids": [
+            "agf_7e3d7f5edbff9a950640"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3224",
+          "fact_ids": [
+            "agf_3a3b18f9cb52023342ba"
+          ]
+        }
+      ]
+    },
+    "ag_8966": {
+      "label": "The lute player",
+      "artist_id": "ag_1568",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_7e141c4f1db48a27102b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_a0fef2bbf5cdfeaff3ff"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_93d1404cf7e93676db93"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124665",
+          "fact_ids": [
+            "agf_7a0e3525aa6c0cab699d",
+            "agf_79a48f64c0d895b8d373"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_20",
+          "fact_ids": [
+            "agf_d39777af1061aa278db9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_309ddea89a482319c120"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_8311ec557e70c76e928c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_43410545cfb86b2c9075"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3238",
+          "fact_ids": [
+            "agf_dabb58fadd03bb31075f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3239",
+          "fact_ids": [
+            "agf_1fb11e49d5e5bf9ace61"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3240",
+          "fact_ids": [
+            "agf_0656655007704820cade"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3241",
+          "fact_ids": [
+            "agf_11d67e18b716a234ab21"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3242",
+          "fact_ids": [
+            "agf_63129aa1a222fabb8569"
+          ]
+        }
+      ]
+    },
+    "ag_9128": {
+      "label": "Bull III",
+      "artist_id": "ag_353",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_5bcec8f4aef50e42bfb0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2573",
+          "fact_ids": [
+            "agf_63e7b512797716a11425"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2580",
+          "fact_ids": [
+            "agf_76112be8c11566b42939"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124721",
+          "fact_ids": [
+            "agf_0e5ef4f077928b3bbda2",
+            "agf_e7242429820cd0ba6b17"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_8f6fdc9e8b7d774648cb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_d98cd7e9f4da9ce7fb20"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2967",
+          "fact_ids": [
+            "agf_3c98bfe13b5d8c583a0b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2969",
+          "fact_ids": [
+            "agf_6996bb31ec9b105f5718"
+          ]
+        }
+      ]
+    },
+    "ag_9180": {
+      "label": "Sailboats",
+      "artist_id": "ag_353",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_c23e5a1b3189fdb20e1d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_10a04a63b9855d6bab3f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_9de8dd95ff887e728d2b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2602",
+          "fact_ids": [
+            "agf_a3ddefa1b1c6800bbab3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124721",
+          "fact_ids": [
+            "agf_9be17bba6fd5272f761c",
+            "agf_e7242429820cd0ba6b17"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_3498bf706eddb649c00c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_a4ca5292c817e039b8d8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_e8fc1c882269bdc72497"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_45fd04c32d9a046e5297"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_207f27e0af45c973a677"
+          ]
+        }
+      ]
+    },
+    "ag_9329": {
+      "label": "Cat head",
+      "artist_id": "ag_2382",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_c28fa1e508eb08f98341"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_40",
+          "fact_ids": [
+            "agf_f089fbe6653855b6a2fa"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_d442749c820be2077080"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_a2101801e4b3d351eec4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_41be7faed2cb7ddee387"
+          ]
+        }
+      ]
+    },
+    "ag_10025": {
+      "label": "A floating figure",
+      "artist_id": "ag_2028",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_6",
+          "fact_ids": [
+            "agf_aca35c25e9139389a71f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_672e578ece367cf3ba4c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2553",
+          "fact_ids": [
+            "agf_cc08ba36786012afb56f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_9892bf5a80a26140871f",
+            "agf_0af6af9fe2b4f3e4ed81"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_9892bf5a80a26140871f",
+            "agf_3d8e3c669ca1f507eb64"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_38",
+          "fact_ids": [
+            "agf_880c333e2fa8eb95f5d9"
+          ]
+        }
+      ]
+    },
+    "ag_10026": {
+      "label": "A mountain",
+      "artist_id": "ag_2028",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_a15ae0338ab0d377b345"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_3efb4991042a39c7bc94"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_0925e2c58cd1a31e4ff7"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_61e4beb319f437148819",
+            "agf_0af6af9fe2b4f3e4ed81"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_61e4beb319f437148819",
+            "agf_3d8e3c669ca1f507eb64"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_a736bc1ceb6b49200c15"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3089",
+          "fact_ids": [
+            "agf_31f331844db290ae2c54"
+          ]
+        }
+      ]
+    },
+    "ag_10149": {
+      "label": "Rapallo boats",
+      "artist_id": "ag_2028",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_1",
+          "fact_ids": [
+            "agf_855baaa9bd157e207ee6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_add14171eca67e55d078"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_e3214e02c0970d86a626"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_c955773b535c72023737",
+            "agf_0af6af9fe2b4f3e4ed81"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124680",
+          "fact_ids": [
+            "agf_c955773b535c72023737",
+            "agf_3d8e3c669ca1f507eb64"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_1c838816db47e9295768"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_7329412be402bf5bd59f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_2b920af25fae81d6cfd7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_bf4e357a0f47cc338aa0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_2df3ee457c3afc45a969"
+          ]
+        }
+      ]
+    },
+    "ag_10472": {
+      "label": "Study for The Cellist",
+      "artist_id": "ag_1601",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_0020414b60f35a12eafe"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_7ffc52a9c937bbb810c7"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_578ea15a2d5332b528b5"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_8df98244fec9bec2de1b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_7bed94bd0214aacd2724"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_8e49e33270d2ff0f08d3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_ab7def11c8b3e2eab611"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3595",
+          "fact_ids": [
+            "agf_8c2ad48dc5a7e5705df3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3596",
+          "fact_ids": [
+            "agf_bfd444651a555e5eb54b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3597",
+          "fact_ids": [
+            "agf_b4ecb9306e5b8bc46cd5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3598",
+          "fact_ids": [
+            "agf_dc644bc8660fff04e463"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3599",
+          "fact_ids": [
+            "agf_0dead79ac167d3454b59"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3600",
+          "fact_ids": [
+            "agf_6debf61ff3ed070232f4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3601",
+          "fact_ids": [
+            "agf_bfb510df0fd94f532dad"
+          ]
+        }
+      ]
+    },
+    "ag_10632": {
+      "label": "A Caucasian Study",
+      "artist_id": "ag_1716",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_68ed02f860d73d0dac0b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_104d5640fe1aa35cbff6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_b3a767778e36bda730b9"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124728",
+          "fact_ids": [
+            "agf_227591cb5fe2b8438227",
+            "agf_c7f197c21bccf18988e9"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_cd109bb11052a03fc877"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_0d4a6f5c527c952c21ab"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_291d049bafea59d2ccb6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_2eddd837098f1b6d5d07"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3013",
+          "fact_ids": [
+            "agf_16a4e657971af16cfde5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_49cb171c7081d63af0ac"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3637",
+          "fact_ids": [
+            "agf_f3d17172c6d34dba4093"
+          ]
+        }
+      ]
+    },
+    "ag_10693": {
+      "label": "A Baby Smiling at Two Young Women",
+      "artist_id": "ag_391",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_23238475eded3d4adf8c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_d7495bf06b9aab6594c0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_855969a38f86457bad44"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_bc79439664b3ff2a6507"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2759",
+          "fact_ids": [
+            "agf_0c4c70d4eb80fd3774a1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_673844c5f439a1468b75"
+          ]
+        }
+      ]
+    },
+    "ag_10766": {
+      "label": "Lydia at the Tapestry Loom",
+      "artist_id": "ag_391",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_94b032b1256651e231f0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_24e124417985bc08d02a"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_18553a9619df9a23cd85"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_21044434d3a2baafacac"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_9db411b99af9b08cfac9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_8b74b1a414deb8d5d266"
+          ]
+        }
+      ]
+    },
+    "ag_10980": {
+      "label": "A Henhouse",
+      "artist_id": "ag_2024",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_a4445c727b0fbfc9b334"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_f099bb6e25ee5b9a9883"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_adaaa4d370a328eb90fd"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_aa73b24ab512e7e7e235",
+            "agf_f14240ca0b28a747e41f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124734",
+          "fact_ids": [
+            "agf_aa73b24ab512e7e7e235",
+            "agf_30c719c7a08db12a9bd9"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124774",
+          "fact_ids": [
+            "agf_aa73b24ab512e7e7e235",
+            "agf_6f91601983d5be6451a7"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_da8a33d86c9ea440003f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_45a41a2f52a340d74e7f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2779",
+          "fact_ids": [
+            "agf_f5f954894e9b0044c111"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_35273c1031e0f284360a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3000",
+          "fact_ids": [
+            "agf_ecace9a1436a1c91c945"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3669",
+          "fact_ids": [
+            "agf_b804f0bcb64766b50502"
+          ]
+        }
+      ]
+    },
+    "ag_11014": {
+      "label": "Boy by the Water",
+      "artist_id": "ag_2024",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_7adfcfc3136d0de0ac2b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_4b911d116c32b3448c78"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_5ce077df53ee8c9fa1b8"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_ce0df6249824bc9b41d8",
+            "agf_f14240ca0b28a747e41f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124734",
+          "fact_ids": [
+            "agf_ce0df6249824bc9b41d8",
+            "agf_30c719c7a08db12a9bd9"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124774",
+          "fact_ids": [
+            "agf_ce0df6249824bc9b41d8",
+            "agf_6f91601983d5be6451a7"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_02a503488ebcd590692a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_08aa55538e07a0352455"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2759",
+          "fact_ids": [
+            "agf_79d37b4edb681ec07a12"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_42385c19381c3364da6b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_8a2d850f011a65aa48d8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_c435f4f7cc715613a774"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_dcdb9b29ffb08e1be863"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_f2e4f0880272bf3863b6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_338a1c69d1d114980e98"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_80c3574adc7622d85c28"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3169",
+          "fact_ids": [
+            "agf_a8a7c265f0b272f0f745"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_5604de4186fecdd21273"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3172",
+          "fact_ids": [
+            "agf_1f298fc1a8c44621217a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_b9548b8d9dc380a4b674"
+          ]
+        }
+      ]
+    },
+    "ag_11252": {
+      "label": "Suzanne Sewing - Study of a Nude",
+      "artist_id": "ag_2024",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_601eee39725b1e3b8d2c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_8630ed0923b1f19817be"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_529490280e159e5b5e2f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_afce524090eb3800aa0b",
+            "agf_f14240ca0b28a747e41f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124734",
+          "fact_ids": [
+            "agf_afce524090eb3800aa0b",
+            "agf_30c719c7a08db12a9bd9"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124774",
+          "fact_ids": [
+            "agf_afce524090eb3800aa0b",
+            "agf_6f91601983d5be6451a7"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133099",
+          "fact_ids": [
+            "agf_9d940f9160780166bd45"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_93094d55e3a852eacf56"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2824",
+          "fact_ids": [
+            "agf_2057ac00cd197ed83866"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_0eed7debd8a0ce06a5d1"
+          ]
+        }
+      ]
+    },
+    "ag_11706": {
+      "label": "The Tabby",
+      "artist_id": "ag_475",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_f27b66d0d73654e65fb2"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_43d3ebf4a74840a6231a"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_4a4f3c5bfb461c2f86c0"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_044da145b7a427eae563",
+            "agf_6c8e9ff1bd691babe28a"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124774",
+          "fact_ids": [
+            "agf_044da145b7a427eae563",
+            "agf_fd0a638ea65bb7071688"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125140",
+          "fact_ids": [
+            "agf_044da145b7a427eae563",
+            "agf_99275668863d516cc1a6"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_97923ee6db5b1275f167"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_6088f9fde979c48a6137"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_64b0923921d38912f3c9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_333ab2ca6799ade33196"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3665",
+          "fact_ids": [
+            "agf_1d94d1b847b7e3e9290b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3815",
+          "fact_ids": [
+            "agf_f0e3ba7476eb5ff36751"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3816",
+          "fact_ids": [
+            "agf_a8684343a60fd131c430"
+          ]
+        }
+      ]
+    },
+    "ag_11846": {
+      "label": "Blue Figure in a Chair",
+      "artist_id": "ag_2462",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_6",
+          "fact_ids": [
+            "agf_4bc386d259fb7b91e9ea"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_c96beb7523bcdc709050"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_e091a68e87cd142fe448"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125114",
+          "fact_ids": [
+            "agf_834e1f8e572bbc587c6d",
+            "agf_1fe0f49ce9456e67eef4"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_7c12e65f7ca2f08bc93c"
+          ]
+        }
+      ]
+    },
+    "ag_11873": {
+      "label": "Park Street Church",
+      "artist_id": "ag_2462",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_17",
+          "fact_ids": [
+            "agf_7e0092f3b962b1100b23"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_cef8ad8c43f4ee1ab2d9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_2efa2d09a5a5be058ccb"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125114",
+          "fact_ids": [
+            "agf_fd431f32b905aa21a1f6",
+            "agf_1fe0f49ce9456e67eef4"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_55f631996b8674e224f8"
+          ]
+        }
+      ]
+    },
+    "ag_11912": {
+      "label": "A Family of Deer in a Landscape with a Waterfall",
+      "artist_id": "ag_2151",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_583693557c08ab8970d7"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_d135ec0290df1b855d8d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_60cc1f11c91332757fee"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_afb98c585ff9be0a2c41",
+            "agf_47898fca40d9be74d0d3"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_babf4eb4417997f516cd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_b11f2b70c34fd2af1852"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2818",
+          "fact_ids": [
+            "agf_4a7463fe865a50da6930"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2845",
+          "fact_ids": [
+            "agf_050a4392ab5f50ee283a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_73938fb0e5473fd10f49"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_0885078ebc25e9cd9c70"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_76c6fe6ca4f74ad722e5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_e913c57a3a0c84216c57"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_352b485cef406b0a51f2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_be4898459094f8b44853"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3147",
+          "fact_ids": [
+            "agf_5309c00a198a14cc9cb7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_2754ce21d1c14e4e26f6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3611",
+          "fact_ids": [
+            "agf_1f6aa7c29dc022fffe22"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_900ace04d79c09bf4201"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3686",
+          "fact_ids": [
+            "agf_adb031e77a20e630796b"
+          ]
+        }
+      ]
+    },
+    "ag_12189": {
+      "label": "A woman pouring water (Study of Suzanne Leenhoff)",
+      "artist_id": "ag_176",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_a26a8f0619553f19bb18"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_401a7212bcf099b2e0d9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_15e825467a6f995c6ceb"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_032ebc42b37973406c22"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_e91e144f3b5efac56855"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2763",
+          "fact_ids": [
+            "agf_2c90dc1b802b72fe2294"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2937",
+          "fact_ids": [
+            "agf_05908b2a4fb2299e8a74"
+          ]
+        }
+      ]
+    },
+    "ag_12343": {
+      "label": "The Grand Canal of Venice (Blue Venice)",
+      "artist_id": "ag_176",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_17",
+          "fact_ids": [
+            "agf_c4f244c0a36d9988a626"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_4f7e509cc06e5c868cce"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_31ed89db1424844f3425"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_c61bf101e60b138a9cfc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2843",
+          "fact_ids": [
+            "agf_78d724626606582e78cf"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_c8b07ec9c897a698e6ca"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_622fcf1708126c031f66"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2953",
+          "fact_ids": [
+            "agf_9a5353678a9ce305f767"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_e334e639bc051de518fd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_489d94b08190c89d2a0c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_62f0baf10217192ad635"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3016",
+          "fact_ids": [
+            "agf_e04b0027e291ad744233"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3291",
+          "fact_ids": [
+            "agf_af4fa0d7a4dcd89269eb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_387a21acb91a78fb82b1"
+          ]
+        }
+      ]
+    },
+    "ag_12372": {
+      "label": "The Spanish Singer",
+      "artist_id": "ag_176",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_80fa5047390f58e0120b"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_ca54dc5ce2d5e813823d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_367b77de5040c640fb55"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_8ac8ae464b7acaa163e2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_7f4f884f69f8105e482e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_5186840b5808c447902f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3238",
+          "fact_ids": [
+            "agf_f2ec0ffa7b40ab9a4cd0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3240",
+          "fact_ids": [
+            "agf_fb25cdc83b86e053c57c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3965",
+          "fact_ids": [
+            "agf_71aca9b83e61a81d8807"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3966",
+          "fact_ids": [
+            "agf_9e402eeb819f826b90ae"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3967",
+          "fact_ids": [
+            "agf_f514f45099667bfee6bc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3968",
+          "fact_ids": [
+            "agf_c4be609b7c95651650d0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3969",
+          "fact_ids": [
+            "agf_bcbc615bb79a44294bad"
+          ]
+        }
+      ]
+    },
+    "ag_12564": {
+      "label": "Dead Cat",
+      "artist_id": "ag_1455",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_480cb3ea75fb95ea9e3f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_3754fabf543841f8e56f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_064a25e0f71a5fb768fd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_6d7fad7b1506f0da27eb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_8ac75225d0bdeb881d42"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3815",
+          "fact_ids": [
+            "agf_3cf9b6fd63f4ac659000"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4010",
+          "fact_ids": [
+            "agf_d611ac6f940b9aa0318e"
+          ]
+        }
+      ]
+    },
+    "ag_13231": {
+      "label": "A Bird Passing through a Cloud",
+      "artist_id": "ag_902",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_9f0c94ff62925617f2d6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_758947d4f590e4b41b63"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2574",
+          "fact_ids": [
+            "agf_bce16c984856efc7deea"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_0605b41e0b44364fa239",
+            "agf_f64d49cf7c077bee62ab"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125163",
+          "fact_ids": [
+            "agf_0605b41e0b44364fa239",
+            "agf_5ee2c588bcff6d81160b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_bc28f5fe332dea18b2b7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2779",
+          "fact_ids": [
+            "agf_c201fdfec4f5a5c77746"
+          ]
+        }
+      ]
+    },
+    "ag_13233": {
+      "label": "A Black Pedestal",
+      "artist_id": "ag_902",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_15",
+          "fact_ids": [
+            "agf_bb2dbcd4ecece942e118"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_53a924057cbc1e58c240"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_c36b3e5361f535a49dde"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_bdac62ead0e7cd8c9cc7",
+            "agf_f64d49cf7c077bee62ab"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125163",
+          "fact_ids": [
+            "agf_bdac62ead0e7cd8c9cc7",
+            "agf_5ee2c588bcff6d81160b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_d34d1bf7fb5a21df0aee"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2982",
+          "fact_ids": [
+            "agf_64c3772786aab8161875"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3500",
+          "fact_ids": [
+            "agf_026609ed35c22327795a"
+          ]
+        }
+      ]
+    },
+    "ag_13256": {
+      "label": "Grandmother&#39;s Friend",
+      "artist_id": "ag_902",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_cad6a894636ac7128b02"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_4fa4b67f5e612a56d731"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_57ee425890aeb15581f7"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_9574c28556c9cc9f6102",
+            "agf_f64d49cf7c077bee62ab"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125163",
+          "fact_ids": [
+            "agf_9574c28556c9cc9f6102",
+            "agf_5ee2c588bcff6d81160b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_582c95dea38bfd3d5a24"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_35e17fbaca1c5a7763e2"
+          ]
+        }
+      ]
+    },
+    "ag_13351": {
+      "label": "Blind singer",
+      "artist_id": "ag_2237",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_9dec0db49de8ff85ea07"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_5cc16b2d2b166c6e3ec0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2601",
+          "fact_ids": [
+            "agf_781c46c007e0f2ccdf79"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125164",
+          "fact_ids": [
+            "agf_27de8d1d79654c407158",
+            "agf_25f40113a4d41d5a1052"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_40",
+          "fact_ids": [
+            "agf_3d2e8178ffb8858dfa71"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_145ea951ecce8784fba9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_79453b763c933cd7f402"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_f18887480ea9b91ec13a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3238",
+          "fact_ids": [
+            "agf_99095e940c2f5f8cb052"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3240",
+          "fact_ids": [
+            "agf_d2cbc98037f9bbd6310b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3965",
+          "fact_ids": [
+            "agf_b1e92eacc79b6cbe9ea6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3967",
+          "fact_ids": [
+            "agf_b7498b20c4733c583b06"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3969",
+          "fact_ids": [
+            "agf_49d0582fcc9cb7ece904"
+          ]
+        }
+      ]
+    },
+    "ag_14060": {
+      "label": "Mother with Child",
+      "artist_id": "ag_2067",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_20b9660cc916611acc43"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_fe040ae3b10dc0885418"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_87dadd7e1ba7208b3bf6"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_e729936e3267ad896d22"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_17bd1febe293fa78e51e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2749",
+          "fact_ids": [
+            "agf_b54135572834266289fa"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2792",
+          "fact_ids": [
+            "agf_664732bee013877a3f68"
+          ]
+        }
+      ]
+    },
+    "ag_14166": {
+      "label": "Mermaids",
+      "artist_id": "ag_661",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_13",
+          "fact_ids": [
+            "agf_c0fc970affa289eaac8a"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_6af03cbb87541f22188e"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_2a378bca25b918d6eda5"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_7586a754938ad0030a65",
+            "agf_10e82467e3f23eb34b6d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125157",
+          "fact_ids": [
+            "agf_7586a754938ad0030a65",
+            "agf_c21b3f531cd75cd00650"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_5ba81c9f54da91e1e39e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_6af56802b2d3f005ea05"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_cd6a8e72caa5a80dd665"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_b7289603e12f72666d63"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_6f8a5f442df888fdb69c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_e8c6eef705ea8756ccb5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3289",
+          "fact_ids": [
+            "agf_b2f0aa023f34668374d5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_b8f759975679e66e785f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3457",
+          "fact_ids": [
+            "agf_c29dfbc6411d96a8a9f2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3617",
+          "fact_ids": [
+            "agf_da7773f3401fb329218f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_0b4bea8b4bc4ad2e9278"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4401",
+          "fact_ids": [
+            "agf_1df009292e3f0bf3e832"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4402",
+          "fact_ids": [
+            "agf_0dcd7290be9540f7c8a1"
+          ]
+        }
+      ]
+    },
+    "ag_14193": {
+      "label": "Portrait of Alexander III",
+      "artist_id": "ag_661",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_291d49ad2ce505e9b21f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_50315f9c70cf3fca682d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_f8f5ea8a6c7caa9bb532"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_6750a09609e12d271fef",
+            "agf_10e82467e3f23eb34b6d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125157",
+          "fact_ids": [
+            "agf_6750a09609e12d271fef",
+            "agf_c21b3f531cd75cd00650"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_a5d2fd0879f6ea9421c2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_b03e57bc16a9ef50061c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2726",
+          "fact_ids": [
+            "agf_d972e4f8e60d0f99bd36"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_a08775179655e145a92f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4406",
+          "fact_ids": [
+            "agf_3b816ad06037e0706511"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4407",
+          "fact_ids": [
+            "agf_da6fdb9e2ccd96afec91"
+          ]
+        }
+      ]
+    },
+    "ag_14292": {
+      "label": "A&#160;Disc in&#160;the City",
+      "artist_id": "ag_1436",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_17",
+          "fact_ids": [
+            "agf_ebfb569a79acd5df1592"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_fb11e83352ff95b981a4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2992",
+          "fact_ids": [
+            "agf_2d2a7e880f6c86c9a87d"
+          ]
+        }
+      ]
+    },
+    "ag_14531": {
+      "label": "Three musicians",
+      "artist_id": "ag_1436",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_6ef89ad38f760570c3f7"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_2ee312f19c1da2416c4f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_39fcd496a106ec5a8913"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3240",
+          "fact_ids": [
+            "agf_ed85967f03d02a20cca8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4425",
+          "fact_ids": [
+            "agf_c0540f4052c53c56d139"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4431",
+          "fact_ids": [
+            "agf_02d6de27d0c843fb3928"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4432",
+          "fact_ids": [
+            "agf_e84f093176986a15868a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4433",
+          "fact_ids": [
+            "agf_6207f81a6c8d3fa46efb"
+          ]
+        }
+      ]
+    },
+    "ag_14588": {
+      "label": "Calm Sea. Landscape with fishermen",
+      "artist_id": "ag_1745",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_1",
+          "fact_ids": [
+            "agf_b45f3080d5349ce83e42"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125164",
+          "fact_ids": [
+            "agf_21b895d19a2c130907df",
+            "agf_a63b5f62f76c3f5f9189"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_40",
+          "fact_ids": [
+            "agf_1d02cef8e6db547dc1e5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2761",
+          "fact_ids": [
+            "agf_7f2abe63aec88c352371"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_3b60c7dd7426ecab45e3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_ecc1e9c515fc22d31c0f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2954",
+          "fact_ids": [
+            "agf_f357e884f5af9ad279d3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_59c2ce74a219ce2e4fe0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3010",
+          "fact_ids": [
+            "agf_f85059d58b59b4f3f2f8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3176",
+          "fact_ids": [
+            "agf_dd40e387ac5da814a278"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3184",
+          "fact_ids": [
+            "agf_e2ff3b7a841b43e0bfd4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3185",
+          "fact_ids": [
+            "agf_df315014b091733f5339"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_eda383a8b274abd3f86c"
+          ]
+        }
+      ]
+    },
+    "ag_15247": {
+      "label": "Landscape with a road",
+      "artist_id": "ag_1597",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_7a8688836af739289c9c"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124733",
+          "fact_ids": [
+            "agf_a7f5dbf1b2d118e4622e",
+            "agf_4fdeeb6bc51bec8a4725"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_41f1203e2ed946bafd53"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_39c04056e724750825bc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_55bef0ef41ec1d0efad2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_1b704da0315c59c1df46"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_1761d972f784fe8688ab"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_5c6bd396ae2811b5ee35"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_de2808964899d24037c2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3166",
+          "fact_ids": [
+            "agf_2eb29af2b267cf4eed35"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_34322a8a4f59dbbb9c58"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_e87776888f40881fa4df"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_0bcf12aee412448bec51"
+          ]
+        }
+      ]
+    },
+    "ag_15430": {
+      "label": "Female Nude Standing in Doorway",
+      "artist_id": "ag_979",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_218a44bfc6e0099ab713"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_a7826351ba552d443ea5"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_cbec2ec2b9056564b84a"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125114",
+          "fact_ids": [
+            "agf_44e515ee6700d9d83962",
+            "agf_45f7c65a07aee0eba635"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_11fbb7832ba12cf2e28e"
+          ]
+        }
+      ]
+    },
+    "ag_15881": {
+      "label": "A canoes",
+      "artist_id": "ag_1625",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_67536a7f9445004fbe6d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_eaa7de0d4adce3fda248"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2553",
+          "fact_ids": [
+            "agf_eff1fb8804d2bf7070ec"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_d011ce7303e76e2d1df1",
+            "agf_1f6f515ab4564031b17a"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124729",
+          "fact_ids": [
+            "agf_d011ce7303e76e2d1df1",
+            "agf_b1b28a2efd2df98bd488"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125150",
+          "fact_ids": [
+            "agf_d011ce7303e76e2d1df1",
+            "agf_6591bc41e8bc2234bbd5"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_2038f7a5065254a49915"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_42a982e7e9b2a8b2368d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2933",
+          "fact_ids": [
+            "agf_8237f5e4d55d2745fced"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_e1f645c6dbb1fb471198"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_82264fac0b08e5f8efcf"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_011c6b7b0e6ea589d444"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_1c1a2e957f3b670cd400"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3095",
+          "fact_ids": [
+            "agf_d35a25316914e160cb9b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3637",
+          "fact_ids": [
+            "agf_8a3aa2c8f089e2730116"
+          ]
+        }
+      ]
+    },
+    "ag_16079": {
+      "label": "The Ghent Altar (detail)",
+      "artist_id": "ag_1277",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_0cf768f9b2e8846f37e4"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_d65a265cb1c54e4a2632"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2553",
+          "fact_ids": [
+            "agf_0b36b357f668e1e92889"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124777",
+          "fact_ids": [
+            "agf_4281bd0b65d887d4bbb8",
+            "agf_f43972ead33f0f278765"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125137",
+          "fact_ids": [
+            "agf_4281bd0b65d887d4bbb8",
+            "agf_4d875dd9b1d66110db6a"
+          ]
+        },
+        {
+          "type": "series",
+          "value_id": "ag_132331",
+          "fact_ids": [
+            "agf_79342262ddde744d9557"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_26",
+          "fact_ids": [
+            "agf_8ab0c4cd53564b0e897d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_466e6c0cb8c09c6f6960"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2855",
+          "fact_ids": [
+            "agf_7b9e2cd9547a577170c3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_ed340690ad93d59e7d05"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3238",
+          "fact_ids": [
+            "agf_49ee96274aa83e2ab7a4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4739",
+          "fact_ids": [
+            "agf_11385e8a8c0d22870083"
+          ]
+        }
+      ]
+    },
+    "ag_16386": {
+      "label": "Polyptych of&#160;St. Peter (San Costanzo)",
+      "artist_id": "ag_358",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_12",
+          "fact_ids": [
+            "agf_c33d5320b3f3c4caba8b"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125134",
+          "fact_ids": [
+            "agf_dd9d8eb4ede92f17070a",
+            "agf_103e82d8c5a338383417"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_31",
+          "fact_ids": [
+            "agf_84bb3fc10f3e74773304"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2719",
+          "fact_ids": [
+            "agf_cdd935193edf2aecee08"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2855",
+          "fact_ids": [
+            "agf_f8d0dcfe53dbf2f0badb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2901",
+          "fact_ids": [
+            "agf_63a4b66d7bc4714b3af5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_c5cc3b465ae99e8b1bfa"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4781",
+          "fact_ids": [
+            "agf_1fa93aa4a4bb3bc9c4a3"
+          ]
+        }
+      ]
+    },
+    "ag_16916": {
+      "label": "Ravine in the Morvan, Near Lormes",
+      "artist_id": "ag_1305",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_6320ec33bb02f73b27b3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_2f8d09389ffed5e90a95",
+            "agf_6545320534ed1dfe1a59"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_86bb548b9953232f4a79"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2845",
+          "fact_ids": [
+            "agf_1a1436af6c1f1b9b8c64"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_7e02c6f037b5699dd5b7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_10fb522c5c12682d4c8f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_09f9c75b45dbf9f213e0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_5828f633c3fe53bc6f1b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_cf5261fcf1d50f807aeb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_9705cecdc298d29b8937"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3169",
+          "fact_ids": [
+            "agf_a2af9796b040a3a59f4c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_6b816fccb8e714442169"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3172",
+          "fact_ids": [
+            "agf_cab80e8cddbad3db8c72"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_6de5d6314e72859efaa6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_e76a86ce02459c5a9ddd"
+          ]
+        }
+      ]
+    },
+    "ag_17029": {
+      "label": "The Monk",
+      "artist_id": "ag_1305",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_f2fefa0048a86306a3bd"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_82a262a44b2ccdaa0f9e"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_4a18f36e1497623e73cf"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_0cc76b9f5ee58e4436c0",
+            "agf_6545320534ed1dfe1a59"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_34faa49f9a2d91474f12"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_8cfb8fd6d797c8a66b83"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_5600cfad4ecb8da7fa8d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3595",
+          "fact_ids": [
+            "agf_3fc11896710c92cdec41"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3596",
+          "fact_ids": [
+            "agf_9ea661f7e6073c00a615"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3601",
+          "fact_ids": [
+            "agf_d057f93ffb55d5219e47"
+          ]
+        }
+      ]
+    },
+    "ag_17083": {
+      "label": "Venice Gondola on Grand Canal",
+      "artist_id": "ag_1305",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_17",
+          "fact_ids": [
+            "agf_6d837f58ffab9c18f318"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_2354bc76509257296e36"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_94b65d51299f6614d770"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_138dc19214f4c0f4ed79",
+            "agf_6545320534ed1dfe1a59"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_d268a9f1e69d7abe7fc7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2843",
+          "fact_ids": [
+            "agf_2e0bd5c59441bcd3173b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_d9c74edde4174770bab8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_6e6b3192410744850e09"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2953",
+          "fact_ids": [
+            "agf_bde2853cd8aff2ca16f3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2954",
+          "fact_ids": [
+            "agf_2b97938ccafb57a95488"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_5516d16cf3811b7a01e2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_9c50762cf219bc37610a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2958",
+          "fact_ids": [
+            "agf_3f411cac91a910a3aca9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2992",
+          "fact_ids": [
+            "agf_aec574d8dcd10140e756"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_15caa9c7ed6e17b48312"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_c17548f7af8ddea6c475"
+          ]
+        }
+      ]
+    },
+    "ag_17149": {
+      "label": "On the road",
+      "artist_id": "ag_123",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_0b4438f2dd676e861165"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_3ad2f80a7ebef84c35d5"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_ba6c2de842491ff7ea37"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_753fcc9ccddb6206cd7f",
+            "agf_c32966779e1a084f3f9b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_fe77e236d78d06e11412"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2746",
+          "fact_ids": [
+            "agf_29c0e2c13c795ebe21c7"
+          ]
+        }
+      ]
+    },
+    "ag_17402": {
+      "label": "Lady with a Guitar",
+      "artist_id": "ag_123",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_bc78661cd2d8a456d36a"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_a20a1d2d1fba1ce6c0b4"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_e557f1622a6b3f1ed782"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_dd6fb13d3d634fa637f5",
+            "agf_c32966779e1a084f3f9b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_d1c8ca2f584c274be61a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3236",
+          "fact_ids": [
+            "agf_c6a8f656e3471a220459"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3237",
+          "fact_ids": [
+            "agf_683918937ed56d62c330"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3238",
+          "fact_ids": [
+            "agf_9d854d11b3e4a69abdbb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3240",
+          "fact_ids": [
+            "agf_96fc2457d8150d5a0c4e"
+          ]
+        }
+      ]
+    },
+    "ag_17716": {
+      "label": "Lion",
+      "artist_id": "ag_2366",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_57b5ec2d5333682f6f11"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_26",
+          "fact_ids": [
+            "agf_15d77c6e3dbdf5c8d537"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_2dabc8af8bb37817e73a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2820",
+          "fact_ids": [
+            "agf_800b84e191102495e2bd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_40bd543c66ccd132f7d5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2965",
+          "fact_ids": [
+            "agf_3cd5ff411b010b92a877"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_33eaedc65f822a5bb909"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4023",
+          "fact_ids": [
+            "agf_6eca5fa8ffc362f47106"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4025",
+          "fact_ids": [
+            "agf_aaa18e10a470b0d9c606"
+          ]
+        }
+      ]
+    },
+    "ag_18987": {
+      "label": "A gate",
+      "artist_id": "ag_456",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_17",
+          "fact_ids": [
+            "agf_2fdd86adcd9067afdea6"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_5e2b893186938d0d0282",
+            "agf_d5ee4ac8e5c22c24cb08"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124703",
+          "fact_ids": [
+            "agf_5e2b893186938d0d0282",
+            "agf_e25161e413f05ac6a8d3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124752",
+          "fact_ids": [
+            "agf_5e2b893186938d0d0282",
+            "agf_b430b688234e4c5ecede"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133235",
+          "fact_ids": [
+            "agf_24736c4a23a25851246a"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_04c93d55349a03adb896"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2879",
+          "fact_ids": [
+            "agf_525939a81068aa27dde9"
+          ]
+        }
+      ]
+    },
+    "ag_19013": {
+      "label": "Castle Garden",
+      "artist_id": "ag_456",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_6",
+          "fact_ids": [
+            "agf_888868c2f7b35890c5f3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_064379b57323c80a4baa",
+            "agf_d5ee4ac8e5c22c24cb08"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124703",
+          "fact_ids": [
+            "agf_064379b57323c80a4baa",
+            "agf_e25161e413f05ac6a8d3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124752",
+          "fact_ids": [
+            "agf_064379b57323c80a4baa",
+            "agf_b430b688234e4c5ecede"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133256",
+          "fact_ids": [
+            "agf_1a174709ee8e30c62227"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_af4944463c7e6f57783e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2865",
+          "fact_ids": [
+            "agf_43c1bc744932dbe7e789"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2872",
+          "fact_ids": [
+            "agf_1a262fc0cb7c9841a2ea"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2974",
+          "fact_ids": [
+            "agf_141bc8402ea17b96e2be"
+          ]
+        }
+      ]
+    },
+    "ag_19159": {
+      "label": "A Big Peasant",
+      "artist_id": "ag_1193",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_a023624162a2b97cee3c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_25a173a6006557273c4f"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2574",
+          "fact_ids": [
+            "agf_28631e8b8c3cfc418e91"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_113902c5aecbdfdded1b",
+            "agf_5090ce4e0264af350d10"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_113902c5aecbdfdded1b",
+            "agf_8fd0f717659a8181166e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_8631a746de1f0bcb9ece"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_d73c4b8098bce76ae0e1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2971",
+          "fact_ids": [
+            "agf_43d2b242946183f004cc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_d63cf210b1e838a3b2f9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3015",
+          "fact_ids": [
+            "agf_b50b0f6c7b5e42d294bd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3638",
+          "fact_ids": [
+            "agf_458937e8726529f83f73"
+          ]
+        }
+      ]
+    },
+    "ag_19167": {
+      "label": "A Group of People",
+      "artist_id": "ag_1193",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_5bfadd90d89469ab5e19"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_f083597d3d1ed8c83f3d"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2567",
+          "fact_ids": [
+            "agf_8e20283bdb9313d0f505"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2569",
+          "fact_ids": [
+            "agf_96617154bd053cb598ce"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2586",
+          "fact_ids": [
+            "agf_5a40ac96d69f6de34cdb"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_e3cf5ef5c8697a4929e9",
+            "agf_5090ce4e0264af350d10"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_e3cf5ef5c8697a4929e9",
+            "agf_8fd0f717659a8181166e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_68f0fe4f3d43d5ec6059"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2749",
+          "fact_ids": [
+            "agf_7db17a3cb3e36852aa37"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2850",
+          "fact_ids": [
+            "agf_bf81c510ab8ed342efb5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2947",
+          "fact_ids": [
+            "agf_560ab4420a3dde323c52"
+          ]
+        }
+      ]
+    },
+    "ag_19176": {
+      "label": "A poet",
+      "artist_id": "ag_1193",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_c5886b57af7331c9bf12"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2563",
+          "fact_ids": [
+            "agf_d15f4f66e490f47355db"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2569",
+          "fact_ids": [
+            "agf_b4f7481b7fe592ac219c"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_eeedaac31c3cd899a8e6",
+            "agf_5090ce4e0264af350d10"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_eeedaac31c3cd899a8e6",
+            "agf_8fd0f717659a8181166e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_4d8e476bb2badd5f7083"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_8081bf134861a11b9107"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2758",
+          "fact_ids": [
+            "agf_6cec7f62b8bab1d57b2d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2778",
+          "fact_ids": [
+            "agf_09ebfd2f133d920dcb9d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2790",
+          "fact_ids": [
+            "agf_e31960873b55be3a1769"
+          ]
+        }
+      ]
+    },
+    "ag_20164": {
+      "label": "Crane",
+      "artist_id": "ag_1109",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_16",
+          "fact_ids": [
+            "agf_485a892c4316541fd72e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_19",
+          "fact_ids": [
+            "agf_b139b67cab8368b73120"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2775",
+          "fact_ids": [
+            "agf_df49fff4987a2402fd82"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2779",
+          "fact_ids": [
+            "agf_d623619dfa44820e19f9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2781",
+          "fact_ids": [
+            "agf_df4d24c370f501c8e177"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2971",
+          "fact_ids": [
+            "agf_e82e9d026ad459740429"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3037",
+          "fact_ids": [
+            "agf_ae9d6bee1f158a6e3829"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3094",
+          "fact_ids": [
+            "agf_6143d2b19cf851c964c1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3096",
+          "fact_ids": [
+            "agf_3276a4ee81bb8960b5c3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3403",
+          "fact_ids": [
+            "agf_56b7796caba1473e9b39"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_88ccfca57aee0aea7fc7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4082",
+          "fact_ids": [
+            "agf_1c8e042e0b3cd7a8517b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4083",
+          "fact_ids": [
+            "agf_ae7119b097f2f8780b6b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4085",
+          "fact_ids": [
+            "agf_ec6200675f794baa5898"
+          ]
+        }
+      ]
+    },
+    "ag_20804": {
+      "label": "Baby",
+      "artist_id": "ag_1521",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_373d77fbb313b7f40e0d"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_7f54f5f65b1cedf3fe4f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2792",
+          "fact_ids": [
+            "agf_545ce4452594caad00fe"
+          ]
+        }
+      ]
+    },
+    "ag_20923": {
+      "label": "Female Nude in Chair",
+      "artist_id": "ag_1521",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_fc2f1eb811d2697444e3"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2611",
+          "fact_ids": [
+            "agf_11cc76cbcdf4cf271cd8"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_aeda280caabd85cc59a4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2824",
+          "fact_ids": [
+            "agf_41d524b152ad84c1cb4b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2967",
+          "fact_ids": [
+            "agf_816dc2ace062b6ea52cb"
+          ]
+        }
+      ]
+    },
+    "ag_21066": {
+      "label": "White Cat I",
+      "artist_id": "ag_1521",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_75e3bd10717dfaff7d54"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_f2ef8338d2a4dd792cd8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_bd9d5fb335203d21c7fb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_e874937e53d714470d5a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_f9bbb6d11bbff38ccc3c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3815",
+          "fact_ids": [
+            "agf_4584b31d6b095c4eaf11"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3816",
+          "fact_ids": [
+            "agf_b266edc31450d5bf2fb9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4010",
+          "fact_ids": [
+            "agf_c90feb3cb563901d5715"
+          ]
+        }
+      ]
+    },
+    "ag_21076": {
+      "label": "Cat and Kitten",
+      "artist_id": "ag_1740",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_d18d4238be2218b79e18"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2572",
+          "fact_ids": [
+            "agf_876e358e8b5fb42fee68"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2606",
+          "fact_ids": [
+            "agf_9bc890ee18e41abe98aa"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124623",
+          "fact_ids": [
+            "agf_7e1413749cb47d3ee473",
+            "agf_4e47a7f79dbc6cc03781"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124695",
+          "fact_ids": [
+            "agf_7e1413749cb47d3ee473",
+            "agf_af9ab9e30f3256d089f6"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125123",
+          "fact_ids": [
+            "agf_7e1413749cb47d3ee473",
+            "agf_937a864bc66681bbf8f9"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_40",
+          "fact_ids": [
+            "agf_bf6a732ff3e8987ca9ea"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_e870701aba03418037c5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_0413858a621ca3b07b16"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_32a33393190a89ae9c46"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3815",
+          "fact_ids": [
+            "agf_7fdfd2533448499f9dd9"
+          ]
+        }
+      ]
+    },
+    "ag_21526": {
+      "label": "Fishing in the Spring",
+      "artist_id": "ag_1099",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_93721f8b5b3c4b72bdff"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_e9ddd1516c5e07776dfc"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_4d7995cefb2d02dc590d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_907ebaa8fee6317e7fb8",
+            "agf_3882fcc25bf9cacc083d"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_1d78205cab55a71f5287"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_78b0092ae2c69e5136a2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_e61fb3e71364f06952b0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_af1bc7172fb499753084"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_6df1b6e9752507f9b8d8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3030",
+          "fact_ids": [
+            "agf_1c88db88fd7bfa7483f0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_09b79422a15d06dd95cf"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3095",
+          "fact_ids": [
+            "agf_f303e99f32e9084f816e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3147",
+          "fact_ids": [
+            "agf_fe3cb4a861f23fcc1db8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3180",
+          "fact_ids": [
+            "agf_355de7030b5455e90fc2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3309",
+          "fact_ids": [
+            "agf_7c6972cd97e47928b3ae"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_298d0c1a7509b5dd8da8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3608",
+          "fact_ids": [
+            "agf_20312d0522f6caa1a97e"
+          ]
+        }
+      ]
+    },
+    "ag_21981": {
+      "label": "Park at Asnieres in Spring",
+      "artist_id": "ag_1099",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_3ccc53d6df704e1561cb"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_b0dce3b5c1d3c509f99e"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_35889604b41d1c85c4ea"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_e6ebd37c0438777ed9c3",
+            "agf_3882fcc25bf9cacc083d"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_39",
+          "fact_ids": [
+            "agf_7882231116b46d3e37cb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_1dde8c55dc8ddd03acc0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3021",
+          "fact_ids": [
+            "agf_6d6890b344a543fab905"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_ba8835ab81897d3d42c5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_ceaeda5991c0a7a38a3c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3130",
+          "fact_ids": [
+            "agf_919e0d330e97167ce772"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3137",
+          "fact_ids": [
+            "agf_dc99f76a1f4c9f500af6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3172",
+          "fact_ids": [
+            "agf_6d1bc6b82a943564ec26"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3283",
+          "fact_ids": [
+            "agf_c3d392041e63c635f4e4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3288",
+          "fact_ids": [
+            "agf_52fb1f2b2e945410ee96"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_0f807e6a5322e1e28389"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_38ec2398a8c326cb0e37"
+          ]
+        }
+      ]
+    },
+    "ag_23111": {
+      "label": "Bananas",
+      "artist_id": "ag_615",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_15",
+          "fact_ids": [
+            "agf_7efc9977104c4bed46b8"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_56abdcf25f79a1b8938d",
+            "agf_07e76ea80f58c6ef5e56"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_8e15185e95905ce2e03b"
+          ]
+        }
+      ]
+    },
+    "ag_23259": {
+      "label": "A Cottage in the Snow",
+      "artist_id": "ag_1354",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_22a197a697b55dda6fd2"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_a7b1c954b5e28b9f8166"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_24a8bb63d4910d64a3e7"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_0b920e61bc394a9dad80",
+            "agf_9c9892c4219da6779966"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_0b920e61bc394a9dad80",
+            "agf_a0386ae8ed2e1fdec47b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_228d6512cc90fb224c08"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_e46c20d23e153e870117"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3028",
+          "fact_ids": [
+            "agf_1ca519d2ba17c06952a2"
+          ]
+        }
+      ]
+    },
+    "ag_23352": {
+      "label": "Children in a Garden at Eragny",
+      "artist_id": "ag_1354",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_947a554262ca728c69a0"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_bdc99e9997f7ff4feb0c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_38926feb30df1c321973"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_cf9d93b6ce97c7bae285",
+            "agf_9c9892c4219da6779966"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_cf9d93b6ce97c7bae285",
+            "agf_a0386ae8ed2e1fdec47b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_9ec01a6f2eb5fb13cd33"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_41ffb8079015a64dc161"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2775",
+          "fact_ids": [
+            "agf_dd641133ab7a2f550279"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_9976c2478c047a639e28"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_dece0a1378a732f7d224"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_7123c8493c750ed76663"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3130",
+          "fact_ids": [
+            "agf_d5d214ed444e3d2ad835"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3166",
+          "fact_ids": [
+            "agf_cdbcd5067270ee6d0b03"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_ac0a92cab593845509fb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_faee0067fd681dba1ebb"
+          ]
+        }
+      ]
+    },
+    "ag_23692": {
+      "label": "Resting, Peasant Girl Lying on the Grass, Pontoise",
+      "artist_id": "ag_1354",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_049bb4c378f6a5481d94"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_0171a07b70a107214f7e"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_d0e65d958ac3326007cb"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_e881ed9035f7138c4ed8",
+            "agf_9c9892c4219da6779966"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_e881ed9035f7138c4ed8",
+            "agf_a0386ae8ed2e1fdec47b"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_6b0f01b96fbbd0d3a0d1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3130",
+          "fact_ids": [
+            "agf_dc2d97929ec15feb2db2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_1e502fbb5df087b69f5b"
+          ]
+        }
+      ]
+    },
+    "ag_24685": {
+      "label": "A gray day. Mountains. Crimea.",
+      "artist_id": "ag_1525",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_4f15bfc4d8043f34a1f1"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_f7b33b898e7e467835dd",
+            "agf_de28378a2b12edc7f839"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_f7b33b898e7e467835dd",
+            "agf_be9ec13c229fe32726dd"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125157",
+          "fact_ids": [
+            "agf_f7b33b898e7e467835dd",
+            "agf_a0076fe300fc0bb998e8"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_7e075b707aeb5a141622"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2995",
+          "fact_ids": [
+            "agf_ba0e04811651475b8542"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3034",
+          "fact_ids": [
+            "agf_5b3b8482128144e30ad8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3089",
+          "fact_ids": [
+            "agf_9046e33e12fabd8de0ee"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_07dfa1a4c9f1c326382b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3441",
+          "fact_ids": [
+            "agf_bb0bbf834e09338e3423"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3621",
+          "fact_ids": [
+            "agf_b3223f212f877dca79a7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_d8d473a81e4811c39219"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3683",
+          "fact_ids": [
+            "agf_e46766b347d37be7eadb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3703",
+          "fact_ids": [
+            "agf_40bcdb5cb00e13f6e5a0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3849",
+          "fact_ids": [
+            "agf_86bd32bf917514ea3dcb"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4440",
+          "fact_ids": [
+            "agf_a2e9a359651fd326ae4c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4442",
+          "fact_ids": [
+            "agf_c24b7efe6180591c74d6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_5620",
+          "fact_ids": [
+            "agf_cc3f27c2f004aa5eee43"
+          ]
+        }
+      ]
+    },
+    "ag_24720": {
+      "label": "At the lake. Fishermen.",
+      "artist_id": "ag_1525",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_eb718ab8a9dd42819f3a"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_33a1fc863cf016ea88fe",
+            "agf_de28378a2b12edc7f839"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_33a1fc863cf016ea88fe",
+            "agf_be9ec13c229fe32726dd"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125157",
+          "fact_ids": [
+            "agf_33a1fc863cf016ea88fe",
+            "agf_a0076fe300fc0bb998e8"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_edfdc3c96b97b0768837"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2761",
+          "fact_ids": [
+            "agf_de657be7c23ca4c186f3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_3b4102e8da006fa387de"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2954",
+          "fact_ids": [
+            "agf_adf82e4b34df0363b978"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_b9c3a17a3f8bd9b73aa7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_802ca059c7dde5cc0215"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_dd71ece4a5d0b9dc5965"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_5625",
+          "fact_ids": [
+            "agf_fad995f8cd68030e3504"
+          ]
+        }
+      ]
+    },
+    "ag_25432": {
+      "label": "Departure of Summer",
+      "artist_id": "ag_2396",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_653c0d041f267cce5491"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_7dbfaaff8cbb2612b3d9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_bb553190b0ec17d73773"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124653",
+          "fact_ids": [
+            "agf_49a46f819d69153a7efb",
+            "agf_97c1d428f619314932e2"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124703",
+          "fact_ids": [
+            "agf_49a46f819d69153a7efb",
+            "agf_e9daf8e67c9b65b57c50"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_7a607e92eedc504de144"
+          ]
+        }
+      ]
+    },
+    "ag_25471": {
+      "label": "Bathers",
+      "artist_id": "ag_2531",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_afc3d3144856d3ed0676"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133122",
+          "fact_ids": [
+            "agf_9445428e82d7a61246fb"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_c61f1cf1c09a7f205dbe"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2734",
+          "fact_ids": [
+            "agf_53c3a77c3aa8a4649ea1"
+          ]
+        }
+      ]
+    },
+    "ag_25521": {
+      "label": "Homesickness",
+      "artist_id": "ag_2531",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_5",
+          "fact_ids": [
+            "agf_3c4978e78d806f017f4c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_5452d25755cb85566e10"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_c3f2c405ebe1b393e46d"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133238",
+          "fact_ids": [
+            "agf_7fc700c5448f43517214"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_48",
+          "fact_ids": [
+            "agf_883fbaf3ccfe12e75753"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3367",
+          "fact_ids": [
+            "agf_c733c12c9ae84498f48f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_c306aa595f951df60123"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4023",
+          "fact_ids": [
+            "agf_a27035c0d8010f8d95b0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4025",
+          "fact_ids": [
+            "agf_a356274ea43b623e78be"
+          ]
+        }
+      ]
+    },
+    "ag_25837": {
+      "label": "Bathers at La Grenouillere",
+      "artist_id": "ag_2016",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_f0a03eccccce84d03831"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_bebd6e628b14f3055219"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_6a9bc2af876867c9c893"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_22217d43ad3102acfeb5",
+            "agf_8b72634f4c24d870087c"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_2d0d2ac177cb0d4ec947"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_ae860d65bab61aa1f17f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_191d3438f2fcd082cae3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_ab66c8d65168f1be99de"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_80ed5b5f426acfbe4940"
+          ]
+        }
+      ]
+    },
+    "ag_25845": {
+      "label": "Bennecourt",
+      "artist_id": "ag_2016",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_9ef0320813815a880de0"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_a80eba0c7c8b9b1df954",
+            "agf_8b72634f4c24d870087c"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_ca7a5d04cbad1b633b1b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2744",
+          "fact_ids": [
+            "agf_140d5c3cbf858c50e564"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_c6a606875931711ead2f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3038",
+          "fact_ids": [
+            "agf_4d3673c253d00ee337d1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_aafd5e41ebc3eecda21a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_ce3da6d885407c59498a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_9c60a9a9091cff17fcde"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_f7931b8fd5babb2a38cf"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3169",
+          "fact_ids": [
+            "agf_4489025756f3a7b3e949"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_2df158e8f1d9e112d412"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_0383452947875db81a0a"
+          ]
+        }
+      ]
+    },
+    "ag_27122": {
+      "label": "La Tour Eiffel",
+      "artist_id": "ag_901",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_06e06eb765263a78d410"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_3982d5fe35facccad43e"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_6b6c0b868bb5bc4cff8c"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124668",
+          "fact_ids": [
+            "agf_7fda88573d39c8e92317",
+            "agf_ce85408e98a1ae78d8da"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_25",
+          "fact_ids": [
+            "agf_3547198c41f2b2ee2899"
+          ]
+        }
+      ]
+    },
+    "ag_27748": {
+      "label": "A Nude with her Heel on her Knee",
+      "artist_id": "ag_744",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_3f0d2b1de6008bd008cf"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124637",
+          "fact_ids": [
+            "agf_7c5d7a2a841c0f64e191",
+            "agf_b76979d5acf428e1b544"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124646",
+          "fact_ids": [
+            "agf_7c5d7a2a841c0f64e191",
+            "agf_215130c54dbc54bbf35a"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125163",
+          "fact_ids": [
+            "agf_7c5d7a2a841c0f64e191",
+            "agf_a28899dc51ce62c772fe"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_269553dbfea416fbe4e0"
+          ]
+        }
+      ]
+    },
+    "ag_28565": {
+      "label": "Alley in the park Kachanovka",
+      "artist_id": "ag_1487",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_9d954348c0aceb54e141"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_16d752bf2d27372610c9"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2573",
+          "fact_ids": [
+            "agf_a9a7b4deb8fcf5625906"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_50c3753e4dadb17cc013",
+            "agf_56070c6a410a3555af8c"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_131470bea4b69e3c6b03"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2970",
+          "fact_ids": [
+            "agf_bea947aa868d7bb16c86"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_86520ff5086a3cd9f388"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_80bceb4570957c9bef31"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_9ab9540375882e775efd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_e947ca20501276022e80"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_a014b27154e57fcb193b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_efafd5309ad2d78b683c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3402",
+          "fact_ids": [
+            "agf_23ec6bfd9634183e885e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_4ff2a917a8b7b2bd9595"
+          ]
+        }
+      ]
+    },
+    "ag_28656": {
+      "label": "Landscape of the Volga with boats",
+      "artist_id": "ag_1487",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_7b8a30ef2a114f778cfe"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_210f8fa5de1da7af6aa2"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_a5717ac0433e9f3fe0f3"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124724",
+          "fact_ids": [
+            "agf_3aa1a70e51e5e8888476",
+            "agf_56070c6a410a3555af8c"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_ea2c470c7fd676350fd7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2761",
+          "fact_ids": [
+            "agf_8e5ed788b8ea2efef00b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_389a196e1ae951b1098e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_4152958139611b86433d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_f24b69f2ead387fbd96d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2954",
+          "fact_ids": [
+            "agf_6701736de6b17dd85ce2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_728531b401d1ddf69e44"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_f7dd44a5328a4cbdbdf4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3294",
+          "fact_ids": [
+            "agf_4485222dfe7f81cc46f8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_d452da8b3dd9b7fe5494"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3581",
+          "fact_ids": [
+            "agf_bfe2ba8e994a92a4a456"
+          ]
+        }
+      ]
+    },
+    "ag_29656": {
+      "label": "Lion and the sun",
+      "artist_id": "ag_312",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_5",
+          "fact_ids": [
+            "agf_41c2b99c2f5aaff3cc80"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_2f5996d67a690ea7d8e8"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2587",
+          "fact_ids": [
+            "agf_617dd693ec6be767563d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_125140",
+          "fact_ids": [
+            "agf_347dcc1a3a6ad1ea996a",
+            "agf_d8e17c7f2a4b04cb7677"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_47",
+          "fact_ids": [
+            "agf_fc12c6c4ad1c3cdc6e20"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_ded30d8813a1d46f5ebc"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3665",
+          "fact_ids": [
+            "agf_2b29bb0bbb388db879ef"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4023",
+          "fact_ids": [
+            "agf_8e70959b239ad88f17aa"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4025",
+          "fact_ids": [
+            "agf_493f5294be96495123a5"
+          ]
+        }
+      ]
+    },
+    "ag_29807": {
+      "label": "Etude of lion",
+      "artist_id": "ag_313",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_e115b8a809a4683dd2d7"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124633",
+          "fact_ids": [
+            "agf_10e734b6d5ce59ff4179",
+            "agf_dd5d3b25d83998c519ba"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124665",
+          "fact_ids": [
+            "agf_10e734b6d5ce59ff4179",
+            "agf_987352735eaccec2cc0e"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_20",
+          "fact_ids": [
+            "agf_b4eec62675f1bd01f7b9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2820",
+          "fact_ids": [
+            "agf_7eb7d4f29b17457640c3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_02bebc03a968f4551ce5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_9efe68f9b71123d963cd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3665",
+          "fact_ids": [
+            "agf_7263ac5ae86ff1aa129a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4023",
+          "fact_ids": [
+            "agf_8914df76cbcdb74e3aa5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4025",
+          "fact_ids": [
+            "agf_221483ff875672f76891"
+          ]
+        }
+      ]
+    },
+    "ag_30919": {
+      "label": "Sleeping Cat",
+      "artist_id": "ag_60",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_53ca82e62f733f49133c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_6fa5153c1cbc794e2f39"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_a10806d9055fadb260fb"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_9b9bc4f337f41fea2e2a",
+            "agf_864bd00dc6d4139101bc"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133239",
+          "fact_ids": [
+            "agf_29c366a333f0dd1cda14"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_9c354f6341c696e7c085"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_7c74cce61a90fece8a43"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3665",
+          "fact_ids": [
+            "agf_34838c86d120e7cc9c53"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3815",
+          "fact_ids": [
+            "agf_c203a622f3cf4c9a69f2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3816",
+          "fact_ids": [
+            "agf_0915214688f76e448383"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4010",
+          "fact_ids": [
+            "agf_1a00739ce0c1b47db4c9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_5845",
+          "fact_ids": [
+            "agf_72459017e35ef4bbe298"
+          ]
+        }
+      ]
+    },
+    "ag_31153": {
+      "label": "The Seine at Asnieres (The Skiff)",
+      "artist_id": "ag_60",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_101bc87aaf184952dbe6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_608fcf1e0da998c06cc6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_6301c4641e88dedec9fe"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124744",
+          "fact_ids": [
+            "agf_ac94e41376f3baec90ff",
+            "agf_864bd00dc6d4139101bc"
+          ]
+        },
+        {
+          "type": "period",
+          "value_id": "ag_133201",
+          "fact_ids": [
+            "agf_489e4a54eeb18f70b0c7"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_42",
+          "fact_ids": [
+            "agf_38d3c4eb917391eb6144"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_97473462f86ca2a9d625"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2954",
+          "fact_ids": [
+            "agf_823d15ca189695f0abf3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_538bfdc6764ae5029770"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_54ce890280f8f2933634"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_2ba4366f5c33a329aa10"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3016",
+          "fact_ids": [
+            "agf_452ed42e4c533aeeb74f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_229bf8f32619d2fce155"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4034",
+          "fact_ids": [
+            "agf_ba3d0ba2eb6c367e701a"
+          ]
+        }
+      ]
+    },
+    "ag_31456": {
+      "label": "Bathers",
+      "artist_id": "ag_457",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_c7531b72ed94b2a5ea2c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_715141c75cf595780c09"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_edbcacbd12c748b13cc9"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124730",
+          "fact_ids": [
+            "agf_ef4400ceb62a502f92ba",
+            "agf_ec315ac19ddc0ddabdd0"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_7620149781b349267c48"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2734",
+          "fact_ids": [
+            "agf_c9846ed5f73aa8fd7cb7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2904",
+          "fact_ids": [
+            "agf_7b91ff9bbfc70bac8c10"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2986",
+          "fact_ids": [
+            "agf_af24e3252de210020f74"
+          ]
+        }
+      ]
+    },
+    "ag_31775": {
+      "label": "Lion resting",
+      "artist_id": "ag_2101",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_c75db89a065398f027af"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124642",
+          "fact_ids": [
+            "agf_d11e89b26239ea436d9f",
+            "agf_f2343da9d7582b668cf8"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124665",
+          "fact_ids": [
+            "agf_d11e89b26239ea436d9f",
+            "agf_1e6d4a253f6c3ea04af3"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_20",
+          "fact_ids": [
+            "agf_f718b545f8a40195705e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_65fce4f1f5a2a0e0ee8d"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3392",
+          "fact_ids": [
+            "agf_0827a7827abe6db80821"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4023",
+          "fact_ids": [
+            "agf_ea50eba42aab08380e47"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4025",
+          "fact_ids": [
+            "agf_064dec2cc3283b91ecaf"
+          ]
+        }
+      ]
+    },
+    "ag_33200": {
+      "label": "Sunset across the Ryogoku bridge from the bank of the Sumida river at Onmagayashi",
+      "artist_id": "ag_1976",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_7c934f5de1f3063026c7"
+          ]
+        },
+        {
+          "type": "series",
+          "value_id": "ag_132361",
+          "fact_ids": [
+            "agf_d1be06fec0e4e132a780"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_45",
+          "fact_ids": [
+            "agf_0193b753b9b90972a9de"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_72426827951f54d0da33"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_2611658b6a1ba8dcdda3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_bf559df4efef14fef134"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2956",
+          "fact_ids": [
+            "agf_dff5b672e9eb068cae45"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_ce05eb9f6e68bf6fca7a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_6d3424a8022bb4345ab6"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_c5b42848751179105b2f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4034",
+          "fact_ids": [
+            "agf_15901995fa0a13a6f798"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_4508",
+          "fact_ids": [
+            "agf_271daa945e908583f387"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_5911",
+          "fact_ids": [
+            "agf_7e02e641ae4b53f8dd92"
+          ]
+        }
+      ]
+    },
+    "ag_34561": {
+      "label": "A path",
+      "artist_id": "ag_1090",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_2c4c213b48835b23e301"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_19",
+          "fact_ids": [
+            "agf_d24212439a88c8af3ee4"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_43f7c6ac1fb279d3ad9b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3021",
+          "fact_ids": [
+            "agf_7d256c3a5ec5285b1375"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3055",
+          "fact_ids": [
+            "agf_47287c205f14c9080bfa"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3056",
+          "fact_ids": [
+            "agf_5bceda90305883a761af"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3092",
+          "fact_ids": [
+            "agf_f2c30f1d11e3e4b79cec"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3130",
+          "fact_ids": [
+            "agf_121d4d75886cbe0f440f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3170",
+          "fact_ids": [
+            "agf_749cd60c705d88ed7102"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3172",
+          "fact_ids": [
+            "agf_d0c21cb98d8af5451b68"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3679",
+          "fact_ids": [
+            "agf_b083e76e12b2b5427b76"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_5742",
+          "fact_ids": [
+            "agf_3d8b3e74d1a52b282d19"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_6014",
+          "fact_ids": [
+            "agf_7a05ba31a15055fe6ac2"
+          ]
+        }
+      ]
+    },
+    "ag_34659": {
+      "label": "Brahmaputra",
+      "artist_id": "ag_1090",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_6834ed46cb77b6d4b070"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_ff1fa63c689dd20f5f3c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2557",
+          "fact_ids": [
+            "agf_fdc7834524ecc45098e8"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_29",
+          "fact_ids": [
+            "agf_9e06da71b87d7b169fb2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2761",
+          "fact_ids": [
+            "agf_1aa628484496c6239c4a"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_c64765ce2b2fa6a0be61"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_abb15857627e1822488b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3089",
+          "fact_ids": [
+            "agf_f9fd6b9e93ac0c534261"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3093",
+          "fact_ids": [
+            "agf_77277d672dfc888087cd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_74d1bec9d780cb6ca1a8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_6049",
+          "fact_ids": [
+            "agf_c70ac4a6fe1e9d3a56f0"
+          ]
+        }
+      ]
+    },
+    "ag_38633": {
+      "label": "Summer Evening",
+      "artist_id": "ag_1174",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_b6e2ba49147b8a01d217"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_43",
+          "fact_ids": [
+            "agf_34e57d58dfa1cc958d45"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2950",
+          "fact_ids": [
+            "agf_54fb855eed3aea37ba20"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2951",
+          "fact_ids": [
+            "agf_86794c41ab62f3603ed3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2952",
+          "fact_ids": [
+            "agf_5d82edc69c4a007f3c3b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2955",
+          "fact_ids": [
+            "agf_28558080384f14b32dc3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_2ab19ef4bb1398ef22b7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2984",
+          "fact_ids": [
+            "agf_0dff6be4a09761070662"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3007",
+          "fact_ids": [
+            "agf_0f3713bd6d29d251baa7"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3035",
+          "fact_ids": [
+            "agf_070477236f83eb310393"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3147",
+          "fact_ids": [
+            "agf_93a34c557ff3f6d40e4c"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3579",
+          "fact_ids": [
+            "agf_2c2c56c2f5483e8a93d9"
+          ]
+        }
+      ]
+    },
+    "ag_40460": {
+      "label": "A Tree in Late Autumn",
+      "artist_id": "ag_1323",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_8",
+          "fact_ids": [
+            "agf_189361823941dc75a845"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_4ee5491e8b00257e1caf"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_4266aa5a467e6d8bb006"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_cc291ecd72eee14d1be4",
+            "agf_d446e623f771c3f35d3f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_81d818249f04049d2a22"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2972",
+          "fact_ids": [
+            "agf_3f23cc8ded7a404a5ca5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2975",
+          "fact_ids": [
+            "agf_f12daed8076424e7cbbd"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3020",
+          "fact_ids": [
+            "agf_8053d577fc8865eb666b"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3166",
+          "fact_ids": [
+            "agf_4951403256fefcea0d18"
+          ]
+        }
+      ]
+    },
+    "ag_42361": {
+      "label": "Adolf Loos",
+      "artist_id": "ag_2321",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_9",
+          "fact_ids": [
+            "agf_2a64d23efc03b8d6d739"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_c1dcd3b76e7338d8afdd"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_ef3b5e5cfe5c8e65682d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_d2a9c1a0c0a6bedb9a03",
+            "agf_45317c9a9b2bc93d2061"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_a7dbc3febca67d18eab0"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2725",
+          "fact_ids": [
+            "agf_d502b2681fcaf16ed284"
+          ]
+        }
+      ]
+    },
+    "ag_50541": {
+      "label": "Afternoon in the Garden",
+      "artist_id": "ag_414",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_ddd7579c00b0be7213d2"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2572",
+          "fact_ids": [
+            "agf_96f592099a1c73332b76"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_7ebfe0e9d5f5f24f6360",
+            "agf_38c47f1eb6613bfa2d34"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_3523b77172b3152ca9a3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2938",
+          "fact_ids": [
+            "agf_d163b1383be6e1dff62f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3021",
+          "fact_ids": [
+            "agf_e173866220dac4db822b"
+          ]
+        }
+      ]
+    },
+    "ag_52338": {
+      "label": "After the Bath",
+      "artist_id": "ag_1300",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_0",
+          "fact_ids": [
+            "agf_3c331391fe74a988b42d"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_aa7238b5bab141004f6d",
+            "agf_c5902ab83608880f106c"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_047645ea8f6434f4cbb3"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2734",
+          "fact_ids": [
+            "agf_c252814e8105b2bd78b2"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2824",
+          "fact_ids": [
+            "agf_dd40fdec15077df038a1"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2893",
+          "fact_ids": [
+            "agf_c959f00d972dab3d04a9"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2988",
+          "fact_ids": [
+            "agf_a987a645c0110a4a9bd5"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2996",
+          "fact_ids": [
+            "agf_bd55f7ea695c424bc552"
+          ]
+        }
+      ]
+    },
+    "ag_54245": {
+      "label": "A Dog",
+      "artist_id": "ag_876",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_aa14655bdfa33c5d232c"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_d4eb22d809174f2512f6"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_bb352aa6e7a9ade98b7f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_b1e0a5478b8b2fd29a36",
+            "agf_2ab56645e8e14f7f9453"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_8fb67a7d4f535a32cd4f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_bb25cd3ae75b744f2649"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2762",
+          "fact_ids": [
+            "agf_7aee04f82aee63fb47ac"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_70e3d5ed8cd8fb6c1e2e"
+          ]
+        }
+      ]
+    },
+    "ag_67931": {
+      "label": "Cats",
+      "artist_id": "ag_1286",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_2",
+          "fact_ids": [
+            "agf_effafb004096edd785dd"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124619",
+          "fact_ids": [
+            "agf_01f17c0936ff1ada80d6",
+            "agf_4691962ed95db01dccad"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124653",
+          "fact_ids": [
+            "agf_01f17c0936ff1ada80d6",
+            "agf_586e6b1311615a6a357f"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_01f17c0936ff1ada80d6",
+            "agf_6117b466841ebd9efb4f"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_185da31cff336f5a7835"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2753",
+          "fact_ids": [
+            "agf_ce7929e81d5f6fcb1475"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2804",
+          "fact_ids": [
+            "agf_e5b184413cb9a579047e"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2914",
+          "fact_ids": [
+            "agf_4795e25246fc6753d7cf"
+          ]
+        }
+      ]
+    },
+    "ag_69371": {
+      "label": "At the Caf&#233;",
+      "artist_id": "ag_330",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_4",
+          "fact_ids": [
+            "agf_4bd30239af8e4cda7628"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2551",
+          "fact_ids": [
+            "agf_8a0ac1565d0f22929c60"
+          ]
+        },
+        {
+          "type": "medium",
+          "value_id": "ag_2552",
+          "fact_ids": [
+            "agf_d138ae8c9c4176d58efd"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_cf37a205a2a356bf364c",
+            "agf_67c5847b72f9f1f3c096"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_21",
+          "fact_ids": [
+            "agf_a27e3bb6779281899314"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2938",
+          "fact_ids": [
+            "agf_ba9f4b4eb81df79bd17f"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3027",
+          "fact_ids": [
+            "agf_fe3330814626ff7b371c"
+          ]
+        }
+      ]
+    },
+    "ag_72995": {
+      "label": "Horizontal Vertical",
+      "artist_id": "ag_528",
+      "attributes": [
+        {
+          "type": "genre",
+          "value_id": "ag_6",
+          "fact_ids": [
+            "agf_63e047810b9a13454a85"
+          ]
+        },
+        {
+          "type": "movement",
+          "value_id": "ag_124670",
+          "fact_ids": [
+            "agf_07d89ae9b8ae24d59772",
+            "agf_e0affaf4938ea9d99e76"
+          ]
+        },
+        {
+          "type": "style",
+          "value_id": "ag_38",
+          "fact_ids": [
+            "agf_614f9b0f31ace9b4c210"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2752",
+          "fact_ids": [
+            "agf_12c18021220581e32784"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2865",
+          "fact_ids": [
+            "agf_af2ea7116162cedc7825"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2873",
+          "fact_ids": [
+            "agf_8491493788ea5feae977"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_2969",
+          "fact_ids": [
+            "agf_ef4c1a835cc6e6a9eea8"
+          ]
+        },
+        {
+          "type": "tag",
+          "value_id": "ag_3063",
+          "fact_ids": [
+            "agf_51f8ee48f25799efce04"
+          ]
+        }
+      ]
+    }
+  }
+}
