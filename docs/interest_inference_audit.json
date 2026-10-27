@@ -1,0 +1,2981 @@
+{
+  "schema_version": "0.75",
+  "source": "data\\raw\\artgraph-facts.sanitized.ttl",
+  "source_sha256": "984b8aee44a223b48420703028f30d5f6a831f8f2b62f19002f513eecae28e29",
+  "audit": {
+    "about_semantics": {
+      "declared_domain": "Artwork",
+      "declared_range": "Tag",
+      "observed_type_pairs": [
+        {
+          "domain": "Artwork",
+          "range": "Tag",
+          "count": 342982,
+          "examples": [
+            {
+              "subject_id": "ag_38677",
+              "subject_label": "Vegetables Merchant",
+              "object_id": "ag_2718",
+              "object_label": "fruits-and-vegetables",
+              "fact_id": "agf_8357ebcca423e45cfa12",
+              "triple": [
+                "https://www.gennarovessio.com/artgraph-resources#38677",
+                "https://www.gennarovessio.com/artgraph-schema#about",
+                "https://www.gennarovessio.com/artgraph-resources#2718"
+              ]
+            },
+            {
+              "subject_id": "ag_55231",
+              "subject_label": "The Still life with Pumpkin",
+              "object_id": "ag_2718",
+              "object_label": "fruits-and-vegetables",
+              "fact_id": "agf_cb52ee783f1b45e331c4",
+              "triple": [
+                "https://www.gennarovessio.com/artgraph-resources#55231",
+                "https://www.gennarovessio.com/artgraph-schema#about",
+                "https://www.gennarovessio.com/artgraph-resources#2718"
+              ]
+            },
+            {
+              "subject_id": "ag_36582",
+              "subject_label": "Still Life with a Basket of Pears",
+              "object_id": "ag_2718",
+              "object_label": "fruits-and-vegetables",
+              "fact_id": "agf_85833cb049eda2f94a7a",
+              "triple": [
+                "https://www.gennarovessio.com/artgraph-resources#36582",
+                "https://www.gennarovessio.com/artgraph-schema#about",
+                "https://www.gennarovessio.com/artgraph-resources#2718"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "artwork_count": 116475,
+    "tag_entity_count": 5424,
+    "about_triple_count": 342982,
+    "tagged_artwork_count": 95588,
+    "tagged_artwork_percent": 82.0674,
+    "tags_per_all_artwork": {
+      "count": 116475,
+      "min": 0,
+      "median": 2,
+      "mean": 2.9447,
+      "p90": 7,
+      "p95": 9,
+      "max": 21
+    },
+    "tags_per_tagged_artwork": {
+      "count": 95588,
+      "min": 1,
+      "median": 3.0,
+      "mean": 3.5881,
+      "p90": 7,
+      "p95": 9,
+      "max": 21
+    },
+    "tags_per_artwork_histogram": {
+      "0": 20887,
+      "1": 22274,
+      "2": 19604,
+      "3": 15394,
+      "4": 11194,
+      "5": 7765,
+      "6": 5768,
+      "7": 4252,
+      "8": 3351,
+      "9": 2377,
+      "10": 1842,
+      "11": 940,
+      "12": 513,
+      "13": 213,
+      "14": 70,
+      "15": 28,
+      "18": 1,
+      "20": 1,
+      "21": 1
+    },
+    "artworks_per_tag": {
+      "count": 5424,
+      "min": 1,
+      "median": 3.0,
+      "mean": 63.2341,
+      "p90": 62,
+      "p95": 202,
+      "max": 10864
+    },
+    "artists_per_tag": {
+      "count": 5424,
+      "min": 1,
+      "median": 2.0,
+      "mean": 16.809,
+      "p90": 31,
+      "p95": 80,
+      "max": 1115
+    },
+    "tags_used_by_multiple_artists": 2929,
+    "artworks_with_any_cross_artist_tag_peer": 95460,
+    "percent_tagged_artworks_with_any_cross_artist_tag_peer": 99.8661,
+    "multi_tag_overlap": {
+      "metric_definition": "Artwork-centric exact counts: an artwork is counted once if at least one peer shares two or more distinct tags.",
+      "repeated_tag_pair_groups": 40042,
+      "cross_artist_repeated_tag_pair_groups": 32845,
+      "artworks_with_two_tag_peer": 72285,
+      "percent_tagged_artworks_with_two_tag_peer": 75.6214,
+      "artworks_with_two_tag_cross_artist_peer": 71611,
+      "percent_tagged_artworks_with_two_tag_cross_artist_peer": 74.9163
+    },
+    "top_tags": [
+      {
+        "id": "ag_2975",
+        "label": "Tree",
+        "artwork_count": 10864,
+        "artist_count": 1115,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2975"
+      },
+      {
+        "id": "ag_2763",
+        "label": "Lady",
+        "artwork_count": 9403,
+        "artist_count": 918,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2763"
+      },
+      {
+        "id": "ag_2761",
+        "label": "Sky",
+        "artwork_count": 8923,
+        "artist_count": 948,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2761"
+      },
+      {
+        "id": "ag_2746",
+        "label": "female-portraits",
+        "artwork_count": 7689,
+        "artist_count": 385,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2746"
+      },
+      {
+        "id": "ag_2893",
+        "label": "Sketch",
+        "artwork_count": 7329,
+        "artist_count": 863,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2893"
+      },
+      {
+        "id": "ag_2725",
+        "label": "male-portraits",
+        "artwork_count": 6587,
+        "artist_count": 399,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2725"
+      },
+      {
+        "id": "ag_2719",
+        "label": "Christianity",
+        "artwork_count": 5179,
+        "artist_count": 211,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2719"
+      },
+      {
+        "id": "ag_2744",
+        "label": "Plant",
+        "artwork_count": 4828,
+        "artist_count": 801,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2744"
+      },
+      {
+        "id": "ag_2788",
+        "label": "Mythology",
+        "artwork_count": 4727,
+        "artist_count": 678,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2788"
+      },
+      {
+        "id": "ag_3093",
+        "label": "Natural landscape",
+        "artwork_count": 4712,
+        "artist_count": 522,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3093"
+      },
+      {
+        "id": "ag_2972",
+        "label": "forests-and-trees",
+        "artwork_count": 4404,
+        "artist_count": 245,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2972"
+      },
+      {
+        "id": "ag_2726",
+        "label": "famous-people",
+        "artwork_count": 3605,
+        "artist_count": 307,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2726"
+      },
+      {
+        "id": "ag_2969",
+        "label": "Line",
+        "artwork_count": 3426,
+        "artist_count": 747,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2969"
+      },
+      {
+        "id": "ag_2790",
+        "label": "Gentleman",
+        "artwork_count": 3366,
+        "artist_count": 617,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2790"
+      },
+      {
+        "id": "ag_2731",
+        "label": "Chin",
+        "artwork_count": 3294,
+        "artist_count": 752,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2731"
+      },
+      {
+        "id": "ag_2984",
+        "label": "Water",
+        "artwork_count": 2938,
+        "artist_count": 642,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2984"
+      },
+      {
+        "id": "ag_2730",
+        "label": "Head",
+        "artwork_count": 2829,
+        "artist_count": 661,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2730"
+      },
+      {
+        "id": "ag_2992",
+        "label": "houses-and-buildings",
+        "artwork_count": 2822,
+        "artist_count": 233,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2992"
+      },
+      {
+        "id": "ag_2723",
+        "label": "Still life photography",
+        "artwork_count": 2755,
+        "artist_count": 509,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2723"
+      },
+      {
+        "id": "ag_2855",
+        "label": "saints-and-apostles",
+        "artwork_count": 2680,
+        "artist_count": 166,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2855"
+      },
+      {
+        "id": "ag_2955",
+        "label": "Vehicle",
+        "artwork_count": 2507,
+        "artist_count": 466,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2955"
+      },
+      {
+        "id": "ag_2758",
+        "label": "allegories-and-symbols",
+        "artwork_count": 2505,
+        "artist_count": 136,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2758"
+      },
+      {
+        "id": "ag_3092",
+        "label": "Nature",
+        "artwork_count": 2461,
+        "artist_count": 387,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3092"
+      },
+      {
+        "id": "ag_2734",
+        "label": "Human",
+        "artwork_count": 2460,
+        "artist_count": 627,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2734"
+      },
+      {
+        "id": "ag_2996",
+        "label": "Figure drawing",
+        "artwork_count": 2429,
+        "artist_count": 445,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2996"
+      },
+      {
+        "id": "ag_2770",
+        "label": "Flower",
+        "artwork_count": 2330,
+        "artist_count": 495,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2770"
+      },
+      {
+        "id": "ag_2729",
+        "label": "Forehead",
+        "artwork_count": 2252,
+        "artist_count": 620,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2729"
+      },
+      {
+        "id": "ag_2748",
+        "label": "Cheek",
+        "artwork_count": 2243,
+        "artist_count": 631,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2748"
+      },
+      {
+        "id": "ag_2747",
+        "label": "Face",
+        "artwork_count": 2222,
+        "artist_count": 558,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2747"
+      },
+      {
+        "id": "ag_2914",
+        "label": "Text",
+        "artwork_count": 2200,
+        "artist_count": 543,
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#2914"
+      }
+    ],
+    "typed_predicate_counts": {
+      "https://www.gennarovessio.com/artgraph-schema#about": 342982,
+      "https://www.gennarovessio.com/artgraph-schema#hasStyle": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#hasGenre": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#createdBy": 116475,
+      "https://www.gennarovessio.com/artgraph-schema#belongsToMovement": 1056,
+      "https://www.gennarovessio.com/artgraph-schema#madeOf": 83824,
+      "https://www.gennarovessio.com/artgraph-schema#partOf": 8322,
+      "https://www.gennarovessio.com/artgraph-schema#hasPeriod": 5748
+    }
+  },
+  "candidate_subsets": [
+    {
+      "candidate_id": "tag_ag_3236",
+      "anchor_tag": {
+        "id": "ag_3236",
+        "label": "Musical instrument",
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3236"
+      },
+      "stats": {
+        "artwork_count": 188,
+        "artist_count": 138,
+        "attribute_type_count": 7,
+        "attribute_value_count": 263,
+        "attribute_values_by_type": {
+          "genre": 13,
+          "medium": 17,
+          "movement": 41,
+          "period": 9,
+          "series": 10,
+          "style": 24,
+          "tag": 149
+        },
+        "attribute_relationship_count": 1704,
+        "attribute_relationships_per_artwork": 9.0638,
+        "cross_artist_multi_attribute_artwork_count": 188,
+        "cross_artist_multi_attribute_percent": 100.0
+      },
+      "inference_opportunity_score": 2634,
+      "artwork_ids": [
+        "ag_8966",
+        "ag_10472",
+        "ag_10766",
+        "ag_11252",
+        "ag_11268",
+        "ag_12372",
+        "ag_13351",
+        "ag_14193",
+        "ag_14531",
+        "ag_16079",
+        "ag_16386",
+        "ag_17029",
+        "ag_17402",
+        "ag_19341",
+        "ag_19520",
+        "ag_19523",
+        "ag_19715",
+        "ag_19919",
+        "ag_20685",
+        "ag_20842",
+        "ag_21844",
+        "ag_23147",
+        "ag_23183",
+        "ag_23185",
+        "ag_25455",
+        "ag_25662",
+        "ag_27580",
+        "ag_28538",
+        "ag_28539",
+        "ag_28540",
+        "ag_29698",
+        "ag_29704",
+        "ag_31069",
+        "ag_31159",
+        "ag_31305",
+        "ag_31324",
+        "ag_31325",
+        "ag_31392",
+        "ag_31400",
+        "ag_32199",
+        "ag_32385",
+        "ag_32811",
+        "ag_33482",
+        "ag_35439",
+        "ag_36849",
+        "ag_36907",
+        "ag_37634",
+        "ag_37858",
+        "ag_38097",
+        "ag_38354",
+        "ag_39051",
+        "ag_40909",
+        "ag_40997",
+        "ag_41060",
+        "ag_41498",
+        "ag_41995",
+        "ag_42074",
+        "ag_42092",
+        "ag_44818",
+        "ag_44952",
+        "ag_45022",
+        "ag_45778",
+        "ag_45838",
+        "ag_46427",
+        "ag_47788",
+        "ag_47875",
+        "ag_47919",
+        "ag_48033",
+        "ag_52896",
+        "ag_53574",
+        "ag_54067",
+        "ag_55128",
+        "ag_55140",
+        "ag_55170",
+        "ag_55171",
+        "ag_55284",
+        "ag_55326",
+        "ag_56614",
+        "ag_56776",
+        "ag_56780",
+        "ag_56867",
+        "ag_58291",
+        "ag_58296",
+        "ag_58297",
+        "ag_58406",
+        "ag_60269",
+        "ag_60481",
+        "ag_61073",
+        "ag_61370",
+        "ag_61643",
+        "ag_62256",
+        "ag_62294",
+        "ag_64775",
+        "ag_67218",
+        "ag_67389",
+        "ag_67601",
+        "ag_67850",
+        "ag_67852",
+        "ag_67857",
+        "ag_68506",
+        "ag_69134",
+        "ag_70215",
+        "ag_70237",
+        "ag_70351",
+        "ag_70757",
+        "ag_71438",
+        "ag_71694",
+        "ag_71865",
+        "ag_73051",
+        "ag_75235",
+        "ag_77300",
+        "ag_77522",
+        "ag_79711",
+        "ag_82182",
+        "ag_82327",
+        "ag_82347",
+        "ag_82759",
+        "ag_83067",
+        "ag_83084",
+        "ag_83202",
+        "ag_83513",
+        "ag_83543",
+        "ag_83608",
+        "ag_83621",
+        "ag_83814",
+        "ag_85084",
+        "ag_87300",
+        "ag_88322",
+        "ag_88996",
+        "ag_90385",
+        "ag_91296",
+        "ag_93873",
+        "ag_94082",
+        "ag_94164",
+        "ag_95106",
+        "ag_95141",
+        "ag_95727",
+        "ag_95731",
+        "ag_95735",
+        "ag_99850",
+        "ag_99880",
+        "ag_100780",
+        "ag_101082",
+        "ag_101534",
+        "ag_102988",
+        "ag_103181",
+        "ag_103460",
+        "ag_103705",
+        "ag_103731",
+        "ag_103736",
+        "ag_103808",
+        "ag_104012",
+        "ag_104541",
+        "ag_104981",
+        "ag_105721",
+        "ag_106941",
+        "ag_107793",
+        "ag_108721",
+        "ag_108838",
+        "ag_109720",
+        "ag_109962",
+        "ag_110683",
+        "ag_111281",
+        "ag_111457",
+        "ag_111469",
+        "ag_111693",
+        "ag_112455",
+        "ag_112772",
+        "ag_114092",
+        "ag_114376",
+        "ag_114389",
+        "ag_114452",
+        "ag_114578",
+        "ag_114583",
+        "ag_114611",
+        "ag_115032",
+        "ag_115580",
+        "ag_116336",
+        "ag_117264",
+        "ag_117287",
+        "ag_118273",
+        "ag_118545",
+        "ag_120817",
+        "ag_121260",
+        "ag_121454",
+        "ag_122725",
+        "ag_123982",
+        "ag_124312"
+      ],
+      "examples": [
+        {
+          "left": {
+            "id": "ag_10472",
+            "label": "Study for The Cellist"
+          },
+          "right": {
+            "id": "ag_37634",
+            "label": "The Cellist (Serevitsch)"
+          },
+          "left_artist_id": "ag_1601",
+          "right_artist_id": "ag_247",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_9",
+              "value_label": "portrait"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_21",
+              "value_label": "expressionism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2725",
+              "value_label": "male-portraits"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3236",
+              "value_label": "Musical instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3237",
+              "value_label": "String instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3595",
+              "value_label": "Cellist"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3596",
+              "value_label": "Violone"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3597",
+              "value_label": "Violin family"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3599",
+              "value_label": "Viol"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3601",
+              "value_label": "Bowed string instrument"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0020414b60f35a12eafe",
+            "agf_0dead79ac167d3454b59",
+            "agf_578ea15a2d5332b528b5",
+            "agf_5c31fa6bfbc0b2e9166d",
+            "agf_6874fdb88122b2574ed8",
+            "agf_7bed94bd0214aacd2724",
+            "agf_7c70dcfa7e27ab34229b",
+            "agf_7ffc52a9c937bbb810c7",
+            "agf_86f24722d4e3a7072970",
+            "agf_8ab0b2862a84e72f06d7",
+            "agf_8c2ad48dc5a7e5705df3",
+            "agf_8df98244fec9bec2de1b",
+            "agf_8e49e33270d2ff0f08d3",
+            "agf_a68e7fc478bb3905e696",
+            "agf_ab7def11c8b3e2eab611",
+            "agf_b4ecb9306e5b8bc46cd5",
+            "agf_bfb510df0fd94f532dad",
+            "agf_bfd444651a555e5eb54b",
+            "agf_c0efbca27eae06d3f1ec",
+            "agf_cdf4fa667dd6ced21f8b",
+            "agf_cfbbd234355a873c94e9",
+            "agf_d6f3a4a4217885f74474",
+            "agf_e16c8d1deab08e5b4e1a",
+            "agf_e71069abf410a490a8b6"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_10472",
+            "label": "Study for The Cellist"
+          },
+          "right": {
+            "id": "ag_70351",
+            "label": "The Cello Player"
+          },
+          "left_artist_id": "ag_1601",
+          "right_artist_id": "ag_871",
+          "shared_attributes": [
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2725",
+              "value_label": "male-portraits"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3236",
+              "value_label": "Musical instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3237",
+              "value_label": "String instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3595",
+              "value_label": "Cellist"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3596",
+              "value_label": "Violone"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3597",
+              "value_label": "Violin family"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3598",
+              "value_label": "Cello"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3599",
+              "value_label": "Viol"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3600",
+              "value_label": "Bass violin"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3601",
+              "value_label": "Bowed string instrument"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0dead79ac167d3454b59",
+            "agf_578ea15a2d5332b528b5",
+            "agf_6debf61ff3ed070232f4",
+            "agf_71d96d1c4fa60b1fe39a",
+            "agf_7bed94bd0214aacd2724",
+            "agf_7ffc52a9c937bbb810c7",
+            "agf_8c2ad48dc5a7e5705df3",
+            "agf_8d242543860683580318",
+            "agf_8e49e33270d2ff0f08d3",
+            "agf_93b4676f16a12759df9e",
+            "agf_95f990910da6edcf2ea5",
+            "agf_99a84f05d8326da2b25f",
+            "agf_9bcb0be20d5e6fe8f772",
+            "agf_ab7def11c8b3e2eab611",
+            "agf_b1e8040472e9dfe602ed",
+            "agf_b4ecb9306e5b8bc46cd5",
+            "agf_b7d7030e34d77d9ed928",
+            "agf_bfb510df0fd94f532dad",
+            "agf_bfd444651a555e5eb54b",
+            "agf_cce8c6aa06101c310d04",
+            "agf_d8da983ac92170ffdbbb",
+            "agf_dc644bc8660fff04e463",
+            "agf_eb17224c3d644e4cf203",
+            "agf_fb0b38b863f3ed70d88b"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_10472",
+            "label": "Study for The Cellist"
+          },
+          "right": {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)"
+          },
+          "left_artist_id": "ag_1601",
+          "right_artist_id": "ag_2024",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_9",
+              "value_label": "portrait"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2725",
+              "value_label": "male-portraits"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3236",
+              "value_label": "Musical instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3237",
+              "value_label": "String instrument"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3595",
+              "value_label": "Cellist"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3596",
+              "value_label": "Violone"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3597",
+              "value_label": "Violin family"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3598",
+              "value_label": "Cello"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3599",
+              "value_label": "Viol"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0020414b60f35a12eafe",
+            "agf_0dead79ac167d3454b59",
+            "agf_578ea15a2d5332b528b5",
+            "agf_5da9499d90308e08fa42",
+            "agf_61b790c97f831ae4d50b",
+            "agf_70acd1dc6a9432a13c9a",
+            "agf_7bed94bd0214aacd2724",
+            "agf_7ffc52a9c937bbb810c7",
+            "agf_8c2ad48dc5a7e5705df3",
+            "agf_8e49e33270d2ff0f08d3",
+            "agf_983a401060caeba0d9bb",
+            "agf_a9d89a4cff373a09cfcd",
+            "agf_ab7def11c8b3e2eab611",
+            "agf_b4b96e7904ea7bfdf4a1",
+            "agf_b4c95f0c1adc5432afd1",
+            "agf_b4ecb9306e5b8bc46cd5",
+            "agf_b969a266f8d65b33a343",
+            "agf_bfd444651a555e5eb54b",
+            "agf_cd6bb3765332d843ddda",
+            "agf_dc644bc8660fff04e463",
+            "agf_dff0b2b448bea67cad8d",
+            "agf_e441cac382ea4b0f6aa9"
+          ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "candidate_id": "tag_ag_3679",
+      "anchor_tag": {
+        "id": "ag_3679",
+        "label": "Nature reserve",
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3679"
+      },
+      "stats": {
+        "artwork_count": 199,
+        "artist_count": 78,
+        "attribute_type_count": 7,
+        "attribute_value_count": 207,
+        "attribute_values_by_type": {
+          "genre": 5,
+          "medium": 11,
+          "movement": 24,
+          "period": 1,
+          "series": 2,
+          "style": 12,
+          "tag": 152
+        },
+        "attribute_relationship_count": 2875,
+        "attribute_relationships_per_artwork": 14.4472,
+        "cross_artist_multi_attribute_artwork_count": 199,
+        "cross_artist_multi_attribute_percent": 100.0
+      },
+      "inference_opportunity_score": 2564,
+      "artwork_ids": [
+        "ag_11014",
+        "ag_11912",
+        "ag_12050",
+        "ag_12064",
+        "ag_12126",
+        "ag_14166",
+        "ag_15247",
+        "ag_16916",
+        "ag_20164",
+        "ag_21981",
+        "ag_23352",
+        "ag_23691",
+        "ag_23747",
+        "ag_23794",
+        "ag_23821",
+        "ag_24685",
+        "ag_24691",
+        "ag_24692",
+        "ag_24700",
+        "ag_24713",
+        "ag_24721",
+        "ag_24730",
+        "ag_24740",
+        "ag_24750",
+        "ag_24764",
+        "ag_24840",
+        "ag_24847",
+        "ag_24882",
+        "ag_24888",
+        "ag_24910",
+        "ag_24953",
+        "ag_24956",
+        "ag_24994",
+        "ag_25061",
+        "ag_25102",
+        "ag_25845",
+        "ag_25878",
+        "ag_26017",
+        "ag_26129",
+        "ag_26231",
+        "ag_26509",
+        "ag_26612",
+        "ag_26660",
+        "ag_26816",
+        "ag_26839",
+        "ag_27058",
+        "ag_28565",
+        "ag_34561",
+        "ag_34807",
+        "ag_37065",
+        "ag_37077",
+        "ag_37093",
+        "ag_37103",
+        "ag_37107",
+        "ag_37108",
+        "ag_37110",
+        "ag_37117",
+        "ag_37126",
+        "ag_37130",
+        "ag_37143",
+        "ag_37158",
+        "ag_37162",
+        "ag_37196",
+        "ag_37198",
+        "ag_37199",
+        "ag_37225",
+        "ag_37226",
+        "ag_37229",
+        "ag_37230",
+        "ag_37237",
+        "ag_37240",
+        "ag_37243",
+        "ag_37250",
+        "ag_37253",
+        "ag_37255",
+        "ag_37258",
+        "ag_37271",
+        "ag_37279",
+        "ag_37303",
+        "ag_37306",
+        "ag_37307",
+        "ag_37315",
+        "ag_37337",
+        "ag_37342",
+        "ag_37360",
+        "ag_37368",
+        "ag_37380",
+        "ag_37389",
+        "ag_37397",
+        "ag_37411",
+        "ag_37428",
+        "ag_37460",
+        "ag_37483",
+        "ag_37488",
+        "ag_37516",
+        "ag_37529",
+        "ag_37532",
+        "ag_37542",
+        "ag_37567",
+        "ag_37573",
+        "ag_41467",
+        "ag_42644",
+        "ag_43585",
+        "ag_43616",
+        "ag_43617",
+        "ag_43667",
+        "ag_44167",
+        "ag_44388",
+        "ag_44588",
+        "ag_46394",
+        "ag_47122",
+        "ag_47277",
+        "ag_47278",
+        "ag_47433",
+        "ag_47521",
+        "ag_48002",
+        "ag_51002",
+        "ag_51087",
+        "ag_51145",
+        "ag_51158",
+        "ag_51252",
+        "ag_51935",
+        "ag_53293",
+        "ag_54519",
+        "ag_58460",
+        "ag_60058",
+        "ag_60541",
+        "ag_62387",
+        "ag_63175",
+        "ag_65811",
+        "ag_65816",
+        "ag_65817",
+        "ag_65818",
+        "ag_65820",
+        "ag_65825",
+        "ag_65828",
+        "ag_65829",
+        "ag_65831",
+        "ag_65851",
+        "ag_65856",
+        "ag_65859",
+        "ag_66351",
+        "ag_66628",
+        "ag_66739",
+        "ag_68181",
+        "ag_68393",
+        "ag_68899",
+        "ag_68900",
+        "ag_68908",
+        "ag_68928",
+        "ag_69346",
+        "ag_71825",
+        "ag_75565",
+        "ag_79280",
+        "ag_79304",
+        "ag_79306",
+        "ag_82735",
+        "ag_82884",
+        "ag_82886",
+        "ag_82901",
+        "ag_84070",
+        "ag_85457",
+        "ag_91907",
+        "ag_92497",
+        "ag_96488",
+        "ag_96691",
+        "ag_99981",
+        "ag_100099",
+        "ag_100550",
+        "ag_100745",
+        "ag_100801",
+        "ag_102627",
+        "ag_102645",
+        "ag_102801",
+        "ag_102816",
+        "ag_104617",
+        "ag_104618",
+        "ag_107407",
+        "ag_107727",
+        "ag_108644",
+        "ag_108910",
+        "ag_109759",
+        "ag_111111",
+        "ag_112510",
+        "ag_115315",
+        "ag_115379",
+        "ag_115714",
+        "ag_115715",
+        "ag_115717",
+        "ag_116132",
+        "ag_116693",
+        "ag_116761",
+        "ag_118730",
+        "ag_118921",
+        "ag_121138",
+        "ag_121501",
+        "ag_123209",
+        "ag_123228",
+        "ag_124433"
+      ],
+      "examples": [
+        {
+          "left": {
+            "id": "ag_24847",
+            "label": "Forest. Sunny Day."
+          },
+          "right": {
+            "id": "ag_37360",
+            "label": "Mixed Forest. Shmetsk Near Narva"
+          },
+          "left_artist_id": "ag_1525",
+          "right_artist_id": "ag_2420",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_8",
+              "value_label": "landscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124724",
+              "value_label": "Realism (arts)"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_125157",
+              "value_label": "Peredvizhniki"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_43",
+              "value_label": "realism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2975",
+              "value_label": "Tree"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3055",
+              "value_label": "Natural environment"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3056",
+              "value_label": "Forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3092",
+              "value_label": "Nature"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3093",
+              "value_label": "Natural landscape"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3169",
+              "value_label": "Northern hardwood forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3170",
+              "value_label": "Woodland"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3289",
+              "value_label": "Old-growth forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3679",
+              "value_label": "Nature reserve"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3683",
+              "value_label": "Wilderness"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_133b40ff3d80b1dffc49",
+            "agf_1dbb31a416e7d77fa792",
+            "agf_1ec93a638da4ccf33b78",
+            "agf_20adc8295b6c04c7ec84",
+            "agf_2b904d667670275019f8",
+            "agf_2daa4d7475c4d1145fa6",
+            "agf_35060bb6ac75739cbffc",
+            "agf_3c2e9cbb1f00a58e692c",
+            "agf_3f2932aae1c3cca00a5e",
+            "agf_4a374425f1b3e090516d",
+            "agf_4e11a566d568e98aae34",
+            "agf_54b3ff7465a2affe6f96",
+            "agf_579720ab63469d68567b",
+            "agf_6cb77ea37940415cf7da",
+            "agf_76112365c525c551b1e1",
+            "agf_7658b6bfec904f13eaf1",
+            "agf_7b4f988f3eb0c96f4cd0",
+            "agf_7d1c04ef38691b88b581",
+            "agf_88da1767085520e3b75b",
+            "agf_8a83ad0da70f0612ad58",
+            "agf_908be91b8059608302dc",
+            "agf_975a81bde385800af78a",
+            "agf_99468c47a91b0e5067f3",
+            "agf_9dc82b8994b7205b3fb9",
+            "agf_a0076fe300fc0bb998e8",
+            "agf_b5094dd1914f11be996d",
+            "agf_c4185b3d564647e4b3c7",
+            "agf_cd4b265b2ce56c5d1dd7",
+            "agf_de28378a2b12edc7f839",
+            "agf_e11c8fa422f29e42f693",
+            "agf_e8ce2b766135ab268346",
+            "agf_e961478a8f8480d66f2d",
+            "agf_ee5470ac1deac950f243",
+            "agf_f5ba3a916d2e90a9e7f9"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_24847",
+            "label": "Forest. Sunny Day."
+          },
+          "right": {
+            "id": "ag_37065",
+            "label": "A Walk in the Forest"
+          },
+          "left_artist_id": "ag_1525",
+          "right_artist_id": "ag_2420",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_8",
+              "value_label": "landscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124724",
+              "value_label": "Realism (arts)"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_125157",
+              "value_label": "Peredvizhniki"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_43",
+              "value_label": "realism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2975",
+              "value_label": "Tree"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3055",
+              "value_label": "Natural environment"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3056",
+              "value_label": "Forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3092",
+              "value_label": "Nature"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3093",
+              "value_label": "Natural landscape"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3170",
+              "value_label": "Woodland"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3289",
+              "value_label": "Old-growth forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3679",
+              "value_label": "Nature reserve"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3683",
+              "value_label": "Wilderness"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0caa0a64c3253f3949ef",
+            "agf_0e920b5b88cffaaca4a9",
+            "agf_133b40ff3d80b1dffc49",
+            "agf_1dbb31a416e7d77fa792",
+            "agf_20adc8295b6c04c7ec84",
+            "agf_2595cb882b19e7cca355",
+            "agf_2b904d667670275019f8",
+            "agf_2daa4d7475c4d1145fa6",
+            "agf_38cd716a9d58ce052d3f",
+            "agf_3c2e9cbb1f00a58e692c",
+            "agf_3f2932aae1c3cca00a5e",
+            "agf_54b3ff7465a2affe6f96",
+            "agf_5737d6b560af110d3a61",
+            "agf_579720ab63469d68567b",
+            "agf_7658b6bfec904f13eaf1",
+            "agf_962d0b2014fcf52dc5e0",
+            "agf_9dc82b8994b7205b3fb9",
+            "agf_a0076fe300fc0bb998e8",
+            "agf_a651360c8ce2145b2fcf",
+            "agf_aa3f2f40a50da66df929",
+            "agf_aba32fba44874d020215",
+            "agf_b94ea20af65d0e7778f0",
+            "agf_c4185b3d564647e4b3c7",
+            "agf_c511834860945461b263",
+            "agf_cd4b265b2ce56c5d1dd7",
+            "agf_d1aba68c0a45c6a6eaa7",
+            "agf_de28378a2b12edc7f839",
+            "agf_e11c8fa422f29e42f693",
+            "agf_e961478a8f8480d66f2d",
+            "agf_ee5470ac1deac950f243",
+            "agf_f6a9ba59dcf20bbe4a36",
+            "agf_fa02a976fd80b5cb1392"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_24847",
+            "label": "Forest. Sunny Day."
+          },
+          "right": {
+            "id": "ag_37243",
+            "label": "Forest Landscape with Herons"
+          },
+          "left_artist_id": "ag_1525",
+          "right_artist_id": "ag_2420",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_8",
+              "value_label": "landscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124724",
+              "value_label": "Realism (arts)"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_125157",
+              "value_label": "Peredvizhniki"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_43",
+              "value_label": "realism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2975",
+              "value_label": "Tree"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3055",
+              "value_label": "Natural environment"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3056",
+              "value_label": "Forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3092",
+              "value_label": "Nature"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3093",
+              "value_label": "Natural landscape"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3170",
+              "value_label": "Woodland"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3289",
+              "value_label": "Old-growth forest"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3679",
+              "value_label": "Nature reserve"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3683",
+              "value_label": "Wilderness"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0f83b12910a0682f9b05",
+            "agf_133b40ff3d80b1dffc49",
+            "agf_1dbb31a416e7d77fa792",
+            "agf_1e53ec38b27ab247d5d2",
+            "agf_20adc8295b6c04c7ec84",
+            "agf_2b904d667670275019f8",
+            "agf_2daa4d7475c4d1145fa6",
+            "agf_3c2e9cbb1f00a58e692c",
+            "agf_3f2932aae1c3cca00a5e",
+            "agf_467dc44160466875b5c1",
+            "agf_4c58b1bd491682a9e721",
+            "agf_546506c1873205b8e592",
+            "agf_54b3ff7465a2affe6f96",
+            "agf_579720ab63469d68567b",
+            "agf_65edfbbd6519c48d55f7",
+            "agf_7526dd7468928b90b8d5",
+            "agf_7658b6bfec904f13eaf1",
+            "agf_848b347628eccf220d80",
+            "agf_94f21b733e711e286ea0",
+            "agf_9dc82b8994b7205b3fb9",
+            "agf_a0076fe300fc0bb998e8",
+            "agf_bc44f15c147bac4413a1",
+            "agf_bfb487587dc837724c94",
+            "agf_c20df28972f6310a5e2a",
+            "agf_c4185b3d564647e4b3c7",
+            "agf_cd4b265b2ce56c5d1dd7",
+            "agf_de28378a2b12edc7f839",
+            "agf_e11c8fa422f29e42f693",
+            "agf_e961478a8f8480d66f2d",
+            "agf_eb5c0f45c5597e723aab",
+            "agf_ee5470ac1deac950f243",
+            "agf_fd7e1606350479b69f68"
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "candidate_id": "tag_ag_3579",
+      "anchor_tag": {
+        "id": "ag_3579",
+        "label": "Water transportation",
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3579"
+      },
+      "stats": {
+        "artwork_count": 188,
+        "artist_count": 114,
+        "attribute_type_count": 7,
+        "attribute_value_count": 200,
+        "attribute_values_by_type": {
+          "genre": 9,
+          "medium": 11,
+          "movement": 24,
+          "period": 1,
+          "series": 6,
+          "style": 17,
+          "tag": 132
+        },
+        "attribute_relationship_count": 2025,
+        "attribute_relationships_per_artwork": 10.7713,
+        "cross_artist_multi_attribute_artwork_count": 188,
+        "cross_artist_multi_attribute_percent": 100.0
+      },
+      "inference_opportunity_score": 2562,
+      "artwork_ids": [
+        "ag_10149",
+        "ag_12343",
+        "ag_14588",
+        "ag_14984",
+        "ag_15039",
+        "ag_15089",
+        "ag_17083",
+        "ag_21526",
+        "ag_22600",
+        "ag_24720",
+        "ag_24918",
+        "ag_25837",
+        "ag_25998",
+        "ag_26107",
+        "ag_26496",
+        "ag_26820",
+        "ag_28656",
+        "ag_31153",
+        "ag_33200",
+        "ag_33242",
+        "ag_34659",
+        "ag_38633",
+        "ag_39261",
+        "ag_39300",
+        "ag_39452",
+        "ag_41305",
+        "ag_41307",
+        "ag_41309",
+        "ag_41310",
+        "ag_41397",
+        "ag_41434",
+        "ag_41464",
+        "ag_42512",
+        "ag_43748",
+        "ag_43770",
+        "ag_43779",
+        "ag_43955",
+        "ag_46620",
+        "ag_46696",
+        "ag_47208",
+        "ag_48882",
+        "ag_48885",
+        "ag_49051",
+        "ag_49164",
+        "ag_49165",
+        "ag_49187",
+        "ag_49196",
+        "ag_49221",
+        "ag_49233",
+        "ag_49237",
+        "ag_49255",
+        "ag_49743",
+        "ag_51000",
+        "ag_51055",
+        "ag_51056",
+        "ag_51854",
+        "ag_55321",
+        "ag_55501",
+        "ag_56111",
+        "ag_57883",
+        "ag_58389",
+        "ag_58506",
+        "ag_60081",
+        "ag_60129",
+        "ag_60615",
+        "ag_61061",
+        "ag_61957",
+        "ag_62557",
+        "ag_62589",
+        "ag_64292",
+        "ag_64586",
+        "ag_64698",
+        "ag_64803",
+        "ag_65758",
+        "ag_66031",
+        "ag_66038",
+        "ag_66715",
+        "ag_67070",
+        "ag_67917",
+        "ag_68114",
+        "ag_68141",
+        "ag_68449",
+        "ag_68451",
+        "ag_68624",
+        "ag_70199",
+        "ag_70297",
+        "ag_70305",
+        "ag_70320",
+        "ag_70344",
+        "ag_70362",
+        "ag_71801",
+        "ag_71942",
+        "ag_72594",
+        "ag_75994",
+        "ag_76243",
+        "ag_76596",
+        "ag_78127",
+        "ag_78136",
+        "ag_78278",
+        "ag_80547",
+        "ag_80574",
+        "ag_81045",
+        "ag_81119",
+        "ag_81412",
+        "ag_82099",
+        "ag_82828",
+        "ag_83400",
+        "ag_84079",
+        "ag_84411",
+        "ag_85073",
+        "ag_85483",
+        "ag_85595",
+        "ag_85830",
+        "ag_86775",
+        "ag_86787",
+        "ag_87525",
+        "ag_87526",
+        "ag_87535",
+        "ag_88410",
+        "ag_89769",
+        "ag_89995",
+        "ag_90455",
+        "ag_91211",
+        "ag_91967",
+        "ag_91981",
+        "ag_92039",
+        "ag_92172",
+        "ag_92174",
+        "ag_92425",
+        "ag_93175",
+        "ag_93327",
+        "ag_94390",
+        "ag_94397",
+        "ag_94398",
+        "ag_95038",
+        "ag_99354",
+        "ag_100062",
+        "ag_100565",
+        "ag_102201",
+        "ag_102347",
+        "ag_102387",
+        "ag_102402",
+        "ag_102406",
+        "ag_102409",
+        "ag_102411",
+        "ag_102412",
+        "ag_102454",
+        "ag_102478",
+        "ag_102495",
+        "ag_102508",
+        "ag_102509",
+        "ag_102530",
+        "ag_102715",
+        "ag_103830",
+        "ag_104343",
+        "ag_104850",
+        "ag_105480",
+        "ag_106179",
+        "ag_106865",
+        "ag_107317",
+        "ag_108134",
+        "ag_108759",
+        "ag_108982",
+        "ag_108986",
+        "ag_108989",
+        "ag_108990",
+        "ag_108993",
+        "ag_108999",
+        "ag_110353",
+        "ag_112693",
+        "ag_113512",
+        "ag_113727",
+        "ag_114775",
+        "ag_115483",
+        "ag_115488",
+        "ag_116303",
+        "ag_116304",
+        "ag_116319",
+        "ag_116320",
+        "ag_116536",
+        "ag_116627",
+        "ag_116651",
+        "ag_116738",
+        "ag_119090",
+        "ag_119112",
+        "ag_119113",
+        "ag_119219",
+        "ag_121890"
+      ],
+      "examples": [
+        {
+          "left": {
+            "id": "ag_41434",
+            "label": "The Canoe"
+          },
+          "right": {
+            "id": "ag_70199",
+            "label": "John Biglin in a Single Scull"
+          },
+          "left_artist_id": "ag_1120",
+          "right_artist_id": "ag_871",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_4",
+              "value_label": "genre painting"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124724",
+              "value_label": "Realism (arts)"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2950",
+              "value_label": "rivers-and-waterfalls"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2954",
+              "value_label": "Watercraft rowing"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2956",
+              "value_label": "Boating"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2984",
+              "value_label": "Water"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3579",
+              "value_label": "Water transportation"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4034",
+              "value_label": "Recreation"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4503",
+              "value_label": "Rowing"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_5625",
+              "value_label": "Boats and boating--Equipment and supplies"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_5739",
+              "value_label": "Oar"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_060aa070251201f3dc13",
+            "agf_08682b2b749f8932aabd",
+            "agf_15f91bf3ea1f67214173",
+            "agf_243c4cf038bfcd538423",
+            "agf_322d2161e1e9a98b2a07",
+            "agf_38ce0329c7d499793c3a",
+            "agf_42c1f179aa8e86c2c936",
+            "agf_4349c3637c38a9d43221",
+            "agf_45fc5b5dad876887b743",
+            "agf_463a0ffb1693e07601b0",
+            "agf_593c18a646ecfd84902e",
+            "agf_5da237f39d2b313c66b6",
+            "agf_6a6771615373ee8710c6",
+            "agf_6cc3c12f1f1c54b92774",
+            "agf_716aaeba6df52557c4d5",
+            "agf_76cc59fa3fb59b9caca0",
+            "agf_78a3d49d83dbeed2e58e",
+            "agf_7db7a055dd6a8441abb7",
+            "agf_9c68c09a5a37229033cb",
+            "agf_a997886a2646ee93d13d",
+            "agf_af4aba694a5d2733f0d7",
+            "agf_b295ca213065634325fd",
+            "agf_ca7b8f268f0ef02c9b52",
+            "agf_d0a27de870d126d9efba",
+            "agf_ddfafdeef7b651e07cd7",
+            "agf_e0f614e1b50573080f58",
+            "agf_ecc30a4915d8cb49ffd8",
+            "agf_f54f15268f696012e254"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_17083",
+            "label": "Venice Gondola on Grand Canal"
+          },
+          "right": {
+            "id": "ag_49187",
+            "label": "Gloucester Harbor"
+          },
+          "left_artist_id": "ag_1305",
+          "right_artist_id": "ag_2347",
+          "shared_attributes": [
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124724",
+              "value_label": "Realism (arts)"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_43",
+              "value_label": "realism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2951",
+              "value_label": "boats-and-ships"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2952",
+              "value_label": "Boat"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2953",
+              "value_label": "Gondola"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2954",
+              "value_label": "Watercraft rowing"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2955",
+              "value_label": "Vehicle"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2956",
+              "value_label": "Boating"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2958",
+              "value_label": "Watercraft"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3579",
+              "value_label": "Water transportation"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_138dc19214f4c0f4ed79",
+            "agf_2354bc76509257296e36",
+            "agf_2b97938ccafb57a95488",
+            "agf_3f411cac91a910a3aca9",
+            "agf_4ae6904571ed1ebc3fb7",
+            "agf_5516d16cf3811b7a01e2",
+            "agf_5cfacfdd64c41a15c821",
+            "agf_63910ad3479681eca41f",
+            "agf_6545320534ed1dfe1a59",
+            "agf_6dd4ce1bcdc5793a8e86",
+            "agf_6e6b3192410744850e09",
+            "agf_79653a7baa5e95f2b70a",
+            "agf_92f1de965d7a2946ab42",
+            "agf_94b65d51299f6614d770",
+            "agf_971e338021d4948303bf",
+            "agf_9c50762cf219bc37610a",
+            "agf_a50427c478327c965627",
+            "agf_a57bcf0a733c818e1d33",
+            "agf_b7065273b8b813e0ab33",
+            "agf_bde2853cd8aff2ca16f3",
+            "agf_c17548f7af8ddea6c475",
+            "agf_d268a9f1e69d7abe7fc7",
+            "agf_d9c74edde4174770bab8",
+            "agf_da2cfe56495509ed199e",
+            "agf_f1c1d4cf8402047ac9b2",
+            "agf_f9541e301eead8c183a7"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_17083",
+            "label": "Venice Gondola on Grand Canal"
+          },
+          "right": {
+            "id": "ag_80547",
+            "label": "Turk&#39;s Boatyard Cookham"
+          },
+          "left_artist_id": "ag_1305",
+          "right_artist_id": "ag_1724",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_17",
+              "value_label": "cityscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2951",
+              "value_label": "boats-and-ships"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2952",
+              "value_label": "Boat"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2953",
+              "value_label": "Gondola"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2954",
+              "value_label": "Watercraft rowing"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2955",
+              "value_label": "Vehicle"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2956",
+              "value_label": "Boating"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2958",
+              "value_label": "Watercraft"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3007",
+              "value_label": "Waterway"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3579",
+              "value_label": "Water transportation"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_08365ab09deb6cb1b9b8",
+            "agf_1449e9f8dcd1ff08862c",
+            "agf_15caa9c7ed6e17b48312",
+            "agf_2354bc76509257296e36",
+            "agf_263287c5c419b74f7c3d",
+            "agf_2b97938ccafb57a95488",
+            "agf_3f411cac91a910a3aca9",
+            "agf_43de2b86307eec54e77a",
+            "agf_5516d16cf3811b7a01e2",
+            "agf_5b0ee642cd87a0e5ee0f",
+            "agf_6d837f58ffab9c18f318",
+            "agf_6e6b3192410744850e09",
+            "agf_712fc32da671ba0b6659",
+            "agf_87668a6d528d74034c48",
+            "agf_94b65d51299f6614d770",
+            "agf_9c50762cf219bc37610a",
+            "agf_a39d840c524ce18d6600",
+            "agf_bde2853cd8aff2ca16f3",
+            "agf_c17548f7af8ddea6c475",
+            "agf_c53ec3698d2a12b18c5f",
+            "agf_d38dccf0c4dd90d18c32",
+            "agf_d9c74edde4174770bab8",
+            "agf_e520e7f5a64ca791b96a",
+            "agf_f83d3188ca1aaaa9b9a3"
+          ]
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "candidate_id": "tag_ag_3392",
+      "anchor_tag": {
+        "id": "ag_3392",
+        "label": "Felidae",
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3392"
+      },
+      "stats": {
+        "artwork_count": 198,
+        "artist_count": 78,
+        "attribute_type_count": 7,
+        "attribute_value_count": 195,
+        "attribute_values_by_type": {
+          "genre": 13,
+          "medium": 13,
+          "movement": 30,
+          "period": 5,
+          "series": 5,
+          "style": 18,
+          "tag": 111
+        },
+        "attribute_relationship_count": 1778,
+        "attribute_relationships_per_artwork": 8.9798,
+        "cross_artist_multi_attribute_artwork_count": 198,
+        "cross_artist_multi_attribute_percent": 100.0
+      },
+      "inference_opportunity_score": 2549,
+      "artwork_ids": [
+        "ag_9329",
+        "ag_11706",
+        "ag_12564",
+        "ag_12610",
+        "ag_12619",
+        "ag_17716",
+        "ag_17717",
+        "ag_21066",
+        "ag_21076",
+        "ag_23692",
+        "ag_25521",
+        "ag_29656",
+        "ag_29807",
+        "ag_30919",
+        "ag_31320",
+        "ag_31775",
+        "ag_33369",
+        "ag_33771",
+        "ag_35350",
+        "ag_36509",
+        "ag_36786",
+        "ag_37776",
+        "ag_37797",
+        "ag_38940",
+        "ag_41228",
+        "ag_41978",
+        "ag_43368",
+        "ag_44609",
+        "ag_48243",
+        "ag_53529",
+        "ag_53537",
+        "ag_53556",
+        "ag_53564",
+        "ag_53569",
+        "ag_60182",
+        "ag_60225",
+        "ag_63283",
+        "ag_67816",
+        "ag_68202",
+        "ag_68481",
+        "ag_70456",
+        "ag_71419",
+        "ag_71420",
+        "ag_74815",
+        "ag_76616",
+        "ag_80261",
+        "ag_81130",
+        "ag_81141",
+        "ag_81428",
+        "ag_81432",
+        "ag_81435",
+        "ag_81436",
+        "ag_81437",
+        "ag_81744",
+        "ag_81885",
+        "ag_82752",
+        "ag_82755",
+        "ag_82805",
+        "ag_83718",
+        "ag_83722",
+        "ag_83725",
+        "ag_83742",
+        "ag_83794",
+        "ag_83805",
+        "ag_83808",
+        "ag_83815",
+        "ag_83864",
+        "ag_83878",
+        "ag_83880",
+        "ag_83883",
+        "ag_83889",
+        "ag_83890",
+        "ag_86218",
+        "ag_86219",
+        "ag_86898",
+        "ag_87102",
+        "ag_87174",
+        "ag_88532",
+        "ag_88606",
+        "ag_89933",
+        "ag_92581",
+        "ag_94513",
+        "ag_94524",
+        "ag_94529",
+        "ag_94986",
+        "ag_95046",
+        "ag_95464",
+        "ag_95913",
+        "ag_96067",
+        "ag_96125",
+        "ag_96464",
+        "ag_96491",
+        "ag_96559",
+        "ag_98253",
+        "ag_98255",
+        "ag_98258",
+        "ag_98260",
+        "ag_98261",
+        "ag_98263",
+        "ag_98264",
+        "ag_98266",
+        "ag_98268",
+        "ag_98269",
+        "ag_98275",
+        "ag_98278",
+        "ag_98282",
+        "ag_98284",
+        "ag_98285",
+        "ag_98290",
+        "ag_98296",
+        "ag_98297",
+        "ag_98298",
+        "ag_98300",
+        "ag_98304",
+        "ag_98306",
+        "ag_98307",
+        "ag_98313",
+        "ag_98314",
+        "ag_98315",
+        "ag_98318",
+        "ag_98319",
+        "ag_98322",
+        "ag_98324",
+        "ag_98998",
+        "ag_99004",
+        "ag_100021",
+        "ag_100032",
+        "ag_100998",
+        "ag_100999",
+        "ag_101003",
+        "ag_101005",
+        "ag_101007",
+        "ag_101009",
+        "ag_101010",
+        "ag_101017",
+        "ag_101019",
+        "ag_101022",
+        "ag_101024",
+        "ag_101025",
+        "ag_101026",
+        "ag_101027",
+        "ag_101030",
+        "ag_101031",
+        "ag_101034",
+        "ag_101035",
+        "ag_101038",
+        "ag_101039",
+        "ag_101040",
+        "ag_101041",
+        "ag_101044",
+        "ag_101045",
+        "ag_101046",
+        "ag_101047",
+        "ag_101048",
+        "ag_101049",
+        "ag_101055",
+        "ag_102081",
+        "ag_102629",
+        "ag_103831",
+        "ag_103841",
+        "ag_103842",
+        "ag_103851",
+        "ag_103862",
+        "ag_103866",
+        "ag_104393",
+        "ag_104406",
+        "ag_104407",
+        "ag_104414",
+        "ag_104417",
+        "ag_104429",
+        "ag_105003",
+        "ag_106378",
+        "ag_106527",
+        "ag_107431",
+        "ag_108107",
+        "ag_109480",
+        "ag_110935",
+        "ag_112907",
+        "ag_116618",
+        "ag_116693",
+        "ag_116694",
+        "ag_116696",
+        "ag_117314",
+        "ag_117316",
+        "ag_117357",
+        "ag_118197",
+        "ag_118415",
+        "ag_119162",
+        "ag_120719",
+        "ag_120893",
+        "ag_120894",
+        "ag_120899",
+        "ag_120902",
+        "ag_120903",
+        "ag_120904",
+        "ag_120905",
+        "ag_122685",
+        "ag_122889"
+      ],
+      "examples": [
+        {
+          "left": {
+            "id": "ag_67816",
+            "label": "Isaac van Amburgh and his Animals"
+          },
+          "right": {
+            "id": "ag_70456",
+            "label": "Nominor Leo"
+          },
+          "left_artist_id": "ag_2230",
+          "right_artist_id": "ag_1001",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_2",
+              "value_label": "animal painting"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_40",
+              "value_label": "romanticism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2753",
+              "value_label": "animals"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2820",
+              "value_label": "Wildlife"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3392",
+              "value_label": "Felidae"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3665",
+              "value_label": "Carnivore"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4023",
+              "value_label": "Lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4024",
+              "value_label": "Masai lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4025",
+              "value_label": "Big cats"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_05d29daa1060d4173220",
+            "agf_0a85bc57bde773555344",
+            "agf_0c09de8a3fd98707c9a2",
+            "agf_30450c9a039bbecd24c0",
+            "agf_31f4e8be731dce9ca981",
+            "agf_3ad5b303cc4a855f18e6",
+            "agf_3e648218830be66f68ce",
+            "agf_437d4f05f3f39d0b0ac7",
+            "agf_51343a89eabe1fa557e0",
+            "agf_53c2dcc9e98039bbbd94",
+            "agf_5b82c48c4bdda3b9d605",
+            "agf_671736c8433b477f641d",
+            "agf_73f50ec469785af2833b",
+            "agf_8aa6abab678389832bee",
+            "agf_988003d1bcf975960b82",
+            "agf_9f937d5255cdee93b29e",
+            "agf_a5420603d67aaf9724fe",
+            "agf_a90ce26cb95c75456cb8",
+            "agf_ad244de0ab84353e5a18",
+            "agf_d80f2d67bda7ebd0fbd9",
+            "agf_ea13bf8f415719b95414",
+            "agf_fb6ab3f59174f342f4be"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_12610",
+            "label": "Study for Four Lions"
+          },
+          "right": {
+            "id": "ag_67816",
+            "label": "Isaac van Amburgh and his Animals"
+          },
+          "left_artist_id": "ag_1455",
+          "right_artist_id": "ag_2230",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_2",
+              "value_label": "animal painting"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_40",
+              "value_label": "romanticism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2753",
+              "value_label": "animals"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2820",
+              "value_label": "Wildlife"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3392",
+              "value_label": "Felidae"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3665",
+              "value_label": "Carnivore"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4014",
+              "value_label": "Terrestrial animal"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4023",
+              "value_label": "Lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4024",
+              "value_label": "Masai lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4025",
+              "value_label": "Big cats"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0375416afe8c3f7863ce",
+            "agf_0c09de8a3fd98707c9a2",
+            "agf_13fcb947b4338f8ddd60",
+            "agf_30450c9a039bbecd24c0",
+            "agf_31f4e8be731dce9ca981",
+            "agf_3718a3740ee78310ea73",
+            "agf_437d4f05f3f39d0b0ac7",
+            "agf_46e74e61ecfec2413fc7",
+            "agf_4eddbdc9adeb19f3eb2c",
+            "agf_51343a89eabe1fa557e0",
+            "agf_671736c8433b477f641d",
+            "agf_72c310c1e8d2f0868239",
+            "agf_8b754e04ef67e4e84c7b",
+            "agf_91a6d3905086d70fac42",
+            "agf_9f937d5255cdee93b29e",
+            "agf_a0744745fef0e589819a",
+            "agf_be810fa7d0b3c4ccdf1d",
+            "agf_d96955d7217cc5ebd9fb",
+            "agf_ea13bf8f415719b95414",
+            "agf_fb6ab3f59174f342f4be"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_12610",
+            "label": "Study for Four Lions"
+          },
+          "right": {
+            "id": "ag_70456",
+            "label": "Nominor Leo"
+          },
+          "left_artist_id": "ag_1455",
+          "right_artist_id": "ag_1001",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_2",
+              "value_label": "animal painting"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_40",
+              "value_label": "romanticism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2753",
+              "value_label": "animals"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2820",
+              "value_label": "Wildlife"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2965",
+              "value_label": "lions"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3392",
+              "value_label": "Felidae"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3665",
+              "value_label": "Carnivore"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4023",
+              "value_label": "Lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4024",
+              "value_label": "Masai lion"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_4025",
+              "value_label": "Big cats"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0375416afe8c3f7863ce",
+            "agf_05d29daa1060d4173220",
+            "agf_0a85bc57bde773555344",
+            "agf_13fcb947b4338f8ddd60",
+            "agf_3ad5b303cc4a855f18e6",
+            "agf_3e648218830be66f68ce",
+            "agf_46e74e61ecfec2413fc7",
+            "agf_4eddbdc9adeb19f3eb2c",
+            "agf_5b82c48c4bdda3b9d605",
+            "agf_72c310c1e8d2f0868239",
+            "agf_86371c2c68d870cba9c0",
+            "agf_8aa6abab678389832bee",
+            "agf_8b754e04ef67e4e84c7b",
+            "agf_988003d1bcf975960b82",
+            "agf_a0744745fef0e589819a",
+            "agf_a90ce26cb95c75456cb8",
+            "agf_ad244de0ab84353e5a18",
+            "agf_b41254a884ed586e4bbb",
+            "agf_be810fa7d0b3c4ccdf1d",
+            "agf_d96955d7217cc5ebd9fb"
+          ]
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "candidate_id": "tag_ag_3302",
+      "anchor_tag": {
+        "id": "ag_3302",
+        "label": "Village",
+        "source_uri": "https://www.gennarovessio.com/artgraph-resources#3302"
+      },
+      "stats": {
+        "artwork_count": 197,
+        "artist_count": 89,
+        "attribute_type_count": 7,
+        "attribute_value_count": 158,
+        "attribute_values_by_type": {
+          "genre": 5,
+          "medium": 8,
+          "movement": 28,
+          "period": 3,
+          "series": 2,
+          "style": 13,
+          "tag": 99
+        },
+        "attribute_relationship_count": 1489,
+        "attribute_relationships_per_artwork": 7.5584,
+        "cross_artist_multi_attribute_artwork_count": 197,
+        "cross_artist_multi_attribute_percent": 100.0
+      },
+      "inference_opportunity_score": 2535,
+      "artwork_ids": [
+        "ag_9089",
+        "ag_11196",
+        "ag_15113",
+        "ag_15277",
+        "ag_16668",
+        "ag_16669",
+        "ag_16707",
+        "ag_16862",
+        "ag_17010",
+        "ag_17396",
+        "ag_18225",
+        "ag_20798",
+        "ag_21370",
+        "ag_22589",
+        "ag_23273",
+        "ag_23275",
+        "ag_23389",
+        "ag_23453",
+        "ag_23467",
+        "ag_23536",
+        "ag_23580",
+        "ag_23688",
+        "ag_23868",
+        "ag_23983",
+        "ag_24001",
+        "ag_24054",
+        "ag_24057",
+        "ag_24058",
+        "ag_24815",
+        "ag_24890",
+        "ag_24980",
+        "ag_25010",
+        "ag_25074",
+        "ag_25788",
+        "ag_25844",
+        "ag_26584",
+        "ag_26587",
+        "ag_26648",
+        "ag_26866",
+        "ag_26890",
+        "ag_28512",
+        "ag_29145",
+        "ag_29175",
+        "ag_29177",
+        "ag_29292",
+        "ag_29307",
+        "ag_29513",
+        "ag_29596",
+        "ag_30442",
+        "ag_35248",
+        "ag_36250",
+        "ag_36264",
+        "ag_36296",
+        "ag_36300",
+        "ag_36372",
+        "ag_36625",
+        "ag_39198",
+        "ag_39359",
+        "ag_40518",
+        "ag_40717",
+        "ag_43766",
+        "ag_43768",
+        "ag_43834",
+        "ag_44015",
+        "ag_44019",
+        "ag_44054",
+        "ag_44137",
+        "ag_45461",
+        "ag_45547",
+        "ag_45576",
+        "ag_46843",
+        "ag_46910",
+        "ag_46990",
+        "ag_47010",
+        "ag_47217",
+        "ag_50343",
+        "ag_51108",
+        "ag_51952",
+        "ag_52177",
+        "ag_52193",
+        "ag_52195",
+        "ag_52201",
+        "ag_52202",
+        "ag_52207",
+        "ag_52208",
+        "ag_56237",
+        "ag_58262",
+        "ag_58292",
+        "ag_60662",
+        "ag_61244",
+        "ag_64767",
+        "ag_64831",
+        "ag_65550",
+        "ag_65587",
+        "ag_66740",
+        "ag_66772",
+        "ag_67000",
+        "ag_71006",
+        "ag_71791",
+        "ag_72167",
+        "ag_72197",
+        "ag_72241",
+        "ag_72248",
+        "ag_72253",
+        "ag_72254",
+        "ag_74165",
+        "ag_75719",
+        "ag_76813",
+        "ag_79248",
+        "ag_79277",
+        "ag_79703",
+        "ag_79708",
+        "ag_79738",
+        "ag_79748",
+        "ag_79772",
+        "ag_79823",
+        "ag_79824",
+        "ag_79972",
+        "ag_80603",
+        "ag_81009",
+        "ag_81013",
+        "ag_81474",
+        "ag_81560",
+        "ag_81562",
+        "ag_81819",
+        "ag_83247",
+        "ag_83316",
+        "ag_83323",
+        "ag_83324",
+        "ag_83346",
+        "ag_83386",
+        "ag_83403",
+        "ag_83423",
+        "ag_83436",
+        "ag_83439",
+        "ag_83442",
+        "ag_83443",
+        "ag_83444",
+        "ag_83467",
+        "ag_83480",
+        "ag_83485",
+        "ag_83491",
+        "ag_83492",
+        "ag_83503",
+        "ag_83525",
+        "ag_83528",
+        "ag_84130",
+        "ag_84204",
+        "ag_84325",
+        "ag_84528",
+        "ag_84915",
+        "ag_84918",
+        "ag_84933",
+        "ag_85493",
+        "ag_86886",
+        "ag_88029",
+        "ag_88142",
+        "ag_89288",
+        "ag_90438",
+        "ag_90632",
+        "ag_90642",
+        "ag_90646",
+        "ag_90885",
+        "ag_93261",
+        "ag_96923",
+        "ag_99275",
+        "ag_99277",
+        "ag_99549",
+        "ag_100672",
+        "ag_100835",
+        "ag_105048",
+        "ag_106405",
+        "ag_106555",
+        "ag_106557",
+        "ag_106558",
+        "ag_106585",
+        "ag_106596",
+        "ag_106609",
+        "ag_106722",
+        "ag_106962",
+        "ag_108391",
+        "ag_111685",
+        "ag_111859",
+        "ag_112482",
+        "ag_112511",
+        "ag_112527",
+        "ag_118171",
+        "ag_118856",
+        "ag_118905",
+        "ag_118982",
+        "ag_118989",
+        "ag_118992",
+        "ag_118994",
+        "ag_120852",
+        "ag_124050",
+        "ag_124195",
+        "ag_124502"
+      ],
+      "examples": [
+        {
+          "left": {
+            "id": "ag_72248",
+            "label": "The Village at Port Collioure"
+          },
+          "right": {
+            "id": "ag_79703",
+            "label": "City in Switzerland"
+          },
+          "left_artist_id": "ag_1035",
+          "right_artist_id": "ag_1755",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_17",
+              "value_label": "cityscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_39",
+              "value_label": "post-impressionism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2992",
+              "value_label": "houses-and-buildings"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3004",
+              "value_label": "Rural area"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3005",
+              "value_label": "House"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3302",
+              "value_label": "Village"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3577",
+              "value_label": "Town"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_5599",
+              "value_label": "Mountain village"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0a836533de9cbf63e9d7",
+            "agf_124056c0b402b1151bc3",
+            "agf_3b753d35d95269c71bb2",
+            "agf_3cca00bfbeee80d8134e",
+            "agf_431435376f715a472b6e",
+            "agf_63dd63e0e192587e94fe",
+            "agf_75e0893df38d9545608e",
+            "agf_82a98cf31b855b284d0b",
+            "agf_a3f0df5f08aad9e324f8",
+            "agf_a7fb887de15d29c5693e",
+            "agf_b16cf4cc8fc7f55f2c84",
+            "agf_b2d093126fbba46944c9",
+            "agf_b4804551baee51064caf",
+            "agf_b8ceb8f4e7c20595214b",
+            "agf_c227b4de9290d710d4f9",
+            "agf_c349e5c06275dac53298",
+            "agf_c8b2f132244b9c68a1b7",
+            "agf_e0941df37ecd39b86af7",
+            "agf_f583ae74ef838bca3320",
+            "agf_f8039b7d655254eef1cd"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_9089",
+            "label": "The Hamlet of Optevoz, in the morning"
+          },
+          "right": {
+            "id": "ag_16669",
+            "label": "A Farmyard near Fontainebleau"
+          },
+          "left_artist_id": "ag_1510",
+          "right_artist_id": "ag_1305",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_8",
+              "value_label": "landscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "style",
+              "value_id": "ag_43",
+              "value_label": "realism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2753",
+              "value_label": "animals"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3003",
+              "value_label": "cottages-and-farmhouses"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3004",
+              "value_label": "Rural area"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3285",
+              "value_label": "cows"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3302",
+              "value_label": "Village"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_192c04a020d7603b7a17",
+            "agf_1c0d304e6e02e3bf443b",
+            "agf_39f0a00263f60398e048",
+            "agf_58a9af3673486d7139d9",
+            "agf_5955d11590d9449d7819",
+            "agf_5f537f2667cdee7ad520",
+            "agf_7a023449786922cc6258",
+            "agf_8222f589de96ee764c8f",
+            "agf_82422e68c02fc7466d13",
+            "agf_850c2da07721efa09eee",
+            "agf_9df7ed5ced5860258243",
+            "agf_c019cd4937e8de47321a",
+            "agf_c9041ece36add1968c67",
+            "agf_cd19a98057953a79cbe1",
+            "agf_d264a5b412d29da24ef5",
+            "agf_ddf7b77e0892df41487d",
+            "agf_eb054077cac18e72b61c",
+            "agf_fdbad023a4364696813f"
+          ]
+        },
+        {
+          "left": {
+            "id": "ag_11196",
+            "label": "Returning from the harvest (Manuring)"
+          },
+          "right": {
+            "id": "ag_22589",
+            "label": "Thatched Houses against a Hill"
+          },
+          "left_artist_id": "ag_2024",
+          "right_artist_id": "ag_1099",
+          "shared_attributes": [
+            {
+              "type": "genre",
+              "value_id": "ag_8",
+              "value_label": "landscape"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2551",
+              "value_label": "oil"
+            },
+            {
+              "type": "medium",
+              "value_id": "ag_2552",
+              "value_label": "canvas"
+            },
+            {
+              "type": "movement",
+              "value_id": "ag_124646",
+              "value_label": "Post-Impressionism"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_2845",
+              "value_label": "cliffs-and-rocks"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3003",
+              "value_label": "cottages-and-farmhouses"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3004",
+              "value_label": "Rural area"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3302",
+              "value_label": "Village"
+            },
+            {
+              "type": "tag",
+              "value_id": "ag_3570",
+              "value_label": "folk-architecture"
+            }
+          ],
+          "supporting_fact_ids": [
+            "agf_0fa96ab6ec393f5671fe",
+            "agf_2f5f4362e61299e0eee4",
+            "agf_333365da894593c533a1",
+            "agf_3882fcc25bf9cacc083d",
+            "agf_3bb868dec64887675266",
+            "agf_4339484ca2dae33c106a",
+            "agf_474730da0d2c2ac5a78a",
+            "agf_47a3f716f058b02480e9",
+            "agf_4af72c49c09a04fad8de",
+            "agf_543e3a47e393aa3e20f9",
+            "agf_5ac946fd0abca30a038a",
+            "agf_5adfc1503bb5c9bd4995",
+            "agf_6f74d46e6284e5cb2fff",
+            "agf_95459b4feb0f97d56312",
+            "agf_b289607eb8e6777de5da",
+            "agf_b711c24d10dc0db67970",
+            "agf_bb22245a44c3de377bc8",
+            "agf_db481aa48c06bda0bdb7",
+            "agf_e035b436d9d928f1ce60",
+            "agf_f14240ca0b28a747e41f"
+          ]
+        }
+      ],
+      "rank": 5
+    }
+  ],
+  "recommended_candidate_id": "tag_ag_3236"
+}

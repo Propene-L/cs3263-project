@@ -35,6 +35,7 @@ TYPE_MAP: dict[URIRef, TopicType] = {
     AG.Period: TopicType.PERIOD,
     AG.Serie: TopicType.SERIES,
     AG.Training: TopicType.TRAINING,
+    AG.Tag: TopicType.TAG,
 }
 
 RELATION_PREDICATES: dict[URIRef, str] = {
@@ -49,6 +50,7 @@ RELATION_PREDICATES: dict[URIRef, str] = {
     AG.hasPeriod: "has_period",
     AG.partOf: "part_of_series",
     AG.relatedToSchool: "related_to_school",
+    AG.about: "about",
 }
 
 LABEL_PREDICATES: tuple[URIRef, ...] = (AG.title, AG.name)
@@ -353,6 +355,7 @@ def export_prolog_facts(
         ":- dynamic has_period/3.\n",
         ":- dynamic part_of_series/3.\n",
         ":- dynamic related_to_school/3.\n",
+        ":- dynamic about/3.\n",
         ":- discontiguous source_fact/5.\n",
         ":- discontiguous fact_snapshot/2.\n",
         ":- discontiguous rdf_type/3.\n",
@@ -366,6 +369,7 @@ def export_prolog_facts(
         ":- discontiguous has_period/3.\n",
         ":- discontiguous part_of_series/3.\n",
         ":- discontiguous related_to_school/3.\n",
+        ":- discontiguous about/3.\n",
         f"snapshot({_prolog_atom(snapshot_id)}).\n",
     ]
     if source_dataset_uri is not None:

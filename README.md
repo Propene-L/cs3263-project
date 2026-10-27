@@ -1,4 +1,4 @@
-# CS3263 Logic-Driven Museum Guide — V2 Phase 0
+# CS3263 Logic-Driven Museum Guide — V2 Phase 0.75
 
 This repository implements the Phase 0 ArtGraph-to-Prolog pilot. The current
 pipeline audits the official ArtGraph v1.0 RDF archive, removes a documented
@@ -7,8 +7,9 @@ exports source-linked ground Prolog facts, and executes real Horn-clause rules
 in SWI-Prolog. Python does not select recommendations or reimplement the rules.
 
 The V2 handoff supersedes the older JSON prerequisite-selector prototype.
-Frontend, LLM integration, visitor recommendation rules, and comparison
-baselines are intentionally outside Phase 0.
+Phase 0.75 adds a bounded visitor-interest feasibility study and real-data
+SWI-Prolog proof of concept. Frontend, LLM integration, production visitor
+recommendation rules, and comparison baselines remain intentionally absent.
 
 ## Dependencies
 
@@ -99,4 +100,35 @@ The interactive, self-contained graph viewer is
 colors, predicate edges, structural statistics, stable IDs, and original RDF
 triples on hover/click. The Morris Louis sample is recommended for review, not
 yet adopted as the Phase 1 production knowledge base.
+
+## Phase 0.75 interest-inference investigation
+
+The full audit studies the real `about`/Tag relation, typed artwork
+attributes, and five reproducible 50–200-artwork candidate universes. It then
+exports the recommended Musical instrument universe as a bounded snapshot.
+The rules are a reviewable proof of concept: they are not relevance labels,
+probabilities, or an accepted Phase 1 policy.
+
+```powershell
+.\.venv\Scripts\python.exe -u scripts\investigate_interest_inference.py `
+  --input data\raw\artgraph-facts.sanitized.ttl `
+  --audit-output docs\interest_inference_audit.json `
+  --scenario-output docs\interest_inference_scenarios.json `
+  --rdf-output data\curated\artgraph_interest_dev.ttl `
+  --catalog-output data\curated\interest_topic_catalog.json `
+  --prolog-output logic\interest_generated_facts.pl
+
+.\.tools\swipl\bin\swipl.exe -q `
+  -s logic\tests\test_interest_poc.pl -g run_tests -t halt
+
+.\.tools\swipl\bin\swipl.exe -q `
+  -s logic\interest_generated_facts.pl `
+  -s logic\interest_scenarios.pl -s logic\interest_poc.pl `
+  -g "write_top_recommendations_json(v_single,1)" -t halt
+```
+
+See `docs/INTEREST_INFERENCE_DATA_AUDIT.md`,
+`docs/INTEREST_INFERENCE_DESIGN.md`, and
+`docs/INTEREST_INFERENCE_REVIEW.md`. Phase 1 is blocked on the review gate in
+the final document.
 

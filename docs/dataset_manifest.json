@@ -19,7 +19,8 @@
     "https://www.gennarovessio.com/artgraph-schema#hasStyle",
     "https://www.gennarovessio.com/artgraph-schema#hasGenre",
     "https://www.gennarovessio.com/artgraph-schema#madeOf",
-    "https://www.gennarovessio.com/artgraph-schema#belongsToMovement"
+    "https://www.gennarovessio.com/artgraph-schema#belongsToMovement",
+    "https://www.gennarovessio.com/artgraph-schema#about"
   ],
   "seed_ids": [
     {
@@ -112,6 +113,41 @@
       "https://www.gennarovessio.com/artgraph-schema#hasPeriod",
       "https://www.gennarovessio.com/artgraph-schema#partOf",
       "https://www.gennarovessio.com/artgraph-schema#relatedToSchool"
+    ]
+  },
+  "phase_0_75": {
+    "scope": "Real-data interest-inference investigation and bounded SWI-Prolog proof of concept; not a production Phase 1 recommender.",
+    "about_predicate": "https://www.gennarovessio.com/artgraph-schema#about",
+    "about_triple_count": 342982,
+    "tag_entity_count": 5424,
+    "tagged_artwork_count": 95588,
+    "tagged_artwork_coverage_percent": 82.0674,
+    "candidate_count": 5,
+    "recommended_candidate_id": "tag_ag_3236",
+    "recommended_anchor_tag": {
+      "topic_id": "ag_3236",
+      "label": "Musical instrument"
+    },
+    "recommended_artwork_count": 188,
+    "recommended_artist_count": 138,
+    "recommended_sample_triple_count": 3218,
+    "recommended_topic_count": 589,
+    "audit": "docs/interest_inference_audit.json",
+    "audit_sha256": "412a7ebb8f4d5dcad42a2241842cfd7a3d00b2f1f8f1c3049f43450c9059050f",
+    "scenarios": "docs/interest_inference_scenarios.json",
+    "scenarios_sha256": "04e1672a57a0a1b8a927c54488fb41c8d5f955eb4ed6c2a7281e4d24dedd941c",
+    "recommended_sample": "data/curated/artgraph_interest_dev.ttl",
+    "recommended_sample_sha256": "dfbc8e37c87b341b894fa1e9c123285bfe8b56aa74bbe0caf376cdec855eb8ac",
+    "topic_catalog": "data/curated/interest_topic_catalog.json",
+    "topic_catalog_sha256": "0569730afc8a26c667f0f661c1af72a95c3772d24a9b97c7ec2c13564b8a96df",
+    "prolog_facts": "logic/interest_generated_facts.pl",
+    "prolog_facts_sha256": "6854efc0bcbd33604062b726cc90971b53e6401dbc0b9c1b247a410778e331e4",
+    "processing_base_commit": "9ecec09",
+    "processing_state": "Phase 0.75 code and artifacts are uncommitted pending human review.",
+    "notes": [
+      "The anchor tag defines a bounded development universe; it is not itself discriminative inside that universe.",
+      "All reported overlap and coverage statistics are descriptive RDF preprocessing, not recommendation inference.",
+      "The redistribution licence remains unresolved; retain only bounded textual snapshots until clarified."
     ]
   },
   "processing_script_commit": "34da12917002869c7d6f16e6ddb71a19cffae73a",

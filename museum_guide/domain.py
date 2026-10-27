@@ -18,6 +18,7 @@ class TopicType(str, Enum):
     PERIOD = "period"
     SERIES = "series"
     TRAINING = "training"
+    TAG = "tag"
 
 
 @dataclass(frozen=True, slots=True)

@@ -96,3 +96,26 @@ Layer A factual/context rules only. The separately proposed Layer B visitor
 eligibility rule and all rule justifications are documented in
 `PHASE_0_5_REVIEW.md`. They are not the production Phase 1 engine.
 
+## Phase 0.75 visitor-interest proof of concept
+
+`logic/interest_poc.pl` imports typed `about`/Tag facts and treats style,
+genre, medium, series, period, and the Artwork → Artist → Movement join as
+typed artwork attributes. The following rules execute in SWI-Prolog over the
+bounded real-data snapshot, but remain proposals pending the Phase 0.75 review:
+
+| Rule ID | Reading | Classification |
+|---|---|---|
+| `r_interest_from_like` | A liked artwork supplies strong positive signals for its recorded attributes. | Visitor-model assumption |
+| `r_weak_interest_from_familiarity` | A known artwork supplies weak positive signals. | Visitor-model assumption |
+| `r_negative_interest_from_dislike` | A disliked artwork supplies negative attribute signals. | Visitor-model assumption |
+| `r_two_distinct_attribute_match` | An unseen artwork matching at least two distinct typed attributes is eligible. | Guidance assumption |
+| `r_repeated_signal_plus_distinct_attribute` | Evidence from two source artworks plus two distinct attributes is an additional eligibility proof. | Guidance assumption |
+| `r_two_negative_attribute_matches` | Two matching negative attributes exclude a candidate. | Conservative guidance assumption |
+
+The score is a deterministic, lexicographic-style policy encoded in Prolog;
+it is not a probability or relevance judgment. Proofs return rule IDs,
+visitor-observation IDs, typed matching attributes, and the exact `agf_*`
+source fact IDs. Python only performs RDF analysis/export and does not select
+recommendations. Full semantics and review questions are in
+`INTEREST_INFERENCE_DESIGN.md` and `INTEREST_INFERENCE_REVIEW.md`.
+
