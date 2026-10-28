@@ -172,7 +172,7 @@
     "selection_report_sha256": "860f87fd2d83eb1d1989c28a222bd2858fbff481d85fc4ee58e0a3629870a0ed",
     "prolog_facts": "logic/clarification_generated_facts.pl",
     "prolog_facts_sha256": "626b00cd6a4f74b2443a507b61f6ef1588a3dbc88572670f9c3de3f8da00c373",
-    "benchmark": "evaluation/clarification_scenarios.jsonl",
+    "benchmark": "evaluation/clarification_scenarios_phase_1.jsonl",
     "benchmark_sha256": "921b8a1b4b154df38ff40c81ae0f93332c439c8a8f23d7a5a16b543084a586bd",
     "executed_results": "evaluation/clarification_results.json",
     "executed_results_sha256": "9430fc0f491d7721e21ffe62413e38623a908674ad0b69e7eacd9bfe149dd999",

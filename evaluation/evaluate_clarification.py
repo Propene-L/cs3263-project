@@ -215,7 +215,7 @@ def aggregate(rows: list[dict[str, Any]], method: str) -> dict[str, Any]:
     }
 
 
-def main() -> None:
+def phase_1_main() -> None:
     args = parse_args()
     scenarios = load_jsonl(args.scenarios)
     evidence = json.loads(
@@ -316,6 +316,18 @@ def main() -> None:
     print(json.dumps(summary, indent=2))
     if direct_selector is None:
         print("direct_llm=not_run_missing_configuration_or_flag")
+
+
+def main() -> None:
+    """Run the Phase 1.1 shared-horizon evaluator on the established path."""
+
+    import sys
+
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from evaluation.phase_1_1_evaluate import main as phase_1_1_main
+
+    phase_1_1_main()
 
 
 if __name__ == "__main__":
