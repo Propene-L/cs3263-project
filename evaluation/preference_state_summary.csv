@@ -1,0 +1,5 @@
+method,scenario_count,state_explanation_accuracy,atomic_explanation_accuracy,interaction_explanation_accuracy,mean_primary_component_precision,mean_primary_component_recall,mean_false_positive_atomic_interest_rate,relevant_at_1,relevant_at_3,recommendation_relevant_at_1,recommendation_mean_precision_at_3,clarification_useful_at_1,mean_runtime_ms
+positive_attribute_accumulation,24,0.5,1.0,0.0,0.5417,0.3542,0.5035,0.7917,1.0,0.8333,0.3472,0.0,0.115
+signed_additive_atomic,24,0.5,1.0,0.0,0.5,0.5,0.125,0.5,0.5417,0.0,0.0417,0.0833,0.221
+existing_atomic_prolog,24,0.5,1.0,0.0,0.5417,0.3542,0.5035,0.7917,1.0,0.8333,0.3472,0.0,409.907
+compositional_prolog,24,1.0,1.0,1.0,1.0,1.0,0.125,1.0,1.0,1.0,0.3472,1.0,406.592

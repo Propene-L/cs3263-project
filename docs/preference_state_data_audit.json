@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "source": "data/curated/clarification_evidence.json",
+  "artwork_count": 112,
+  "hypothesis_count": 10,
+  "allowed_interaction_type_schemas": [
+    "tag_plus_style",
+    "tag_plus_genre",
+    "style_plus_genre"
+  ],
+  "discovery": {
+    "contrastive_atomic_viable_constructions": 333,
+    "compositional_interaction_viable_constructions": 22
+  },
+  "selected": {
+    "scenario_count": 24,
+    "contrastive_atomic_count": 12,
+    "compositional_interaction_count": 12,
+    "development_count": 13,
+    "held_out_count": 11
+  },
+  "limitations": [
+    "Search uses only ten reviewed hypotheses and 112 frozen ArtGraph artworks.",
+    "not_recorded means absent from the bounded snapshot, never a negative museum fact.",
+    "Controlled latent profiles are constructed labels, not observed human preferences."
+  ]
+}

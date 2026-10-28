@@ -13,6 +13,7 @@ import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from typing import Any, Protocol
 
 from .clarification import ClarificationState
@@ -158,12 +159,23 @@ class OpenAIResponsesTransport:
         endpoint: str = DEFAULT_ENDPOINT,
         timeout_seconds: float = 90,
         max_retries: int = 2,
+        output_schema: dict[str, Any] | None = None,
+        schema_name: str = "clarification_decision",
+        system_prompt: str | None = None,
     ) -> None:
         self.api_key = api_key
         self.model = model
         self.endpoint = endpoint
         self.timeout_seconds = timeout_seconds
         self.max_retries = max_retries
+        self.output_schema = output_schema or self._schema()
+        self.schema_name = schema_name
+        self.system_prompt = system_prompt or (
+            "You select a museum clarification question from only the supplied "
+            "evidence. Return the required JSON decision. Missing attributes are "
+            "unknown, not negative facts. Never infer or request hidden evaluation "
+            "information."
+        )
 
     @classmethod
     def from_environment(cls) -> "OpenAIResponsesTransport | None":
@@ -230,12 +242,7 @@ class OpenAIResponsesTransport:
                     "content": [
                         {
                             "type": "input_text",
-                            "text": (
-                                "You select a museum clarification question from only the "
-                                "supplied evidence. Return the required JSON decision. Missing "
-                                "attributes are unknown, not negative facts. Never infer or request "
-                                "hidden evaluation information."
-                            ),
+                            "text": self.system_prompt,
                         }
                     ],
                 },
@@ -252,9 +259,9 @@ class OpenAIResponsesTransport:
             "text": {
                 "format": {
                     "type": "json_schema",
-                    "name": "clarification_decision",
+                    "name": self.schema_name,
                     "strict": True,
-                    "schema": self._schema(),
+                    "schema": self.output_schema,
                 }
             },
         }
@@ -296,9 +303,11 @@ class OpenAIResponsesTransport:
             raise ValueError("OpenAI structured output was not a JSON object")
         decision["_transport_metadata"] = {
             "provider": "openai",
+            "executed_at_utc": datetime.now(timezone.utc).isoformat(),
             "model_requested": self.model,
             "model_returned": response.get("model"),
             "response_id": response.get("id"),
+            "request_count": attempt + 1,
             "usage": response.get("usage", {}),
         }
         decision["_raw_response"] = response
