@@ -204,6 +204,16 @@ usage, and errors remain in
 are in `evaluation/preference_state_llm_normalized_results.json`. The interface
 follows the official OpenAI [Structured Outputs guidance](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses).
 
+A subsequent targeted contract-repair pass reran only the 21 diagnostic
+failures, once each. Combined with four conservative offline recoveries, the
+final composite has 53 accepted outputs and 51 valid decisions across 56
+scenarios. End-to-end LLM coverage is 74.11%, primary accuracy 36.61%,
+precision/recall 52.08%/75.00%, top-1 relevance 73.21%, and action accuracy
+60.71%. This second-chance result must not replace the one-request baseline:
+the strengthened rerun consumed another request for 21 initially failed cases.
+Both views and their provenance are retained in
+`evaluation/preference_state_llm_final_comparison_results.json`.
+
 The persisted one-pass command and checkpoint-resume procedure are documented
 in `docs/PREFERENCE_STATE_LLM_COMPARISON.md`. Credentials are supplied only
 through process environment variables; the key is never written or echoed.

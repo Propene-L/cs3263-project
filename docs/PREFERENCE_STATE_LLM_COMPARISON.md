@@ -43,6 +43,38 @@ headline end-to-end metric. It also has a 14.52% false-interaction rate among
 valid outputs versus 0.89% for Prolog, and fails to clarify in 58.82% of valid
 cases whose expected action is clarification.
 
+## Targeted contract-repair pass
+
+The diagnostic identified four saved responses that were conservatively
+recoverable offline and 21 cases requiring a new response. Those 21 IDs were
+rerun exactly once with the strengthened ID/cardinality/action prompt, zero
+transport retries, per-case checkpointing, and no Prolog reruns. Eighteen of
+the 21 reruns validate; three remain invalid. The final composite therefore
+uses 31 original normalized outputs, four conservative offline recoveries, and
+21 targeted rerun records, of which 18 are valid.
+
+| Method | Accepted output | Valid decision | Coverage | Primary accuracy | Explanation P/R | Top-1 | Action type |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Compositional Prolog | 56 / 56 | 56 / 56 | 98.21% | 33.93% | 75.74% / 91.07% | 86.61% | 98.21% |
+| LLM final composite | 53 / 56 | 51 / 56 | 74.11% | 36.61% | 52.08% / 75.00% | 73.21% | 60.71% |
+
+These are end-to-end metrics over all 56 scenarios, with the three remaining
+invalid outputs scored as zero. Conditional on the 53 accepted outputs, LLM
+coverage is 78.30%, primary accuracy 38.68%, precision/recall 55.03%/79.25%,
+top-1 relevance 77.36%, action-type accuracy 64.15%, and decision validity
+96.23%. The LLM still has a 19.81% false-interaction rate among accepted
+outputs and fails to clarify in 40.63% of accepted clarification cases.
+
+This composite is a **second-chance contract-repair evaluation**, not a
+single-shot comparison: 21 failures received a stronger prompt and another
+request. The initial normalized 31/56 table above remains the fair one-request
+baseline. Across both passes the LLM used 77 requests, zero transport retries,
+757,617 input tokens, and 36,469 output tokens (794,086 total).
+
+The remaining invalid cases are `preference_atomic_006` (primary not active),
+`atomic_music` (wrong top-level fields), and `correction_interaction_block`
+(malformed JSON). They were not rerun again.
+
 ## Interface and leakage boundary
 
 `CorrectedDirectPreferenceStateLLM` receives only:
@@ -135,3 +167,10 @@ IDs, once each, with zero transport retries and per-case checkpointing. The
 original calls must remain immutable and the rerun must be reported as a
 targeted contract-repair pass, not silently substituted into the original
 single-pass result.
+
+That pass is now complete. Its raw calls and per-case results are in
+`evaluation/preference_state_llm_invalid_rerun_calls.json` and
+`evaluation/preference_state_llm_invalid_rerun_results.json`. The merged final
+comparison is in `evaluation/preference_state_llm_final_comparison_results.json`
+with a compact CSV at
+`evaluation/preference_state_llm_final_comparison_summary.csv`.

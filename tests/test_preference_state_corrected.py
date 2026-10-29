@@ -258,3 +258,20 @@ def test_invalid_llm_diagnostic_partitions_all_normalized_failures_without_api_c
     assert report["rerun_required_count"]==len(rerun)==21
     assert recoverable.isdisjoint(rerun)
     assert recoverable|rerun=={row["scenario_id"] for row in report["rows"]}
+
+
+def test_final_llm_comparison_preserves_source_lineage_and_request_accounting():
+    report=json.loads((ROOT/"evaluation/preference_state_llm_final_comparison_results.json").read_text(encoding="utf-8"))
+    assert report["scenario_count"]==56
+    assert report["source_counts"]=={
+        "targeted_contract_rerun":21,
+        "original_exact_label_normalized":31,
+        "original_conservative_offline_repair":4,
+    }
+    assert report["remaining_error_count"]==3
+    assert report["overall_summary"]["direct_llm_state_reasoning"]["successful_scenario_count"]==53
+    assert report["overall_summary"]["direct_llm_state_reasoning"]["valid_decisions_per_attempt"]==pytest.approx(51/56)
+    accounting=report["api_request_accounting"]
+    assert accounting["initial_single_pass_requests"]==56
+    assert accounting["targeted_rerun_requests"]==21
+    assert accounting["total_requests"]==77 and accounting["total_retries"]==0
