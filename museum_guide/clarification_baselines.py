@@ -168,6 +168,7 @@ class OpenAIResponsesTransport:
         self.endpoint = endpoint
         self.timeout_seconds = timeout_seconds
         self.max_retries = max_retries
+        self.last_exchange: dict[str, Any] | None = None
         self.output_schema = output_schema or self._schema()
         self.schema_name = schema_name
         self.system_prompt = system_prompt or (
@@ -276,7 +277,13 @@ class OpenAIResponsesTransport:
         )
         last_error: Exception | None = None
         response: dict[str, Any] | None = None
+        self.last_exchange = {
+            "provider": "openai", "model_requested": self.model,
+            "executed_at_utc": datetime.now(timezone.utc).isoformat(),
+            "request_count": 0,
+        }
         for attempt in range(self.max_retries + 1):
+            self.last_exchange["request_count"] = attempt + 1
             try:
                 with urllib.request.urlopen(
                     request, timeout=self.timeout_seconds
@@ -296,6 +303,10 @@ class OpenAIResponsesTransport:
                 time.sleep(2**attempt)
         if response is None:
             raise RuntimeError("OpenAI request failed after retries") from last_error
+        self.last_exchange.update(
+            raw_response=response, usage=response.get("usage", {}),
+            model_returned=response.get("model"), response_id=response.get("id"),
+        )
         if response.get("status") not in {None, "completed"}:
             raise ValueError(f"OpenAI response status was {response.get('status')!r}")
         decision = json.loads(self._output_text(response))

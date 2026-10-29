@@ -1,0 +1,30 @@
+{
+  "historical_commit": "28e77c98614ca35a23bd40f0b1ce56e01cfb8cd2",
+  "sha256": {
+    "evaluation/clarification_human_review.csv": "331d3094ba3658bd6f545dc8258351cbd12632be60f1ca516d6c150f620d878e",
+    "evaluation/clarification_results.json": "9430fc0f491d7721e21ffe62413e38623a908674ad0b69e7eacd9bfe149dd999",
+    "evaluation/clarification_scenarios.jsonl": "3540dc37781d2bd32acc8e5eb2f69a79beb70a205f247bca5b740175654d624b",
+    "evaluation/clarification_scenarios_phase_1.jsonl": "921b8a1b4b154df38ff40c81ae0f93332c439c8a8f23d7a5a16b543084a586bd",
+    "evaluation/phase_1_1_complexity_results.json": "21492cfb77cf6366cdfa8c501928055cda2ee80380020e965998413040629815",
+    "evaluation/phase_1_1_results.json": "aef7cf9dbf3993a5d03c3801275a04037be0a418ccc506db7b32119a6f95d2e0",
+    "evaluation/phase_1_1_round_trajectory.csv": "3186db53cc501e9b6f187674a95d33b1792020f63422a4fcec3dde7224f7797a",
+    "evaluation/phase_1_1_summary.csv": "85e8eb60d1c1617eea37d95b93082d33040ab174ea8c03b860bdb41debd6df24",
+    "evaluation/preference_state_human_review.csv": "1fb6cc60633e1c119549a415e13d69cd4d82e54444780ef1b7d74b6229c1bc71",
+    "evaluation/preference_state_results.json": "a3dadb192647e95aae6ace0ce172acb340d735cb9ce5929a2216e74911a218bf",
+    "evaluation/preference_state_scenarios.jsonl": "29a8daddbb41ac53a49d1b9d24f349a8cf4f93c1a9fa6a8be1e04ffe69302c82",
+    "evaluation/preference_state_summary.csv": "87066ff97c388683a684184b964dfc9e33c0df9bf46e08e8c4363008922c50af",
+    "logic/clarification_rules.pl": "ce101189a80ad6d26488f89c2cb9e667bddb798a634cea7a66510ed95e21ac85",
+    "logic/tests/test_clarification.pl": "7893e9038940090ebcabe4028d0c01741dc9172208a7923d905e2942bc780390",
+    "logic/tests/test_interest_poc.pl": "e684b279a898f39032a0fe3a29bb8db0ae47c59f9e2f27d8da2d2593a64e75b4",
+    "logic/tests/test_phase_0_5_pilot.pl": "d32d3829d27fad7d925cf73d60c90a0129ed26dbeac4c39d992b53e1545e487c",
+    "logic/tests/test_pilot.pl": "ad8d5402381f72c162ae103f6d3298f3d8f55bfc23971c2c36f7ce1888029c41",
+    "tests/test_artgraph.py": "e70bfa8ae90b76e895e6f9d9baa8f4647bac18474060818ed575d097802e4579",
+    "tests/test_clarification.py": "78fa1360597e4b4a28813e9b425162d478d3d111585f719e4d5aa97b6afe0f88",
+    "tests/test_exploration.py": "7393edaf66f117cee8b53b287f15623320f96e7e7e6466c58bced6365e5e7eae",
+    "tests/test_interest_exploration.py": "f9d7cc175d43e2dd9d853d326ef075f25079a9f24211d91f4cbfb75b57d84804",
+    "tests/test_interest_phase_0_75_artifacts.py": "6ecf535cd059ed7fcccab1f87ffe0408bdaf249effce7a91a132b19f1ea29471",
+    "tests/test_phase_0_5_artifacts.py": "4c0a9c58760b12c6c942eb987725e1c9e4965d6453b82345a9d69c54b352ad01",
+    "tests/test_prolog_pilot.py": "e701db15b310ff5c1ac036cfcb9defad08f297d6638f7ee13316e8c6b7a9f8ed",
+    "tests/test_real_sample.py": "58d1ff3501b4abdcdd0ce436b8bf628610c71468279070f2f8a8e8206ff0f81d"
+  }
+}

@@ -17,14 +17,18 @@ psychology.
 The symbolic input contains:
 
 - stable visitor, observation, hypothesis, and artwork IDs;
-- immutable `likes`, `dislikes`, `explicit_interest`, and
-  `explicit_rejection` observations;
+- immutable likes/dislikes, explicit atomic or conjunction statements,
+  explanation denials, and chronological corrections;
 - a finite allowlist of action artworks;
 - the frozen ArtGraph v1.0 evidence snapshot.
 
 Museum facts, visitor observations, modeling assumptions, and derived
 explanations remain separate. Raw visitor text is never executed as Prolog.
 Deriving an explanation never mutates or deletes an observation.
+Corrections mark an earlier observation as superseded in the authoritative
+view while retaining both raw records. A clarification answer of `no` rejects
+only the queried explanation; it does not ban every artwork containing a
+component. A direct explicit rejection is a downstream artwork constraint.
 
 ## Explanation types
 
@@ -92,14 +96,37 @@ theorem about preferences.
 
 ## Action ranking
 
-In compositional mode, an available interaction explanation takes precedence;
-an artwork receives support only when all components are recorded. Without an
-interaction, a contrastive atomic component receives the main score and mixed
-attributes receive a penalty so clean probes rank above high-overlap examples.
+The original v1 experiment gave any inferred interaction overriding score
+1000 and disabled atomic fallback. That policy is retained only in
+`preference_state_rules.pl` for historical reproduction.
+
+Corrected v2 uses the following deterministic policy:
+
+1. Explicitly rejected atomic or conjunction interests exclude matching
+   recommendation candidates. Explanation denials produced by clarification
+   do not exclude artworks.
+2. Explicit confirmations outrank provisional evidence. An inferred
+   interaction cannot replace confirmed independent atomic interests.
+3. A unique reinforced interest can justify a recommendation. Candidate,
+   mixed, or provisional interaction evidence requires clarification.
+4. Declared incomplete evidence produces `insufficient_evidence`; interaction
+   inference is disabled because `not_recorded` is unreliable in that view.
+5. Eligible artworks are ordered lexicographically by explicit matches, total
+   positive-explanation matches, then stable artwork ID. These are ordinal
+   rules, not confidence scores or probabilities.
+
+Clarification asks whether one explicit atomic or conjunction explanation is
+correct. The controlled response model answers `yes`, `no`, or `unsure` by
+membership in the declared profile, appends the answer as a new observation,
+and runs inference again. It is a test oracle, not a model of human behavior.
 
 Atomic Prolog preserves the Phase 1 positive-only behavior as an ablation.
 The Python positive-accumulation and signed-additive baselines independently
 construct their states from exported evidence and never read Prolog output.
+The interaction-capable Python comparator independently implements the same
+corrected formal policy. Its equality with Prolog measures representation
+equivalence; differences between those two implementations would indicate an
+engineering defect, not a research advantage.
 
 Action relevance is evaluated independently from proof validity using the
 scenario's controlled latent profile:

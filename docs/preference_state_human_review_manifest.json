@@ -1,0 +1,11 @@
+{
+  "version": "corrected_v2",
+  "seed": 32631203,
+  "source_results_sha256": "8bca2c6d4d40e283132aacfc6598ec05b222196149017e8479b1392b13c3370d",
+  "item_count": 16,
+  "contains_method_disagreements": true,
+  "contains_both_may_be_wrong_cases": true,
+  "both_may_be_wrong_definition": "Both methods' raw top-ranked artworks are irrelevant in at least one controlled world; human action judgments remain unscored.",
+  "review_mode": "text-only ArtGraph attributes and labels; no artwork images; unscored until human responses",
+  "ordering": "A/B position deterministically randomized; presentation_seed recorded per item"
+}

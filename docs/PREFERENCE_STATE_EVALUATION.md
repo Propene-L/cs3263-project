@@ -1,5 +1,69 @@
 # Phase 1.2 Preference-State Evaluation
 
+## Correction status
+
+The results below headed **Historical v1** are the original record from commit
+`28e77c98614ca35a23bd40f0b1ce56e01cfb8cd2`. Those files and hashes remain
+unchanged. The original `state_explanation_accuracy` was explanation coverage:
+it counted a case correct when the gold explanation appeared anywhere among
+the outputs, even alongside unsupported explanations. Candidate targets also
+occupied position 1 in all 24 source scenarios before v2 randomized them.
+
+Corrected v2 separates regression from robustness cases, records candidate
+order and seed, reports precision/recall and primary accuracy, and performs a
+real clarification state update. Raw corrected results are in
+`evaluation/preference_state_corrected_results.json`; compact results are in
+`evaluation/preference_state_corrected_summary.csv`.
+
+### Corrected robustness results (32 authored scenarios / 36 worlds)
+
+| Method | Coverage | Primary accuracy | Explanation P/R | False interaction | False atomic | Action type | Top-1 | Recall@3 | Precision@3 | Mean runtime |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Positive accumulation | 57.81% | 25.00% | 25.13% / 57.81% | 0% | 37.37% | 40.63% | 48.44% | 36.07% | 30.73% | 17.96 ms |
+| Signed additive | 54.69% | 0% | 29.69% / 54.69% | 0% | 29.69% | 40.63% | 53.13% | 43.64% | 38.02% | 18.95 ms |
+| Atomic Prolog | 57.81% | 0% | 25.13% / 57.81% | 0% | 37.37% | 40.63% | 48.44% | 36.07% | 30.73% | 613.04 ms |
+| Compositional Prolog | 96.88% | 59.38% | 62.76% / 84.38% | 1.56% | 34.38% | 96.88% | 82.81% | 64.40% | 63.02% | 604.66 ms |
+| Interaction Python | 96.88% | 59.38% | 62.76% / 84.38% | 1.56% | 34.38% | 96.88% | 82.81% | 64.40% | 63.02% | 17.92 ms |
+
+All five offline methods produced valid constrained decisions. Corrected
+Prolog and interaction Python were identical in every base and permutation
+run. This means the quality improvement belongs to the richer representation
+and decision policy; the Prolog implementation adds independently checkable
+proof provenance, while Python is about 34 times faster in this subprocess
+configuration.
+
+On the held-out robustness split, compositional Prolog/Python achieved 100%
+coverage, 67.86% precision, 85.71% recall, 50% primary accuracy, 82.14% top-1,
+65.03% Recall@3, 58.33% Precision@3, and 100% action-type accuracy. The split
+uses a tag+style conjunction schema while development uses genre+style, but it
+shares the vocabulary and candidate pool, so this is reported as in-pattern
+generalization rather than out-of-distribution evidence.
+
+### Closed-loop clarification
+
+Compositional Prolog/Python asked nine questions on robustness cases. The
+declared response model made all nine informative. Averaged over possible
+worlds, primary accuracy increased by 61.11 percentage points, explanation
+precision by 22.22 points, recall by 33.33 points, and top-1 recommendation
+relevance by 38.89 points. Top-1 relevance after clarification was 88.89%; all
+actual post-clarification recommendations were relevant. The response model is
+an exact profile-membership oracle, so these are controlled transition tests,
+not evidence about how people answer museum questions.
+
+The old `clarification_useful_at_1` is retained only in the historical result.
+Corrected output calls it `CleanProbe@1` and keeps it separate from the
+closed-loop metrics.
+
+### Recommendation interpretation
+
+The original 34.72% interaction Precision@K equality came from candidate-set
+geometry: each interaction case had one relevant item, `K` was 2 for the
+flagship and 3 otherwise, and both methods placed that one item somewhere in
+the top K. Better top-1 order could not improve precision when the same single
+relevant item remained inside the cutoff. Corrected v2 reports top-1,
+Recall@K, Precision@K, Hit@K, and irrelevant-action rate separately. It does
+not equate a top-1 gain with better whole-ranking quality.
+
 ## Scope and execution
 
 Phase 1.2 evaluates whether each method can independently build a visitor
@@ -27,7 +91,7 @@ table is in `evaluation/preference_state_summary.csv`.
 The final local verification completed with 44 Python tests and 32 Prolog
 tests passing. `compileall` and `git diff --check` also completed cleanly.
 
-## Controlled results
+## Historical v1 controlled results
 
 | Method | State explanation accuracy | Atomic accuracy | Interaction accuracy | Relevant@1 | Clarification useful@1 | Interaction recommendation Relevant@1 | Mean runtime |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -140,8 +204,10 @@ Configuration for a smoke run:
 $env:PREFERENCE_STATE_LLM_PROVIDER = "openai"
 $env:PREFERENCE_STATE_LLM_MODEL = "<documented model or snapshot>"
 $env:OPENAI_API_KEY = "<secret>"
-.\.venv\Scripts\python.exe -u evaluation\evaluate_preference_state.py `
-  --subset development --run-direct-llm
+.\.venv\Scripts\python.exe -m evaluation.evaluate_preference_state_corrected `
+  --subset development --smoke --run-direct-llm `
+  --output-prefix preference_state_llm_smoke `
+  --llm-output preference_state_llm_smoke_results.json
 ```
 
 Run the full held-out subset only after reviewing the smoke output. The key is
@@ -164,7 +230,7 @@ constructed candidate universes. Missing RDF, multi-feature aesthetics, and
 real visitor responses could reverse rankings. No result is human preference
 accuracy.
 
-## Failures and next gate
+## Historical v1 failures and then-proposed gate
 
 Positive accumulation fails the two flagships and several discovered cases by
 favoring shared high-overlap distractors. Signed additive fails the flagship
@@ -176,4 +242,6 @@ benchmark; that is itself a limitation and a reason not to overclaim. The next
 gate is blinded human relevance review using
 `evaluation/preference_state_human_review.csv`, followed by an independently
 specified robustness set with noisy/missing/multiple-interaction histories.
-Do not begin frontend work before that review.
+That robustness set is now implemented in v2. Human judgments remain the next
+gate; the corrected method-blind sheet is
+`evaluation/preference_state_corrected_human_review.csv`.

@@ -59,7 +59,7 @@ def test_flagship_naive_baselines_prefer_required_distractor():
 def test_flagship_compositional_proof_and_ranking_are_exact():
     state = flagship_state()
     original_observations = state.observations
-    result = default_preference_state_engine(ROOT).infer(state)
+    result = default_preference_state_engine(ROOT, historical=True).infer(state)
     interaction = next(
         item
         for item in result["preference_explanations"]
@@ -90,7 +90,7 @@ def test_flagship_compositional_proof_and_ranking_are_exact():
 
 @pytest.mark.skipif(find_swipl() is None, reason="SWI-Prolog is not installed")
 def test_flagship_observation_evidence_preserves_all_declared_fact_provenance():
-    result = default_preference_state_engine(ROOT).infer(flagship_state())
+    result = default_preference_state_engine(ROOT, historical=True).infer(flagship_state())
     fact_ids = {
         fact
         for item in result["observation_evidence"]

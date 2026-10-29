@@ -369,7 +369,7 @@ def main() -> None:
     selectors: dict[str, Any] = {
         "positive_attribute_accumulation": PositiveAccumulationBaseline(evidence),
         "signed_additive_atomic": SignedAdditiveAtomicBaseline(evidence),
-        "engine": default_preference_state_engine(ROOT),
+        "engine": default_preference_state_engine(ROOT, historical=True),
     }
     methods = list(OFFLINE_METHODS)
     direct = (

@@ -1,0 +1,80 @@
+{
+  "version": "corrected_v2",
+  "seed": 32631202,
+  "scenario_count": 32,
+  "categories": {
+    "true_atomic": 4,
+    "multiple_independent": 4,
+    "true_conjunction": 4,
+    "noisy": 4,
+    "contradictory": 4,
+    "missing_evidence": 4,
+    "ambiguous": 4,
+    "explicit_correction": 4
+  },
+  "splits": {
+    "development": 18,
+    "held_out": 14
+  },
+  "world_count": 36,
+  "group_overlap": [],
+  "identical_history_overlap": 0,
+  "observation_artwork_overlap": [
+    "ag_12343",
+    "ag_13231",
+    "ag_8296"
+  ],
+  "candidate_artwork_overlap": [
+    "ag_10025",
+    "ag_10632",
+    "ag_10766",
+    "ag_12372",
+    "ag_13231",
+    "ag_13233",
+    "ag_14531",
+    "ag_14588",
+    "ag_15247",
+    "ag_16386",
+    "ag_16916",
+    "ag_17716",
+    "ag_19176",
+    "ag_20804",
+    "ag_21066",
+    "ag_21076",
+    "ag_23352",
+    "ag_25837",
+    "ag_30919",
+    "ag_33200",
+    "ag_42361",
+    "ag_8145",
+    "ag_8296",
+    "ag_8415"
+  ],
+  "profile_structure_overlap": [
+    "atomic:h_water_subject"
+  ],
+  "development_interaction_schemas": [
+    "genre+style"
+  ],
+  "held_out_interaction_schemas": [
+    "style+tag"
+  ],
+  "interaction_schema_overlap": [],
+  "historical_regression_identical_history_overlap": 0,
+  "original_target_positions": {
+    "1": 2,
+    "2": 6,
+    "3": 7,
+    "4": 2,
+    "5": 7
+  },
+  "generalization": "in-pattern; same vocabulary, shared candidate pool and related cross-type schemas",
+  "review_status": "Case cards authored before evaluation by the same implementation agent; independent human review pending.",
+  "limitations": [
+    "32 cases are small, clustered and authored, not an independently collected visitor dataset.",
+    "Explicit conjunction cases cover conditional statements outside the original trigger but make state identification easier.",
+    "Full-world relevance labels use recorded support; masks change model-visible evidence only.",
+    "Known incompleteness is signaled; unannounced missingness remains untested.",
+    "Four ambiguous cases have two worlds each; worlds and permutations are not independent samples."
+  ]
+}
