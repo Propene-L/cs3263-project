@@ -49,9 +49,23 @@ class CorrectedDirectPreferenceStateLLM(DirectPreferenceStateLLM):
             ),
             "output_instruction":(
                 "Return exactly one JSON object matching required_output_schema. "
-                "Use the property names verbatim and do not add properties."
+                "Use the property names verbatim and do not add properties. "
+                "Every components entry must be copied verbatim from allowed_component_ids; "
+                "never return a label, synonym, combined phrase, or artwork attribute value."
             ),
             "required_output_schema":deepcopy(self.OUTPUT_SCHEMA),
+            "allowed_component_ids":sorted(item["id"] for item in view["hypotheses"]),
+            "contract_reminders":[
+                "atomic has exactly one component",
+                "all_of has exactly two distinct components",
+                "kind is only atomic or all_of",
+                "status is only explicitly_confirmed, explicitly_rejected, candidate, reinforced, mixed, or interaction_candidate",
+                "primary_explanation is null or exactly duplicates one active inferred preference",
+                "clarify includes question_explanation and no artwork_id",
+                "recommend includes an allowlisted artwork_id and no question_explanation",
+                "insufficient_evidence includes neither artwork_id nor question_explanation",
+                "emit raw JSON only without Markdown fences or commentary",
+            ],
             "visitor_history":natural_language_history,
             "hypothesis_vocabulary":view["hypotheses"],
             "observed_artworks":[{"artwork_id":a,**view["artworks"][a]} for a in observed],

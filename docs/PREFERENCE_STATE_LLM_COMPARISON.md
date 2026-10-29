@@ -111,3 +111,27 @@ Primary normalized artifacts are
 `evaluation/preference_state_llm_normalized_results.json` and
 `evaluation/preference_state_llm_normalized_summary.csv`. The strict-ID files
 remain an interface-compliance diagnostic rather than the main comparison.
+
+## Invalid-output diagnostic and rerun gate
+
+The 25 normalized failures were inspected offline without API calls. Four are
+conservatively recoverable from their saved responses: stripping an exact
+JSON Markdown fence, ignoring only an extra closing brace after one complete
+object, mapping the unambiguous `conjunction` enum alias to `all_of`, or mapping
+a collision-free slug rendering of an official label. This leaves 21 targeted
+reruns rather than 25.
+
+The remaining failures cannot be repaired without changing meaning: three
+provider failures have no response, two JSON strings are substantially
+malformed, and sixteen violate component cardinality/vocabulary, duplicate or
+status semantics, primary-explanation consistency, or the top-level contract.
+The exact case list and per-case diagnosis are retained in
+`evaluation/preference_state_llm_invalid_diagnostic.json` and its CSV mirror.
+
+Before a targeted rerun, the prompt now repeats the allowlisted component IDs,
+cardinality, enum, primary, action, and raw-JSON requirements in plain language
+in addition to the structured schema. A rerun must call only the 21 manifest
+IDs, once each, with zero transport retries and per-case checkpointing. The
+original calls must remain immutable and the rerun must be reported as a
+targeted contract-repair pass, not silently substituted into the original
+single-pass result.

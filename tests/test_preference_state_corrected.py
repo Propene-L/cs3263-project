@@ -182,6 +182,8 @@ def test_direct_payload_leakage_mask_order_and_mocked_loop(evidence):
     assert [a["artwork_id"] for a in transport.payload["candidate_artworks"]]==list(s.allowed_action_artwork_ids)
     assert transport.payload["required_output_schema"]==model.OUTPUT_SCHEMA
     assert "property names verbatim" in transport.payload["output_instruction"]
+    assert transport.payload["allowed_component_ids"]==sorted(model.index.hypothesis_rows)
+    assert any("raw JSON only" in item for item in transport.payload["contract_reminders"])
     assert r["decision"]["action_type"]=="clarify" and model.last_record["status"]=="validated"
 
 
@@ -244,3 +246,15 @@ def test_corrected_human_review_is_blind_randomized_and_unscored():
     assert all(not r["more_relevant_a_b_equal_neither"] and not r["reviewer_notes"] for r in rows)
     manifest=json.loads((ROOT/"docs/preference_state_human_review_manifest.json").read_text(encoding="utf-8"))
     assert manifest["contains_method_disagreements"] and manifest["contains_both_may_be_wrong_cases"]
+
+
+def test_invalid_llm_diagnostic_partitions_all_normalized_failures_without_api_calls():
+    report=json.loads((ROOT/"evaluation/preference_state_llm_invalid_diagnostic.json").read_text(encoding="utf-8"))
+    recoverable=set(report["offline_recoverable_scenario_ids"])
+    rerun=set(report["rerun_required_scenario_ids"])
+    assert report["api_calls_made"]==0
+    assert report["input_invalid_scenario_count"]==25
+    assert report["offline_recoverable_count"]==len(recoverable)==4
+    assert report["rerun_required_count"]==len(rerun)==21
+    assert recoverable.isdisjoint(rerun)
+    assert recoverable|rerun=={row["scenario_id"] for row in report["rows"]}
