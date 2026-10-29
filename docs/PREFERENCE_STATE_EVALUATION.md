@@ -189,16 +189,20 @@ separate.
 
 ### 6–7. Where does direct LLM help or violate constraints?
 
-The genuine SOCLAAS-backed run produced only 2 valid outputs in 56 attempts
-(3.57%), versus 56/56 valid Prolog decisions. The model usually returned human
-labels rather than allowlisted stable hypothesis IDs despite receiving both a
-strict `text.format` schema and that schema in the prompt. These failures were
-rejected rather than coerced, preserving the symbolic safety boundary. Metrics
-computed on the two accepted outputs are too sparse for a substantive quality
-comparison. Raw prompts, responses, usage, and errors are retained in
-`evaluation/preference_state_llm_single_pass_calls.json`. The interface follows
-the official OpenAI [Structured Outputs guidance](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses),
-but the supplied provider/model did not reliably honor that contract.
+The genuine SOCLAAS-backed run is compared after deterministic normalization
+of exact official hypothesis labels to stable IDs. This is vocabulary
+canonicalization, not inference: it uses neither gold labels nor Prolog output
+and does not fuzzy-match. It yields 31 valid outputs in 56 attempts (55.36%),
+versus 56/56 valid Prolog decisions. Counting invalid attempts as failures,
+the LLM achieves 41.96% coverage, 25.89% primary accuracy, 32.14%/42.86%
+precision/recall, 42.86% top-1 relevance, and 30.36% action accuracy. Prolog
+achieves 98.21%, 33.93%, 75.74%/91.07%, 86.61%, and 98.21%, respectively.
+Strict ID-only validity (2/56) is retained as an interface-compliance
+diagnostic, not the primary reasoning comparison. Raw prompts, responses,
+usage, and errors remain in
+`evaluation/preference_state_llm_single_pass_calls.json`; normalized results
+are in `evaluation/preference_state_llm_normalized_results.json`. The interface
+follows the official OpenAI [Structured Outputs guidance](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses).
 
 The persisted one-pass command and checkpoint-resume procedure are documented
 in `docs/PREFERENCE_STATE_LLM_COMPARISON.md`. Credentials are supplied only

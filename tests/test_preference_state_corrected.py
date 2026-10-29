@@ -185,6 +185,27 @@ def test_direct_payload_leakage_mask_order_and_mocked_loop(evidence):
     assert r["decision"]["action_type"]=="clarify" and model.last_record["status"]=="validated"
 
 
+def test_exact_official_labels_are_normalized_to_stable_ids(evidence):
+    response=valid_llm_response()
+    response["question_explanation"]=deepcopy(response["question_explanation"])
+    for explanation in [*response["inferred_preferences"],response["question_explanation"]]:
+        explanation["components"]=["Expressionist Style"," portrait genre "]
+    model=CorrectedDirectPreferenceStateLLM(Fake(response),evidence)
+    result=model.infer(flagship(),natural_language_history="Visitor history")
+    expected=["h_expressionist_style","h_portrait_genre"]
+    assert result["preference_explanations"][0]["components"]==expected
+    assert result["decision"]["question"]["explanation"]["components"]==expected
+    assert len(model.last_record["normalizations"])==4
+
+
+def test_nonexact_or_fuzzy_component_alias_is_rejected(evidence):
+    response=valid_llm_response()
+    response["inferred_preferences"][0]["components"][0]="expressionist_style"
+    model=CorrectedDirectPreferenceStateLLM(Fake(response),evidence)
+    with pytest.raises(ValueError,match="Invalid component ID"):
+        model.infer(flagship(),natural_language_history="Visitor history")
+
+
 @pytest.mark.parametrize("change",[
     {"inferred_preferences":[{"kind":"atomic","components":["h_oil_medium","h_portrait_genre"],"status":"candidate"}]},
     {"inferred_preferences":[{"kind":"all_of","components":["h_oil_medium","h_oil_medium"],"status":"interaction_candidate"}]},

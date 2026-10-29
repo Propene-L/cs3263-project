@@ -14,29 +14,34 @@ calls, scored results, and the compact comparison are respectively:
 - `evaluation/preference_state_llm_single_pass_summary.csv`.
 
 The run used 554,195 input tokens and 26,991 output tokens (581,186 total).
-Only 2 of 56 model outputs passed the strict allowlist/schema validator, so
-LLM accuracy figures conditional on those two outputs are not representative.
-The primary result is 3.57% valid decisions per attempt, compared with 100%
-for compositional Prolog.
+For the primary comparison, an offline deterministic normalizer maps stable
+IDs or exact unique official labels (trimmed and case-insensitive) to stable
+IDs before validation. It does not use fuzzy matching, synonyms, gold labels,
+or Prolog output. This maps 221 component occurrences and raises contract-valid
+outputs from 2/56 under strict ID-only parsing to 31/56. Raw responses remain
+unchanged and both strict and normalized results are retained.
 
 | Method | Valid / attempted | Coverage | Primary accuracy | Explanation P/R | Top-1 relevance | Action type |
 |---|---:|---:|---:|---:|---:|---:|
 | Compositional Prolog | 56 / 56 | 98.21% | 33.93% | 75.74% / 91.07% | 86.61% | 98.21% |
-| Direct LLM | 2 / 56 | 50.00%* | 50.00%* | 25.00%* / 50.00%* | 50.00%* | 50.00%* |
+| Direct LLM, normalized | 31 / 56 | 41.96% | 25.89% | 32.14% / 42.86% | 42.86% | 30.36% |
 
-`*` Conditional on the two valid LLM outputs, not all 56 attempts.
+The table is end-to-end over all 56 attempts; invalid outputs count as zero
+rather than disappearing from the denominator. Conditional on the 31 valid
+normalized outputs, LLM coverage is 75.81%, primary accuracy 46.77%,
+precision/recall 58.06%/77.42%, top-1 relevance 77.42%, and action-type
+accuracy 54.84%. Those conditional values describe reasoning after interface
+success, while the end-to-end values describe the complete system.
 
-Of the 54 rejected attempts, 42 used labels such as `expressionist style`
-instead of allowlisted IDs such as `h_expressionist_style`; four had invalid
-component cardinality, four were invalid JSON, three provider requests
-failed, and one returned the wrong top-level fields. Including the exact JSON
-schema in the prompt as well as `text.format` was therefore insufficient to
-make this provider/model reliably follow the contract.
+After normalization, 25 attempts remain invalid: eight have invalid component
+cardinality, four contain non-exact/fabricated component IDs, four are invalid
+JSON, three are provider failures, two have invalid explanation types, and
+four have one-off duplicate/status/primary/top-level schema errors.
 
-The two accepted cases were `preference_interaction_024` and `noisy_feline`.
-The former had incorrect coverage and top-1 relevance; the latter had correct
-coverage and top-1 relevance but the wrong action type. No claim of competitive
-LLM state-reasoning performance is supported by this run.
+The normalized result still underperforms compositional Prolog on every
+headline end-to-end metric. It also has a 14.52% false-interaction rate among
+valid outputs versus 0.89% for Prolog, and fails to clarify in 58.82% of valid
+cases whose expected action is clarification.
 
 ## Interface and leakage boundary
 
@@ -60,6 +65,11 @@ Raw responses, parsed results, request count including retries, timestamps,
 returned model ID, token usage, latency, failures, and refusals are recorded.
 Structured output and refusal handling follow the official OpenAI
 [Structured Outputs documentation](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses).
+
+Normalization happens before that validator. Every transformation records the
+original string, stable ID, JSON path, and rule. Strings such as
+`expressionist_style`, `non-portrait genre`, or `genre: ag_4` remain invalid;
+the evaluator does not guess what the model meant.
 
 ## Reproduction and persistence
 
@@ -89,3 +99,15 @@ the unfinished IDs with:
 
 The API key is read from the environment by the Responses adapter and is not
 serialized into requests, result files, tests, documentation, or source.
+
+Normalize and rescore the persisted responses without an API call:
+
+```powershell
+.\.venv\Scripts\python.exe -u `
+  -m evaluation.normalize_preference_state_llm_results
+```
+
+Primary normalized artifacts are
+`evaluation/preference_state_llm_normalized_results.json` and
+`evaluation/preference_state_llm_normalized_summary.csv`. The strict-ID files
+remain an interface-compliance diagnostic rather than the main comparison.

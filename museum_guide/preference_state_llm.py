@@ -72,12 +72,56 @@ class CorrectedDirectPreferenceStateLLM(DirectPreferenceStateLLM):
             raise ValueError("Invalid component ID or duplicate")
         return {"kind":kind,"components":sorted(components)}
 
+    def _normalize_components(self,result:dict)->tuple[dict,list[dict]]:
+        """Map exact vocabulary labels to IDs without fuzzy interpretation."""
+        normalized=deepcopy(result)
+        aliases:dict[str,str]={}
+        ambiguous:set[str]=set()
+        for hypothesis_id,row in self.index.hypothesis_rows.items():
+            label=row.get("label")
+            if not isinstance(label,str):
+                continue
+            key=label.strip().casefold()
+            previous=aliases.get(key)
+            if previous is not None and previous!=hypothesis_id:
+                ambiguous.add(key)
+            else:
+                aliases[key]=hypothesis_id
+        for key in ambiguous:
+            aliases.pop(key,None)
+        known=set(self.index.hypothesis_rows)
+        changes:list[dict]=[]
+
+        def explanation(value:Any,path:str)->None:
+            if not isinstance(value,dict) or not isinstance(value.get("components"),list):
+                return
+            for index,component in enumerate(value["components"]):
+                if not isinstance(component,str):
+                    continue
+                stripped=component.strip()
+                mapped=stripped if stripped in known else aliases.get(stripped.casefold())
+                if mapped is not None and mapped!=component:
+                    value["components"][index]=mapped
+                    changes.append({"path":f"{path}.components[{index}]","input":component,
+                        "output":mapped,"rule":"exact_official_label_or_id"})
+
+        preferences=normalized.get("inferred_preferences")
+        if isinstance(preferences,list):
+            for index,value in enumerate(preferences):
+                explanation(value,f"inferred_preferences[{index}]")
+        explanation(normalized.get("primary_explanation"),"primary_explanation")
+        explanation(normalized.get("question_explanation"),"question_explanation")
+        return normalized,changes
+
     def infer(self,state:PreferenceState,*,natural_language_history:str)->dict:
         payload=self.build_payload(state,natural_language_history)
         self.last_record={"request":payload,"status":"attempting"}
         try:
             result=self.transport.complete_json(payload)
             self.last_record.update(raw_response=result.get("_raw_response",result),transport_metadata=result.get("_transport_metadata",{}))
+            result,normalizations=self._normalize_components(result)
+            self.last_record["normalizations"]=normalizations
+            self.last_record["normalization_policy"]="stable IDs or exact unique official labels, trimmed and case-insensitive; no fuzzy matching"
             allowed=set(self.OUTPUT_SCHEMA["required"])|{"_raw_response","_transport_metadata"}
             if set(result)-allowed or not set(self.OUTPUT_SCHEMA["required"])<=set(result):
                 raise ValueError("Invalid output fields")
