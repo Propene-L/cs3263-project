@@ -1,0 +1,3521 @@
+{
+  "version": "corrected_v2",
+  "configuration": {
+    "subset": "development",
+    "run_direct_llm": true,
+    "smoke": true,
+    "output_prefix": "preference_state_llm_smoke_soclaas",
+    "llm_output": "preference_state_llm_smoke_soclaas_calls.json"
+  },
+  "executed_at_utc": "2026-10-29T06:16:55.003873+00:00",
+  "scenario_count": 2,
+  "call_count": 4,
+  "request_count_including_retries": 4,
+  "token_usage": {
+    "input_tokens": 25622,
+    "output_tokens": 886,
+    "total_tokens": 26508
+  },
+  "failure_count": 4,
+  "refusal_count": 0,
+  "calls": [
+    {
+      "scenario_id": "flagship_interaction_albert_kollmann",
+      "elapsed_ms": 5167.48119998374,
+      "candidate_order": [
+        "ag_8415",
+        "ag_20804"
+      ],
+      "record": {
+        "request": {
+          "task": "Infer provisional visitor interests from this history. Atomic and conjunction interests may coexist. Preserve explicit statements and corrections. A disliked artwork does not universally reject its attributes. Do not select a dominant explanation if the evidence is ambiguous. Recommend an eligible artwork when justified; otherwise ask a yes/no/unsure confirmation about one atomic or conjunction interest, or report insufficient evidence. A confirmation of all_of asks whether the visitor prefers these features specifically together. Recommendations must respect explicit rejections and must not repeat observed artworks.",
+          "visitor_history": "I liked Albert Kollmann. I did not like A Bird Passing through a Cloud, and I also did not like Profile Portrait of a Boy.",
+          "hypothesis_vocabulary": [
+            {
+              "id": "h_musical_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3236",
+              "label": "musical subjects"
+            },
+            {
+              "id": "h_nature_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3679",
+              "label": "nature-reserve subjects"
+            },
+            {
+              "id": "h_water_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3579",
+              "label": "water-transport subjects"
+            },
+            {
+              "id": "h_feline_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3392",
+              "label": "feline subjects"
+            },
+            {
+              "id": "h_expressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_21",
+              "label": "expressionist style"
+            },
+            {
+              "id": "h_impressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_42",
+              "label": "impressionist style"
+            },
+            {
+              "id": "h_cubist_style",
+              "attribute_type": "style",
+              "value_id": "ag_25",
+              "label": "cubist style"
+            },
+            {
+              "id": "h_portrait_genre",
+              "attribute_type": "genre",
+              "value_id": "ag_9",
+              "label": "portrait genre"
+            },
+            {
+              "id": "h_oil_medium",
+              "attribute_type": "medium",
+              "value_id": "ag_2551",
+              "label": "oil medium"
+            },
+            {
+              "id": "h_expressionist_movement",
+              "attribute_type": "movement",
+              "value_id": "ag_124670",
+              "label": "Expressionism movement"
+            }
+          ],
+          "observed_artworks": [
+            {
+              "artwork_id": "ag_13231",
+              "label": "A Bird Passing through a Cloud",
+              "artist_id": "ag_902",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_9f0c94ff62925617f2d6"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2563",
+                  "fact_ids": [
+                    "agf_758947d4f590e4b41b63"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2574",
+                  "fact_ids": [
+                    "agf_bce16c984856efc7deea"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_f64d49cf7c077bee62ab"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125163",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_5ee2c588bcff6d81160b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_bc28f5fe332dea18b2b7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2779",
+                  "fact_ids": [
+                    "agf_c201fdfec4f5a5c77746"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8296",
+              "label": "Profile Portrait of a Boy",
+              "artist_id": "ag_2010",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_b9a2ae950dd18cec4bac"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_27",
+                  "fact_ids": [
+                    "agf_af2aeb9008cd30a20ac2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2729",
+                  "fact_ids": [
+                    "agf_f6221265ba34ff6d67ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2730",
+                  "fact_ids": [
+                    "agf_23aa9886ebb3721f8b41"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2731",
+                  "fact_ids": [
+                    "agf_c36178e10bc96b5aa0f4"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2748",
+                  "fact_ids": [
+                    "agf_34d9996a9c86be835209"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_376b2b3caa5eddf7c8ee"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2907",
+                  "fact_ids": [
+                    "agf_3e5689fedd023ad1ff55"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8416",
+              "label": "Albert Kollmann",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_622844512b2c37462fa9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_e3001683bd7d0266a162"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_bc8929c4a6f55becfd57"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133131",
+                  "fact_ids": [
+                    "agf_68c2c610db5f79a80839"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_8a4cce07ba2a1ca7c617"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_70a95f3c27e61a95677c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2726",
+                  "fact_ids": [
+                    "agf_759a63a4a8c38d269b18"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2790",
+                  "fact_ids": [
+                    "agf_a2cd0cd05828c67e9233"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2977",
+                  "fact_ids": [
+                    "agf_a4de29f2e2065e9ea90a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2978",
+                  "fact_ids": [
+                    "agf_ba715d28dad1cc387bd7"
+                  ]
+                }
+              ]
+            }
+          ],
+          "candidate_artworks": [
+            {
+              "artwork_id": "ag_8415",
+              "label": "Adam and Eve",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_12",
+                  "fact_ids": [
+                    "agf_c8aa5dffba9aea02abb7"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_7726bd42ae4c70db35e9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_aa7c2a54b3b8e7bff7d6"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133265",
+                  "fact_ids": [
+                    "agf_18ed507b6c3175e44aaf"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_6a8a3bc2b9aeff327bcf"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2719",
+                  "fact_ids": [
+                    "agf_b1a0de17f91b619ebb26"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2720",
+                  "fact_ids": [
+                    "agf_a0a5676a8bcd29cf2b93"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2734",
+                  "fact_ids": [
+                    "agf_9b506902a1c3ec7caee0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2867",
+                  "fact_ids": [
+                    "agf_9a01b33653e18f089d2b"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2976",
+                  "fact_ids": [
+                    "agf_f2fb8ba303650ce1d158"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_20804",
+              "label": "Baby",
+              "artist_id": "ag_1521",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_373d77fbb313b7f40e0d"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_7f54f5f65b1cedf3fe4f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_545ce4452594caad00fe"
+                  ]
+                }
+              ]
+            }
+          ],
+          "evidence_incomplete": false,
+          "missing_support_policy": "not_recorded means unknown; the view may omit actual attributes"
+        },
+        "status": "error",
+        "raw_response": {
+          "created_at": 1793254569,
+          "id": "resp_93576c1e3bd75c9d",
+          "model": "default",
+          "object": "response",
+          "output": [
+            {
+              "content": [
+                {
+                  "annotations": [],
+                  "text": "{\n  \"provisional_interest\": \"The visitor likely has a strong preference for Albert Kollmann (artist_id ag_1057) or works associated with the Expressionism movement (movement_id ag_124670) and expressionist style (style_id ag_21). They disliked 'A Bird Passing through a Cloud' (impressionist/post-impressionist style, nature subject) and 'Profile Portrait of a Boy' (distinct style ag_27, portrait genre). The rejection of the portrait genre artwork and a non-expressionist landscape/cloud piece, contrasted with the appreciation of Kollmann (who is an expressionist painter often dealing with genre scenes and figures), suggests a preference for the Expressionist movement/style over the specific genres or styles of the disliked works. However, since Kollmann's 'Albert Kollmann' is a portrait-like or figure genre work, and they liked it but disliked another portrait, the rejection is not solely of the portrait genre. The strongest commonality between the liked work and the candidate 'Adam and Eve' (same artist, same movement, same style) is the artist and movement. Candidate 'Baby' shares the expressionist style but is a different artist and genre (baby/infant, though visually a portrait). The evidence points most strongly to the specific artist Albert Kollmann or the Expressionist movement/style combined.\",\n  \"action_type\": \"recommend\",\n  \"recommendation\": {\n    \"artwork_id\": \"ag_8415\",\n    \"label\": \"Adam and Eve\",\n    \"rationale\": \"This artwork is by the same artist (Albert Kollmann) as the liked 'Albert Kollmann', shares the same movement (Expressionism ag_124670) and style (ag_21). It respects the dislike of non-expressionist styles (like the impressionist 'A Bird Passing through a Cloud'). It is not an observed artwork.\"\n  }\n}",
+                  "type": "output_text"
+                }
+              ],
+              "id": "msg_93576c1e3bd75c9d",
+              "role": "assistant",
+              "status": "completed",
+              "type": "message"
+            }
+          ],
+          "output_text": "{\n  \"provisional_interest\": \"The visitor likely has a strong preference for Albert Kollmann (artist_id ag_1057) or works associated with the Expressionism movement (movement_id ag_124670) and expressionist style (style_id ag_21). They disliked 'A Bird Passing through a Cloud' (impressionist/post-impressionist style, nature subject) and 'Profile Portrait of a Boy' (distinct style ag_27, portrait genre). The rejection of the portrait genre artwork and a non-expressionist landscape/cloud piece, contrasted with the appreciation of Kollmann (who is an expressionist painter often dealing with genre scenes and figures), suggests a preference for the Expressionist movement/style over the specific genres or styles of the disliked works. However, since Kollmann's 'Albert Kollmann' is a portrait-like or figure genre work, and they liked it but disliked another portrait, the rejection is not solely of the portrait genre. The strongest commonality between the liked work and the candidate 'Adam and Eve' (same artist, same movement, same style) is the artist and movement. Candidate 'Baby' shares the expressionist style but is a different artist and genre (baby/infant, though visually a portrait). The evidence points most strongly to the specific artist Albert Kollmann or the Expressionist movement/style combined.\",\n  \"action_type\": \"recommend\",\n  \"recommendation\": {\n    \"artwork_id\": \"ag_8415\",\n    \"label\": \"Adam and Eve\",\n    \"rationale\": \"This artwork is by the same artist (Albert Kollmann) as the liked 'Albert Kollmann', shares the same movement (Expressionism ag_124670) and style (ag_21). It respects the dislike of non-expressionist styles (like the impressionist 'A Bird Passing through a Cloud'). It is not an observed artwork.\"\n  }\n}",
+          "status": "completed",
+          "usage": {
+            "input_tokens": 3267,
+            "output_tokens": 415,
+            "total_tokens": 3682
+          }
+        },
+        "transport_metadata": {
+          "provider": "openai",
+          "executed_at_utc": "2026-10-29T06:16:13.223742+00:00",
+          "model_requested": "default",
+          "model_returned": "default",
+          "response_id": "resp_93576c1e3bd75c9d",
+          "request_count": 1,
+          "usage": {
+            "input_tokens": 3267,
+            "output_tokens": 415,
+            "total_tokens": 3682
+          }
+        },
+        "error": "ValueError: Invalid output fields",
+        "transport_exchange": {
+          "provider": "openai",
+          "model_requested": "default",
+          "executed_at_utc": "2026-10-29T06:16:08.229364+00:00",
+          "request_count": 1,
+          "raw_response": {
+            "created_at": 1793254569,
+            "id": "resp_93576c1e3bd75c9d",
+            "model": "default",
+            "object": "response",
+            "output": [
+              {
+                "content": [
+                  {
+                    "annotations": [],
+                    "text": "{\n  \"provisional_interest\": \"The visitor likely has a strong preference for Albert Kollmann (artist_id ag_1057) or works associated with the Expressionism movement (movement_id ag_124670) and expressionist style (style_id ag_21). They disliked 'A Bird Passing through a Cloud' (impressionist/post-impressionist style, nature subject) and 'Profile Portrait of a Boy' (distinct style ag_27, portrait genre). The rejection of the portrait genre artwork and a non-expressionist landscape/cloud piece, contrasted with the appreciation of Kollmann (who is an expressionist painter often dealing with genre scenes and figures), suggests a preference for the Expressionist movement/style over the specific genres or styles of the disliked works. However, since Kollmann's 'Albert Kollmann' is a portrait-like or figure genre work, and they liked it but disliked another portrait, the rejection is not solely of the portrait genre. The strongest commonality between the liked work and the candidate 'Adam and Eve' (same artist, same movement, same style) is the artist and movement. Candidate 'Baby' shares the expressionist style but is a different artist and genre (baby/infant, though visually a portrait). The evidence points most strongly to the specific artist Albert Kollmann or the Expressionist movement/style combined.\",\n  \"action_type\": \"recommend\",\n  \"recommendation\": {\n    \"artwork_id\": \"ag_8415\",\n    \"label\": \"Adam and Eve\",\n    \"rationale\": \"This artwork is by the same artist (Albert Kollmann) as the liked 'Albert Kollmann', shares the same movement (Expressionism ag_124670) and style (ag_21). It respects the dislike of non-expressionist styles (like the impressionist 'A Bird Passing through a Cloud'). It is not an observed artwork.\"\n  }\n}",
+                    "type": "output_text"
+                  }
+                ],
+                "id": "msg_93576c1e3bd75c9d",
+                "role": "assistant",
+                "status": "completed",
+                "type": "message"
+              }
+            ],
+            "output_text": "{\n  \"provisional_interest\": \"The visitor likely has a strong preference for Albert Kollmann (artist_id ag_1057) or works associated with the Expressionism movement (movement_id ag_124670) and expressionist style (style_id ag_21). They disliked 'A Bird Passing through a Cloud' (impressionist/post-impressionist style, nature subject) and 'Profile Portrait of a Boy' (distinct style ag_27, portrait genre). The rejection of the portrait genre artwork and a non-expressionist landscape/cloud piece, contrasted with the appreciation of Kollmann (who is an expressionist painter often dealing with genre scenes and figures), suggests a preference for the Expressionist movement/style over the specific genres or styles of the disliked works. However, since Kollmann's 'Albert Kollmann' is a portrait-like or figure genre work, and they liked it but disliked another portrait, the rejection is not solely of the portrait genre. The strongest commonality between the liked work and the candidate 'Adam and Eve' (same artist, same movement, same style) is the artist and movement. Candidate 'Baby' shares the expressionist style but is a different artist and genre (baby/infant, though visually a portrait). The evidence points most strongly to the specific artist Albert Kollmann or the Expressionist movement/style combined.\",\n  \"action_type\": \"recommend\",\n  \"recommendation\": {\n    \"artwork_id\": \"ag_8415\",\n    \"label\": \"Adam and Eve\",\n    \"rationale\": \"This artwork is by the same artist (Albert Kollmann) as the liked 'Albert Kollmann', shares the same movement (Expressionism ag_124670) and style (ag_21). It respects the dislike of non-expressionist styles (like the impressionist 'A Bird Passing through a Cloud'). It is not an observed artwork.\"\n  }\n}",
+            "status": "completed",
+            "usage": {
+              "input_tokens": 3267,
+              "output_tokens": 415,
+              "total_tokens": 3682
+            }
+          },
+          "usage": {
+            "input_tokens": 3267,
+            "output_tokens": 415,
+            "total_tokens": 3682
+          },
+          "model_returned": "default",
+          "response_id": "resp_93576c1e3bd75c9d"
+        }
+      }
+    },
+    {
+      "scenario_id": "correction_music",
+      "elapsed_ms": 4311.008399992716,
+      "candidate_order": [
+        "ag_10766",
+        "ag_8145",
+        "ag_8415",
+        "ag_14531",
+        "ag_12372",
+        "ag_30919",
+        "ag_21066",
+        "ag_33200",
+        "ag_19176",
+        "ag_10632",
+        "ag_23352",
+        "ag_17716",
+        "ag_16386",
+        "ag_21076",
+        "ag_25837",
+        "ag_20804",
+        "ag_13233",
+        "ag_42361",
+        "ag_16916",
+        "ag_8296",
+        "ag_15247",
+        "ag_10025",
+        "ag_14588",
+        "ag_13231"
+      ],
+      "record": {
+        "request": {
+          "task": "Infer provisional visitor interests from this history. Atomic and conjunction interests may coexist. Preserve explicit statements and corrections. A disliked artwork does not universally reject its attributes. Do not select a dominant explanation if the evidence is ambiguous. Recommend an eligible artwork when justified; otherwise ask a yes/no/unsure confirmation about one atomic or conjunction interest, or report insufficient evidence. A confirmation of all_of asks whether the visitor prefers these features specifically together. Recommendations must respect explicit rejections and must not repeat observed artworks.",
+          "visitor_history": "o1: I am interested in portrait genre as an independent interest.\no2: Correction replacing statement o1: I do not want portrait genre as an independent interest.\no3: I am interested in musical subjects as an independent interest.",
+          "hypothesis_vocabulary": [
+            {
+              "id": "h_musical_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3236",
+              "label": "musical subjects"
+            },
+            {
+              "id": "h_nature_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3679",
+              "label": "nature-reserve subjects"
+            },
+            {
+              "id": "h_water_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3579",
+              "label": "water-transport subjects"
+            },
+            {
+              "id": "h_feline_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3392",
+              "label": "feline subjects"
+            },
+            {
+              "id": "h_expressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_21",
+              "label": "expressionist style"
+            },
+            {
+              "id": "h_impressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_42",
+              "label": "impressionist style"
+            },
+            {
+              "id": "h_cubist_style",
+              "attribute_type": "style",
+              "value_id": "ag_25",
+              "label": "cubist style"
+            },
+            {
+              "id": "h_portrait_genre",
+              "attribute_type": "genre",
+              "value_id": "ag_9",
+              "label": "portrait genre"
+            },
+            {
+              "id": "h_oil_medium",
+              "attribute_type": "medium",
+              "value_id": "ag_2551",
+              "label": "oil medium"
+            },
+            {
+              "id": "h_expressionist_movement",
+              "attribute_type": "movement",
+              "value_id": "ag_124670",
+              "label": "Expressionism movement"
+            }
+          ],
+          "observed_artworks": [],
+          "candidate_artworks": [
+            {
+              "artwork_id": "ag_10766",
+              "label": "Lydia at the Tapestry Loom",
+              "artist_id": "ag_391",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_94b032b1256651e231f0"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_24e124417985bc08d02a"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_18553a9619df9a23cd85"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_42",
+                  "fact_ids": [
+                    "agf_21044434d3a2baafacac"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2746",
+                  "fact_ids": [
+                    "agf_9db411b99af9b08cfac9"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3236",
+                  "fact_ids": [
+                    "agf_8b74b1a414deb8d5d266"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8145",
+              "label": "Vertumnus (Emperor Rudolph II)",
+              "artist_id": "ag_850",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_1ea9a353d621ddcf3a0b"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_24062102d53f6bcf97b9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2553",
+                  "fact_ids": [
+                    "agf_41e44bc8c05f2496feb8"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_46",
+                  "fact_ids": [
+                    "agf_5de52722743d7ba170f7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2724",
+                  "fact_ids": [
+                    "agf_e162e54d04d5f4d4308e"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_c729f430b8825d9c343f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2726",
+                  "fact_ids": [
+                    "agf_f377b82185eef6fa662c"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8415",
+              "label": "Adam and Eve",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_12",
+                  "fact_ids": [
+                    "agf_c8aa5dffba9aea02abb7"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_7726bd42ae4c70db35e9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_aa7c2a54b3b8e7bff7d6"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133265",
+                  "fact_ids": [
+                    "agf_18ed507b6c3175e44aaf"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_6a8a3bc2b9aeff327bcf"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2719",
+                  "fact_ids": [
+                    "agf_b1a0de17f91b619ebb26"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2720",
+                  "fact_ids": [
+                    "agf_a0a5676a8bcd29cf2b93"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2734",
+                  "fact_ids": [
+                    "agf_9b506902a1c3ec7caee0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2867",
+                  "fact_ids": [
+                    "agf_9a01b33653e18f089d2b"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2976",
+                  "fact_ids": [
+                    "agf_f2fb8ba303650ce1d158"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_14531",
+              "label": "Three musicians",
+              "artist_id": "ag_1436",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_4",
+                  "fact_ids": [
+                    "agf_6ef89ad38f760570c3f7"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_47",
+                  "fact_ids": [
+                    "agf_2ee312f19c1da2416c4f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3236",
+                  "fact_ids": [
+                    "agf_39fcd496a106ec5a8913"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3240",
+                  "fact_ids": [
+                    "agf_ed85967f03d02a20cca8"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4425",
+                  "fact_ids": [
+                    "agf_c0540f4052c53c56d139"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4431",
+                  "fact_ids": [
+                    "agf_02d6de27d0c843fb3928"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4432",
+                  "fact_ids": [
+                    "agf_e84f093176986a15868a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4433",
+                  "fact_ids": [
+                    "agf_6207f81a6c8d3fa46efb"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_12372",
+              "label": "The Spanish Singer",
+              "artist_id": "ag_176",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_4",
+                  "fact_ids": [
+                    "agf_80fa5047390f58e0120b"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_ca54dc5ce2d5e813823d"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_367b77de5040c640fb55"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_43",
+                  "fact_ids": [
+                    "agf_8ac8ae464b7acaa163e2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3236",
+                  "fact_ids": [
+                    "agf_7f4f884f69f8105e482e"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3237",
+                  "fact_ids": [
+                    "agf_5186840b5808c447902f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3238",
+                  "fact_ids": [
+                    "agf_f2ec0ffa7b40ab9a4cd0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3240",
+                  "fact_ids": [
+                    "agf_fb25cdc83b86e053c57c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3965",
+                  "fact_ids": [
+                    "agf_71aca9b83e61a81d8807"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3966",
+                  "fact_ids": [
+                    "agf_9e402eeb819f826b90ae"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3967",
+                  "fact_ids": [
+                    "agf_f514f45099667bfee6bc"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3968",
+                  "fact_ids": [
+                    "agf_c4be609b7c95651650d0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3969",
+                  "fact_ids": [
+                    "agf_bcbc615bb79a44294bad"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_30919",
+              "label": "Sleeping Cat",
+              "artist_id": "ag_60",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_53ca82e62f733f49133c"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_6fa5153c1cbc794e2f39"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_a10806d9055fadb260fb"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124744",
+                  "fact_ids": [
+                    "agf_9b9bc4f337f41fea2e2a",
+                    "agf_864bd00dc6d4139101bc"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133239",
+                  "fact_ids": [
+                    "agf_29c366a333f0dd1cda14"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_42",
+                  "fact_ids": [
+                    "agf_9c354f6341c696e7c085"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3392",
+                  "fact_ids": [
+                    "agf_7c74cce61a90fece8a43"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3665",
+                  "fact_ids": [
+                    "agf_34838c86d120e7cc9c53"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3815",
+                  "fact_ids": [
+                    "agf_c203a622f3cf4c9a69f2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3816",
+                  "fact_ids": [
+                    "agf_0915214688f76e448383"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4010",
+                  "fact_ids": [
+                    "agf_1a00739ce0c1b47db4c9"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_5845",
+                  "fact_ids": [
+                    "agf_72459017e35ef4bbe298"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_21066",
+              "label": "White Cat I",
+              "artist_id": "ag_1521",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_75e3bd10717dfaff7d54"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_f2ef8338d2a4dd792cd8"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2753",
+                  "fact_ids": [
+                    "agf_bd9d5fb335203d21c7fb"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2804",
+                  "fact_ids": [
+                    "agf_e874937e53d714470d5a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3392",
+                  "fact_ids": [
+                    "agf_f9bbb6d11bbff38ccc3c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3815",
+                  "fact_ids": [
+                    "agf_4584b31d6b095c4eaf11"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3816",
+                  "fact_ids": [
+                    "agf_b266edc31450d5bf2fb9"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4010",
+                  "fact_ids": [
+                    "agf_c90feb3cb563901d5715"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_33200",
+              "label": "Sunset across the Ryogoku bridge from the bank of the Sumida river at Onmagayashi",
+              "artist_id": "ag_1976",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_4",
+                  "fact_ids": [
+                    "agf_7c934f5de1f3063026c7"
+                  ]
+                },
+                {
+                  "type": "series",
+                  "value_id": "ag_132361",
+                  "fact_ids": [
+                    "agf_d1be06fec0e4e132a780"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_45",
+                  "fact_ids": [
+                    "agf_0193b753b9b90972a9de"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2951",
+                  "fact_ids": [
+                    "agf_72426827951f54d0da33"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2952",
+                  "fact_ids": [
+                    "agf_2611658b6a1ba8dcdda3"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2955",
+                  "fact_ids": [
+                    "agf_bf559df4efef14fef134"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2956",
+                  "fact_ids": [
+                    "agf_dff5b672e9eb068cae45"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2984",
+                  "fact_ids": [
+                    "agf_ce05eb9f6e68bf6fca7a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3007",
+                  "fact_ids": [
+                    "agf_6d3424a8022bb4345ab6"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3579",
+                  "fact_ids": [
+                    "agf_c5b42848751179105b2f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4034",
+                  "fact_ids": [
+                    "agf_15901995fa0a13a6f798"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4508",
+                  "fact_ids": [
+                    "agf_271daa945e908583f387"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_5911",
+                  "fact_ids": [
+                    "agf_7e02e641ae4b53f8dd92"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_19176",
+              "label": "A poet",
+              "artist_id": "ag_1193",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_c5886b57af7331c9bf12"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2563",
+                  "fact_ids": [
+                    "agf_d15f4f66e490f47355db"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2569",
+                  "fact_ids": [
+                    "agf_b4f7481b7fe592ac219c"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_eeedaac31c3cd899a8e6",
+                    "agf_5090ce4e0264af350d10"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_eeedaac31c3cd899a8e6",
+                    "agf_8fd0f717659a8181166e"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_25",
+                  "fact_ids": [
+                    "agf_4d8e476bb2badd5f7083"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_8081bf134861a11b9107"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2758",
+                  "fact_ids": [
+                    "agf_6cec7f62b8bab1d57b2d"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2778",
+                  "fact_ids": [
+                    "agf_09ebfd2f133d920dcb9d"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2790",
+                  "fact_ids": [
+                    "agf_e31960873b55be3a1769"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_10632",
+              "label": "A Caucasian Study",
+              "artist_id": "ag_1716",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_8",
+                  "fact_ids": [
+                    "agf_68ed02f860d73d0dac0b"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_104d5640fe1aa35cbff6"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_b3a767778e36bda730b9"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_227591cb5fe2b8438227",
+                    "agf_c7f197c21bccf18988e9"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_42",
+                  "fact_ids": [
+                    "agf_cd109bb11052a03fc877"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2744",
+                  "fact_ids": [
+                    "agf_0d4a6f5c527c952c21ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2972",
+                  "fact_ids": [
+                    "agf_291d049bafea59d2ccb6"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2975",
+                  "fact_ids": [
+                    "agf_2eddd837098f1b6d5d07"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3013",
+                  "fact_ids": [
+                    "agf_16a4e657971af16cfde5"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3038",
+                  "fact_ids": [
+                    "agf_49cb171c7081d63af0ac"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3637",
+                  "fact_ids": [
+                    "agf_f3d17172c6d34dba4093"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_23352",
+              "label": "Children in a Garden at Eragny",
+              "artist_id": "ag_1354",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_4",
+                  "fact_ids": [
+                    "agf_947a554262ca728c69a0"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_bdc99e9997f7ff4feb0c"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_38926feb30df1c321973"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124646",
+                  "fact_ids": [
+                    "agf_cf9d93b6ce97c7bae285",
+                    "agf_9c9892c4219da6779966"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124744",
+                  "fact_ids": [
+                    "agf_cf9d93b6ce97c7bae285",
+                    "agf_a0386ae8ed2e1fdec47b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_42",
+                  "fact_ids": [
+                    "agf_9ec01a6f2eb5fb13cd33"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2744",
+                  "fact_ids": [
+                    "agf_41ffb8079015a64dc161"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2775",
+                  "fact_ids": [
+                    "agf_dd641133ab7a2f550279"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2975",
+                  "fact_ids": [
+                    "agf_9976c2478c047a639e28"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3038",
+                  "fact_ids": [
+                    "agf_dece0a1378a732f7d224"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3056",
+                  "fact_ids": [
+                    "agf_7123c8493c750ed76663"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3130",
+                  "fact_ids": [
+                    "agf_d5d214ed444e3d2ad835"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3166",
+                  "fact_ids": [
+                    "agf_cdbcd5067270ee6d0b03"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3170",
+                  "fact_ids": [
+                    "agf_ac0a92cab593845509fb"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3679",
+                  "fact_ids": [
+                    "agf_faee0067fd681dba1ebb"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_17716",
+              "label": "Lion",
+              "artist_id": "ag_2366",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_57b5ec2d5333682f6f11"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_26",
+                  "fact_ids": [
+                    "agf_15d77c6e3dbdf5c8d537"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2753",
+                  "fact_ids": [
+                    "agf_2dabc8af8bb37817e73a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2820",
+                  "fact_ids": [
+                    "agf_800b84e191102495e2bd"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2893",
+                  "fact_ids": [
+                    "agf_40bd543c66ccd132f7d5"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2965",
+                  "fact_ids": [
+                    "agf_3cd5ff411b010b92a877"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3392",
+                  "fact_ids": [
+                    "agf_33eaedc65f822a5bb909"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4023",
+                  "fact_ids": [
+                    "agf_6eca5fa8ffc362f47106"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4025",
+                  "fact_ids": [
+                    "agf_aaa18e10a470b0d9c606"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_16386",
+              "label": "Polyptych of&#160;St. Peter (San Costanzo)",
+              "artist_id": "ag_358",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_12",
+                  "fact_ids": [
+                    "agf_c33d5320b3f3c4caba8b"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125134",
+                  "fact_ids": [
+                    "agf_dd9d8eb4ede92f17070a",
+                    "agf_103e82d8c5a338383417"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_31",
+                  "fact_ids": [
+                    "agf_84bb3fc10f3e74773304"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2719",
+                  "fact_ids": [
+                    "agf_cdd935193edf2aecee08"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2855",
+                  "fact_ids": [
+                    "agf_f8d0dcfe53dbf2f0badb"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2901",
+                  "fact_ids": [
+                    "agf_63a4b66d7bc4714b3af5"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3236",
+                  "fact_ids": [
+                    "agf_c5cc3b465ae99e8b1bfa"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_4781",
+                  "fact_ids": [
+                    "agf_1fa93aa4a4bb3bc9c4a3"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_21076",
+              "label": "Cat and Kitten",
+              "artist_id": "ag_1740",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_d18d4238be2218b79e18"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2572",
+                  "fact_ids": [
+                    "agf_876e358e8b5fb42fee68"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2606",
+                  "fact_ids": [
+                    "agf_9bc890ee18e41abe98aa"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124623",
+                  "fact_ids": [
+                    "agf_7e1413749cb47d3ee473",
+                    "agf_4e47a7f79dbc6cc03781"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124695",
+                  "fact_ids": [
+                    "agf_7e1413749cb47d3ee473",
+                    "agf_af9ab9e30f3256d089f6"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125123",
+                  "fact_ids": [
+                    "agf_7e1413749cb47d3ee473",
+                    "agf_937a864bc66681bbf8f9"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_40",
+                  "fact_ids": [
+                    "agf_bf6a732ff3e8987ca9ea"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2753",
+                  "fact_ids": [
+                    "agf_e870701aba03418037c5"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2804",
+                  "fact_ids": [
+                    "agf_0413858a621ca3b07b16"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3392",
+                  "fact_ids": [
+                    "agf_32a33393190a89ae9c46"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3815",
+                  "fact_ids": [
+                    "agf_7fdfd2533448499f9dd9"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_25837",
+              "label": "Bathers at La Grenouillere",
+              "artist_id": "ag_2016",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_4",
+                  "fact_ids": [
+                    "agf_f0a03eccccce84d03831"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_bebd6e628b14f3055219"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_6a9bc2af876867c9c893"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124744",
+                  "fact_ids": [
+                    "agf_22217d43ad3102acfeb5",
+                    "agf_8b72634f4c24d870087c"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_42",
+                  "fact_ids": [
+                    "agf_2d0d2ac177cb0d4ec947"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2952",
+                  "fact_ids": [
+                    "agf_ae860d65bab61aa1f17f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2955",
+                  "fact_ids": [
+                    "agf_191d3438f2fcd082cae3"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3007",
+                  "fact_ids": [
+                    "agf_ab66c8d65168f1be99de"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3579",
+                  "fact_ids": [
+                    "agf_80ed5b5f426acfbe4940"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_20804",
+              "label": "Baby",
+              "artist_id": "ag_1521",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_373d77fbb313b7f40e0d"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_7f54f5f65b1cedf3fe4f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_545ce4452594caad00fe"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_13233",
+              "label": "A Black Pedestal",
+              "artist_id": "ag_902",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_15",
+                  "fact_ids": [
+                    "agf_bb2dbcd4ecece942e118"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_53a924057cbc1e58c240"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_c36b3e5361f535a49dde"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_bdac62ead0e7cd8c9cc7",
+                    "agf_f64d49cf7c077bee62ab"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125163",
+                  "fact_ids": [
+                    "agf_bdac62ead0e7cd8c9cc7",
+                    "agf_5ee2c588bcff6d81160b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_25",
+                  "fact_ids": [
+                    "agf_d34d1bf7fb5a21df0aee"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2982",
+                  "fact_ids": [
+                    "agf_64c3772786aab8161875"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3500",
+                  "fact_ids": [
+                    "agf_026609ed35c22327795a"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_42361",
+              "label": "Adolf Loos",
+              "artist_id": "ag_2321",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_2a64d23efc03b8d6d739"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_c1dcd3b76e7338d8afdd"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_ef3b5e5cfe5c8e65682d"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_d2a9c1a0c0a6bedb9a03",
+                    "agf_45317c9a9b2bc93d2061"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_a7dbc3febca67d18eab0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_d502b2681fcaf16ed284"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_16916",
+              "label": "Ravine in the Morvan, Near Lormes",
+              "artist_id": "ag_1305",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_8",
+                  "fact_ids": [
+                    "agf_6320ec33bb02f73b27b3"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124724",
+                  "fact_ids": [
+                    "agf_2f8d09389ffed5e90a95",
+                    "agf_6545320534ed1dfe1a59"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_43",
+                  "fact_ids": [
+                    "agf_86bb548b9953232f4a79"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2845",
+                  "fact_ids": [
+                    "agf_1a1436af6c1f1b9b8c64"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2972",
+                  "fact_ids": [
+                    "agf_7e02c6f037b5699dd5b7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2975",
+                  "fact_ids": [
+                    "agf_10fb522c5c12682d4c8f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3055",
+                  "fact_ids": [
+                    "agf_09f9c75b45dbf9f213e0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3056",
+                  "fact_ids": [
+                    "agf_5828f633c3fe53bc6f1b"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3092",
+                  "fact_ids": [
+                    "agf_cf5261fcf1d50f807aeb"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3093",
+                  "fact_ids": [
+                    "agf_9705cecdc298d29b8937"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3169",
+                  "fact_ids": [
+                    "agf_a2af9796b040a3a59f4c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3170",
+                  "fact_ids": [
+                    "agf_6b816fccb8e714442169"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3172",
+                  "fact_ids": [
+                    "agf_cab80e8cddbad3db8c72"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3402",
+                  "fact_ids": [
+                    "agf_6de5d6314e72859efaa6"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3679",
+                  "fact_ids": [
+                    "agf_e76a86ce02459c5a9ddd"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8296",
+              "label": "Profile Portrait of a Boy",
+              "artist_id": "ag_2010",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_b9a2ae950dd18cec4bac"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_27",
+                  "fact_ids": [
+                    "agf_af2aeb9008cd30a20ac2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2729",
+                  "fact_ids": [
+                    "agf_f6221265ba34ff6d67ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2730",
+                  "fact_ids": [
+                    "agf_23aa9886ebb3721f8b41"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2731",
+                  "fact_ids": [
+                    "agf_c36178e10bc96b5aa0f4"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2748",
+                  "fact_ids": [
+                    "agf_34d9996a9c86be835209"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_376b2b3caa5eddf7c8ee"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2907",
+                  "fact_ids": [
+                    "agf_3e5689fedd023ad1ff55"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_15247",
+              "label": "Landscape with a road",
+              "artist_id": "ag_1597",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_8",
+                  "fact_ids": [
+                    "agf_7a8688836af739289c9c"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124733",
+                  "fact_ids": [
+                    "agf_a7f5dbf1b2d118e4622e",
+                    "agf_4fdeeb6bc51bec8a4725"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_39",
+                  "fact_ids": [
+                    "agf_41f1203e2ed946bafd53"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2972",
+                  "fact_ids": [
+                    "agf_39c04056e724750825bc"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2975",
+                  "fact_ids": [
+                    "agf_55bef0ef41ec1d0efad2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3038",
+                  "fact_ids": [
+                    "agf_1b704da0315c59c1df46"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3055",
+                  "fact_ids": [
+                    "agf_1761d972f784fe8688ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3056",
+                  "fact_ids": [
+                    "agf_5c6bd396ae2811b5ee35"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3093",
+                  "fact_ids": [
+                    "agf_de2808964899d24037c2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3166",
+                  "fact_ids": [
+                    "agf_2eb29af2b267cf4eed35"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3170",
+                  "fact_ids": [
+                    "agf_34322a8a4f59dbbb9c58"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3402",
+                  "fact_ids": [
+                    "agf_e87776888f40881fa4df"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3679",
+                  "fact_ids": [
+                    "agf_0bcf12aee412448bec51"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_10025",
+              "label": "A floating figure",
+              "artist_id": "ag_2028",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_6",
+                  "fact_ids": [
+                    "agf_aca35c25e9139389a71f"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_672e578ece367cf3ba4c"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2553",
+                  "fact_ids": [
+                    "agf_cc08ba36786012afb56f"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_9892bf5a80a26140871f",
+                    "agf_0af6af9fe2b4f3e4ed81"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124680",
+                  "fact_ids": [
+                    "agf_9892bf5a80a26140871f",
+                    "agf_3d8e3c669ca1f507eb64"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_38",
+                  "fact_ids": [
+                    "agf_880c333e2fa8eb95f5d9"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_14588",
+              "label": "Calm Sea. Landscape with fishermen",
+              "artist_id": "ag_1745",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_1",
+                  "fact_ids": [
+                    "agf_b45f3080d5349ce83e42"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125164",
+                  "fact_ids": [
+                    "agf_21b895d19a2c130907df",
+                    "agf_a63b5f62f76c3f5f9189"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_40",
+                  "fact_ids": [
+                    "agf_1d02cef8e6db547dc1e5"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2761",
+                  "fact_ids": [
+                    "agf_7f2abe63aec88c352371"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2951",
+                  "fact_ids": [
+                    "agf_3b60c7dd7426ecab45e3"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2952",
+                  "fact_ids": [
+                    "agf_ecc1e9c515fc22d31c0f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2954",
+                  "fact_ids": [
+                    "agf_f357e884f5af9ad279d3"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2955",
+                  "fact_ids": [
+                    "agf_59c2ce74a219ce2e4fe0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3010",
+                  "fact_ids": [
+                    "agf_f85059d58b59b4f3f2f8"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3176",
+                  "fact_ids": [
+                    "agf_dd40e387ac5da814a278"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3184",
+                  "fact_ids": [
+                    "agf_e2ff3b7a841b43e0bfd4"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3185",
+                  "fact_ids": [
+                    "agf_df315014b091733f5339"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_3579",
+                  "fact_ids": [
+                    "agf_eda383a8b274abd3f86c"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_13231",
+              "label": "A Bird Passing through a Cloud",
+              "artist_id": "ag_902",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_9f0c94ff62925617f2d6"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2563",
+                  "fact_ids": [
+                    "agf_758947d4f590e4b41b63"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2574",
+                  "fact_ids": [
+                    "agf_bce16c984856efc7deea"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_f64d49cf7c077bee62ab"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125163",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_5ee2c588bcff6d81160b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_bc28f5fe332dea18b2b7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2779",
+                  "fact_ids": [
+                    "agf_c201fdfec4f5a5c77746"
+                  ]
+                }
+              ]
+            }
+          ],
+          "evidence_incomplete": false,
+          "missing_support_policy": "not_recorded means unknown; the view may omit actual attributes"
+        },
+        "status": "error",
+        "raw_response": {
+          "created_at": 1793254575,
+          "id": "resp_ae799d41c3e6b87f",
+          "model": "default",
+          "object": "response",
+          "output": [
+            {
+              "content": [
+                {
+                  "annotations": [],
+                  "text": "{\n  \"provisional_explanation\": \"The visitor explicitly rejects 'portrait genre' as an independent interest (o2 corrects o1) and explicitly accepts 'musical subjects' as an independent interest (o3). No other interests are stated or rejected.\",\n  \"interests\": {\n    \"rejected\": [\n      {\n        \"id\": \"h_portrait_genre\",\n        \"reason\": \"Explicit correction in o2: 'I do not want portrait genre as an independent interest.'\"\n      }\n    ],\n    \"accepted\": [\n      {\n        \"id\": \"h_musical_subject\",\n        \"reason\": \"Explicit statement in o3: 'I am interested in musical subjects as an independent interest.'\"\n      }\n    ]\n  },\n  \"next_action\": {\n    \"type\": \"recommend\",\n    \"artwork_id\": \"ag_14531\",\n    \"label\": \"Three musicians\",\n    \"justification\": \"The visitor accepted musical subjects. 'Three musicians' has the tag 'musical subjects' (ag_3236). It does not have the rejected 'portrait genre' (ag_9). It is a strong match for the confirmed positive interest.\"\n  }\n}",
+                  "type": "output_text"
+                }
+              ],
+              "id": "msg_ae799d41c3e6b87f",
+              "role": "assistant",
+              "status": "completed",
+              "type": "message"
+            }
+          ],
+          "output_text": "{\n  \"provisional_explanation\": \"The visitor explicitly rejects 'portrait genre' as an independent interest (o2 corrects o1) and explicitly accepts 'musical subjects' as an independent interest (o3). No other interests are stated or rejected.\",\n  \"interests\": {\n    \"rejected\": [\n      {\n        \"id\": \"h_portrait_genre\",\n        \"reason\": \"Explicit correction in o2: 'I do not want portrait genre as an independent interest.'\"\n      }\n    ],\n    \"accepted\": [\n      {\n        \"id\": \"h_musical_subject\",\n        \"reason\": \"Explicit statement in o3: 'I am interested in musical subjects as an independent interest.'\"\n      }\n    ]\n  },\n  \"next_action\": {\n    \"type\": \"recommend\",\n    \"artwork_id\": \"ag_14531\",\n    \"label\": \"Three musicians\",\n    \"justification\": \"The visitor accepted musical subjects. 'Three musicians' has the tag 'musical subjects' (ag_3236). It does not have the rejected 'portrait genre' (ag_9). It is a strong match for the confirmed positive interest.\"\n  }\n}",
+          "status": "completed",
+          "usage": {
+            "input_tokens": 12917,
+            "output_tokens": 271,
+            "total_tokens": 13188
+          }
+        },
+        "transport_metadata": {
+          "provider": "openai",
+          "executed_at_utc": "2026-10-29T06:16:18.489473+00:00",
+          "model_requested": "default",
+          "model_returned": "default",
+          "response_id": "resp_ae799d41c3e6b87f",
+          "request_count": 1,
+          "usage": {
+            "input_tokens": 12917,
+            "output_tokens": 271,
+            "total_tokens": 13188
+          }
+        },
+        "error": "ValueError: Invalid output fields",
+        "transport_exchange": {
+          "provider": "openai",
+          "model_requested": "default",
+          "executed_at_utc": "2026-10-29T06:16:14.193113+00:00",
+          "request_count": 1,
+          "raw_response": {
+            "created_at": 1793254575,
+            "id": "resp_ae799d41c3e6b87f",
+            "model": "default",
+            "object": "response",
+            "output": [
+              {
+                "content": [
+                  {
+                    "annotations": [],
+                    "text": "{\n  \"provisional_explanation\": \"The visitor explicitly rejects 'portrait genre' as an independent interest (o2 corrects o1) and explicitly accepts 'musical subjects' as an independent interest (o3). No other interests are stated or rejected.\",\n  \"interests\": {\n    \"rejected\": [\n      {\n        \"id\": \"h_portrait_genre\",\n        \"reason\": \"Explicit correction in o2: 'I do not want portrait genre as an independent interest.'\"\n      }\n    ],\n    \"accepted\": [\n      {\n        \"id\": \"h_musical_subject\",\n        \"reason\": \"Explicit statement in o3: 'I am interested in musical subjects as an independent interest.'\"\n      }\n    ]\n  },\n  \"next_action\": {\n    \"type\": \"recommend\",\n    \"artwork_id\": \"ag_14531\",\n    \"label\": \"Three musicians\",\n    \"justification\": \"The visitor accepted musical subjects. 'Three musicians' has the tag 'musical subjects' (ag_3236). It does not have the rejected 'portrait genre' (ag_9). It is a strong match for the confirmed positive interest.\"\n  }\n}",
+                    "type": "output_text"
+                  }
+                ],
+                "id": "msg_ae799d41c3e6b87f",
+                "role": "assistant",
+                "status": "completed",
+                "type": "message"
+              }
+            ],
+            "output_text": "{\n  \"provisional_explanation\": \"The visitor explicitly rejects 'portrait genre' as an independent interest (o2 corrects o1) and explicitly accepts 'musical subjects' as an independent interest (o3). No other interests are stated or rejected.\",\n  \"interests\": {\n    \"rejected\": [\n      {\n        \"id\": \"h_portrait_genre\",\n        \"reason\": \"Explicit correction in o2: 'I do not want portrait genre as an independent interest.'\"\n      }\n    ],\n    \"accepted\": [\n      {\n        \"id\": \"h_musical_subject\",\n        \"reason\": \"Explicit statement in o3: 'I am interested in musical subjects as an independent interest.'\"\n      }\n    ]\n  },\n  \"next_action\": {\n    \"type\": \"recommend\",\n    \"artwork_id\": \"ag_14531\",\n    \"label\": \"Three musicians\",\n    \"justification\": \"The visitor accepted musical subjects. 'Three musicians' has the tag 'musical subjects' (ag_3236). It does not have the rejected 'portrait genre' (ag_9). It is a strong match for the confirmed positive interest.\"\n  }\n}",
+            "status": "completed",
+            "usage": {
+              "input_tokens": 12917,
+              "output_tokens": 271,
+              "total_tokens": 13188
+            }
+          },
+          "usage": {
+            "input_tokens": 12917,
+            "output_tokens": 271,
+            "total_tokens": 13188
+          },
+          "model_returned": "default",
+          "response_id": "resp_ae799d41c3e6b87f"
+        }
+      }
+    },
+    {
+      "scenario_id": "flagship_interaction_albert_kollmann",
+      "elapsed_ms": 15126.103399990825,
+      "candidate_order": [
+        "ag_20804",
+        "ag_8415"
+      ],
+      "record": {
+        "request": {
+          "task": "Infer provisional visitor interests from this history. Atomic and conjunction interests may coexist. Preserve explicit statements and corrections. A disliked artwork does not universally reject its attributes. Do not select a dominant explanation if the evidence is ambiguous. Recommend an eligible artwork when justified; otherwise ask a yes/no/unsure confirmation about one atomic or conjunction interest, or report insufficient evidence. A confirmation of all_of asks whether the visitor prefers these features specifically together. Recommendations must respect explicit rejections and must not repeat observed artworks.",
+          "visitor_history": "I liked Albert Kollmann. I did not like A Bird Passing through a Cloud, and I also did not like Profile Portrait of a Boy.",
+          "hypothesis_vocabulary": [
+            {
+              "id": "h_musical_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3236",
+              "label": "musical subjects"
+            },
+            {
+              "id": "h_nature_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3679",
+              "label": "nature-reserve subjects"
+            },
+            {
+              "id": "h_water_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3579",
+              "label": "water-transport subjects"
+            },
+            {
+              "id": "h_feline_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3392",
+              "label": "feline subjects"
+            },
+            {
+              "id": "h_expressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_21",
+              "label": "expressionist style"
+            },
+            {
+              "id": "h_impressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_42",
+              "label": "impressionist style"
+            },
+            {
+              "id": "h_cubist_style",
+              "attribute_type": "style",
+              "value_id": "ag_25",
+              "label": "cubist style"
+            },
+            {
+              "id": "h_portrait_genre",
+              "attribute_type": "genre",
+              "value_id": "ag_9",
+              "label": "portrait genre"
+            },
+            {
+              "id": "h_oil_medium",
+              "attribute_type": "medium",
+              "value_id": "ag_2551",
+              "label": "oil medium"
+            },
+            {
+              "id": "h_expressionist_movement",
+              "attribute_type": "movement",
+              "value_id": "ag_124670",
+              "label": "Expressionism movement"
+            }
+          ],
+          "observed_artworks": [
+            {
+              "artwork_id": "ag_13231",
+              "label": "A Bird Passing through a Cloud",
+              "artist_id": "ag_902",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_9f0c94ff62925617f2d6"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2563",
+                  "fact_ids": [
+                    "agf_758947d4f590e4b41b63"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2574",
+                  "fact_ids": [
+                    "agf_bce16c984856efc7deea"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_f64d49cf7c077bee62ab"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125163",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_5ee2c588bcff6d81160b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_bc28f5fe332dea18b2b7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2779",
+                  "fact_ids": [
+                    "agf_c201fdfec4f5a5c77746"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8296",
+              "label": "Profile Portrait of a Boy",
+              "artist_id": "ag_2010",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_b9a2ae950dd18cec4bac"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_27",
+                  "fact_ids": [
+                    "agf_af2aeb9008cd30a20ac2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2729",
+                  "fact_ids": [
+                    "agf_f6221265ba34ff6d67ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2730",
+                  "fact_ids": [
+                    "agf_23aa9886ebb3721f8b41"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2731",
+                  "fact_ids": [
+                    "agf_c36178e10bc96b5aa0f4"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2748",
+                  "fact_ids": [
+                    "agf_34d9996a9c86be835209"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_376b2b3caa5eddf7c8ee"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2907",
+                  "fact_ids": [
+                    "agf_3e5689fedd023ad1ff55"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8416",
+              "label": "Albert Kollmann",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_622844512b2c37462fa9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_e3001683bd7d0266a162"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_bc8929c4a6f55becfd57"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133131",
+                  "fact_ids": [
+                    "agf_68c2c610db5f79a80839"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_8a4cce07ba2a1ca7c617"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_70a95f3c27e61a95677c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2726",
+                  "fact_ids": [
+                    "agf_759a63a4a8c38d269b18"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2790",
+                  "fact_ids": [
+                    "agf_a2cd0cd05828c67e9233"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2977",
+                  "fact_ids": [
+                    "agf_a4de29f2e2065e9ea90a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2978",
+                  "fact_ids": [
+                    "agf_ba715d28dad1cc387bd7"
+                  ]
+                }
+              ]
+            }
+          ],
+          "candidate_artworks": [
+            {
+              "artwork_id": "ag_20804",
+              "label": "Baby",
+              "artist_id": "ag_1521",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_373d77fbb313b7f40e0d"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_7f54f5f65b1cedf3fe4f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_545ce4452594caad00fe"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8415",
+              "label": "Adam and Eve",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_12",
+                  "fact_ids": [
+                    "agf_c8aa5dffba9aea02abb7"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_7726bd42ae4c70db35e9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_aa7c2a54b3b8e7bff7d6"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133265",
+                  "fact_ids": [
+                    "agf_18ed507b6c3175e44aaf"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_6a8a3bc2b9aeff327bcf"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2719",
+                  "fact_ids": [
+                    "agf_b1a0de17f91b619ebb26"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2720",
+                  "fact_ids": [
+                    "agf_a0a5676a8bcd29cf2b93"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2734",
+                  "fact_ids": [
+                    "agf_9b506902a1c3ec7caee0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2867",
+                  "fact_ids": [
+                    "agf_9a01b33653e18f089d2b"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2976",
+                  "fact_ids": [
+                    "agf_f2fb8ba303650ce1d158"
+                  ]
+                }
+              ]
+            }
+          ],
+          "evidence_incomplete": false,
+          "missing_support_policy": "not_recorded means unknown; the view may omit actual attributes"
+        },
+        "status": "error",
+        "raw_response": {
+          "created_at": 1793254593,
+          "id": "resp_ae47b281374275b9",
+          "model": "default",
+          "object": "response",
+          "output": [
+            {
+              "content": [
+                {
+                  "annotations": [],
+                  "text": "{\n  \"tool\": \"none\",\n  \"reason\": \"The previous step concluded with a recommendation based on inference from the provided history and hypothesis vocabulary. No further web search or fetch is required or allowed for the recommendation itself, as the candidate artworks and their attributes were already supplied in the context. The task is to infer and recommend, which has been done using the provided data.\"\n}",
+                  "type": "output_text"
+                }
+              ],
+              "id": "msg_ae47b281374275b9",
+              "role": "assistant",
+              "status": "completed",
+              "type": "message"
+            }
+          ],
+          "output_text": "{\n  \"tool\": \"none\",\n  \"reason\": \"The previous step concluded with a recommendation based on inference from the provided history and hypothesis vocabulary. No further web search or fetch is required or allowed for the recommendation itself, as the candidate artworks and their attributes were already supplied in the context. The task is to infer and recommend, which has been done using the provided data.\"\n}",
+          "status": "completed",
+          "usage": {
+            "input_tokens": 4412,
+            "output_tokens": 82,
+            "total_tokens": 4494
+          }
+        },
+        "transport_metadata": {
+          "provider": "openai",
+          "executed_at_utc": "2026-10-29T06:16:34.528157+00:00",
+          "model_requested": "default",
+          "model_returned": "default",
+          "response_id": "resp_ae47b281374275b9",
+          "request_count": 1,
+          "usage": {
+            "input_tokens": 4412,
+            "output_tokens": 82,
+            "total_tokens": 4494
+          }
+        },
+        "error": "ValueError: Invalid output fields",
+        "transport_exchange": {
+          "provider": "openai",
+          "model_requested": "default",
+          "executed_at_utc": "2026-10-29T06:16:19.427001+00:00",
+          "request_count": 1,
+          "raw_response": {
+            "created_at": 1793254593,
+            "id": "resp_ae47b281374275b9",
+            "model": "default",
+            "object": "response",
+            "output": [
+              {
+                "content": [
+                  {
+                    "annotations": [],
+                    "text": "{\n  \"tool\": \"none\",\n  \"reason\": \"The previous step concluded with a recommendation based on inference from the provided history and hypothesis vocabulary. No further web search or fetch is required or allowed for the recommendation itself, as the candidate artworks and their attributes were already supplied in the context. The task is to infer and recommend, which has been done using the provided data.\"\n}",
+                    "type": "output_text"
+                  }
+                ],
+                "id": "msg_ae47b281374275b9",
+                "role": "assistant",
+                "status": "completed",
+                "type": "message"
+              }
+            ],
+            "output_text": "{\n  \"tool\": \"none\",\n  \"reason\": \"The previous step concluded with a recommendation based on inference from the provided history and hypothesis vocabulary. No further web search or fetch is required or allowed for the recommendation itself, as the candidate artworks and their attributes were already supplied in the context. The task is to infer and recommend, which has been done using the provided data.\"\n}",
+            "status": "completed",
+            "usage": {
+              "input_tokens": 4412,
+              "output_tokens": 82,
+              "total_tokens": 4494
+            }
+          },
+          "usage": {
+            "input_tokens": 4412,
+            "output_tokens": 82,
+            "total_tokens": 4494
+          },
+          "model_returned": "default",
+          "response_id": "resp_ae47b281374275b9"
+        }
+      }
+    },
+    {
+      "scenario_id": "flagship_interaction_albert_kollmann",
+      "elapsed_ms": 19520.636200002627,
+      "candidate_order": [
+        "ag_20804",
+        "ag_8415"
+      ],
+      "record": {
+        "request": {
+          "task": "Infer provisional visitor interests from this history. Atomic and conjunction interests may coexist. Preserve explicit statements and corrections. A disliked artwork does not universally reject its attributes. Do not select a dominant explanation if the evidence is ambiguous. Recommend an eligible artwork when justified; otherwise ask a yes/no/unsure confirmation about one atomic or conjunction interest, or report insufficient evidence. A confirmation of all_of asks whether the visitor prefers these features specifically together. Recommendations must respect explicit rejections and must not repeat observed artworks.",
+          "visitor_history": "I liked Albert Kollmann. I did not like A Bird Passing through a Cloud, and I also did not like Profile Portrait of a Boy.",
+          "hypothesis_vocabulary": [
+            {
+              "id": "h_musical_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3236",
+              "label": "musical subjects"
+            },
+            {
+              "id": "h_nature_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3679",
+              "label": "nature-reserve subjects"
+            },
+            {
+              "id": "h_water_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3579",
+              "label": "water-transport subjects"
+            },
+            {
+              "id": "h_feline_subject",
+              "attribute_type": "tag",
+              "value_id": "ag_3392",
+              "label": "feline subjects"
+            },
+            {
+              "id": "h_expressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_21",
+              "label": "expressionist style"
+            },
+            {
+              "id": "h_impressionist_style",
+              "attribute_type": "style",
+              "value_id": "ag_42",
+              "label": "impressionist style"
+            },
+            {
+              "id": "h_cubist_style",
+              "attribute_type": "style",
+              "value_id": "ag_25",
+              "label": "cubist style"
+            },
+            {
+              "id": "h_portrait_genre",
+              "attribute_type": "genre",
+              "value_id": "ag_9",
+              "label": "portrait genre"
+            },
+            {
+              "id": "h_oil_medium",
+              "attribute_type": "medium",
+              "value_id": "ag_2551",
+              "label": "oil medium"
+            },
+            {
+              "id": "h_expressionist_movement",
+              "attribute_type": "movement",
+              "value_id": "ag_124670",
+              "label": "Expressionism movement"
+            }
+          ],
+          "observed_artworks": [
+            {
+              "artwork_id": "ag_13231",
+              "label": "A Bird Passing through a Cloud",
+              "artist_id": "ag_902",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_2",
+                  "fact_ids": [
+                    "agf_9f0c94ff62925617f2d6"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2563",
+                  "fact_ids": [
+                    "agf_758947d4f590e4b41b63"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2574",
+                  "fact_ids": [
+                    "agf_bce16c984856efc7deea"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124668",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_f64d49cf7c077bee62ab"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_125163",
+                  "fact_ids": [
+                    "agf_0605b41e0b44364fa239",
+                    "agf_5ee2c588bcff6d81160b"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_bc28f5fe332dea18b2b7"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2779",
+                  "fact_ids": [
+                    "agf_c201fdfec4f5a5c77746"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8296",
+              "label": "Profile Portrait of a Boy",
+              "artist_id": "ag_2010",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_b9a2ae950dd18cec4bac"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_27",
+                  "fact_ids": [
+                    "agf_af2aeb9008cd30a20ac2"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2729",
+                  "fact_ids": [
+                    "agf_f6221265ba34ff6d67ab"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2730",
+                  "fact_ids": [
+                    "agf_23aa9886ebb3721f8b41"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2731",
+                  "fact_ids": [
+                    "agf_c36178e10bc96b5aa0f4"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2748",
+                  "fact_ids": [
+                    "agf_34d9996a9c86be835209"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_376b2b3caa5eddf7c8ee"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2907",
+                  "fact_ids": [
+                    "agf_3e5689fedd023ad1ff55"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8416",
+              "label": "Albert Kollmann",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_622844512b2c37462fa9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_e3001683bd7d0266a162"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_bc8929c4a6f55becfd57"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_7888e12232ccab014115",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133131",
+                  "fact_ids": [
+                    "agf_68c2c610db5f79a80839"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_8a4cce07ba2a1ca7c617"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2725",
+                  "fact_ids": [
+                    "agf_70a95f3c27e61a95677c"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2726",
+                  "fact_ids": [
+                    "agf_759a63a4a8c38d269b18"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2790",
+                  "fact_ids": [
+                    "agf_a2cd0cd05828c67e9233"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2977",
+                  "fact_ids": [
+                    "agf_a4de29f2e2065e9ea90a"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2978",
+                  "fact_ids": [
+                    "agf_ba715d28dad1cc387bd7"
+                  ]
+                }
+              ]
+            }
+          ],
+          "candidate_artworks": [
+            {
+              "artwork_id": "ag_20804",
+              "label": "Baby",
+              "artist_id": "ag_1521",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_9",
+                  "fact_ids": [
+                    "agf_373d77fbb313b7f40e0d"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_7f54f5f65b1cedf3fe4f"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2792",
+                  "fact_ids": [
+                    "agf_545ce4452594caad00fe"
+                  ]
+                }
+              ]
+            },
+            {
+              "artwork_id": "ag_8415",
+              "label": "Adam and Eve",
+              "artist_id": "ag_1057",
+              "attributes": [
+                {
+                  "type": "genre",
+                  "value_id": "ag_12",
+                  "fact_ids": [
+                    "agf_c8aa5dffba9aea02abb7"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2551",
+                  "fact_ids": [
+                    "agf_7726bd42ae4c70db35e9"
+                  ]
+                },
+                {
+                  "type": "medium",
+                  "value_id": "ag_2552",
+                  "fact_ids": [
+                    "agf_aa7c2a54b3b8e7bff7d6"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124670",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_c642b6942e0c256567ca"
+                  ]
+                },
+                {
+                  "type": "movement",
+                  "value_id": "ag_124728",
+                  "fact_ids": [
+                    "agf_4ecb88cf33e2bc7e66e0",
+                    "agf_e34662c5ed0b3e777c33"
+                  ]
+                },
+                {
+                  "type": "period",
+                  "value_id": "ag_133265",
+                  "fact_ids": [
+                    "agf_18ed507b6c3175e44aaf"
+                  ]
+                },
+                {
+                  "type": "style",
+                  "value_id": "ag_21",
+                  "fact_ids": [
+                    "agf_6a8a3bc2b9aeff327bcf"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2719",
+                  "fact_ids": [
+                    "agf_b1a0de17f91b619ebb26"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2720",
+                  "fact_ids": [
+                    "agf_a0a5676a8bcd29cf2b93"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2734",
+                  "fact_ids": [
+                    "agf_9b506902a1c3ec7caee0"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2867",
+                  "fact_ids": [
+                    "agf_9a01b33653e18f089d2b"
+                  ]
+                },
+                {
+                  "type": "tag",
+                  "value_id": "ag_2976",
+                  "fact_ids": [
+                    "agf_f2fb8ba303650ce1d158"
+                  ]
+                }
+              ]
+            }
+          ],
+          "evidence_incomplete": false,
+          "missing_support_policy": "not_recorded means unknown; the view may omit actual attributes"
+        },
+        "status": "error",
+        "raw_response": {
+          "created_at": 1793254614,
+          "id": "resp_aef909319810a354",
+          "model": "default",
+          "object": "response",
+          "output": [
+            {
+              "content": [
+                {
+                  "annotations": [],
+                  "text": "{\"provisional_explanation\": \"Visitor liked 'Albert Kollmann' (Portrait, Expressionist style), disliked 'A Bird Passing through a Cloud' (Non-Portrait, Expressionist style), and disliked 'Profile Portrait of a Boy' (Portrait, Non-Expressionist style ag_27). This pattern strongly suggests a preference for the conjunction of Portrait Genre AND Expressionist Style.\", \"next_action\": \"recommend\", \"recommendation_artwork_id\": \"ag_20804\", \"confirmed_interests\": [\"Portrait Genre\", \"Expressionist Style\"]}",
+                  "type": "output_text"
+                }
+              ],
+              "id": "msg_aef909319810a354",
+              "role": "assistant",
+              "status": "completed",
+              "type": "message"
+            }
+          ],
+          "output_text": "{\"provisional_explanation\": \"Visitor liked 'Albert Kollmann' (Portrait, Expressionist style), disliked 'A Bird Passing through a Cloud' (Non-Portrait, Expressionist style), and disliked 'Profile Portrait of a Boy' (Portrait, Non-Expressionist style ag_27). This pattern strongly suggests a preference for the conjunction of Portrait Genre AND Expressionist Style.\", \"next_action\": \"recommend\", \"recommendation_artwork_id\": \"ag_20804\", \"confirmed_interests\": [\"Portrait Genre\", \"Expressionist Style\"]}",
+          "status": "completed",
+          "usage": {
+            "input_tokens": 5026,
+            "output_tokens": 118,
+            "total_tokens": 5144
+          }
+        },
+        "transport_metadata": {
+          "provider": "openai",
+          "executed_at_utc": "2026-10-29T06:16:55.000658+00:00",
+          "model_requested": "default",
+          "model_returned": "default",
+          "response_id": "resp_aef909319810a354",
+          "request_count": 1,
+          "usage": {
+            "input_tokens": 5026,
+            "output_tokens": 118,
+            "total_tokens": 5144
+          }
+        },
+        "error": "ValueError: Invalid output fields",
+        "transport_exchange": {
+          "provider": "openai",
+          "model_requested": "default",
+          "executed_at_utc": "2026-10-29T06:16:35.491595+00:00",
+          "request_count": 1,
+          "raw_response": {
+            "created_at": 1793254614,
+            "id": "resp_aef909319810a354",
+            "model": "default",
+            "object": "response",
+            "output": [
+              {
+                "content": [
+                  {
+                    "annotations": [],
+                    "text": "{\"provisional_explanation\": \"Visitor liked 'Albert Kollmann' (Portrait, Expressionist style), disliked 'A Bird Passing through a Cloud' (Non-Portrait, Expressionist style), and disliked 'Profile Portrait of a Boy' (Portrait, Non-Expressionist style ag_27). This pattern strongly suggests a preference for the conjunction of Portrait Genre AND Expressionist Style.\", \"next_action\": \"recommend\", \"recommendation_artwork_id\": \"ag_20804\", \"confirmed_interests\": [\"Portrait Genre\", \"Expressionist Style\"]}",
+                    "type": "output_text"
+                  }
+                ],
+                "id": "msg_aef909319810a354",
+                "role": "assistant",
+                "status": "completed",
+                "type": "message"
+              }
+            ],
+            "output_text": "{\"provisional_explanation\": \"Visitor liked 'Albert Kollmann' (Portrait, Expressionist style), disliked 'A Bird Passing through a Cloud' (Non-Portrait, Expressionist style), and disliked 'Profile Portrait of a Boy' (Portrait, Non-Expressionist style ag_27). This pattern strongly suggests a preference for the conjunction of Portrait Genre AND Expressionist Style.\", \"next_action\": \"recommend\", \"recommendation_artwork_id\": \"ag_20804\", \"confirmed_interests\": [\"Portrait Genre\", \"Expressionist Style\"]}",
+            "status": "completed",
+            "usage": {
+              "input_tokens": 5026,
+              "output_tokens": 118,
+              "total_tokens": 5144
+            }
+          },
+          "usage": {
+            "input_tokens": 5026,
+            "output_tokens": 118,
+            "total_tokens": 5144
+          },
+          "model_returned": "default",
+          "response_id": "resp_aef909319810a354"
+        }
+      }
+    }
+  ]
+}

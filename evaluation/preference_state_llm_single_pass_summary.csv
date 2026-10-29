@@ -1,0 +1,11 @@
+action_type_accuracy,appropriate_abstention,asserted_explanation_count,clean_probe_at_1,decision_validity,error_count,explanation_coverage,explanation_precision,explanation_recall,failure_to_clarify,false_atomic_interest_rate,false_interaction_prioritized,false_interaction_rate,group,hit_at_k,irrelevant_action_rate,k,method,precision_at_k,primary_explanation_accuracy,recall_at_k,runtime_ms,scenario_count,scope,selected_recommendation_relevance,successful_scenario_count,top1_relevance,unnecessary_clarification,unresolved_explanation_count,valid_decisions_per_attempt
+0.982143,1.0,1.464286,0.083333,1.0,0,0.982143,0.75744,0.910714,0.0,0.25,0.0,0.008929,all,0.919643,0.133929,2.964286,compositional_prolog,0.627976,0.339286,0.774248,620.716311,56,overall,1.0,56,0.866071,0.0,2.5,1.0
+0.5,0.5,2.0,,1.0,54,0.5,0.25,0.5,0.5,0.75,0.0,0.5,all,0.5,0.5,3.0,direct_llm_state_reasoning,0.166666,0.5,0.25,9456.2884,56,overall,1.0,2,0.5,,3.0,0.03571428571428571
+0.96875,1.0,1.6875,,1.0,0,0.96875,0.627604,0.84375,0.0,0.34375,0.0,0.015625,controlled_robustness,0.859375,0.171875,3.0,compositional_prolog,0.630208,0.59375,0.643997,604.664934,32,benchmark,1.0,32,0.828125,0.0,1.65625,1.0
+0.0,0.0,2.0,,1.0,31,1.0,0.5,1.0,1.0,0.5,0.0,0.0,controlled_robustness,1.0,0.0,3.0,direct_llm_state_reasoning,0.333333,1.0,0.5,13987.904,32,benchmark,1.0,1,1.0,,2.0,0.03125
+1.0,1.0,1.166667,0.083333,1.0,0,1.0,0.930556,1.0,0.0,0.125,0.0,0.0,pattern_matched_regression,1.0,0.083333,2.916667,compositional_prolog,0.625,0.0,0.947917,642.118146,24,benchmark,,24,0.916667,,3.625,1.0
+1.0,1.0,2.0,,1.0,23,0.0,0.0,0.0,0.0,1.0,0.0,1.0,pattern_matched_regression,0.0,1.0,3.0,direct_llm_state_reasoning,0.0,0.0,0.0,4924.6728,24,benchmark,,1,0.0,,4.0,0.041666666666666664
+0.967742,1.0,1.548387,0.142857,1.0,0,0.967742,0.739247,0.903226,0.0,0.241935,0.0,0.016129,development,0.935484,0.129032,2.935484,compositional_prolog,0.655914,0.387097,0.774333,611.993087,31,subset,1.0,31,0.870968,0.0,2.548387,1.0
+,,,,,31,,,,,,,,development,,,,direct_llm_state_reasoning,,,,,31,subset,,0,,,,0.0
+1.0,1.0,1.36,0.0,1.0,0,1.0,0.78,0.92,0.0,0.26,0.0,0.0,held_out,0.9,0.14,3.0,compositional_prolog,0.593333,0.28,0.774143,631.533108,25,subset,1.0,25,0.86,0.0,2.44,1.0
+0.5,0.5,2.0,,1.0,23,0.5,0.25,0.5,0.5,0.75,0.0,0.5,held_out,0.5,0.5,3.0,direct_llm_state_reasoning,0.166666,0.5,0.25,9456.2884,25,subset,1.0,2,0.5,,3.0,0.08

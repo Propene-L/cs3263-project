@@ -189,16 +189,22 @@ separate.
 
 ### 6–7. Where does direct LLM help or violate constraints?
 
-Unknown. No API key or model was configured, so no genuine requests were made
-and no results were fabricated. The task-specific adapter supplies natural
-history, allowlisted hypotheses/candidates, and ArtGraph evidence, while
-withholding latent profiles, labels, Prolog outputs, and baseline outputs. It
-validates components and artwork IDs and records raw responses and token usage
-when genuinely executed. Its strict `text.format` schema and refusal handling
-follow the official OpenAI
-[Structured Outputs guidance](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses).
+The genuine SOCLAAS-backed run produced only 2 valid outputs in 56 attempts
+(3.57%), versus 56/56 valid Prolog decisions. The model usually returned human
+labels rather than allowlisted stable hypothesis IDs despite receiving both a
+strict `text.format` schema and that schema in the prompt. These failures were
+rejected rather than coerced, preserving the symbolic safety boundary. Metrics
+computed on the two accepted outputs are too sparse for a substantive quality
+comparison. Raw prompts, responses, usage, and errors are retained in
+`evaluation/preference_state_llm_single_pass_calls.json`. The interface follows
+the official OpenAI [Structured Outputs guidance](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses),
+but the supplied provider/model did not reliably honor that contract.
 
-Configuration for a smoke run:
+The persisted one-pass command and checkpoint-resume procedure are documented
+in `docs/PREFERENCE_STATE_LLM_COMPARISON.md`. Credentials are supplied only
+through process environment variables; the key is never written or echoed.
+
+For a separate smoke run, use distinct aggregate and raw-call filenames:
 
 ```powershell
 $env:PREFERENCE_STATE_LLM_PROVIDER = "openai"
@@ -207,11 +213,8 @@ $env:OPENAI_API_KEY = "<secret>"
 .\.venv\Scripts\python.exe -m evaluation.evaluate_preference_state_corrected `
   --subset development --smoke --run-direct-llm `
   --output-prefix preference_state_llm_smoke `
-  --llm-output preference_state_llm_smoke_results.json
+  --llm-output preference_state_llm_smoke_calls.json
 ```
-
-Run the full held-out subset only after reviewing the smoke output. The key is
-never written or echoed.
 
 ### 8. Runtime and complexity
 

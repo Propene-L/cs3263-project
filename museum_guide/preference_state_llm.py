@@ -47,6 +47,11 @@ class CorrectedDirectPreferenceStateLLM(DirectPreferenceStateLLM):
                 "A confirmation of all_of asks whether the visitor prefers these features specifically together. "
                 "Recommendations must respect explicit rejections and must not repeat observed artworks."
             ),
+            "output_instruction":(
+                "Return exactly one JSON object matching required_output_schema. "
+                "Use the property names verbatim and do not add properties."
+            ),
+            "required_output_schema":deepcopy(self.OUTPUT_SCHEMA),
             "visitor_history":natural_language_history,
             "hypothesis_vocabulary":view["hypotheses"],
             "observed_artworks":[{"artwork_id":a,**view["artworks"][a]} for a in observed],

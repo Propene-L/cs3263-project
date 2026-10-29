@@ -180,6 +180,8 @@ def test_direct_payload_leakage_mask_order_and_mocked_loop(evidence):
     for forbidden in ["latent_profile","target_artwork_id","distractor","expected_action","construction","prolog","agf_622844512b2c37462fa9"]:
         assert forbidden not in payload.lower()
     assert [a["artwork_id"] for a in transport.payload["candidate_artworks"]]==list(s.allowed_action_artwork_ids)
+    assert transport.payload["required_output_schema"]==model.OUTPUT_SCHEMA
+    assert "property names verbatim" in transport.payload["output_instruction"]
     assert r["decision"]["action_type"]=="clarify" and model.last_record["status"]=="validated"
 
 
