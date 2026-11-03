@@ -1,0 +1,58 @@
+{
+  "source": "onepass",
+  "benchmark": "regression",
+  "scenario_count": 24,
+  "methods": {
+    "compositional_prolog": {
+      "scenario_count": 24,
+      "valid_outputs": 24,
+      "invalid_outputs": 0,
+      "expected_clarification_count": 24,
+      "tp": 24,
+      "fp": 0,
+      "fn_valid": 0,
+      "fn_invalid": 0,
+      "tn_valid": 0,
+      "clarification_precision": 1.0,
+      "clarification_recall_including_invalid_as_missed": 1.0,
+      "clarification_f1": 1.0,
+      "clarification_questions_asked": 24,
+      "question_grounding_rate_given_asked": 1.0,
+      "question_contextual_relation_rate_given_asked": 1.0,
+      "grounded_and_unsettled_rate_given_asked": 1.0,
+      "effective_grounded_clarification_recall": 1.0,
+      "ambiguous_multi_world_questions_asked": 0,
+      "questions_splitting_multi_world_profiles": 0,
+      "mean_oracle_world_information_gain_bits": null
+    },
+    "direct_llm_state_reasoning": {
+      "scenario_count": 24,
+      "valid_outputs": 11,
+      "invalid_outputs": 13,
+      "expected_clarification_count": 24,
+      "tp": 6,
+      "fp": 0,
+      "fn_valid": 5,
+      "fn_invalid": 13,
+      "tn_valid": 0,
+      "clarification_precision": 1.0,
+      "clarification_recall_including_invalid_as_missed": 0.25,
+      "clarification_f1": 0.4,
+      "clarification_questions_asked": 6,
+      "question_grounding_rate_given_asked": 0.833333,
+      "question_contextual_relation_rate_given_asked": 0.833333,
+      "grounded_and_unsettled_rate_given_asked": 0.833333,
+      "effective_grounded_clarification_recall": 0.208333,
+      "ambiguous_multi_world_questions_asked": 0,
+      "questions_splitting_multi_world_profiles": 0,
+      "mean_oracle_world_information_gain_bits": null
+    }
+  },
+  "definitions": {
+    "positive_label": "Authored expected_action_type == clarify (NOT independent human judgment)",
+    "invalid_handling": "Invalid LLM output counts as missed clarification when clarify was expected, never as true negative",
+    "grounding": "Positive: liked artwork records every queried component or exact explicit interest. Contextual relation additionally counts observed dislikes (weaker). Settled exact interests are not unresolved",
+    "world_information_gain": "Binary yes/no partition entropy ONLY for the few scenarios with multiple authored latent worlds; no entropy metric for one-world cases",
+    "ranking": "Saved model-derived ranking is NOT necessarily the LLM's chosen artwork"
+  }
+}
