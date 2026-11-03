@@ -1,0 +1,6 @@
+method,scenario_count,selected_question_count,formally_valid_selected_question_rate,correct_no_question_count,false_no_question_count,correct_resolution_after_interaction_count,correct_resolution_rate_over_initially_solvable,hidden_hypothesis_retention_rate,mean_questions_for_successful_resolution,mean_distinguished_hypothesis_pairs_per_selected_question,mean_question_selection_runtime_ms,median_question_selection_runtime_ms,mean_total_scenario_runtime_ms,repeated_question_rate
+compositional_prolog,65,128,1.0,5,0,44,0.7719,0.9692,2.0227,2.2109,829.858,760.297,1761.638,0.0
+single_rule_prolog,65,140,1.0,5,0,27,0.4737,0.9692,1.8519,1.3786,626.745,616.949,1471.41,0.0
+raw_attribute_contrast,65,138,0.8913,5,0,35,0.614,0.9692,2.0571,2.0797,19.83,16.451,103.523,0.0
+random_eligible,65,174,0.2299,5,0,1,0.0175,0.9692,1.0,0.3793,0.116,0.115,72.738,0.0
+exact_objective_python,65,128,1.0,5,0,44,0.7719,0.9692,2.0227,2.2109,24.638,23.05,101.4,0.0

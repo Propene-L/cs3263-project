@@ -1,0 +1,165 @@
+{
+  "source_commit": "945b009db765d9321bf97dbeaaccc88c063cd4e3",
+  "benchmark": "controlled_robustness",
+  "scenario_count": 32,
+  "sources": {
+    "final": {
+      "competitive": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 8,
+          "diagnostic_targeting_rate_given_asked": 0.888889,
+          "effective_diagnostic_recall_over_needed": 0.888889,
+          "diagnostic_when_needed_count": 8,
+          "mean_structural_proxy_bits_given_asked": 0.726452,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 6,
+          "diagnostic_targeting_rate_given_asked": 0.666667,
+          "effective_diagnostic_recall_over_needed": 0.222222,
+          "diagnostic_when_needed_count": 2,
+          "mean_structural_proxy_bits_given_asked": 0.443587,
+          "unnecessary_clarification_count": 6
+        }
+      },
+      "strict": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 7,
+          "diagnostic_targeting_rate_given_asked": 0.777778,
+          "effective_diagnostic_recall_over_needed": 0.777778,
+          "diagnostic_when_needed_count": 7,
+          "mean_structural_proxy_bits_given_asked": 0.63631,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 5,
+          "diagnostic_targeting_rate_given_asked": 0.555556,
+          "effective_diagnostic_recall_over_needed": 0.111111,
+          "diagnostic_when_needed_count": 1,
+          "mean_structural_proxy_bits_given_asked": 0.353445,
+          "unnecessary_clarification_count": 6
+        }
+      },
+      "permissive": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 9,
+          "diagnostic_targeting_rate_given_asked": 1.0,
+          "effective_diagnostic_recall_over_needed": 1.0,
+          "diagnostic_when_needed_count": 9,
+          "mean_structural_proxy_bits_given_asked": 0.80125,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 6,
+          "diagnostic_targeting_rate_given_asked": 0.666667,
+          "effective_diagnostic_recall_over_needed": 0.222222,
+          "diagnostic_when_needed_count": 2,
+          "mean_structural_proxy_bits_given_asked": 0.443587,
+          "unnecessary_clarification_count": 6
+        }
+      }
+    },
+    "onepass": {
+      "competitive": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 8,
+          "diagnostic_targeting_rate_given_asked": 0.888889,
+          "effective_diagnostic_recall_over_needed": 0.888889,
+          "diagnostic_when_needed_count": 8,
+          "mean_structural_proxy_bits_given_asked": 0.726452,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 5,
+          "diagnostic_targeted_count": 4,
+          "diagnostic_targeting_rate_given_asked": 0.8,
+          "effective_diagnostic_recall_over_needed": 0.111111,
+          "diagnostic_when_needed_count": 1,
+          "mean_structural_proxy_bits_given_asked": 0.545358,
+          "unnecessary_clarification_count": 4
+        }
+      },
+      "strict": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 7,
+          "diagnostic_targeting_rate_given_asked": 0.777778,
+          "effective_diagnostic_recall_over_needed": 0.777778,
+          "diagnostic_when_needed_count": 7,
+          "mean_structural_proxy_bits_given_asked": 0.63631,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 5,
+          "diagnostic_targeted_count": 3,
+          "diagnostic_targeting_rate_given_asked": 0.6,
+          "effective_diagnostic_recall_over_needed": 0.0,
+          "diagnostic_when_needed_count": 0,
+          "mean_structural_proxy_bits_given_asked": 0.383103,
+          "unnecessary_clarification_count": 4
+        }
+      },
+      "permissive": {
+        "compositional_prolog": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 9,
+          "diagnostic_targeted_count": 9,
+          "diagnostic_targeting_rate_given_asked": 1.0,
+          "effective_diagnostic_recall_over_needed": 1.0,
+          "diagnostic_when_needed_count": 9,
+          "mean_structural_proxy_bits_given_asked": 0.80125,
+          "unnecessary_clarification_count": 0
+        },
+        "direct_llm_state_reasoning": {
+          "total_scenarios": 32,
+          "expected_clarification_count": 9,
+          "asked_count": 5,
+          "diagnostic_targeted_count": 4,
+          "diagnostic_targeting_rate_given_asked": 0.8,
+          "effective_diagnostic_recall_over_needed": 0.111111,
+          "diagnostic_when_needed_count": 1,
+          "mean_structural_proxy_bits_given_asked": 0.545358,
+          "unnecessary_clarification_count": 4
+        }
+      }
+    }
+  },
+  "blind_review_items": 16,
+  "definitions": {
+    "competitive": "Unsettled atomic or cross-type pair explains at least max(1, max liked-support count minus one) positive artworks.",
+    "strict": "Unsettled explanation appears in every liked artwork.",
+    "permissive": "Unsettled explanation appears in at least one liked artwork.",
+    "candidate_vocabulary": "Atomic hypotheses and observed co-occurring tag-style, tag-genre or style-genre conjunctions. No latent labels read.",
+    "structural_proxy_bits": "Entropy of yes/no for uniform mutually exclusive candidate explanations plus other. NOT an empirical or psychological information-gain estimate.",
+    "limitations": "Only single-explanation-plus-other alternatives; observed preferences may be multi-interest, noisy, or driven by non-vocabulary attributes. Binary answer oracle and authored expected-action labels are not human truth.",
+    "llm": "SOCLAAS default model; final source includes selectively repaired second chances. Always report one-pass separately."
+  }
+}

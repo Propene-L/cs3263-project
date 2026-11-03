@@ -82,3 +82,64 @@ annotation before Phase 1 implementation:
 - A Prolog proof establishes consequence under the imported facts and clauses;
   it does not establish recommendation utility or learning gain.
 
+## Phase 0.5 readiness additions
+
+Phase 0.5 adds imported `has_subject/3`, `has_period/3`,
+`part_of_series/3`, and `related_to_school/3` facts. Subject, Period, Series,
+and Training are typed context entities but remain outside the default shared
+recommendation candidate set.
+
+`logic/phase_0_5_pilot_rules.pl` feasibility-tests derived
+`artwork_movement/4`, shared-style/series peers, artwork training context, and
+tabled contextual reachability over the real Morris Louis sample. These are
+Layer A factual/context rules only. The separately proposed Layer B visitor
+eligibility rule and all rule justifications are documented in
+`PHASE_0_5_REVIEW.md`. They are not the production Phase 1 engine.
+
+## Phase 0.75 visitor-interest proof of concept
+
+`logic/interest_poc.pl` imports typed `about`/Tag facts and treats style,
+genre, medium, series, period, and the Artwork → Artist → Movement join as
+typed artwork attributes. The following rules execute in SWI-Prolog over the
+bounded real-data snapshot, but remain proposals pending the Phase 0.75 review:
+
+| Rule ID | Reading | Classification |
+|---|---|---|
+| `r_interest_from_like` | A liked artwork supplies strong positive signals for its recorded attributes. | Visitor-model assumption |
+| `r_weak_interest_from_familiarity` | A known artwork supplies weak positive signals. | Visitor-model assumption |
+| `r_negative_interest_from_dislike` | A disliked artwork supplies negative attribute signals. | Visitor-model assumption |
+| `r_two_distinct_attribute_match` | An unseen artwork matching at least two distinct typed attributes is eligible. | Guidance assumption |
+| `r_repeated_signal_plus_distinct_attribute` | Evidence from two source artworks plus two distinct attributes is an additional eligibility proof. | Guidance assumption |
+| `r_two_negative_attribute_matches` | Two matching negative attributes exclude a candidate. | Conservative guidance assumption |
+
+The score is a deterministic, lexicographic-style policy encoded in Prolog;
+it is not a probability or relevance judgment. Proofs return rule IDs,
+visitor-observation IDs, typed matching attributes, and the exact `agf_*`
+source fact IDs. Python only performs RDF analysis/export and does not select
+recommendations. Full semantics and review questions are in
+`INTEREST_INFERENCE_DESIGN.md` and `INTEREST_INFERENCE_REVIEW.md`.
+
+## Phase 1 active-clarification rules
+
+Phase 1 uses `logic/clarification_rules.pl`. Response-model assumptions are
+declared separately in `logic/clarification_hypotheses.pl` and appear in each
+relevant proof.
+
+| Rule ID | Layer | Meaning |
+|---|---|---|
+| `r_explicit_interest_hypothesis` | Visitor evidence | Preserve an allowlisted explicitly expressed interest as provisional. |
+| `r_like_suggests_attribute_hypothesis` | Assumption | Liking may suggest reviewed hypotheses supported by that artwork's facts. |
+| `r_familiarity_suggests_attribute_hypothesis` | Assumption | Familiarity may weakly suggest such hypotheses. |
+| `r_greater_recorded_support_predicts_preference` | Response assumption | Predict the option with recorded positive support when the other has none. |
+| `r_equal_recorded_support_is_undecidable` | Deduction | Equal support gives `unknown`, not a forced choice. |
+| `r_opposing_predictions_discriminate` | Deduction | Two determinate opposing predictions distinguish two hypotheses. |
+| `r_finite_state_filtered_pair` | Guidance | Exclude known, viewed, rejected, and previously asked artworks. |
+| `r_select_max_discrimination_then_balance` | Guidance | Prefer more distinctions, then a balanced split, then stable IDs. |
+| `r_response_contradicts_prediction` | State update | A determinate opposite response removes a provisional hypothesis. |
+| `r_recommend_from_remaining_hypotheses` | Secondary demo | Rank unseen artworks by remaining positive hypothesis support. |
+
+No-support-in-snapshot is used only as one side of the explicitly bounded
+response comparison. It must never be rendered as proof that an artwork lacks
+an attribute. `neither` and `unsure` do not eliminate hypotheses, and replacing
+a response recomputes all deductions in a fresh process.
+

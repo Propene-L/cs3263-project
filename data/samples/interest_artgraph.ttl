@@ -1,0 +1,28 @@
+@prefix ag: <https://www.gennarovessio.com/artgraph-schema#> .
+@prefix r: <https://www.gennarovessio.com/artgraph-resources#> .
+
+# Synthetic engineering fixture. These are not genuine ArtGraph records.
+r:9200001 a ag:Artwork ; ag:title "Synthetic Music One" ;
+  ag:createdBy r:9200101 ; ag:about r:9200201, r:9200202 ;
+  ag:hasStyle r:9200301 ; ag:hasGenre r:9200401 ; ag:madeOf r:9200501 .
+r:9200002 a ag:Artwork ; ag:title "Synthetic Music Two" ;
+  ag:createdBy r:9200102 ; ag:about r:9200201, r:9200202 ;
+  ag:hasStyle r:9200301 ; ag:hasGenre r:9200401 ; ag:madeOf r:9200501 .
+r:9200003 a ag:Artwork ; ag:title "Synthetic Music Three" ;
+  ag:createdBy r:9200103 ; ag:about r:9200201 ;
+  ag:hasStyle r:9200302 ; ag:hasGenre r:9200402 ; ag:madeOf r:9200502 .
+
+r:9200101 a ag:Artist ; ag:name "Synthetic Artist One" ; ag:belongsToMovement r:9200601 .
+r:9200102 a ag:Artist ; ag:name "Synthetic Artist Two" ; ag:belongsToMovement r:9200601 .
+r:9200103 a ag:Artist ; ag:name "Synthetic Artist Three" ; ag:belongsToMovement r:9200602 .
+r:9200201 a ag:Tag ; ag:name "Synthetic Instrument" .
+r:9200202 a ag:Tag ; ag:name "Synthetic Strings" .
+r:9200301 a ag:Style ; ag:name "Synthetic Style One" .
+r:9200302 a ag:Style ; ag:name "Synthetic Style Two" .
+r:9200401 a ag:Genre ; ag:name "Synthetic Genre One" .
+r:9200402 a ag:Genre ; ag:name "Synthetic Genre Two" .
+r:9200501 a ag:Media ; ag:name "Synthetic Medium One" .
+r:9200502 a ag:Media ; ag:name "Synthetic Medium Two" .
+r:9200601 a ag:Movement ; ag:name "Synthetic Movement One" .
+r:9200602 a ag:Movement ; ag:name "Synthetic Movement Two" .
+

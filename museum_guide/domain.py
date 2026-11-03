@@ -14,6 +14,11 @@ class TopicType(str, Enum):
     STYLE = "style"
     GENRE = "genre"
     MEDIUM = "medium"
+    SUBJECT = "subject"
+    PERIOD = "period"
+    SERIES = "series"
+    TRAINING = "training"
+    TAG = "tag"
 
 
 @dataclass(frozen=True, slots=True)

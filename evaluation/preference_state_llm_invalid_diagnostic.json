@@ -1,0 +1,390 @@
+{
+  "version": "corrected_v2_llm_invalid_diagnostic",
+  "created_at_utc": "2026-10-29T06:58:25.076168+00:00",
+  "api_calls_made": 0,
+  "input_invalid_scenario_count": 25,
+  "offline_recoverable_count": 4,
+  "rerun_required_count": 21,
+  "policy": {
+    "allowed_repairs": [
+      "strip an exact ```json ... ``` wrapper",
+      "ignore only extra closing braces after one complete JSON object",
+      "map a collision-free slug rendering of an official label",
+      "map conjunction to all_of only when exactly two components are present"
+    ],
+    "forbidden_repairs": [
+      "truncate or split component lists",
+      "invent or remove explanations",
+      "choose between contradictory duplicate statuses",
+      "map non-vocabulary concepts by semantic similarity",
+      "change actions, recommendations, or primary explanations"
+    ]
+  },
+  "offline_recoverable_scenario_ids": [
+    "conjunction_cubist_portrait",
+    "missing_water_hidden",
+    "preference_interaction_018",
+    "preference_interaction_020"
+  ],
+  "rerun_required_scenario_ids": [
+    "ambiguous_cellist",
+    "atomic_music",
+    "atomic_nature",
+    "contradictory_music",
+    "correction_interaction_block",
+    "correction_music",
+    "flagship_interaction_albert_kollmann",
+    "independent_nature_water",
+    "independent_style_portrait",
+    "noisy_nature",
+    "noisy_water",
+    "preference_atomic_006",
+    "preference_atomic_007",
+    "preference_atomic_008",
+    "preference_atomic_009",
+    "preference_atomic_010",
+    "preference_atomic_012",
+    "preference_atomic_013",
+    "preference_interaction_016",
+    "preference_interaction_019",
+    "preference_interaction_023"
+  ],
+  "rows": [
+    {
+      "scenario_id": "flagship_interaction_albert_kollmann",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "ValueError: Invalid explanation type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [
+        {
+          "path": "$.inferred_preferences[2].kind",
+          "input": "conjunction",
+          "output": "all_of",
+          "rule": "unambiguous_schema_enum_alias"
+        }
+      ],
+      "post_repair_error": "ValueError: Primary explanation must be an active returned preference",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_006",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "RuntimeError: OpenAI request failed after retries",
+      "classification": "rerun_required",
+      "cause": "provider_failure_no_response",
+      "automatic_repairs": [],
+      "post_repair_error": null,
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_007",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "RuntimeError: OpenAI request failed after retries",
+      "classification": "rerun_required",
+      "cause": "provider_failure_no_response",
+      "automatic_repairs": [],
+      "post_repair_error": null,
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_008",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_009",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "ValueError: Duplicate explanation",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Duplicate explanation",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_010",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_012",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "JSONDecodeError: Expecting ',' delimiter: line 189 column 31 (char 5110)",
+      "classification": "rerun_required",
+      "cause": "malformed_json_not_conservatively_recoverable",
+      "automatic_repairs": [],
+      "post_repair_error": "JSONDecodeError: Expecting ',' delimiter: line 189 column 31 (char 5110)",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_atomic_013",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "contrastive_atomic",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_interaction_016",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "ValueError: Invalid preference status",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid preference status",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_interaction_018",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "ValueError: Invalid explanation type",
+      "classification": "offline_recoverable",
+      "cause": "conservative_syntax_or_schema_alias",
+      "automatic_repairs": [
+        {
+          "path": "$.inferred_preferences[2].kind",
+          "input": "conjunction",
+          "output": "all_of",
+          "rule": "unambiguous_schema_enum_alias"
+        },
+        {
+          "path": "$.question_explanation.kind",
+          "input": "conjunction",
+          "output": "all_of",
+          "rule": "unambiguous_schema_enum_alias"
+        }
+      ],
+      "post_repair_error": null,
+      "recommended_action": "rescore_saved_response_without_API"
+    },
+    {
+      "scenario_id": "preference_interaction_019",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "JSONDecodeError: Expecting ',' delimiter: line 43 column 1461 (char 2255)",
+      "classification": "rerun_required",
+      "cause": "malformed_json_not_conservatively_recoverable",
+      "automatic_repairs": [],
+      "post_repair_error": "JSONDecodeError: Expecting ',' delimiter: line 43 column 1461 (char 2255)",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "preference_interaction_020",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "classification": "offline_recoverable",
+      "cause": "conservative_syntax_or_schema_alias",
+      "automatic_repairs": [
+        "strip_exact_json_markdown_fence"
+      ],
+      "post_repair_error": null,
+      "recommended_action": "rescore_saved_response_without_API"
+    },
+    {
+      "scenario_id": "preference_interaction_023",
+      "benchmark_kind": "pattern_matched_regression",
+      "category": "compositional_interaction",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "atomic_music",
+      "benchmark_kind": "controlled_robustness",
+      "category": "true_atomic",
+      "original_error": "RuntimeError: OpenAI request failed after retries",
+      "classification": "rerun_required",
+      "cause": "provider_failure_no_response",
+      "automatic_repairs": [],
+      "post_repair_error": null,
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "atomic_nature",
+      "benchmark_kind": "controlled_robustness",
+      "category": "true_atomic",
+      "original_error": "ValueError: Invalid component ID or duplicate",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component ID or duplicate",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "independent_nature_water",
+      "benchmark_kind": "controlled_robustness",
+      "category": "multiple_independent",
+      "original_error": "ValueError: Primary explanation must be an active returned preference",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Primary explanation must be an active returned preference",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "independent_style_portrait",
+      "benchmark_kind": "controlled_robustness",
+      "category": "multiple_independent",
+      "original_error": "ValueError: Invalid component ID or duplicate",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component ID or duplicate",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "conjunction_cubist_portrait",
+      "benchmark_kind": "controlled_robustness",
+      "category": "true_conjunction",
+      "original_error": "JSONDecodeError: Extra data: line 23 column 1 (char 1797)",
+      "classification": "offline_recoverable",
+      "cause": "conservative_syntax_or_schema_alias",
+      "automatic_repairs": [
+        "ignore_only_extra_closing_brace_after_complete_object"
+      ],
+      "post_repair_error": null,
+      "recommended_action": "rescore_saved_response_without_API"
+    },
+    {
+      "scenario_id": "noisy_nature",
+      "benchmark_kind": "controlled_robustness",
+      "category": "noisy",
+      "original_error": "ValueError: Invalid component ID or duplicate",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component ID or duplicate",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "noisy_water",
+      "benchmark_kind": "controlled_robustness",
+      "category": "noisy",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "contradictory_music",
+      "benchmark_kind": "controlled_robustness",
+      "category": "contradictory",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "missing_water_hidden",
+      "benchmark_kind": "controlled_robustness",
+      "category": "missing_evidence",
+      "original_error": "ValueError: Invalid component ID or duplicate",
+      "classification": "offline_recoverable",
+      "cause": "conservative_syntax_or_schema_alias",
+      "automatic_repairs": [
+        {
+          "path": "$.inferred_preferences[0].components[0]",
+          "input": "impressionist_style",
+          "output": "h_impressionist_style",
+          "rule": "unique_official_label_slug_alias"
+        },
+        {
+          "path": "$.inferred_preferences[1].components[0]",
+          "input": "water_transport_subjects",
+          "output": "h_water_subject",
+          "rule": "unique_official_label_slug_alias"
+        },
+        {
+          "path": "$.inferred_preferences[2].components[0]",
+          "input": "impressionist_style",
+          "output": "h_impressionist_style",
+          "rule": "unique_official_label_slug_alias"
+        },
+        {
+          "path": "$.inferred_preferences[2].components[1]",
+          "input": "water_transport_subjects",
+          "output": "h_water_subject",
+          "rule": "unique_official_label_slug_alias"
+        },
+        {
+          "path": "$.question_explanation.components[0]",
+          "input": "impressionist_style",
+          "output": "h_impressionist_style",
+          "rule": "unique_official_label_slug_alias"
+        },
+        {
+          "path": "$.question_explanation.components[1]",
+          "input": "water_transport_subjects",
+          "output": "h_water_subject",
+          "rule": "unique_official_label_slug_alias"
+        }
+      ],
+      "post_repair_error": null,
+      "recommended_action": "rescore_saved_response_without_API"
+    },
+    {
+      "scenario_id": "ambiguous_cellist",
+      "benchmark_kind": "controlled_robustness",
+      "category": "ambiguous",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "correction_music",
+      "benchmark_kind": "controlled_robustness",
+      "category": "explicit_correction",
+      "original_error": "ValueError: Invalid output fields",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid output fields",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    },
+    {
+      "scenario_id": "correction_interaction_block",
+      "benchmark_kind": "controlled_robustness",
+      "category": "explicit_correction",
+      "original_error": "ValueError: Invalid component count or type",
+      "classification": "rerun_required",
+      "cause": "semantic_or_structural_contract_failure",
+      "automatic_repairs": [],
+      "post_repair_error": "ValueError: Invalid component count or type",
+      "recommended_action": "one_targeted_API_rerun_with_stricter_ID_only_prompt_and_checkpoint"
+    }
+  ]
+}

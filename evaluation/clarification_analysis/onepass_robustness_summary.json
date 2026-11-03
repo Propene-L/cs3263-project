@@ -1,0 +1,112 @@
+{
+  "source": "onepass",
+  "benchmark": "robustness",
+  "scenario_count": 32,
+  "methods": {
+    "compositional_prolog": {
+      "scenario_count": 32,
+      "valid_outputs": 32,
+      "invalid_outputs": 0,
+      "expected_clarification_count": 9,
+      "tp": 9,
+      "fp": 0,
+      "fn_valid": 0,
+      "fn_invalid": 0,
+      "tn_valid": 23,
+      "clarification_precision": 1.0,
+      "clarification_recall_including_invalid_as_missed": 1.0,
+      "clarification_f1": 1.0,
+      "clarification_questions_asked": 9,
+      "question_grounding_rate_given_asked": 1.0,
+      "question_contextual_relation_rate_given_asked": 1.0,
+      "grounded_and_unsettled_rate_given_asked": 1.0,
+      "effective_grounded_clarification_recall": 1.0,
+      "ambiguous_multi_world_questions_asked": 4,
+      "questions_splitting_multi_world_profiles": 3,
+      "mean_oracle_world_information_gain_bits": 0.75
+    },
+    "direct_llm_state_reasoning": {
+      "scenario_count": 32,
+      "valid_outputs": 20,
+      "invalid_outputs": 12,
+      "expected_clarification_count": 9,
+      "tp": 1,
+      "fp": 4,
+      "fn_valid": 5,
+      "fn_invalid": 3,
+      "tn_valid": 10,
+      "clarification_precision": 0.2,
+      "clarification_recall_including_invalid_as_missed": 0.111111,
+      "clarification_f1": 0.142857,
+      "clarification_questions_asked": 5,
+      "question_grounding_rate_given_asked": 1.0,
+      "question_contextual_relation_rate_given_asked": 1.0,
+      "grounded_and_unsettled_rate_given_asked": 1.0,
+      "effective_grounded_clarification_recall": 0.111111,
+      "ambiguous_multi_world_questions_asked": 0,
+      "questions_splitting_multi_world_profiles": 0,
+      "mean_oracle_world_information_gain_bits": null
+    }
+  },
+  "definitions": {
+    "positive_label": "Authored expected_action_type == clarify (NOT independent human judgment)",
+    "invalid_handling": "Invalid LLM output counts as missed clarification when clarify was expected, never as true negative",
+    "grounding": "Positive: liked artwork records every queried component or exact explicit interest. Contextual relation additionally counts observed dislikes (weaker). Settled exact interests are not unresolved",
+    "world_information_gain": "Binary yes/no partition entropy ONLY for the few scenarios with multiple authored latent worlds; no entropy metric for one-world cases",
+    "ranking": "Saved model-derived ranking is NOT necessarily the LLM's chosen artwork"
+  },
+  "counterfactual_shared_prolog_updater": {
+    "compositional_prolog": {
+      "questioned_scenarios": 9,
+      "questioned_scenarios_expected_clarify": 9,
+      "questioned_scenarios_not_expected_clarify": 0,
+      "mean_delta_among_asked_scenarios": {
+        "primary_accuracy_delta": 0.611111,
+        "explanation_precision_delta": 0.222222,
+        "explanation_recall_delta": 0.333333,
+        "top1_relevance_delta": 0.388889,
+        "top1_relevance_after": 0.888889
+      },
+      "mean_delta_among_all_expected_clarify_scenarios_missed_as_zero": {
+        "primary_accuracy_delta": 0.611111,
+        "explanation_precision_delta": 0.222222,
+        "explanation_recall_delta": 0.333333,
+        "top1_relevance_delta": 0.388889
+      },
+      "post_selected_recommendation_relevance_conditional_on_recommend": 1.0,
+      "post_recommendations_made_across_worlds": 7
+    },
+    "direct_llm_state_reasoning": {
+      "questioned_scenarios": 5,
+      "questioned_scenarios_expected_clarify": 1,
+      "questioned_scenarios_not_expected_clarify": 4,
+      "mean_delta_among_asked_scenarios": {
+        "primary_accuracy_delta": 0.4,
+        "explanation_precision_delta": 0.0,
+        "explanation_recall_delta": 0.0,
+        "top1_relevance_delta": 0.0,
+        "top1_relevance_after": 0.8
+      },
+      "mean_delta_among_all_expected_clarify_scenarios_missed_as_zero": {
+        "primary_accuracy_delta": 0.111111,
+        "explanation_precision_delta": 0.0,
+        "explanation_recall_delta": 0.0,
+        "top1_relevance_delta": 0.0
+      },
+      "post_selected_recommendation_relevance_conditional_on_recommend": 1.0,
+      "post_recommendations_made_across_worlds": 3
+    },
+    "matched_both_asked": {
+      "scenario_count": 1,
+      "compositional_prolog": {
+        "mean_primary_accuracy_delta": 1.0,
+        "mean_top1_relevance_delta": 0.0
+      },
+      "direct_llm_state_reasoning": {
+        "mean_primary_accuracy_delta": 1.0,
+        "mean_top1_relevance_delta": 0.0
+      }
+    }
+  },
+  "counterfactual_caveat": "Both systems' question choices are evaluated with the SAME Prolog updater and an exact membership oracle. This does not evaluate real human replies or LLM follow-up reasoning. Per-method deltas conditional on asking are selection-biased; inspect the both-asked paired subset and ask-rate separately."
+}

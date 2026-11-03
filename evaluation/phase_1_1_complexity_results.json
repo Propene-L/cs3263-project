@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "notice": "Wall-clock measurements on the local Phase 1.1 environment; not cross-machine benchmarks.",
+  "rows": [
+    {
+      "eligible_artwork_count": 10,
+      "unordered_pair_count": 45,
+      "active_hypothesis_count": 6,
+      "exact_python_mean_ms": 0.124,
+      "exact_python_median_ms": 0.118,
+      "compositional_prolog_mean_ms": 391.509,
+      "compositional_prolog_median_ms": 382.217,
+      "repetitions": {
+        "exact_python": 5,
+        "compositional_prolog": 3
+      }
+    },
+    {
+      "eligible_artwork_count": 20,
+      "unordered_pair_count": 190,
+      "active_hypothesis_count": 6,
+      "exact_python_mean_ms": 0.714,
+      "exact_python_median_ms": 0.722,
+      "compositional_prolog_mean_ms": 392.493,
+      "compositional_prolog_median_ms": 391.476,
+      "repetitions": {
+        "exact_python": 5,
+        "compositional_prolog": 3
+      }
+    },
+    {
+      "eligible_artwork_count": 40,
+      "unordered_pair_count": 780,
+      "active_hypothesis_count": 6,
+      "exact_python_mean_ms": 3.553,
+      "exact_python_median_ms": 3.601,
+      "compositional_prolog_mean_ms": 479.324,
+      "compositional_prolog_median_ms": 482.61,
+      "repetitions": {
+        "exact_python": 5,
+        "compositional_prolog": 3
+      }
+    },
+    {
+      "eligible_artwork_count": 80,
+      "unordered_pair_count": 3160,
+      "active_hypothesis_count": 6,
+      "exact_python_mean_ms": 12.34,
+      "exact_python_median_ms": 12.56,
+      "compositional_prolog_mean_ms": 829.325,
+      "compositional_prolog_median_ms": 812.488,
+      "repetitions": {
+        "exact_python": 5,
+        "compositional_prolog": 3
+      }
+    },
+    {
+      "eligible_artwork_count": 112,
+      "unordered_pair_count": 6216,
+      "active_hypothesis_count": 6,
+      "exact_python_mean_ms": 55.54,
+      "exact_python_median_ms": 55.638,
+      "compositional_prolog_mean_ms": 1226.075,
+      "compositional_prolog_median_ms": 1195.735,
+      "repetitions": {
+        "exact_python": 5,
+        "compositional_prolog": 3
+      }
+    }
+  ]
+}

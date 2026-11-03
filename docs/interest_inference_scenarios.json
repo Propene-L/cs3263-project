@@ -1,0 +1,1002 @@
+{
+  "schema_version": "0.75",
+  "scenarios": [
+    {
+      "scenario_id": "single_known_primary",
+      "semantics": "familiarity supplies weak, assumption-labeled interest evidence",
+      "known_artwork_ids": [
+        "ag_10472"
+      ],
+      "liked_artwork_ids": [],
+      "disliked_artwork_ids": [],
+      "viewed_artwork_ids": [
+        "ag_10472"
+      ],
+      "rejected_artwork_ids": [],
+      "overlap_profile": {
+        "seed_ids": [
+          "ag_10472"
+        ],
+        "union_attribute_count": 14,
+        "intersection_attribute_count": 14,
+        "repeated_attribute_count": 0,
+        "candidate_counts_at_least": {
+          "1": 187,
+          "2": 163,
+          "3": 122,
+          "4": 78,
+          "5": 43
+        },
+        "cross_artist_candidate_counts_at_least": {
+          "1": 187,
+          "2": 163,
+          "3": 122,
+          "4": 78,
+          "5": 43
+        },
+        "top_candidates": [
+          {
+            "id": "ag_37634",
+            "label": "The Cellist (Serevitsch)",
+            "artist_id": "ag_247",
+            "shared_union_count": 12,
+            "shared_intersection_count": 12,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_70351",
+            "label": "The Cello Player",
+            "artist_id": "ag_871",
+            "shared_union_count": 12,
+            "shared_intersection_count": 12,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)",
+            "artist_id": "ag_2024",
+            "shared_union_count": 11,
+            "shared_intersection_count": 11,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_20685",
+            "label": "Portrait of a Musician M. Vielgorsky",
+            "artist_id": "ag_2080",
+            "shared_union_count": 11,
+            "shared_intersection_count": 11,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_103731",
+            "label": "A Young Violoncellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_28539",
+            "label": "Violin",
+            "artist_id": "ag_1552",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_41995",
+            "label": "Carl Friedrich Abel",
+            "artist_id": "ag_1145",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_118545",
+            "label": "Musician",
+            "artist_id": "ag_2159",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_53574",
+            "label": "Woman with a Double Bass",
+            "artist_id": "ag_2536",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_70215",
+            "label": "Music",
+            "artist_id": "ag_871",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_116336",
+            "label": "The Violinist",
+            "artist_id": "ag_1426",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_17029",
+            "label": "The Monk",
+            "artist_id": "ag_1305",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_25455",
+            "label": "A little of the bandit&#39;s soul",
+            "artist_id": "ag_2531",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_91296",
+            "label": "Madame Suggia",
+            "artist_id": "ag_1033",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_95106",
+            "label": "Violinist",
+            "artist_id": "ag_1727",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_103808",
+            "label": "The Cellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_104541",
+            "label": "The Cellist",
+            "artist_id": "ag_2473",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_55284",
+            "label": "Woman Playing a Viola de Gamba",
+            "artist_id": "ag_2198",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_62256",
+            "label": "Johannes Wolff",
+            "artist_id": "ag_2144",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_8966",
+            "label": "The lute player",
+            "artist_id": "ag_1568",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "two_known_repeated_evidence",
+      "semantics": "two familiar artworks can repeat an attribute signal",
+      "known_artwork_ids": [
+        "ag_10472",
+        "ag_37634"
+      ],
+      "liked_artwork_ids": [],
+      "disliked_artwork_ids": [],
+      "viewed_artwork_ids": [
+        "ag_10472",
+        "ag_37634"
+      ],
+      "rejected_artwork_ids": [],
+      "overlap_profile": {
+        "seed_ids": [
+          "ag_10472",
+          "ag_37634"
+        ],
+        "union_attribute_count": 14,
+        "intersection_attribute_count": 12,
+        "repeated_attribute_count": 12,
+        "candidate_counts_at_least": {
+          "1": 186,
+          "2": 162,
+          "3": 121,
+          "4": 77,
+          "5": 42
+        },
+        "cross_artist_candidate_counts_at_least": {
+          "1": 186,
+          "2": 162,
+          "3": 121,
+          "4": 77,
+          "5": 42
+        },
+        "top_candidates": [
+          {
+            "id": "ag_70351",
+            "label": "The Cello Player",
+            "artist_id": "ag_871",
+            "shared_union_count": 12,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)",
+            "artist_id": "ag_2024",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_20685",
+            "label": "Portrait of a Musician M. Vielgorsky",
+            "artist_id": "ag_2080",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_41995",
+            "label": "Carl Friedrich Abel",
+            "artist_id": "ag_1145",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 9
+          },
+          {
+            "id": "ag_103731",
+            "label": "A Young Violoncellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_28539",
+            "label": "Violin",
+            "artist_id": "ag_1552",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_70215",
+            "label": "Music",
+            "artist_id": "ag_871",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_118545",
+            "label": "Musician",
+            "artist_id": "ag_2159",
+            "shared_union_count": 8,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_53574",
+            "label": "Woman with a Double Bass",
+            "artist_id": "ag_2536",
+            "shared_union_count": 8,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_116336",
+            "label": "The Violinist",
+            "artist_id": "ag_1426",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_17029",
+            "label": "The Monk",
+            "artist_id": "ag_1305",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_91296",
+            "label": "Madame Suggia",
+            "artist_id": "ag_1033",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_25455",
+            "label": "A little of the bandit&#39;s soul",
+            "artist_id": "ag_2531",
+            "shared_union_count": 7,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_95106",
+            "label": "Violinist",
+            "artist_id": "ag_1727",
+            "shared_union_count": 7,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_103808",
+            "label": "The Cellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_55284",
+            "label": "Woman Playing a Viola de Gamba",
+            "artist_id": "ag_2198",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_62256",
+            "label": "Johannes Wolff",
+            "artist_id": "ag_2144",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_8966",
+            "label": "The lute player",
+            "artist_id": "ag_1568",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_104541",
+            "label": "The Cellist",
+            "artist_id": "ag_2473",
+            "shared_union_count": 6,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_108721",
+            "label": "Doctor Joseph Joachim, Violinist, Conductor, Composer and Teacher",
+            "artist_id": "ag_1307",
+            "shared_union_count": 5,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "explicit_positive",
+      "semantics": "explicit liking is distinct from familiarity and yields strong signals",
+      "known_artwork_ids": [],
+      "liked_artwork_ids": [
+        "ag_10472"
+      ],
+      "disliked_artwork_ids": [],
+      "viewed_artwork_ids": [
+        "ag_10472"
+      ],
+      "rejected_artwork_ids": [],
+      "overlap_profile": {
+        "seed_ids": [
+          "ag_10472"
+        ],
+        "union_attribute_count": 14,
+        "intersection_attribute_count": 14,
+        "repeated_attribute_count": 0,
+        "candidate_counts_at_least": {
+          "1": 187,
+          "2": 163,
+          "3": 122,
+          "4": 78,
+          "5": 43
+        },
+        "cross_artist_candidate_counts_at_least": {
+          "1": 187,
+          "2": 163,
+          "3": 122,
+          "4": 78,
+          "5": 43
+        },
+        "top_candidates": [
+          {
+            "id": "ag_37634",
+            "label": "The Cellist (Serevitsch)",
+            "artist_id": "ag_247",
+            "shared_union_count": 12,
+            "shared_intersection_count": 12,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_70351",
+            "label": "The Cello Player",
+            "artist_id": "ag_871",
+            "shared_union_count": 12,
+            "shared_intersection_count": 12,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)",
+            "artist_id": "ag_2024",
+            "shared_union_count": 11,
+            "shared_intersection_count": 11,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_20685",
+            "label": "Portrait of a Musician M. Vielgorsky",
+            "artist_id": "ag_2080",
+            "shared_union_count": 11,
+            "shared_intersection_count": 11,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_103731",
+            "label": "A Young Violoncellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_28539",
+            "label": "Violin",
+            "artist_id": "ag_1552",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_41995",
+            "label": "Carl Friedrich Abel",
+            "artist_id": "ag_1145",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_118545",
+            "label": "Musician",
+            "artist_id": "ag_2159",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_53574",
+            "label": "Woman with a Double Bass",
+            "artist_id": "ag_2536",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_70215",
+            "label": "Music",
+            "artist_id": "ag_871",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_116336",
+            "label": "The Violinist",
+            "artist_id": "ag_1426",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_17029",
+            "label": "The Monk",
+            "artist_id": "ag_1305",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_25455",
+            "label": "A little of the bandit&#39;s soul",
+            "artist_id": "ag_2531",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_91296",
+            "label": "Madame Suggia",
+            "artist_id": "ag_1033",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_95106",
+            "label": "Violinist",
+            "artist_id": "ag_1727",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_103808",
+            "label": "The Cellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_104541",
+            "label": "The Cellist",
+            "artist_id": "ag_2473",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_55284",
+            "label": "Woman Playing a Viola de Gamba",
+            "artist_id": "ag_2198",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_62256",
+            "label": "Johannes Wolff",
+            "artist_id": "ag_2144",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          },
+          {
+            "id": "ag_8966",
+            "label": "The lute player",
+            "artist_id": "ag_1568",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "positive_and_negative",
+      "semantics": "negative attribute evidence blocks candidates with a matching negative signal",
+      "known_artwork_ids": [],
+      "liked_artwork_ids": [
+        "ag_10472"
+      ],
+      "disliked_artwork_ids": [
+        "ag_70351"
+      ],
+      "viewed_artwork_ids": [
+        "ag_10472",
+        "ag_70351"
+      ],
+      "rejected_artwork_ids": [],
+      "overlap_profile": {
+        "seed_ids": [
+          "ag_10472",
+          "ag_70351"
+        ],
+        "union_attribute_count": 17,
+        "intersection_attribute_count": 12,
+        "repeated_attribute_count": 12,
+        "candidate_counts_at_least": {
+          "1": 186,
+          "2": 176,
+          "3": 142,
+          "4": 103,
+          "5": 61
+        },
+        "cross_artist_candidate_counts_at_least": {
+          "1": 184,
+          "2": 174,
+          "3": 140,
+          "4": 101,
+          "5": 59
+        },
+        "top_candidates": [
+          {
+            "id": "ag_37634",
+            "label": "The Cellist (Serevitsch)",
+            "artist_id": "ag_247",
+            "shared_union_count": 12,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)",
+            "artist_id": "ag_2024",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_20685",
+            "label": "Portrait of a Musician M. Vielgorsky",
+            "artist_id": "ag_2080",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_28539",
+            "label": "Violin",
+            "artist_id": "ag_1552",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 9
+          },
+          {
+            "id": "ag_70215",
+            "label": "Music",
+            "artist_id": "ag_871",
+            "shared_union_count": 11,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_103731",
+            "label": "A Young Violoncellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_41995",
+            "label": "Carl Friedrich Abel",
+            "artist_id": "ag_1145",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_53574",
+            "label": "Woman with a Double Bass",
+            "artist_id": "ag_2536",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_17029",
+            "label": "The Monk",
+            "artist_id": "ag_1305",
+            "shared_union_count": 10,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_116336",
+            "label": "The Violinist",
+            "artist_id": "ag_1426",
+            "shared_union_count": 9,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_118545",
+            "label": "Musician",
+            "artist_id": "ag_2159",
+            "shared_union_count": 9,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_91296",
+            "label": "Madame Suggia",
+            "artist_id": "ag_1033",
+            "shared_union_count": 8,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_25455",
+            "label": "A little of the bandit&#39;s soul",
+            "artist_id": "ag_2531",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_95106",
+            "label": "Violinist",
+            "artist_id": "ag_1727",
+            "shared_union_count": 8,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_103808",
+            "label": "The Cellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 7,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_38097",
+            "label": "Solitary Guitarist",
+            "artist_id": "ag_1787",
+            "shared_union_count": 7,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_62256",
+            "label": "Johannes Wolff",
+            "artist_id": "ag_2144",
+            "shared_union_count": 7,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_104541",
+            "label": "The Cellist",
+            "artist_id": "ag_2473",
+            "shared_union_count": 6,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_55284",
+            "label": "Woman Playing a Viola de Gamba",
+            "artist_id": "ag_2198",
+            "shared_union_count": 6,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_82182",
+            "label": "The Music Lesson",
+            "artist_id": "ag_1132",
+            "shared_union_count": 6,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "rejected_candidate_filter",
+      "semantics": "a previously rejected candidate is excluded without changing museum facts",
+      "known_artwork_ids": [
+        "ag_10472",
+        "ag_37634"
+      ],
+      "liked_artwork_ids": [],
+      "disliked_artwork_ids": [],
+      "viewed_artwork_ids": [
+        "ag_10472",
+        "ag_37634"
+      ],
+      "rejected_artwork_ids": [
+        "ag_70351"
+      ],
+      "overlap_profile": {
+        "seed_ids": [
+          "ag_10472",
+          "ag_37634"
+        ],
+        "union_attribute_count": 14,
+        "intersection_attribute_count": 12,
+        "repeated_attribute_count": 12,
+        "candidate_counts_at_least": {
+          "1": 186,
+          "2": 162,
+          "3": 121,
+          "4": 77,
+          "5": 42
+        },
+        "cross_artist_candidate_counts_at_least": {
+          "1": 186,
+          "2": 162,
+          "3": 121,
+          "4": 77,
+          "5": 42
+        },
+        "top_candidates": [
+          {
+            "id": "ag_70351",
+            "label": "The Cello Player",
+            "artist_id": "ag_871",
+            "shared_union_count": 12,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_11268",
+            "label": "The Cellist (Portrait of Upaupa Scheklud)",
+            "artist_id": "ag_2024",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_20685",
+            "label": "Portrait of a Musician M. Vielgorsky",
+            "artist_id": "ag_2080",
+            "shared_union_count": 11,
+            "shared_intersection_count": 10,
+            "shared_repeated_count": 10
+          },
+          {
+            "id": "ag_41995",
+            "label": "Carl Friedrich Abel",
+            "artist_id": "ag_1145",
+            "shared_union_count": 9,
+            "shared_intersection_count": 9,
+            "shared_repeated_count": 9
+          },
+          {
+            "id": "ag_103731",
+            "label": "A Young Violoncellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_28539",
+            "label": "Violin",
+            "artist_id": "ag_1552",
+            "shared_union_count": 9,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_70215",
+            "label": "Music",
+            "artist_id": "ag_871",
+            "shared_union_count": 8,
+            "shared_intersection_count": 8,
+            "shared_repeated_count": 8
+          },
+          {
+            "id": "ag_118545",
+            "label": "Musician",
+            "artist_id": "ag_2159",
+            "shared_union_count": 8,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_53574",
+            "label": "Woman with a Double Bass",
+            "artist_id": "ag_2536",
+            "shared_union_count": 8,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_116336",
+            "label": "The Violinist",
+            "artist_id": "ag_1426",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_17029",
+            "label": "The Monk",
+            "artist_id": "ag_1305",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_91296",
+            "label": "Madame Suggia",
+            "artist_id": "ag_1033",
+            "shared_union_count": 7,
+            "shared_intersection_count": 7,
+            "shared_repeated_count": 7
+          },
+          {
+            "id": "ag_25455",
+            "label": "A little of the bandit&#39;s soul",
+            "artist_id": "ag_2531",
+            "shared_union_count": 7,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_95106",
+            "label": "Violinist",
+            "artist_id": "ag_1727",
+            "shared_union_count": 7,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_103808",
+            "label": "The Cellist",
+            "artist_id": "ag_1660",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_55284",
+            "label": "Woman Playing a Viola de Gamba",
+            "artist_id": "ag_2198",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_62256",
+            "label": "Johannes Wolff",
+            "artist_id": "ag_2144",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_8966",
+            "label": "The lute player",
+            "artist_id": "ag_1568",
+            "shared_union_count": 6,
+            "shared_intersection_count": 6,
+            "shared_repeated_count": 6
+          },
+          {
+            "id": "ag_104541",
+            "label": "The Cellist",
+            "artist_id": "ag_2473",
+            "shared_union_count": 6,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          },
+          {
+            "id": "ag_108721",
+            "label": "Doctor Joseph Joachim, Violinist, Conductor, Composer and Teacher",
+            "artist_id": "ag_1307",
+            "shared_union_count": 5,
+            "shared_intersection_count": 5,
+            "shared_repeated_count": 5
+          }
+        ]
+      }
+    }
+  ]
+}

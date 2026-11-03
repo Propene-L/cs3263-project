@@ -1,0 +1,1148 @@
+{
+  "schema_version": "1.0",
+  "scenario_count": 20,
+  "simulation_notice": "Controlled responses use the declared recorded-support model; they are not human preference outcomes.",
+  "direct_llm": "not_run_missing_configuration_or_flag",
+  "summary": {
+    "compositional_prolog": {
+      "scenario_count": 20,
+      "question_count": 22,
+      "valid_question_rate": 1.0,
+      "mean_distinguished_pairs_per_question": 1.4545,
+      "resolved_to_one_count": 19,
+      "mean_runtime_ms": 1656.602,
+      "repeated_question_count": 0
+    },
+    "single_rule_prolog": {
+      "scenario_count": 20,
+      "selected_count": 18,
+      "valid_selected_rate": 1.0,
+      "mean_distinguished_pairs": 1.0556,
+      "mean_runtime_ms": 553.555
+    },
+    "raw_attribute_contrast": {
+      "scenario_count": 20,
+      "selected_count": 19,
+      "valid_selected_rate": 0.7368,
+      "mean_distinguished_pairs": 1.1579,
+      "mean_runtime_ms": 13.125
+    },
+    "random_eligible": {
+      "scenario_count": 20,
+      "selected_count": 20,
+      "valid_selected_rate": 0.1,
+      "mean_distinguished_pairs": 0.15,
+      "mean_runtime_ms": 0.252
+    }
+  },
+  "scenarios": [
+    {
+      "scenario_id": "controlled_pair_01",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10472_ag_11014",
+            "option_a": "ag_10472",
+            "option_b": "ag_11014",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1489.082,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 529.808
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 7.62
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_13231",
+        "option_b": "ag_23259",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.307
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_02",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10149_ag_10472",
+            "option_a": "ag_10149",
+            "option_b": "ag_10472",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1516.595,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10149",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 553.46
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10149",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 13.196
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_21981",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.143
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_03",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10472_ag_11706",
+            "option_a": "ag_10472",
+            "option_b": "ag_11706",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1531.309,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11706",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 537.743
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11706",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 11.992
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_11252",
+        "option_b": "ag_8966",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.129
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_04",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10026_ag_10766",
+            "option_a": "ag_10026",
+            "option_b": "ag_10766",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1569.256,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_10766",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 577.091
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 14.103
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10980",
+        "option_b": "ag_12189",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.154
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_05",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10472_ag_10632",
+            "option_a": "ag_10472",
+            "option_b": "ag_10632",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1542.931,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_10632",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 573.91
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10766",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 16.287
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_17149",
+        "option_b": "ag_8609",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.169
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_06",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10472_ag_11846",
+            "option_a": "ag_10472",
+            "option_b": "ag_11846",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1549.243,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11846",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 519.915
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_11846",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 12.086
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_11846",
+        "option_b": "ag_25471",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 1.959
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_07",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_11252_ag_13256",
+            "option_a": "ag_11252",
+            "option_b": "ag_13256",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1566.765,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_11252",
+        "option_b": "ag_13256",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 537.479
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 20.208
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10632",
+        "option_b": "ag_23692",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.124
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_08",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10025_ag_13351",
+            "option_a": "ag_10025",
+            "option_b": "ag_13351",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1474.669,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_13351",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 543.136
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_13351",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 12.251
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_52338",
+        "option_b": "ag_8388",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.1
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_09",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10025_ag_10472",
+            "option_a": "ag_10025",
+            "option_b": "ag_10472",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1569.386,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 571.126
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 12.809
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 0.129
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_10",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10149_ag_11014",
+            "option_a": "ag_10149",
+            "option_b": "ag_11014",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1577.519,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10149",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 624.523
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10149",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 12.622
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_69371",
+        "option_b": "ag_8145",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.134
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_11",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_11014_ag_11706",
+            "option_a": "ag_11014",
+            "option_b": "ag_11706",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1583.247,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_11014",
+        "option_b": "ag_11706",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 570.966
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_11014",
+        "option_b": "ag_11706",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 18.482
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_34659",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.2
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_12",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10026_ag_11014",
+            "option_a": "ag_10026",
+            "option_b": "ag_11014",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1557.473,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 576.37
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 14.092
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10632",
+        "option_b": "ag_8152",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.137
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_13",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10632_ag_11912",
+            "option_a": "ag_10632",
+            "option_b": "ag_11912",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1559.714,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10632",
+        "option_b": "ag_11912",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 547.899
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_11014",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 10.819
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_8145",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.155
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_pair_14",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_11014_ag_11846",
+            "option_a": "ag_11014",
+            "option_b": "ag_11846",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1541.592,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_11014",
+        "option_b": "ag_11846",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 588.548
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_11014",
+        "option_b": "ag_11846",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 13.0
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_28565",
+        "option_b": "ag_8864",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.507
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_multi_15",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10472_ag_15247",
+            "option_a": "ag_10472",
+            "option_b": "ag_15247",
+            "independent_distinction_count": 3,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          },
+          {
+            "question_id": "q_ag_10026_ag_13351",
+            "option_a": "ag_10026",
+            "option_b": "ag_13351",
+            "independent_distinction_count": 2,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 2,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 4,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 2719.839,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10026",
+        "option_b": "ag_10766",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 555.121
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10472",
+        "option_b": "ag_15247",
+        "independent_distinction_count": 3,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 14.179
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_8791",
+        "option_b": "ag_9128",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.102
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_multi_16",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10149_ag_19176",
+            "option_a": "ag_10149",
+            "option_b": "ag_19176",
+            "independent_distinction_count": 4,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          },
+          {
+            "question_id": "q_ag_10025_ag_14588",
+            "option_a": "ag_10025",
+            "option_b": "ag_14588",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 2,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 4,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 2586.59,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_14292",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 579.01
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10149",
+        "option_b": "ag_19176",
+        "independent_distinction_count": 4,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 21.986
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_72995",
+        "option_b": "ag_8278",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.131
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_multi_17",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_11912_ag_23692",
+            "option_a": "ag_11912",
+            "option_b": "ag_23692",
+            "independent_distinction_count": 3,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          },
+          {
+            "question_id": "q_ag_10472_ag_30919",
+            "option_a": "ag_10472",
+            "option_b": "ag_30919",
+            "independent_distinction_count": 2,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          },
+          {
+            "question_id": "q_ag_10632_ag_11706",
+            "option_a": "ag_10632",
+            "option_b": "ag_11706",
+            "independent_distinction_count": 1,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_b"
+          }
+        ],
+        "question_count": 3,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 4,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 2733.107,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10632",
+        "option_b": "ag_11706",
+        "independent_distinction_count": 1,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 593.761
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_11912",
+        "option_b": "ag_23692",
+        "independent_distinction_count": 3,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 14.918
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_12372",
+        "option_b": "ag_52338",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.12
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "controlled_multi_18",
+      "expected_has_question": true,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [
+          {
+            "question_id": "q_ag_10025_ag_10472",
+            "option_a": "ag_10025",
+            "option_b": "ag_10472",
+            "independent_distinction_count": 2,
+            "logically_valid_by_independent_evidence": true,
+            "simulated_response": "prefer_a"
+          }
+        ],
+        "question_count": 1,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 4,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 1687.064,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 2,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 578.5
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 2,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 17.138
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_14531",
+        "option_b": "ag_19167",
+        "independent_distinction_count": 2,
+        "logically_valid_by_independent_evidence": true,
+        "runtime_ms": 0.119
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "ambiguous_single_hypothesis_19",
+      "expected_has_question": false,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [],
+        "question_count": 0,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 1,
+        "remaining_hypothesis_count": 1,
+        "resolved_to_one": true,
+        "runtime_ms": 976.167,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": false,
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 496.604
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": true,
+        "option_a": "ag_10025",
+        "option_b": "ag_10472",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 4.684
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_14292",
+        "option_b": "ag_52338",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.127
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    },
+    {
+      "scenario_id": "missing_support_universe_20",
+      "expected_has_question": false,
+      "compositional_prolog": {
+        "method": "compositional_prolog",
+        "questions": [],
+        "question_count": 0,
+        "repeated_question_count": 0,
+        "initial_hypothesis_count": 2,
+        "remaining_hypothesis_count": 2,
+        "resolved_to_one": false,
+        "runtime_ms": 800.492,
+        "final_status": "no_discriminative_question"
+      },
+      "single_rule_prolog": {
+        "method": "single_rule_prolog",
+        "selected": false,
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 416.124
+      },
+      "raw_attribute_contrast": {
+        "method": "raw_attribute_contrast",
+        "selected": false,
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.018
+      },
+      "random_eligible": {
+        "method": "random_eligible",
+        "selected": true,
+        "option_a": "ag_8142",
+        "option_b": "ag_8148",
+        "independent_distinction_count": 0,
+        "logically_valid_by_independent_evidence": false,
+        "runtime_ms": 0.087
+      },
+      "direct_llm": {
+        "method": "direct_llm",
+        "status": "not_run"
+      }
+    }
+  ]
+}

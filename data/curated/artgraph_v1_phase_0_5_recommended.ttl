@@ -1,0 +1,99 @@
+<https://www.gennarovessio.com/artgraph-resources#1210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artist> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#belongsToMovement> <https://www.gennarovessio.com/artgraph-resources#124645> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#belongsToMovement> <https://www.gennarovessio.com/artgraph-resources#124741> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#belongsToMovement> <https://www.gennarovessio.com/artgraph-resources#124790> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#hasSubject> <https://www.gennarovessio.com/artgraph-resources#125194> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#hasSubject> <https://www.gennarovessio.com/artgraph-resources#126039> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#hasSubject> <https://www.gennarovessio.com/artgraph-resources#126052> .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis" .
+<https://www.gennarovessio.com/artgraph-resources#1210> <https://www.gennarovessio.com/artgraph-schema#relatedToSchool> <https://www.gennarovessio.com/artgraph-resources#124822> .
+<https://www.gennarovessio.com/artgraph-resources#124645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Movement> .
+<https://www.gennarovessio.com/artgraph-resources#124645> <https://www.gennarovessio.com/artgraph-schema#name> "Washington Color School" .
+<https://www.gennarovessio.com/artgraph-resources#124741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Movement> .
+<https://www.gennarovessio.com/artgraph-resources#124741> <https://www.gennarovessio.com/artgraph-schema#name> "Color field" .
+<https://www.gennarovessio.com/artgraph-resources#124790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Movement> .
+<https://www.gennarovessio.com/artgraph-resources#124790> <https://www.gennarovessio.com/artgraph-schema#name> "Post-painterly abstraction" .
+<https://www.gennarovessio.com/artgraph-resources#124822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Training> .
+<https://www.gennarovessio.com/artgraph-resources#124822> <https://www.gennarovessio.com/artgraph-schema#name> "Maryland Institute College of Art" .
+<https://www.gennarovessio.com/artgraph-resources#125194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Subject> .
+<https://www.gennarovessio.com/artgraph-resources#125194> <https://www.gennarovessio.com/artgraph-schema#name> "Jewish American artists" .
+<https://www.gennarovessio.com/artgraph-resources#126039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Subject> .
+<https://www.gennarovessio.com/artgraph-resources#126039> <https://www.gennarovessio.com/artgraph-schema#name> "Artists from Washington, D.C." .
+<https://www.gennarovessio.com/artgraph-resources#126052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Subject> .
+<https://www.gennarovessio.com/artgraph-resources#126052> <https://www.gennarovessio.com/artgraph-schema#name> "Abstract expressionist artists" .
+<https://www.gennarovessio.com/artgraph-resources#132587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Serie> .
+<https://www.gennarovessio.com/artgraph-resources#132587> <https://www.gennarovessio.com/artgraph-schema#name> "Stripe" .
+<https://www.gennarovessio.com/artgraph-resources#132804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Serie> .
+<https://www.gennarovessio.com/artgraph-resources#132804> <https://www.gennarovessio.com/artgraph-schema#name> "Veil" .
+<https://www.gennarovessio.com/artgraph-resources#132972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Serie> .
+<https://www.gennarovessio.com/artgraph-resources#132972> <https://www.gennarovessio.com/artgraph-schema#name> "Unfurled" .
+<https://www.gennarovessio.com/artgraph-resources#133221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Period> .
+<https://www.gennarovessio.com/artgraph-resources#133221> <https://www.gennarovessio.com/artgraph-schema#name> "Mature Works" .
+<https://www.gennarovessio.com/artgraph-resources#2552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Media> .
+<https://www.gennarovessio.com/artgraph-resources#2552> <https://www.gennarovessio.com/artgraph-schema#name> "canvas" .
+<https://www.gennarovessio.com/artgraph-resources#2602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Media> .
+<https://www.gennarovessio.com/artgraph-resources#2602> <https://www.gennarovessio.com/artgraph-schema#name> "magna" .
+<https://www.gennarovessio.com/artgraph-resources#2630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Media> .
+<https://www.gennarovessio.com/artgraph-resources#2630> <https://www.gennarovessio.com/artgraph-schema#name> "acrylic" .
+<https://www.gennarovessio.com/artgraph-resources#41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Style> .
+<https://www.gennarovessio.com/artgraph-resources#41> <https://www.gennarovessio.com/artgraph-schema#name> "color field painting" .
+<https://www.gennarovessio.com/artgraph-resources#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Genre> .
+<https://www.gennarovessio.com/artgraph-resources#6> <https://www.gennarovessio.com/artgraph-schema#name> "abstract" .
+<https://www.gennarovessio.com/artgraph-resources#72463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2602> .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_where-1960.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72463> <https://www.gennarovessio.com/artgraph-schema#title> "Where" .
+<https://www.gennarovessio.com/artgraph-resources#72464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2630> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_alpha-pi-1960.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#partOf> <https://www.gennarovessio.com/artgraph-resources#132972> .
+<https://www.gennarovessio.com/artgraph-resources#72464> <https://www.gennarovessio.com/artgraph-schema#title> "Alpha-Pi" .
+<https://www.gennarovessio.com/artgraph-resources#72465> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_beta-lambda-1961.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#partOf> <https://www.gennarovessio.com/artgraph-resources#132972> .
+<https://www.gennarovessio.com/artgraph-resources#72465> <https://www.gennarovessio.com/artgraph-schema#title> "Beta Lambda" .
+<https://www.gennarovessio.com/artgraph-resources#72466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2630> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_partition-1962.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#partOf> <https://www.gennarovessio.com/artgraph-resources#132587> .
+<https://www.gennarovessio.com/artgraph-resources#72466> <https://www.gennarovessio.com/artgraph-schema#title> "Partition" .
+<https://www.gennarovessio.com/artgraph-resources#72467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2630> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_phi-1961.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#partOf> <https://www.gennarovessio.com/artgraph-resources#132972> .
+<https://www.gennarovessio.com/artgraph-resources#72467> <https://www.gennarovessio.com/artgraph-schema#title> "Phi" .
+<https://www.gennarovessio.com/artgraph-resources#72468> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.gennarovessio.com/artgraph-schema#Artwork> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#createdBy> <https://www.gennarovessio.com/artgraph-resources#1210> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#hasGenre> <https://www.gennarovessio.com/artgraph-resources#6> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#hasPeriod> <https://www.gennarovessio.com/artgraph-resources#133221> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#hasStyle> <https://www.gennarovessio.com/artgraph-resources#41> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2552> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#madeOf> <https://www.gennarovessio.com/artgraph-resources#2630> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#name> "morris-louis_vav-1960.jpg" .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#partOf> <https://www.gennarovessio.com/artgraph-resources#132804> .
+<https://www.gennarovessio.com/artgraph-resources#72468> <https://www.gennarovessio.com/artgraph-schema#title> "VAV" .
