@@ -1,0 +1,48 @@
+review_id,scenario_id,visitor_history,visible_observed_evidence,declared_incomplete_evidence,action_a,action_b,clarification_needed_yes_no_unsure,more_diagnostic_a_b_equal_neither,action_more_appropriate_a_b_equal_neither,question_a_grounded_yes_no_unsure,question_b_grounded_yes_no_unsure,reviewer_notes
+DQ_01,atomic_music,"o1: I liked Three musicians (ag_14531).
+o2: I liked Polyptych of&#160;St. Peter (San Costanzo) (ag_16386).
+o3: I liked The Spanish Singer (ag_12372).
+o4: I disliked A Bird Passing through a Cloud (ag_13231).","o1 likes Three musicians: musical subjects | o2 likes Polyptych of&#160;St. Peter (San Costanzo): musical subjects | o3 likes The Spanish Singer: musical subjects, oil medium | o4 dislikes A Bird Passing through a Cloud: expressionist style",False,Recommend Lydia at the Tapestry Loom (ag_10766),No valid output (interface failure),,,,,,
+DQ_02,independent_music_portrait,"o1: I liked Study for The Cellist (ag_10472).
+o2: I am interested in musical subjects as an independent interest.
+o3: I am interested in portrait genre as an independent interest.","o1 likes Study for The Cellist: expressionist style, musical subjects, oil medium, portrait genre",False,Recommend Lydia at the Tapestry Loom (ag_10766),Ask whether the visitor likes musical subjects and portrait genre specifically together,,,,,,
+DQ_03,independent_nature_water,"o1: I am interested in nature-reserve subjects as an independent interest.
+o2: I am interested in water-transport subjects as an independent interest.
+o3: I disliked The Grand Canal of Venice (Blue Venice) (ag_12343).","o3 dislikes The Grand Canal of Venice (Blue Venice): impressionist style, oil medium, water-transport subjects",False,Report insufficient evidence,Ask whether the visitor likes nature-reserve subjects and water-transport subjects specifically together,,,,,,
+DQ_04,noisy_music,"o1: I liked Three musicians (ag_14531).
+o2: I liked Polyptych of&#160;St. Peter (San Costanzo) (ag_16386).
+o3: I liked The Spanish Singer (ag_12372).
+o4: I disliked Blind singer (ag_13351).","o1 likes Three musicians: musical subjects | o2 likes Polyptych of&#160;St. Peter (San Costanzo): musical subjects | o3 likes The Spanish Singer: musical subjects, oil medium | o4 dislikes Blind singer: musical subjects, portrait genre",False,Ask whether the visitor likes musical subjects as an interest,Recommend Lydia at the Tapestry Loom (ag_10766),,,,,,
+DQ_05,noisy_feline,"o1: I liked Dead Cat (ag_12564).
+o2: I liked Lion (ag_17716).
+o3: I liked The Tabby (ag_11706).
+o4: I disliked Cat and Kitten (ag_21076).","o1 likes Dead Cat: feline subjects | o2 likes Lion: feline subjects | o3 likes The Tabby: feline subjects, oil medium | o4 dislikes Cat and Kitten: feline subjects",False,Ask whether the visitor likes feline subjects as an interest,Recommend Sleeping Cat (ag_30919),,,,,,
+DQ_06,noisy_nature,"o1: I liked Landscape with a road (ag_15247).
+o2: I liked Ravine in the Morvan, Near Lormes (ag_16916).
+o3: I liked A Family of Deer in a Landscape with a Waterfall (ag_11912).
+o4: I disliked Crane (ag_20164).","o1 likes Landscape with a road: nature-reserve subjects | o2 likes Ravine in the Morvan, Near Lormes: nature-reserve subjects | o3 likes A Family of Deer in a Landscape with a Waterfall: nature-reserve subjects, oil medium | o4 dislikes Crane: nature-reserve subjects",False,Recommend Calm Sea. Landscape with fishermen (ag_14588),Ask whether the visitor likes nature-reserve subjects as an interest,,,,,,
+DQ_07,noisy_water,"o1: I liked Calm Sea. Landscape with fishermen (ag_14588).
+o2: I liked Sunset across the Ryogoku bridge from the bank of the Sumida river at Onmagayashi (ag_33200).
+o3: I liked Venice Gondola on Grand Canal (ag_17083).
+o4: I disliked Brahmaputra (ag_34659).","o1 likes Calm Sea. Landscape with fishermen: water-transport subjects | o2 likes Sunset across the Ryogoku bridge from the bank of the Sumida river at Onmagayashi: water-transport subjects | o3 likes Venice Gondola on Grand Canal: oil medium, water-transport subjects | o4 dislikes Brahmaputra: water-transport subjects",False,Ask whether the visitor likes musical subjects as an interest,Ask whether the visitor likes oil medium as an interest,,,,,,
+DQ_08,missing_portrait_hidden,"o1: I liked Albert Kollmann (ag_8416).
+o2: I disliked Adolf Loos (ag_42361).
+o3: I disliked Profile Portrait of a Boy (ag_8296).","o1 likes Albert Kollmann: Expressionism movement, expressionist style, oil medium, portrait genre | o2 dislikes Adolf Loos: Expressionism movement, expressionist style, oil medium | o3 dislikes Profile Portrait of a Boy: portrait genre",True,Report insufficient evidence,Ask whether the visitor likes expressionist style as an interest,,,,,,
+DQ_09,missing_music_hidden,"o1: I liked Study for The Cellist (ag_10472).
+o2: I disliked Lydia at the Tapestry Loom (ag_10766).","o1 likes Study for The Cellist: expressionist style, musical subjects, oil medium, portrait genre | o2 dislikes Lydia at the Tapestry Loom: impressionist style, oil medium, portrait genre",True,Report insufficient evidence,Ask whether the visitor likes musical subjects as an interest,,,,,,
+DQ_10,missing_feline_hidden,"o1: I liked Sleeping Cat (ag_30919).
+o2: I disliked Resting, Peasant Girl Lying on the Grass, Pontoise (ag_23692).","o1 likes Sleeping Cat: feline subjects, impressionist style, oil medium | o2 dislikes Resting, Peasant Girl Lying on the Grass, Pontoise: impressionist style, oil medium, portrait genre",True,Ask whether the visitor likes feline subjects and impressionist style specifically together,Report insufficient evidence,,,,,,
+DQ_11,missing_water_hidden,"o1: I liked The Grand Canal of Venice (Blue Venice) (ag_12343).
+o2: I disliked Bathers at La Grenouillere (ag_25837).","o1 likes The Grand Canal of Venice (Blue Venice): impressionist style, oil medium, water-transport subjects | o2 dislikes Bathers at La Grenouillere: impressionist style, oil medium",True,Report insufficient evidence,Ask whether the visitor likes impressionist style and water-transport subjects specifically together,,,,,,
+DQ_12,ambiguous_albert,"o1: I liked Albert Kollmann (ag_8416).
+o2: I disliked A Bird Passing through a Cloud (ag_13231).
+o3: I disliked Profile Portrait of a Boy (ag_8296).","o1 likes Albert Kollmann: Expressionism movement, expressionist style, oil medium, portrait genre | o2 dislikes A Bird Passing through a Cloud: expressionist style | o3 dislikes Profile Portrait of a Boy: portrait genre",False,Ask whether the visitor likes expressionist style and portrait genre specifically together,Recommend Baby (ag_20804),,,,,,
+DQ_13,ambiguous_cellist,o1: I liked Study for The Cellist (ag_10472).,"o1 likes Study for The Cellist: expressionist style, musical subjects, oil medium, portrait genre",False,Ask whether the visitor likes expressionist style as an interest,Ask whether the visitor likes musical subjects as an interest,,,,,,
+DQ_14,ambiguous_sleeping_cat,o1: I liked Sleeping Cat (ag_30919).,"o1 likes Sleeping Cat: feline subjects, impressionist style, oil medium",False,Ask whether the visitor likes feline subjects as an interest,Recommend Cat and Kitten (ag_21076),,,,,,
+DQ_15,ambiguous_water,o1: I liked At the lake. Fishermen. (ag_24720).,"o1 likes At the lake. Fishermen.: impressionist style, water-transport subjects",False,Ask whether the visitor likes impressionist style as an interest,Recommend Bathers at La Grenouillere (ag_25837),,,,,,
+DQ_16,correction_interaction_block,"o1: I liked Albert Kollmann (ag_8416).
+o2: I disliked A Bird Passing through a Cloud (ag_13231).
+o3: I disliked Profile Portrait of a Boy (ag_8296).
+o4: I am interested in expressionist style as an independent interest.
+o5: Correction replacing statement o4: I do not want expressionist style as an independent interest.
+o6: I am interested in oil medium as an independent interest.","o1 likes Albert Kollmann: Expressionism movement, expressionist style, oil medium, portrait genre | o2 dislikes A Bird Passing through a Cloud: expressionist style | o3 dislikes Profile Portrait of a Boy: portrait genre",False,Recommend A floating figure (ag_10025),No valid output (interface failure),,,,,,
