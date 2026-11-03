@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "description": "Small reviewed instructional layer. Prerequisite edges are educational guidance assumptions, not ArtGraph facts.",
+  "topics": [
+    {
+      "id": "c_art_style",
+      "label": "artistic style",
+      "prerequisites": [],
+      "hypotheses": [],
+      "explanation": "Artistic style describes recognizable choices in how an artwork is made or presented. A catalogue style tag describes the artwork; it does not establish what a visitor already knows.",
+      "source_id": "moma_glossary",
+      "source_url": "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/glossary/"
+    },
+    {
+      "id": "c_portrait",
+      "label": "portraiture",
+      "prerequisites": [],
+      "hypotheses": ["h_portrait_genre"],
+      "explanation": "A portrait depicts a particular person. Portraits can convey more than physical likeness, including aspects of the sitter's character or social position.",
+      "source_id": "tate_portrait",
+      "source_url": "https://www.tate.org.uk/art/art-terms/p/portrait"
+    },
+    {
+      "id": "c_expressionism",
+      "label": "Expressionism",
+      "prerequisites": ["c_art_style"],
+      "hypotheses": ["h_expressionist_style", "h_expressionist_movement"],
+      "explanation": "Expressionist approaches emphasize personal expression, often through simplified or distorted forms and heightened color. The catalogue tag is evidence of classification, not proof that every viewer responds to it in the same way.",
+      "source_id": "moma_expressionism",
+      "source_url": "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/themes/expressionism/"
+    },
+    {
+      "id": "c_impressionism",
+      "label": "Impressionism",
+      "prerequisites": ["c_art_style"],
+      "hypotheses": ["h_impressionist_style"],
+      "explanation": "Impressionism developed through nineteenth-century artists who explored modern life, light, color, and painterly techniques. This is a concise introduction, not an exhaustive account of the movement.",
+      "source_id": "met_impressionism",
+      "source_url": "https://www.metmuseum.org/ja/essays/impressionism-art-and-modernity"
+    },
+    {
+      "id": "c_expressionist_portrait",
+      "label": "Expressionist portraiture",
+      "prerequisites": ["c_expressionism", "c_portrait"],
+      "hypotheses": [],
+      "explanation": "An Expressionist portrait combines a subject classified as a portrait with an expressive stylistic approach. These are two distinct catalogue claims; their combination does not prove an individual's preference for the conjunction.",
+      "source_id": "moma_expressionism",
+      "source_url": "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/themes/expressionism/"
+    },
+    {
+      "id": "c_musical_subjects",
+      "label": "musical subjects in artwork",
+      "prerequisites": [],
+      "hypotheses": ["h_musical_subject"],
+      "explanation": "The curated ArtGraph subset contains artwork tags for musical subjects. Such a tag is an indexed classification, not an assertion about how music is depicted in every artwork.",
+      "source_id": "artgraph_catalog",
+      "source_url": "https://zenodo.org/records/6337958"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# CS3263 Logic-Driven Museum Guide — Phase 1 Active Clarification
+# CS3263 Logic-Driven Museum Guide — Phase 2 Orchestration
 
 This repository implements the Phase 0 ArtGraph-to-Prolog pilot. The current
 pipeline audits the official ArtGraph v1.0 RDF archive, removes a documented
@@ -175,6 +175,24 @@ JSON endpoint, set `CLARIFICATION_LLM_ENDPOINT`,
 allowlist.
 
 See `docs/CLARIFICATION_FORMULATION.md`, `docs/CLARIFICATION_DATASET.md`, and
-`docs/CLARIFICATION_EVALUATION.md`. No frontend or Phase 2 conversational UI
-is implemented.
+`docs/CLARIFICATION_EVALUATION.md` for the frozen reasoning core.
+
+## Phase 2 conversation orchestration
+
+Phase 2 adds an offline command/hybrid extraction boundary, atomic in-memory
+visitor sessions, source-bounded responses, and a CLI. Preference decisions
+remain in the existing SWI-Prolog engine. Educational prerequisite guidance
+from the supplied Phase 2 package was moved into a separate SWI-Prolog rule
+file so Python does not reimplement deduction or action selection.
+
+```powershell
+.\.venv\Scripts\python.exe -m museum_guide.cli --mode manual --demo
+.\.venv\Scripts\python.exe -m museum_guide.cli --mode manual --json-audit
+```
+
+Optional hybrid extraction requires `OPENAI_API_KEY` and `MUSEUM_LLM_MODEL`;
+the model may propose only an allowlisted state delta and cannot select the
+hybrid action. Direct-LLM selection, formal Phase 4 evaluation, and Streamlit
+remain deferred pending the Phase 2 review gate. See
+`docs/PHASE2_INTEGRATED_GUIDE.md`.
 

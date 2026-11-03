@@ -143,3 +143,25 @@ response comparison. It must never be rendered as proof that an artwork lacks
 an attribute. `neither` and `unsure` do not eliminate hypotheses, and replacing
 a response recomputes all deductions in a fresh process.
 
+## Phase 2 educational-guidance rules
+
+`logic/knowledge_guidance_rules.pl` implements the bounded instructional layer
+supplied for Phase 2. Every `prerequisite/2` edge comes from
+`data/curated/education_topics.json` and is an educational guidance assumption,
+not an imported ArtGraph assertion. Python serializes the allowlisted catalog
+and session facts, but SWI-Prolog performs recursive traversal and action
+selection in a fresh process.
+
+| Rule ID | Layer | Meaning |
+|---|---|---|
+| `r_ask_unknown_topic` | Guidance | Ask about the deepest unaddressed prerequisite (or goal) whose familiarity is not recorded. |
+| `r_confirm_conflicted_knowledge` | Session state | Ask for confirmation when explicit visitor statements conflict. |
+| `r_explain_stated_not_known` | Guidance | Explain a topic the visitor explicitly marked not known. |
+| `r_explain_after_knowledge_check` | Guidance | Explain an unknown topic after its familiarity question has been asked. |
+| `r_explicit_explanation_request` | Visitor request | Explain the allowlisted goal directly when explicitly requested, without changing its knowledge status. |
+| `r_all_guidance_topics_addressed` | Guidance | Finish when the finite prerequisite/goal set is known, presented, or skipped. |
+
+The recursive proof returns the complete topic path and rule ID. Presenting a
+topic does not assert that the visitor now knows it; those state fields remain
+separate.
+
