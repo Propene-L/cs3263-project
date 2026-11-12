@@ -1,0 +1,13 @@
+record_type,source,scenario_id,method,scenario_count,expected_clarification_count,tp,fp,fn,precision,recall,asked_count,grounding_rate_given_asked,competitive_diagnostic_rate_given_asked,diagnostic_when_needed_count,multi_world_questions_asked,multi_world_split_count,world_information_gain_bits,question_components,question_grounded,world_split,notes
+stage_1_when_to_ask,onepass,,compositional_prolog,32,9,9,0,0,1.0,1.0,9,1.0,,,4,3,0.75,,,,invalid output counts as missed clarification when clarification was expected
+stage_1_when_to_ask,onepass,,direct_llm_state_reasoning,32,9,1,4,8,0.2,0.111111,5,1.0,,,0,0,,,,,invalid output counts as missed clarification when clarification was expected
+stage_1_when_to_ask,final_repaired,,compositional_prolog,32,9,9,0,0,1.0,1.0,9,1.0,,,4,3,0.75,,,,invalid output counts as missed clarification when clarification was expected
+stage_1_when_to_ask,final_repaired,,direct_llm_state_reasoning,32,9,3,6,6,0.333333,0.333333,9,0.777778,,,1,1,1.0,,,,invalid output counts as missed clarification when clarification was expected
+stage_2_what_to_ask,final_repaired,,compositional_prolog,32,9,,,,,,9,1.0,0.888889,8,4,3,0.75,,,,quality rates are conditional on the method having asked
+stage_2_what_to_ask,final_repaired,,direct_llm_state_reasoning,32,9,,,,,,9,0.777778,0.666667,2,1,1,1.0,,,,quality rates are conditional on the method having asked
+matched_both_asked_case,final_repaired,ambiguous_cellist,compositional_prolog,,,,,,,,1,,,,2,,-0.0,"[""h_expressionist_style""]",True,False,competitive_diagnostic=True; structural_proxy_bits=0.543564
+matched_both_asked_case,final_repaired,ambiguous_cellist,direct_llm_state_reasoning,,,,,,,,1,,,,2,,1.0,"[""h_musical_subject""]",True,True,competitive_diagnostic=True; structural_proxy_bits=0.543564
+matched_both_asked_case,final_repaired,independent_feline_impressionist,compositional_prolog,,,,,,,,1,,,,1,,,"[""h_feline_subject""]",True,,competitive_diagnostic=True; structural_proxy_bits=0.811278
+matched_both_asked_case,final_repaired,independent_feline_impressionist,direct_llm_state_reasoning,,,,,,,,1,,,,1,,,"[""h_feline_subject""]",True,,competitive_diagnostic=True; structural_proxy_bits=0.811278
+matched_both_asked_case,final_repaired,noisy_water,compositional_prolog,,,,,,,,1,,,,1,,,"[""h_oil_medium""]",True,,competitive_diagnostic=False; structural_proxy_bits=0.0
+matched_both_asked_case,final_repaired,noisy_water,direct_llm_state_reasoning,,,,,,,,1,,,,1,,,"[""h_musical_subject""]",False,,competitive_diagnostic=False; structural_proxy_bits=0.0

@@ -1,0 +1,33 @@
+record_type,metric,numerator,denominator,rate,scenario_id,category,expected_action,predicted_action,error,notes
+summary_metric,strict_structured_output_validity,2,56,0.035714,,,,,,
+summary_metric,validity_after_exact_label_normalization,31,56,0.553571,,,,,,
+summary_metric,accepted_outputs_after_contract_repair,53,56,0.946429,,,,,,
+summary_metric,valid_decisions_after_repair,51,56,0.910714,,,,,,
+summary_metric,action_correctness_given_accepted_output,34,53,0.641509,,,,,,
+summary_metric,action_correctness_given_valid_decision,32,51,0.627451,,,,,,
+summary_metric,end_to_end_action_correctness,34,56,0.607143,,,,,,
+request_accounting,total_requests_across_both_passes,77,,,,,,,,56 initial + 21 targeted rerun requests; not an equal-budget comparison
+remaining_output_failure,,,,,preference_atomic_006,contrastive_atomic,clarify,invalid,ValueError: Primary explanation must be an active returned preference,schema/serialization failure after targeted repair
+remaining_output_failure,,,,,atomic_music,true_atomic,recommend,invalid,ValueError: Invalid output fields,schema/serialization failure after targeted repair
+remaining_output_failure,,,,,correction_interaction_block,explicit_correction,recommend,invalid,JSONDecodeError: Extra data: line 29 column 3 (char 4044),schema/serialization failure after targeted repair
+schema_valid_invalid_decision,,,,,conjunction_cubist_portrait,true_conjunction,recommend,recommend,decision violated deterministic output validity checks,"accepted structured output, invalid decision"
+schema_valid_invalid_decision,,,,,correction_music,explicit_correction,recommend,recommend,decision violated deterministic output validity checks,"accepted structured output, invalid decision"
+valid_decision_reasoning_error,,,,,flagship_interaction_albert_kollmann,compositional_interaction,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,flagship_contrastive_cellist,contrastive_atomic,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,preference_atomic_004,contrastive_atomic,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,preference_atomic_012,contrastive_atomic,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,preference_interaction_015,compositional_interaction,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,preference_interaction_021,compositional_interaction,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,preference_interaction_022,compositional_interaction,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,independent_music_portrait,multiple_independent,recommend,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,independent_nature_water,multiple_independent,recommend,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,noisy_music,noisy,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,noisy_feline,noisy,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,noisy_nature,noisy,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,missing_portrait_hidden,missing_evidence,insufficient_evidence,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,missing_music_hidden,missing_evidence,insufficient_evidence,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,missing_feline_hidden,missing_evidence,insufficient_evidence,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,missing_water_hidden,missing_evidence,insufficient_evidence,clarify,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,ambiguous_albert,ambiguous,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,ambiguous_sleeping_cat,ambiguous,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
+valid_decision_reasoning_error,,,,,ambiguous_water,ambiguous,clarify,recommend,,decision was schema-valid but action type disagreed with authored label
