@@ -1,0 +1,21 @@
+method,method_label,round,fixed_cohort_size,cumulative_resolved_count,cumulative_resolution_rate,newly_resolved_count,fixed_cohort_mean_active_hypotheses,fixed_cohort_terminal_states_carried_forward_count,selected_question_count_this_round,observed_question_subset_mean_active_after_question,mean_hypotheses_eliminated_per_selected_question_this_round
+compositional_prolog,Compositional Prolog,0,57,0,0.0,0,4.140351,0,0,,
+compositional_prolog,Compositional Prolog,1,57,15,0.263158,15,2.649123,0,57,2.649123,1.491228
+compositional_prolog,Compositional Prolog,2,57,28,0.491228,13,1.789474,15,42,2.071429,1.166667
+compositional_prolog,Compositional Prolog,3,57,44,0.77193,16,1.315789,28,29,1.62069,0.931034
+single_rule_prolog,Single-rule Prolog,0,57,0,0.0,0,4.140351,0,0,,
+single_rule_prolog,Single-rule Prolog,1,57,15,0.263158,15,3.45614,0,57,3.45614,0.684211
+single_rule_prolog,Single-rule Prolog,2,57,16,0.280702,1,2.824561,15,42,3.47619,0.857143
+single_rule_prolog,Single-rule Prolog,3,57,27,0.473684,11,2.245614,16,41,2.731707,0.804878
+raw_attribute_contrast,Raw attribute contrast,0,57,0,0.0,0,4.140351,0,0,,
+raw_attribute_contrast,Raw attribute contrast,1,57,11,0.192982,11,2.842105,0,57,2.842105,1.298246
+raw_attribute_contrast,Raw attribute contrast,2,57,22,0.385965,11,2.0,11,46,2.23913,1.043478
+raw_attribute_contrast,Raw attribute contrast,3,57,35,0.614035,13,1.473684,22,35,1.771429,0.857143
+random_eligible,Random eligible,0,57,0,0.0,0,4.140351,0,0,,
+random_eligible,Random eligible,1,57,1,0.017544,1,4.017544,0,57,4.017544,0.122807
+random_eligible,Random eligible,2,57,1,0.017544,0,3.877193,1,56,3.928571,0.142857
+random_eligible,Random eligible,3,57,1,0.017544,0,3.754386,1,56,3.803571,0.125
+exact_objective_python,Exact Python,0,57,0,0.0,0,4.140351,0,0,,
+exact_objective_python,Exact Python,1,57,15,0.263158,15,2.649123,0,57,2.649123,1.491228
+exact_objective_python,Exact Python,2,57,28,0.491228,13,1.789474,15,42,2.071429,1.166667
+exact_objective_python,Exact Python,3,57,44,0.77193,16,1.315789,28,29,1.62069,0.931034

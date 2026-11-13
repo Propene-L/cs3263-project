@@ -129,6 +129,7 @@ class PreferenceStateEngine:
         swipl_path: str | Path | None = None,
         timeout_seconds: float = 20,
         entry_point: str = "write_preference_state_json",
+        evidence_path: str | Path | None = None,
     ) -> None:
         self.facts_path = Path(facts_path).resolve()
         self.hypotheses_path = Path(hypotheses_path).resolve()
@@ -139,13 +140,18 @@ class PreferenceStateEngine:
         self.swipl_path = executable
         self.timeout_seconds = timeout_seconds
         self.entry_point = entry_point
+        self.evidence_path = (
+            Path(evidence_path).resolve()
+            if evidence_path is not None
+            else self.rules_path.parents[1]
+            / "data"
+            / "curated"
+            / "clarification_evidence.json"
+        )
         self.runtime_directory = self.rules_path.parents[1] / ".runtime"
 
     def infer(self, state: PreferenceState) -> dict[str, Any]:
-        evidence = json.loads(
-            (self.rules_path.parents[1] / "data/curated/clarification_evidence.json")
-            .read_text(encoding="utf-8")
-        )
+        evidence = json.loads(self.evidence_path.read_text(encoding="utf-8"))
         validate_state(state, evidence)
         for path in (self.facts_path, self.hypotheses_path, self.rules_path):
             if not path.is_file():
